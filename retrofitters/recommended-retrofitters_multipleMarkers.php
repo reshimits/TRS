@@ -111,49 +111,122 @@
 ================================================== -->
 	<!-- Map --> 
 <script type="text/javascript">
-	function initialize() {
-  var mapOptions = {
-    zoom: 11,
-    center: new google.maps.LatLng(33.813497, -84.431918),
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    disableDefaultUI: true,
-    mapTypeControl: false,
-    panControl: true,
-    panControlOptions: {
-    	position: google.maps.ControlPosition.TOP_RIGHT
-    	},
-    scaleControl: false,
-    zoomControl: true,
-    zoomControlOptions: {
-    	style: google.maps.ZoomControlStyle.SMALL,
-    	position: google.maps.ControlPosition.TOP_RIGHT
-    	},
-    styles: [ {
-    	"stylers": [
-    	{ "visibility": "on" },
-    	{ "saturation": -80 },
-    	{ "lightness": 25 }
-    	]
-    } ]
-    }
-  var map = new google.maps.Map(document.getElementById('retrofittersMap-trs'),
-                                mapOptions);
+	var gardner = new google.maps.LatLng(39.973119, -83.100724);
+	var hotelsOH = [
+	  ['Hyatt Place', 40.077835, -83.135411, 1],
+	  ['Courtyard by Marriot', 39.998703, -83.124859, 2],
+	  ['Country Inn', 39.974493, -83.151936, 3],
+	  ['Drury Inn', 40.078280, -83.132045, 4],
+	  ];
+	var bounds = new google.maps.LatLngBounds (); //  Create a new viewpoint bound
 
-   var myLatLng = new google.maps.LatLng(33.813497, -84.431918);
-   var mapMarker = new google.maps.MarkerImage("/client/trs/images/mapMarker_trs2x.png", null, null, new google.maps.Point(32, 56), new google.maps.Size(39,56));
+	
+	function initialize() {
+	  var mapOptions = {
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+		  disableDefaultUI: true,
+		  mapTypeControl: false,
+		  panControl: true,
+		  panControlOptions: {
+			position: google.maps.ControlPosition.TOP_RIGHT
+		  },
+    	  scaleControl: false,
+		  zoomControl: true,
+		  zoomControlOptions: {
+		    style: google.maps.ZoomControlStyle.SMALL,
+			position: google.maps.ControlPosition.TOP_RIGHT
+		  },
+		  styles: [ {
+		    "stylers": [
+				{ "visibility": "on" },
+				{ "saturation": -80 },
+				{ "lightness": 25 }
+				]
+		    } ]
+	  }
+	  
+	  var map = new google.maps.Map(document.getElementById("retrofittersMap-trs"), mapOptions);
+	  
+	  setMarkers(map, hotelsOH);
+	  
+	  infowindow = new google.maps.InfoWindow({  //  Create 1 infowindow without content, prior to markers. Content will be attached to this later.
+		content: "loading...", 
+		disableAutoPan: false,
+		});
+		
+		google.maps.event.addListener(infowindow, "closeclick", function(event) {
+			//map.setZoom(6);
+			map.fitBounds (bounds);
+		});
+		//  Fit these bounds to the map
+		map.fitBounds (bounds);
+		
+	  }
+	  
+	  
+	function setMarkers(map, locations) {
+	  // Add markers to the map
+	
+	  // Marker sizes are expressed as a Size of X,Y
+	  // where the origin of the image (0,0) is located
+	  // in the top left of the image.
+	
+	  // Origins, anchor positions and coordinates of the marker
+	  // increase in the X direction to the right and in
+	  // the Y direction down.
+	  var mapMarker1 = new google.maps.MarkerImage("/client/trs/images/mapMarker_trs2x.png", null, null, new google.maps.Point(32, 56), new google.maps.Size(39,56));
 	  	var marker = new google.maps.Marker({ 
-			position: myLatLng, 
+			position: gardner, 
 			map: map, 
 			flat: true,
 			clickable: false,
-			title: 'TRS | The Retrofit Source',
-			icon: mapMarker
+			title: 'Gardner, Inc.',
+			icon: mapMarker1,
+			animation: google.maps.Animation.DROP,
 		});
-}
-
-google.maps.event.addDomListener(window, 'load', initialize); 
+		
+	  var mapMarker2 = new google.maps.MarkerImage("/client/trs/images/mapMarker_rr2x.png", null, null, new google.maps.Point(22, 37), new google.maps.Size(26,37));
+	  	for (var i = 0; i < locations.length; i++) {
+			var hotels = locations[i];
+			var myLatLng = new google.maps.LatLng(hotels[1], hotels[2]);
+			var marker = new google.maps.Marker({
+				position: myLatLng,
+				map: map,
+				icon: mapMarker2,
+				
+			});
 	  
-</script>  
+	  bounds.extend(new google.maps.LatLng(hotels[1], hotels[2]));
+		
+	  var contentString = '<div class="infoWindowContainer">'+
+	  					  '<span class="infoWindowTitle">#Hotel_Name#</span>'+
+                          '<span class="infoWindowCopy">#Hotel_Address#</span>'+
+                          '<span class="infoWindowCopy" id="infoWindowCopy-address">#Hotel_City#, #Hotel_State# #Hotel_Zip#</span>'+
+						  '<span class="infoWindowCopy"><strong>P: </strong>#Hotel_Phone#</span>'+
+						  '<span class="infoWindowCopy" id="infoWindowCopy-col2"><strong>F: </strong>#Hotel_Fax#</span>'+
+						  '<span class="infoWindowCopy"><strong>RATE: </strong>#Hotel_Rate#/night</span>'+
+						  '<span class="infoWindowNote">*Be sure to request the Gardner rate.</span>'+
+						  '<span class="infoWindowWebsite"><a href="#Hotel_Website#">Website</a></span>'+
+						  '<span class="infoWindowCopy" id="infoWindowCopy-col1"><strong>DIRECTIONS: </strong></span>'+
+						  '<span class="infoWindowCopy"><a href="#"><strong>To Gardner</strong></a></span>'+
+						  '<span class="infoWindowCopy" id="infoWindowCopy-col2"><a href="#"><strong>From Your Location</strong></a></span>'+
+						  '</div>';
+						  
+	  var infowindow = new google.maps.InfoWindow;
+        bindInfoW(marker, contentString, infowindow);
+	  }
+	  function bindInfoW(marker, contentString, infowindow)
+	  {
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.setContent(contentString);
+            infowindow.open(map, marker);
+        });
+	  }
+	}
+	
+	google.maps.event.addDomListener(window, 'load', initialize); 
+	  
+</script>
   
 <!-- End Document
 ================================================== -->

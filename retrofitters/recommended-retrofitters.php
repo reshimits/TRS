@@ -136,8 +136,7 @@
     	]
     } ]
     }
-  var map = new google.maps.Map(document.getElementById('retrofittersMap-trs'),
-                                mapOptions);
+  var map = new google.maps.Map(document.getElementById('retrofittersMap-trs'), mapOptions);
 
    var myLatLng = new google.maps.LatLng(33.813497, -84.431918);
    var mapMarker = new google.maps.MarkerImage("/client/trs/images/mapMarker_trs2x.png", null, null, new google.maps.Point(32, 56), new google.maps.Size(39,56));
