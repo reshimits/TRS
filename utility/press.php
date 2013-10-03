@@ -77,10 +77,10 @@
             
             	<div class="utility-sideColContainer1">
                 	<ul class="sidebarNav">
-                		<li class="sidebarNav-active"><a href="/client/trs/utility/press.php">In The Press</a></li>
                 		<li><a href="/client/trs/utility/our-story.php">Our Story</a></li>
+                		<li class="sidebarNav-active"><a href="/client/trs/utility/press.php"><span class="hide460">In The </span>Press</a></li>
                         <li><a href="/client/trs/utility/testimonials.php">Testimonials</a></li>
-                        <li><a href="/client/trs/utility/store-policies.php">Store Policies</a></li>
+                        <li><a href="/client/trs/utility/store-policies.php"><span class="hide460">Store </span>Policies</a></li>
                         <li class="sidebarNav-lastChild"><a href="/client/trs/utility/faq.php">HID FAQ</a></li>
                 	</ul>
                 </div>    
@@ -93,7 +93,7 @@
                     <div class="allAboutTRS-section allAboutTRS-sectionGrid">            		
                         <h2>Magazine Features</h2>
                         <div class="nonProductGridContainer"> 
-                    		<ul class="nonProductGrid nonProductGrid-press">
+                    		<ul class="nonProductGrid">
                     	
                                 <li>
                                 <a href="http://www.hondatuningmagazine.com/tech/0705_ht_hid_conversion/" target="_blank">

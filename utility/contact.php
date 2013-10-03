@@ -29,7 +29,6 @@
 	<!-- Javascript [primary]
   ================================================== -->
   	<script type="text/javascript" src="../javascript/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbwL9YqHseLTFieUq445j-3uRDWCv0gKA&sensor=true"></script>	
     <script type="text/javascript" charset="utf-8">
 		function MM_swapImgRestore() { //v3.0
 		  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
@@ -205,6 +204,7 @@
 <!-- Javascript [secondary]
 ================================================== -->
 	<!-- Map --> 
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbwL9YqHseLTFieUq445j-3uRDWCv0gKA&sensor=true"></script>	
 <script type="text/javascript">
 	function initialize() {
   var mapOptions = {

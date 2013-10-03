@@ -30,8 +30,8 @@
 	.utility-sideColContainer2					{ width: 300px; float: left; margin: 0px 10px 0px 0px; }	
 	.utility-contentContainer2					{ width: 610px; float: left; margin: 0px 0px 0px 20px; }
 	.utility-contentContainer3					{ width: 940px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
-	.bodyContainer h1							{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 32px; line-height: 30px; color: #191919; text-transform: uppercase;
-												  letter-spacing: -1px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.bodyContainer h1							{ float: left; font-family: 'alternate-gothic-no-1-d', sans-serif; font-style: normal; font-weight: 400; font-size: 64px; line-height: 52px; color: #191919; 
+												  text-transform: uppercase; letter-spacing: -1px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.bodyContainer h3							{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 15px; line-height: 17px; color: #d14001;
 												  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.bodyContainer h2							{ width: 100%; float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 22px; line-height: 18px; color: #d14001; text-transform: uppercase; 
@@ -55,6 +55,7 @@
 	.utility-section							{ width: 610px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc;
 												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }									  
+		.utility-contentContainer3 .utility-section 				{ width: 940px; border-bottom: none; background-image: none; }
 	.utility-sectionFirst						{ margin: 0px 0px 0px 0px; }
 	.utility-sectionTitle-iconIntro				{ width: 100%; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 	.utility-sectionTitle-iconIntro img			{ width: 18px; height: auto; float: left; margin: 1px 5px 0px 0px; } 
@@ -113,6 +114,36 @@
 												  border-radius: 0; border: none; background-color: transparent; -webkit-appearance: none; }
 	.utility-form .formFieldContainer-formBtn	{ margin: 10px 10px 0px 0px; }
 												  
+		/* NonProduct Grid */
+	.nonProductGridContainer					{ width: 700px; float: left; margin: 10px 0px 0px 0px; padding: 0px 0px 0px 0px; }	
+	.nonProductGrid li							{ width: 340px; float: left; overflow: hidden; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;
+												  padding: 10px 10px 0px 0px; margin: 0px 0px 0px 0px; }											  
+	.nonProductGrid li:nth-child(2n+0)			{ width: 339px; padding: 10px 0px 0px 10px; border-right: none; }
+	.nonProductGrid-image				 		{ float: left; }
+	.nonProductGrid-info						{ width: 330px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 0px; }
+	.nonProductGrid-title						{ width: 100%; float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 13px; line-height: 13px; color: #191919; text-transform: uppercase; 
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.nonProductGrid-specs						{ height: 80px; float: left; padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; }
+	.nonProductGrid-spec						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 16px; color: #555;
+												  padding: 0px 10px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  	
+	.nonProductGrid li a:hover .nonProductGrid-title 				{ color: #ea5f03; }
+	
+	.nonProductGridContainer-wide				{ width: 940px; float: left; margin: 10px 0px 0px 0px; padding: 0px 0px 0px 0px; }	
+	.nonProductGrid-wide li						{ width: 219px; float: left; overflow: hidden; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;
+												  padding: 10px 10px 0px 0px; margin: 0px 0px 0px 0px; }											  
+	.nonProductGrid-wide-image				 	{ height: 80px; float: left; padding: 10px 0px 0px 2px; margin: 0px 0px 0px 0px; }
+	.nonProductGrid-wide-image img				{ width: 210px; height: auto; }
+	.nonProductGrid-wide-info					{ width: 219px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 0px; }
+	.nonProductGrid-wide-title					{ width: 100%; float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 13px; line-height: 13px; color: #191919; text-transform: uppercase; 
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.nonProductGrid-wide-specs					{ height: 55px; float: left; padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; }
+	.nonProductGrid-wide-spec					{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 16px; color: #555;
+												  padding: 0px 10px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.nonProductGrid-wide-link					{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 16px; color: #d14001; text-decoration: underline;
+												  padding: 3px 10px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  											
+	.nonProductGrid-wide li a:hover .nonProductGrid-wide-title,
+		.nonProductGrid-wide li a:hover .nonProductGrid-wide-link 	{ color: #ea5f03; }
+	
 	/* ALL ABOUT TRS GENERAL STYLES */
 	.sidebarNav									{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 	.sidebarNav li 								{ font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #fff; text-transform: uppercase;
@@ -131,21 +162,7 @@
 	.allAboutTRS-section a						{ color: #d14001; }
 	.allAboutTRS-section a:hover				{ color: #ea5f03; }
 	.allAboutTRS-section .generalBtn-orange		{ margin: 5px 0px 0px 0px; }
-												  
-		/* NonProduct Grid */
-	.nonProductGridContainer					{ width: 700px; float: left; margin: 10px 0px 0px 0px; padding: 0px 0px 0px 0px; }	
-	.nonProductGrid li							{ width: 340px; float: left; overflow: hidden; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;
-												  padding: 10px 10px 0px 0px; margin: 0px 0px 0px 0px; }											  
-	.nonProductGrid li:nth-child(2n+0)			{ width: 339px; padding: 10px 0px 0px 10px; border-right: none; }
-	.nonProductGrid-image				 		{ float: left; }
-	.nonProductGrid-info						{ width: 330px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 0px; }
-	.nonProductGrid-title						{ width: 100%; float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 13px; line-height: 13px; color: #191919; text-transform: uppercase; 
-												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-	.nonProductGrid-specs						{ height: 80px; float: left; padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; }
-	.nonProductGrid-spec						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 16px; color: #555;
-												  padding: 0px 10px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  	
-	.nonProductGrid li a:hover .nonProductGrid-title 				{ color: #ea5f03; }
-	
+		
 	/* OUR STORY */												  
 	.ourStory-long								{ display: none; }
 	.ourStory-signature							{ float: left; padding: 0px 0px 0px 0px; margin: 10px 0px 0px 0px; } 							  
@@ -159,7 +176,6 @@
 		#inThePress .nonProductGrid .nonProductGrid-press8thChild	{ width: 219px; padding: 10px 10px 0px 10px; border-right: 1px solid #ccc; }
 		#inThePress .nonProductGrid .nonProductGrid-press3rdChild,
 		#inThePress .nonProductGrid .nonProductGrid-press6thChild	{ width: 219px; padding: 10px 0px 0px 10px; border-right: none; }
-	#inThePress .nonProductGrid-image			{ float: left; }
 	#inThePress .nonProductGrid-info			{ width: 220px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 0px; }											  
 	#inThePress .nonProductGrid-specs			{ height: 20px;	}
 	
@@ -223,18 +239,31 @@
 	.tableReturn-tracking						{ width: 180px; float: left; font-weight: normal; color: #888; font-size: 10px; line-height: 14px; }
 
 	/* RECOMMENDED RETROFITTERS */
-	.retrofittersMapContainer					{ width: 100%; float: left; margin: 2px 0px 0px 0px; padding: 1px 1px 1px 1px; border: 1px solid #ccc; }					  
+	.retrofittersMapContainer					{ width: 606px; float: left; margin: 2px 0px 0px 0px; padding: 1px 1px 1px 1px; border: 1px solid #ccc; }					  
 	.retrofittersMap							{ width: 100%; height: 350px; }
 	
-	.contactIcon								{ width: 37px; height: 36px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; overflow: hidden; } 
-	.contactIcon img							{ width: 37px; height: auto; }
-		.contactIcon-phone img					{ margin-top: -36px; }
-		.contactIcon-address img				{ margin-top: -73px; }
-		.contactIcon-chat img					{ margin-top: -110px; }
+	.infoWindowContainer						{ float: left; padding: 0px 0px 5px 0px; margin: 0px 0px 0px 0px; }
+	.infoWindowTitle							{ float: left; color: #454545; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.infoWindowCopy								{ float: left; color: #888; padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.infoWindowCopy, 
+		.gm-style span, 
+		.gm-style .gm-style-iw span				{ float: left; font-family: "PlutoSansRegular", sans-serif; font-style: normal; font-size: 10px; line-height: 10px;
+	 											  -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.infoWindowCopy a,
+		.gm-style .gm-style-iw a				{  font-family: "PlutoSansRegular", sans-serif; font-style: normal; font-weight: normal; font-size: 10px; color: #d14001; text-decoration: underline; }
 	
-	
-	
-	
+	#retrofitters .nonProductGrid-wide-title	{ width: 180px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	#retrofitters .nonProductGrid-wide-specs	{ width: 180px; }
+	#retrofitters .nonProductGrid-wide-spec		{ width: 180px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.premierRetrofitterIcon						{ float: left; padding: 0px 0px 0px 0px; margin: 0px 7px 0px 0px; } 
+	.premierRetrofitterIcon img					{ width: 30px; height: auto; }
+	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters2ndChild,
+	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters3rdChild { width: 219px; padding: 10px 10px 0px 10px; border-right: 1px solid #ccc; }
+	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters4thChild { width: 219px; padding: 10px 0px 0px 10px; border-right: none; }
+	.retrofitterLogo-hidIllusionz				{ height: 60px; padding: 30px 0px 0px 3px; } 
+	.retrofitterLogo-inlineCarbon				{ height: 65px; padding: 25px 0px 0px 3px; } 
+	.retrofitterLogo-lightModz					{ height: 70px; padding: 20px 0px 0px 3px; } 
+	.retrofitterLogo-lightwerkz					{ height: 70px; padding: 20px 0px 0px 3px; } 
 
 /* #Tablet (Portrait) size to standard 960 (devices and browsers)
 ======================================================================================================================================================
@@ -267,6 +296,7 @@
 	.utility-section							{ width: 700px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc;
 												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+		.utility-contentContainer3 .utility-section 				{ width: 700px; border-bottom: none; background-image: none; }
 	.utility-sectionFirst						{ margin: 0px 0px 0px 0px; }
 	.utility-sectionContent						{ width: 665px; float: left; margin: 0px 0px 0px 0px; padding: 0px 15px 0px 15px; }
 	.utility-sectionContent h4					{ text-transform: uppercase; padding: 20px 0px 5px 5px; margin: 0px 0px 10px 0px; border-bottom: 1px solid #ddd; }
@@ -274,6 +304,10 @@
 		/* Bread Crumb | Print | Share */
 	.breadCrumb-utilityContainer				{ width: 700px; float: left; margin: 0px 10px 0px 10px; border-bottom: 1px solid #ccc; }
 	
+		/* NonProduct Grid */
+	.nonProductGridContainer-wide				{ width: 700px; float: left; margin: 10px 0px 0px 0px; padding: 0px 0px 0px 0px; }	
+	.nonProductGrid-wide-info					{ width: 210px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 0px; }
+												  
 	/* ALL ABOUT TRS GENERAL STYLES */
 	.sidebarNav									{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 	.sidebarNav li 								{ float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #fff; text-transform: uppercase;
@@ -318,6 +352,34 @@
 	.tableReturn		 						{ width: 700px; height: 28px; float: left; position: relative; z-index: 1002; list-style: none; margin: 0; padding: 7px 0px 7px 0px;
 	 											  font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #454545; }
 	
+	/* RECOMMENDED RETROFITTERS */
+	#retrofitters .utility-intro				{ width: 700px; float: left; margin: 0px 0px 15px 0px; padding: 0px 0px 0px 0px; }	
+	.retrofittersMapContainer					{ width: 696px; float: left; margin: 0px 0px 0px 0px; padding: 1px 1px 1px 1px; border: 1px solid #ccc; }					  
+	.retrofittersMap							{ width: 100%; height: 400px; }
+	
+	.infoWindowContainer						{ float: left; padding: 0px 0px 5px 0px; margin: 0px 0px 0px 0px; }
+	.infoWindowTitle							{ float: left; color: #454545; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.infoWindowCopy								{ float: left; color: #888; padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.infoWindowCopy, 
+		.gm-style span, 
+		.gm-style .gm-style-iw span				{ float: left; font-family: "PlutoSansRegular", sans-serif; font-style: normal; font-size: 10px; line-height: 10px;
+	 											  -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.infoWindowCopy a,
+		.gm-style .gm-style-iw a				{  font-family: "PlutoSansRegular", sans-serif; font-style: normal; font-weight: normal; font-size: 10px; color: #d14001; text-decoration: underline; }
+	
+	#retrofitters .nonProductGrid-wide-title	{ width: 170px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	#retrofitters .nonProductGrid-wide-specs	{ width: 170px; }
+	#retrofitters .nonProductGrid-wide-spec		{ width: 170px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.premierRetrofitterIcon						{ float: left; padding: 0px 0px 0px 0px; margin: 0px 7px 0px 0px; } 
+	.premierRetrofitterIcon img					{ width: 30px; height: auto; }
+	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters2ndChild,
+	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters5thChild { width: 219px; padding: 10px 10px 0px 10px; border-right: 1px solid #ccc; }
+	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters3rdChild { width: 220px; padding: 10px 0px 0px 10px; border-right: none; }
+	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters4thChild { width: 219px; padding: 10px 0px 0px 10px; border-right: 1px solid #ccc; }
+	.retrofitterLogo-lightModz					{ height: 70px; padding: 20px 0px 0px 0px; } 
+	
+	
+	
 	}
 
 
@@ -361,6 +423,7 @@
 	.utility-section							{ width: 460px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc;
 												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+		.utility-contentContainer3 .utility-section 				{ width: 460px; border-bottom: none; background-image: none; }
 	.utility-sectionFirst						{ margin: 0px 0px 0px 0px; }
 	.utility-sectionContent						{ width: 440px; float: left; margin: 0px 0px 0px 0px; padding: 0px 10px 0px 10px; }
 	.utility-sectionContent h4					{ text-transform: uppercase; padding: 20px 0px 5px 0px; margin: 0px 0px 10px 0px; border-bottom: 1px solid #ddd; }
@@ -378,25 +441,6 @@
 	.utility-form .formFieldContainer-half-col4	{ width: 102px; float: left; margin: 7px 0px 0px 0px; position: relative; z-index: 2; }
 	.formCTAContainer							{ width: 100%; float: left; margin: 20px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 	
-												  
-	/* ALL ABOUT TRS GENERAL STYLES */
-	.sidebarNav									{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
-	.sidebarNav li 								{ float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #fff; text-transform: uppercase;
-	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-	.sidebarNav a								{ width: 112px; float: left; color: #191919; padding: 7px 0px 7px 0px; margin: 5px 4px 0px 0px; background-color: #ddd; text-align: center; }
-	.sidebarNav-active a						{ width: 460px; background-color: #345eb9; color: #fff; margin: 0px 0px 0px 0px; }
-	.sidebarNav-lastChild a						{ margin: 5px 0px 0px 0px; }
-	.sidebarNav a:hover							{ background-color: #345eb9; color: #fff; }
-	
-	.allAboutTRS-header							{ width: 460px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc; }
-	.allAboutTRS-header h1						{ font-family: 'PlutoSansBold', sans-serif; }
-	.allAboutTRS-section						{ width: 460px; float: left; margin: 20px 0px 0px 0px; padding: 0px 0px 30px 0px; border-bottom: 1px solid #ccc; }
-		.allAboutTRS-sectionGrid									{ border-bottom: none; }
-	.allAboutTRS-section p						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #454545;
-	 											  padding: 8px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-	.allAboutTRS-section a						{ color: #ea5f03; }
-	.allAboutTRS-section .generalBtn-orange		{ margin: 5px 0px 0px 0px; }
-	
 		/* NonProduct Grid */
 	.nonProductGridContainer					{ width: 460px; float: left; margin: 10px 0px 0px 0px; padding: 0px 0px 0px 0px; }	
 	.nonProductGrid li							{ width: 220px; float: left; overflow: hidden; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;
@@ -411,6 +455,28 @@
 	.nonProductGrid-spec						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 13px; color: #555;
 												  padding: 0px 10px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  	
 	.nonProductGrid li a:hover .nonProductGrid-title 				{ color: #ea5f03; }
+
+	.nonProductGridContainer-wide				{ width: 460px; float: left; margin: 10px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.nonProductGrid-wide-info					{ width: 219px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 0px; }
+
+
+	/* ALL ABOUT TRS GENERAL STYLES */
+	.sidebarNav									{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.sidebarNav li 								{ float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #fff; text-transform: uppercase;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.sidebarNav a								{ width: auto; float: left; color: #191919; padding: 7px 14px 7px 14px; margin: 5px 5px 0px 0px; background-color: #ddd; text-align: center; }
+	.sidebarNav-active a						{ background-color: #345eb9; color: #fff; }
+	.sidebarNav-lastChild a						{ margin: 5px 0px 0px 0px; }
+	.sidebarNav a:hover							{ background-color: #345eb9; color: #fff; }
+	
+	.allAboutTRS-header							{ width: 460px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc; }
+	.allAboutTRS-header h1						{ font-family: 'PlutoSansBold', sans-serif; }
+	.allAboutTRS-section						{ width: 460px; float: left; margin: 20px 0px 0px 0px; padding: 0px 0px 30px 0px; border-bottom: 1px solid #ccc; }
+		.allAboutTRS-sectionGrid									{ border-bottom: none; }
+	.allAboutTRS-section p						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #454545;
+	 											  padding: 8px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.allAboutTRS-section a						{ color: #ea5f03; }
+	.allAboutTRS-section .generalBtn-orange		{ margin: 5px 0px 0px 0px; }
 	
 	/* OUR STORY */												  
 	.ourStory-long								{ display: none; }
@@ -471,6 +537,20 @@
 	.orderFocus2								{ font-weight: bold; }
 	.tableReturn-tracking						{ width: 180px; float: left; font-weight: normal; color: #888; font-size: 10px; line-height: 14px; }
 	
+	/* RECOMMENDED RETROFITTERS */
+	#retrofitters .utility-section				{ margin: 0px 0px 0px 0px; }	
+	
+	#retrofitters .nonProductGrid-wide-title	{ width: 180px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	#retrofitters .nonProductGrid-wide-specs	{ width: 180px; }
+	#retrofitters .nonProductGrid-wide-spec		{ width: 180px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.premierRetrofitterIcon						{ float: left; padding: 0px 0px 0px 0px; margin: 0px 7px 0px 0px; } 
+	.premierRetrofitterIcon img					{ width: 30px; height: auto; }
+	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters3rdChild,
+	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters5thChild { width: 219px; padding: 10px 10px 0px 0px; border-right: 1px solid #ccc; }
+	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters2ndChild, 
+	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters4thChild { width: 220px; padding: 10px 0px 0px 10px; border-right: none; }
+	.retrofitterLogo-lightModz					{ height: 70px; padding: 20px 0px 0px 0px; } 
+	
 	}
 
 
@@ -515,6 +595,7 @@
 	.utility-section							{ width: 300px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc;
 												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+		.utility-contentContainer3 .utility-section 				{ width: 300px; border-bottom: none; background-image: none; }
 	.utility-sectionFirst						{ margin: 0px 0px 0px 0px; }
 	.utility-sectionContent						{ width: 280px; float: left; margin: 0px 0px 0px 0px; padding: 0px 10px 0px 10px; }
 	.utility-sectionContent h4					{ text-transform: uppercase; padding: 20px 0px 5px 0px; margin: 0px 0px 5px 0px; border-bottom: 1px solid #ddd; }
@@ -548,7 +629,26 @@
 	 											  font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #555;
 												  -webkit-appearance: none; border-radius: 3px; border: 1px solid #ccc; background-color: #fff; }
 	.formCTAContainer							{ width: 100%; float: left; margin: 20px 0px 0px 0px; padding: 0px 0px 0px 0px; }
-												  
+		
+		/* NonProduct Grid */
+	.nonProductGridContainer					{ width: 300px; float: left; margin: 5px 0px 0px 0px; padding: 0px 0px 0px 0px; }	
+	.nonProductGrid li							{ width: 300px; float: left; overflow: hidden; border-bottom: 1px solid #ccc; border-right: none;
+												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }											  
+	.nonProductGrid li:nth-child(2n+0)			{ width: 300px; padding: 10px 0px 0px 0px; border-right: none; }
+	.nonProductGrid-image				 		{ width: 300px; float: left; overflow: hidden; }
+	.nonProductGrid-image img					{ width: 100%; height: auto; }
+	.nonProductGrid-info						{ width: 300px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 0px; }
+	.nonProductGrid-title						{ width: 100%; float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919; text-transform: uppercase; 
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.nonProductGrid-specs						{ height: 62px; float: left; padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; }
+	.nonProductGrid-spec						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 13px; color: #555;
+												  padding: 0px 10px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  	
+	.nonProductGrid li a:hover .nonProductGrid-title 				{ color: #ea5f03; }
+	
+	.nonProductGridContainer-wide				{ width: 300px; float: left; margin: 10px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.nonProductGrid-wide-info					{ width: 219px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 0px; }
+	
+											  
 	/* ALL ABOUT TRS GENERAL STYLES */
 	.sidebarNav									{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 	.sidebarNav li 								{ font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #fff; text-transform: uppercase;
@@ -566,21 +666,6 @@
 	.allAboutTRS-section a						{ color: #ea5f03; }		
 	.allAboutTRS-section .generalBtn-orange		{ margin: 5px 0px 0px 0px; }
 										  
-		/* NonProduct Grid */
-	.nonProductGridContainer					{ width: 300px; float: left; margin: 5px 0px 0px 0px; padding: 0px 0px 0px 0px; }	
-	.nonProductGrid li							{ width: 300px; float: left; overflow: hidden; border-bottom: 1px solid #ccc; border-right: none;
-												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }											  
-	.nonProductGrid li:nth-child(2n+0)			{ width: 300px; padding: 10px 0px 0px 0px; border-right: none; }
-	.nonProductGrid-image				 		{ width: 300px; float: left; overflow: hidden; }
-	.nonProductGrid-image img					{ width: 100%; height: auto; }
-	.nonProductGrid-info						{ width: 300px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 0px; }
-	.nonProductGrid-title						{ width: 100%; float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919; text-transform: uppercase; 
-												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-	.nonProductGrid-specs						{ height: 62px; float: left; padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; }
-	.nonProductGrid-spec						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 13px; color: #555;
-												  padding: 0px 10px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  	
-	.nonProductGrid li a:hover .nonProductGrid-title 				{ color: #ea5f03; }
-	
 	/* OUR STORY */												  
 	.ourStory-long								{ display: none; }
 	.ourStory-signature							{ float: left; padding: 0px 0px 0px 0px; margin: 10px 0px 0px 0px; } 							  
@@ -638,6 +723,22 @@
 	.orderFocus1 a								{ color: #ea5f03; font-weight: bold; }
 	.orderFocus2								{ font-weight: bold; }
 	.tableReturn-tracking						{ width: 180px; float: left; font-weight: normal; color: #888; font-size: 10px; line-height: 14px; }
+	
+	/* RECOMMENDED RETROFITTERS */
+	#retrofitters .utility-section				{ margin: 0px 0px 0px 0px; }	
+	
+	.nonProductGrid-wide li						{ width: 300px; float: left; overflow: hidden; border-bottom: 1px solid #ccc; border-right: none;
+												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	#retrofitters .nonProductGrid-wide-title	{ width: 180px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	#retrofitters .nonProductGrid-wide-specs	{ width: 180px; }
+	#retrofitters .nonProductGrid-wide-spec		{ width: 180px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.premierRetrofitterIcon						{ float: left; padding: 0px 0px 0px 0px; margin: 0px 7px 0px 0px; } 
+	.premierRetrofitterIcon img					{ width: 30px; height: auto; }
+	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters2ndChild,
+	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters3rdChild, 
+	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters4thChild, 
+	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters5thChild { width: 300px; padding: 0px 0px 0px 0px; border-right: none; }
+	.retrofitterLogo-lightModz					{ height: 70px; padding: 20px 0px 0px 0px; } 
 										  
 	}
 

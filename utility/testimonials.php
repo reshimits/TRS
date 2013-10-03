@@ -77,13 +77,13 @@
             
             	<div class="utility-sideColContainer1">
                 	<ul class="sidebarNav">
-                        <li class="sidebarNav-active"><a href="/client/trs/utility/testimonials.php">Testimonials</a></li>
                 		<li><a href="/client/trs/utility/our-story.php">Our Story</a></li>
-                		<li><a href="/client/trs/utility/press.php">In The Press</a></li>
-                        <li><a href="/client/trs/utility/store-policies.php">Store Policies</a></li>
+                		<li><a href="/client/trs/utility/press.php"><span class="hide460">In The </span>Press</a></li>
+                        <li class="sidebarNav-active"><a href="/client/trs/utility/testimonials.php">Testimonials</a></li>
+                        <li><a href="/client/trs/utility/store-policies.php"><span class="hide460">Store </span>Policies</a></li>
                         <li class="sidebarNav-lastChild"><a href="/client/trs/utility/faq.php">HID FAQ</a></li>
                 	</ul>
-                </div>    
+                </div>   
                 
                 <div class="utility-contentContainer1">
                     <div class="allAboutTRS-header">            		
@@ -91,7 +91,7 @@
                         <h3>Without exception, we’ve dedicated ourselves to the art of the Happy Customer. We’re honored to have received affirmation with some pretty kind words...</h3>
                     </div>
                     <div class="allAboutTRS-section">            		
-                        <h2>Word on the Streets</h2>
+                        <h2>The Word on the Street</h2>
                         <div class="generalBtn-orange"><a href="#"><span class="generalBtn-title">Submit Your Testimonial</span></a></div> 
                         <div class="userTestimonialsContainer"> 
                             <div class="userTestimonial">

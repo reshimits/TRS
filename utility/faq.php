@@ -77,12 +77,11 @@
             
             	<div class="utility-sideColContainer1">
                 	<ul class="sidebarNav">
-                        <li class="sidebarNav-active"><a href="/client/trs/utility/faq.php">HID FAQ</a></li>
                 		<li><a href="/client/trs/utility/our-story.php">Our Story</a></li>
-                		<li><a href="/client/trs/utility/press.php">In The Press</a></li>
+                		<li><a href="/client/trs/utility/press.php"><span class="hide460">In The </span>Press</a></li>
                         <li><a href="/client/trs/utility/testimonials.php">Testimonials</a></li>
-                        <li class="sidebarNav-lastChild"><a href="/client/trs/utility/store-policies.php">Store Policies</a></li>
-                        
+                        <li><a href="/client/trs/utility/store-policies.php"><span class="hide460">Store </span>Policies</a></li>
+                        <li class="sidebarNav-lastChild sidebarNav-active"><a href="/client/trs/utility/faq.php">HID FAQ</a></li>
                 	</ul>
                 </div>    
                 
