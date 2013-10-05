@@ -121,6 +121,8 @@
 			.weightBold-styleNormal							{ font-family: 'PlutoSansBold', sans-serif; font-style: normal; }
 			.weightBold-styleItalic							{ font-family: 'PlutoSansBold', sans-serif; font-style: italic; }
 			
+			.typekit_weightLight-styleNormal				{ font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 400; }
+			
 			/*	Span Class Colors */
 			.lighten										{ color: #999; }
 			

@@ -29,7 +29,9 @@
 	<!-- Javascript [primary]
   ================================================== -->
   	<script type="text/javascript" src="../javascript/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" charset="utf-8">
+    <script type="text/javascript" src="//use.typekit.net/xib0jgf.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script type="text/javascript" charset="utf-8">
 		function MM_swapImgRestore() { //v3.0
 		  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
 		}
@@ -87,7 +89,7 @@
                 
                 <div class="utility-contentContainer1">
                     <div class="allAboutTRS-header">            		
-                        <h1>Store Policies and Other Info</h1>
+                        <h1>Store Policies &amp; Other Info</h1>
                         <h3>Returns &amp; Exchanges, Warranty and Shipping Info, and Payment Policies. All the fun stuff that bears mentioning.</h3>
                     </div>
                     <div class="allAboutTRS-section">            		
