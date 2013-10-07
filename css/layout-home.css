@@ -72,15 +72,15 @@
 	
 	
 	/* PROMOS */
-	.homePromosContainer						{ width: 940px; height: 140px; float: left; margin: 0px 10px 0px 10px; background-color: #191919; border-radius: 0px 0px 8px 8px; overflow: hidden; }
-	.homePromosL								{ width: 460px; height: 140px; float: left;background-image: url(../images/bg_promo-gallery.jpg); background-repeat: no-repeat; background-position: left top; }
+	.homePromosContainer						{ width: 940px; height: 160px; float: left; margin: 0px 10px 0px 10px; background-color: #191919; border-radius: 0px 0px 8px 8px; overflow: hidden; }
+	.homePromosL								{ width: 460px; height: 160px; float: left;background-image: url(../images/bg_promo-gallery.jpg); background-repeat: no-repeat; background-position: left top; }
 	.homePromosR								{ width: 460px; float: left; padding: 0px 0px 0px 20px; }
 	.rRetrofitters								{ width: 205px; float: left; margin: 0px 20px 0px 0px; }
 	.diyInstallGuides							{ width: 220px; float: left; }
 	.homePromos-content							{ float: left; margin: 17px 0px 0px 0px; padding: 0px 0px 0px 20px; border-left: 1px solid #454545; }
 		.homePromosL .homePromos-content			{ margin: 17px 0px 0px 0px; padding: 0px 0px 0px 210px; border-left: none; }
-	.homePromos-title							{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
-												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.homePromos-title							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 36px; line-height: 30px; color: #fff; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.homePromos-info							{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #999;
 												  padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }	
 
@@ -89,8 +89,8 @@
 												  background-image: url(../images/bg_gradient.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
 	.homeAnnouncements-intro					{ width: 280px; float: left; margin: 10px 0px 10px 0px; padding: 0px 20px 0px 20px; }
-	.homeAnnouncements-title					{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 28px; line-height: 26px; color: #fff; text-transform: uppercase;
-												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.homeAnnouncements-title					{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 46px; line-height: 38px; color: #fff; 
+												  text-transform: uppercase; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.homeAnnouncements-info						{ float: left; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 15px; line-height: 17px; color: #999;
 												  padding: 10px 0px 20px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  
 	.homeAnnouncements-newsContainer			{ width: 570px; float: left; margin: 10px 0px 10px 0px; padding: 0px 20px 0px 20px; border-left: 1px solid #454545; }
@@ -130,8 +130,8 @@
 	/* TESTIMONIALS */
 	.homeTestimonialsContainer					{ width: 940px; float: left; margin: 10px 10px 0px 10px; }
 	.homeTestimonials-intro						{ width: 100%; float: left; margin: 10px 0px 0px 0px; padding: 0px 20px 0px 20px; }
-	.homeTestimonials-title						{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 28px; line-height: 26px; color: #191919; text-transform: uppercase; 
-												  letter-spacing: -1px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.homeTestimonials-title						{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 46px; line-height: 34px; color: #191919; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.homeTestimonials-info						{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 15px; line-height: 17px; color: #888;
 												  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  
 	.homeTestimonials-postContainer				{ width: 900px; float: left; margin: 0px 0px 0px 0px; padding: 0px 20px 20px 20px; border-bottom: 1px solid #ccc; }
@@ -172,16 +172,16 @@
 	
 	
 	/* PROMOS */
-	.homePromosContainer						{ width: 700px; height: 240px; float: left; margin: 0px 10px 0px 10px; background-color: #191919; border-radius: 0px 0px 8px 8px; overflow: hidden; }
-	.homePromosL								{ width: 700px; height: 110px; float: left;background-image: url(../images/bg_promo-gallery.jpg); background-repeat: no-repeat; background-position: left -30px; }
+	.homePromosContainer						{ width: 700px; height: 238px; float: left; margin: 0px 10px 0px 10px; background-color: #191919; border-radius: 0px 0px 8px 8px; overflow: hidden; }
+	.homePromosL								{ width: 700px; height: 118px; float: left;background-image: url(../images/bg_promo-gallery.jpg); background-repeat: no-repeat; background-position: left -20px; }
 	.homePromosR								{ width: 700px; float: left; padding: 0px 0px 0px 0px; border-top: 1px solid #454545; }
 	.rRetrofitters								{ width: 345px; float: left; margin: 0px 20px 0px 0px; }
 	.diyInstallGuides							{ width: 295px; float: left; }
 	.homePromos-content							{ float: left; margin: 17px 0px 0px 0px; padding: 0px 0px 0px 20px; border-left: 1px solid #454545; }
 		.homePromosL .homePromos-content			{ margin: 17px 0px 0px 0px; padding: 0px 0px 0px 215px; border-left: none; }
 		.rRetrofitters .homePromos-content			{ border-left: none; }
-	.homePromos-title							{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
-												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.homePromos-title							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 32px; line-height: 30px; color: #fff; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.homePromos-info							{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #999;
 												  padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }		
 
@@ -190,8 +190,8 @@
 												  background-image: url(../images/bg_gradient.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
 	.homeAnnouncements-intro					{ width: 265px; float: left; margin: 10px 0px 10px 0px; padding: 0px 20px 0px 20px; }
-	.homeAnnouncements-title					{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 26px; line-height: 24px; color: #fff; text-transform: uppercase;
-												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.homeAnnouncements-title					{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 42px; line-height: 36px; color: #fff; 
+												  text-transform: uppercase; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.homeAnnouncements-info						{ float: left; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 15px; line-height: 17px; color: #999;
 												  padding: 10px 0px 20px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  
 	.homeAnnouncements-newsContainer			{ width: 350px; float: left; margin: 10px 0px 10px 0px; padding: 0px 20px 0px 20px; border-left: 1px solid #454545; }
@@ -231,8 +231,8 @@
 	/* TESTIMONIALS */
 	.homeTestimonialsContainer					{ width: 700px; float: left; margin: 10px 10px 0px 10px; }
 	.homeTestimonials-intro						{ width: 660px; float: left; margin: 10px 0px 0px 0px; padding: 0px 20px 0px 20px; }
-	.homeTestimonials-title						{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 26px; line-height: 24px; color: #191919; text-transform: uppercase; 
-												  letter-spacing: -1px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.homeTestimonials-title						{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 42px; line-height: 32px; color: #191919; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.homeTestimonials-info						{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 15px; line-height: 17px; color: #888;
 												  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  
 	.homeTestimonials-postContainer				{ width: 660px; float: left; margin: 0px 0px 0px 0px; padding: 0px 20px 20px 20px; border-bottom: 1px solid #ccc; }
@@ -272,16 +272,16 @@
 	
 	
 	/* PROMOS */
-	.homePromosContainer						{ width: 460px; height: 280px; float: left; margin: 0px 0px 0px 0px; background-color: #191919; border-radius: 0px 0px 8px 8px; overflow: hidden; }
-	.homePromosL								{ width: 460px; height: 140px; float: left;background-image: url(../images/bg_promo-gallery.jpg); background-repeat: no-repeat; background-position: left top; }
+	.homePromosContainer						{ width: 460px; height: 242px; float: left; margin: 0px 0px 0px 0px; background-color: #191919; border-radius: 0px 0px 8px 8px; overflow: hidden; }
+	.homePromosL								{ width: 460px; height: 120px; float: left;background-image: url(../images/bg_promo-gallery.jpg); background-repeat: no-repeat; background-position: left top; }
 	.homePromosR								{ width: 460px; float: left; padding: 0px 0px 0px 0px; border-top: 1px solid #454545; }
 	.rRetrofitters								{ width: 205px; float: left; margin: 0px 20px 0px 0px; }
 	.diyInstallGuides							{ width: 220px; float: left; }
 	.homePromos-content							{ float: left; margin: 17px 0px 0px 0px; padding: 0px 0px 0px 20px; border-left: 1px solid #454545; }
 		.homePromosL .homePromos-content			{ margin: 17px 0px 0px 0px; padding: 0px 0px 0px 200px; border-left: none; }
 		.rRetrofitters .homePromos-content			{ border-left: none; }
-	.homePromos-title							{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
-												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.homePromos-title							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 24px; line-height: 20px; color: #fff; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.homePromos-info							{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #999;
 												  padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }		
 
@@ -290,8 +290,8 @@
 												  background-image: url(../images/bg_gradient.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
 	.homeAnnouncements-intro					{ width: 420px; float: left; margin: 10px 0px 10px 0px; padding: 0px 20px 0px 20px; }
-	.homeAnnouncements-title					{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
-												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.homeAnnouncements-title					{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 36px; line-height: 30px; color: #fff; 
+												  text-transform: uppercase; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.homeAnnouncements-info						{ float: left; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #999;
 												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  
 	.homeAnnouncements-newsContainer			{ width: 420px; float: left; margin: 5px 20px 10px 20px; padding: 5px 0px 0px 0px; border-left: none; border-top: 1px solid #454545; }
@@ -332,8 +332,8 @@
 	/* TESTIMONIALS */
 	.homeTestimonialsContainer					{ width: 460px; float: left; margin: 10px 0px 0px 0px; }
 	.homeTestimonials-intro						{ width: 420px; float: left; margin: 10px 0px 0px 0px; padding: 0px 20px 0px 20px; }
-	.homeTestimonials-title						{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #191919; text-transform: uppercase; 
-												  letter-spacing: -1px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.homeTestimonials-title						{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 36px; line-height: 30px; color: #191919; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.homeTestimonials-info						{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #888;
 												  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  
 	.homeTestimonials-postContainer				{ width: 420px; float: left; margin: 0px 0px 0px 0px; padding: 0px 20px 20px 20px; border-bottom: 1px solid #ccc; }
@@ -374,16 +374,16 @@
 	
 	
 	/* PROMOS */
-	.homePromosContainer						{ width: 300px; height: 420px; float: left; margin: 0px 0px 0px 0px; background-color: #191919; border-radius: 0px 0px 8px 8px; overflow: hidden; }
-	.homePromosL								{ width: 300px; height: 140px; float: left;background-image: url(../images/bg_promo-gallery.jpg); background-repeat: no-repeat; background-position: -110px top; }
+	.homePromosContainer						{ width: 300px; height: 368px; float: left; margin: 0px 0px 0px 0px; background-color: #191919; border-radius: 0px 0px 8px 8px; overflow: hidden; }
+	.homePromosL								{ width: 300px; height: 122px; float: left;background-image: url(../images/bg_promo-gallery.jpg); background-repeat: no-repeat; background-position: -110px top; }
 	.homePromosR								{ width: 300px; float: left; padding: 0px 0px 0px 0px; border-top: 1px solid #454545; }
 	.rRetrofitters								{ width: 280px; float: left; margin: 0px 20px 0px 0px; }
 	.diyInstallGuides							{ width: 280px; float: left; }
 	.homePromos-content							{ float: left; margin: 17px 0px 0px 20px; padding: 0px 0px 0px 0px; border-left: none; }
 		.homePromosL .homePromos-content			{ margin: 17px 0px 0px 0px; padding: 0px 0px 0px 85px; border-left: none; }
 		.rRetrofitters .homePromos-content			{ border-left: none; padding: 0px 0px 17px 0px; border-bottom: 1px solid #454545; }
-	.homePromos-title							{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
-												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.homePromos-title							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 26px; line-height: 22px; color: #fff; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.homePromos-info							{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #999;
 												  padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }		
 
@@ -392,8 +392,8 @@
 												  background-image: url(../images/bg_gradient.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
 	.homeAnnouncements-intro					{ width: 260px; float: left; margin: 10px 0px 10px 0px; padding: 0px 20px 0px 20px; }
-	.homeAnnouncements-title					{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
-												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.homeAnnouncements-title					{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 30px; line-height: 24px; color: #fff; 
+												  text-transform: uppercase; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.homeAnnouncements-info						{ float: left; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #999;
 												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  
 	.homeAnnouncements-newsContainer			{ width: 260px; float: left; margin: 5px 20px 10px 20px; padding: 5px 0px 0px 0px; border-left: none; border-top: 1px solid #454545; }
@@ -434,8 +434,8 @@
 	/* TESTIMONIALS */
 	.homeTestimonialsContainer					{ width: 280px; float: left; margin: 10px 10px 0px 10px; }
 	.homeTestimonials-intro						{ width: 280px; float: left; margin: 10px 0px 0px 0px; padding: 0px 0px 0px 0px; }
-	.homeTestimonials-title						{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #191919; text-transform: uppercase; 
-												  letter-spacing: -1px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.homeTestimonials-title						{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 30px; line-height: 24px; color: #191919; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.homeTestimonials-info						{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #888;
 												  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  
 	.homeTestimonials-postContainer				{ width: 280px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc; }

@@ -29,6 +29,8 @@
 	<!-- Javascript [primary]
   ================================================== -->
   	<script type="text/javascript" src="javascript/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/xib0jgf.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script type="text/javascript" src="javascript/jquery.flexslider.js"></script>	
     <script type="text/javascript" charset="utf-8">
 		$(window).load(function() {

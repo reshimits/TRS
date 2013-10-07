@@ -121,8 +121,8 @@
                                 <li>
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_mattKossoff.jpg" alt="Matt Kossoff" border="0" /></div>
                                     <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Matt Kossoff <span class="mobile-hide">/ <span class="weightLight-styleNormal-lowercase">El Presidente</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="weightLight-styleNormal-lowercase">El Presidente</span></span></span>
+                                        <span class="nonProductGrid-title">Matt Kossoff <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">El Presidente</span></span></span>
+                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">El Presidente</span></span></span>
                                         <div class="nonProductGrid-specs">
                                             <span class="nonProductGrid-spec"><strong>Born:</strong> Solon, OH</span>
                                             <span class="nonProductGrid-spec"><strong>Car:</strong> Porsche 997 TT, Toyota 4Runner</span>
@@ -134,8 +134,8 @@
                                 <li>
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_nateBrick.jpg" alt="Nate Brick" border="0" /></div>
                                     <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Nate Brick <span class="mobile-hide">/ <span class="weightLight-styleNormal-lowercase">Chief Operations Officer</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="weightLight-styleNormal-lowercase">Chief Operations Officer</span></span>
+                                        <span class="nonProductGrid-title">Nate Brick <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Chief Operations Officer</span></span></span>
+                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Chief Operations Officer</span></span>
                                         <div class="nonProductGrid-specs">
                                             <span class="nonProductGrid-spec"><strong>Born:</strong> Solon, OH</span>
                                             <span class="nonProductGrid-spec"><strong>Car:</strong> BMW 335i Sedan, Jeep Wrangler</span>
@@ -147,8 +147,8 @@
                                 <li>
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_andrewPowers.jpg" alt="Andrew Powers" border="0" /></div>
                                     <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Andrew Powers <span class="mobile-hide">/ <span class="weightLight-styleNormal-lowercase">Customer Relations Mgmt</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="weightLight-styleNormal-lowercase">Customer Relations Mgmt</span></span>
+                                        <span class="nonProductGrid-title">Andrew Powers <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Customer Relations Mgmt</span></span></span>
+                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Customer Relations Mgmt</span></span>
                                         <div class="nonProductGrid-specs">
                                             <span class="nonProductGrid-spec"><strong>Born:</strong> Orlando, FL</span>
                                             <span class="nonProductGrid-spec"><strong>Car:</strong> Toyota FJ Cruiser</span>
@@ -160,8 +160,8 @@
                                 <li>
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_zachWilliams.jpg" alt="Zach Williams" border="0" /></div>
                                     <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Zach Williams <span class="mobile-hide">/ <span class="weightLight-styleNormal-lowercase">Customer Relations</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="weightLight-styleNormal-lowercase">Customer Relations</span></span>
+                                        <span class="nonProductGrid-title">Zach Williams <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Customer Relations</span></span></span>
+                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Customer Relations</span></span>
                                         <div class="nonProductGrid-specs">
                                             <span class="nonProductGrid-spec"><strong>Born:</strong> Senoia, GA</span>
                                             <span class="nonProductGrid-spec"><strong>Car:</strong> Buick Park Avenue</span>
@@ -173,8 +173,8 @@
                                 <li>
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_beauSalsi.jpg" alt="Beau Salsi" border="0" /></div>
                                     <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Beau Salsi <span class="mobile-hide">/ <span class="weightLight-styleNormal-lowercase">Inventory Mgmt &amp; Fulfillment</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="weightLight-styleNormal-lowercase">Inventory Mgmt &amp; Fulfillment</span></span>
+                                        <span class="nonProductGrid-title">Beau Salsi <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Inventory Mgmt &amp; Fulfillment</span></span></span>
+                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Inventory Mgmt &amp; Fulfillment</span></span>
                                         <div class="nonProductGrid-specs">
                                             <span class="nonProductGrid-spec"><strong>Born:</strong> Greensboro, NC</span>
                                             <span class="nonProductGrid-spec"><strong>Car:</strong> BMW 330i Sedan (E46)</span>
@@ -186,8 +186,8 @@
                                 <li>
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_quangDang.jpg" alt="Quang Dang" border="0" /></div>
                                     <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Quang Dang <span class="mobile-hide">/ <span class="weightLight-styleNormal-lowercase">Quality Control</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="weightLight-styleNormal-lowercase">Quality Control</span></span>
+                                        <span class="nonProductGrid-title">Quang Dang <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Quality Control</span></span></span>
+                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Quality Control</span></span>
                                         <div class="nonProductGrid-specs">
                                             <span class="nonProductGrid-spec"><strong>Born:</strong> Vietnam</span>
                                             <span class="nonProductGrid-spec"><strong>Car:</strong> Mitsubishi Lancer Evolution</span>
@@ -199,8 +199,8 @@
                                 <li>
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_jamielleGummer.jpg" alt="Jamielle Gummer" border="0" /></div>
                                     <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Jamielle Gummer <span class="mobile-hide">/ <span class="weightLight-styleNormal-lowercase">Customer Service</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="weightLight-styleNormal-lowercase">Customer Service</span></span>
+                                        <span class="nonProductGrid-title">Jamielle Gummer <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Customer Service</span></span></span>
+                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Customer Service</span></span>
                                         <div class="nonProductGrid-specs">
                                             <span class="nonProductGrid-spec"><strong>Born:</strong> Wheeling, WV</span>
                                             <span class="nonProductGrid-spec"><strong>Car:</strong> Honda Civic Si</span>
@@ -212,8 +212,8 @@
                                 <li>
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_maxBaranyuk.jpg" alt="Max Baranyuk" border="0" /></div>
                                     <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Max Baranyuk  <span class="mobile-hide">/ <span class="weightLight-styleNormal-lowercase">Quality Control</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="weightLight-styleNormal-lowercase">Quality Control</span></span>
+                                        <span class="nonProductGrid-title">Max Baranyuk  <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Quality Control</span></span></span>
+                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Quality Control</span></span>
                                         <div class="nonProductGrid-specs">
                                             <span class="nonProductGrid-spec"><strong>Born:</strong> Odessa, Ukraine</span>
                                             <span class="nonProductGrid-spec"><strong>Car:</strong> Infiniti G35</span>
@@ -225,8 +225,8 @@
                                 <li>
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_willHardee.jpg" alt="Will Hardee" border="0" /></div>
                                     <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Will Hardee <span class="mobile-hide">/ <span class="weightLight-styleNormal-lowercase">Order Fulfillment</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="weightLight-styleNormal-lowercase">Order Fulfillment</span></span>
+                                        <span class="nonProductGrid-title">Will Hardee <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Order Fulfillment</span></span></span>
+                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Order Fulfillment</span></span>
                                         <div class="nonProductGrid-specs">
                                             <span class="nonProductGrid-spec"><strong>Born:</strong> Charleston, SC</span>
                                             <span class="nonProductGrid-spec"><strong>Car:</strong> Nissan 370Z, Dodge Ram SRT-10, Nissan 240SX</span>
@@ -238,8 +238,8 @@
                                 <li>
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_rubenHernandez.jpg" alt="Ruben Hernandez" border="0" /></div>
                                     <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Ruben Hernandez <span class="mobile-hide">/ <span class="weightLight-styleNormal-lowercase">Head of Quality Control</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="weightLight-styleNormal-lowercase">Head of Quality Control</span></span>
+                                        <span class="nonProductGrid-title">Ruben Hernandez <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Head of Quality Control</span></span></span>
+                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Head of Quality Control</span></span>
                                         <div class="nonProductGrid-specs">
                                             <span class="nonProductGrid-spec"><strong>Born:</strong> Morela, Mexico</span>
                                             <span class="nonProductGrid-spec"><strong>Car:</strong> Nissan 350Z</span>

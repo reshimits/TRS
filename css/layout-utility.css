@@ -121,8 +121,8 @@
 	.nonProductGrid li:nth-child(2n+0)			{ width: 339px; padding: 10px 0px 0px 10px; border-right: none; }
 	.nonProductGrid-image				 		{ float: left; }
 	.nonProductGrid-info						{ width: 330px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 0px; }
-	.nonProductGrid-title						{ width: 100%; float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 13px; line-height: 13px; color: #191919; text-transform: uppercase; 
-												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.nonProductGrid-title						{ width: 100%; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 26px; line-height: 20px; color: #191919; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.nonProductGrid-specs						{ height: 80px; float: left; padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; }
 	.nonProductGrid-spec						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 16px; color: #555;
 												  padding: 0px 10px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  	
@@ -449,8 +449,8 @@
 	.nonProductGrid-image				 		{ width: 220px; float: left; overflow: hidden; }
 	.nonProductGrid-image img					{ width: 100%; height: auto; }
 	.nonProductGrid-info						{ width: 220px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 0px; }
-	.nonProductGrid-title						{ width: 100%; float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #191919; text-transform: uppercase; 
-												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.nonProductGrid-title						{ width: 100%; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 22px; line-height: 21px; color: #191919; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.nonProductGrid-specs						{ height: 80px; float: left; padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; }
 	.nonProductGrid-spec						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 13px; color: #555;
 												  padding: 0px 10px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  	
@@ -646,8 +646,8 @@
 	.nonProductGrid-image				 		{ width: 300px; float: left; overflow: hidden; }
 	.nonProductGrid-image img					{ width: 100%; height: auto; }
 	.nonProductGrid-info						{ width: 300px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 0px; }
-	.nonProductGrid-title						{ width: 100%; float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919; text-transform: uppercase; 
-												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.nonProductGrid-title						{ width: 100%; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 24px; line-height: 22px; color: #191919; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.nonProductGrid-specs						{ height: 62px; float: left; padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; }
 	.nonProductGrid-spec						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 13px; color: #555;
 												  padding: 0px 10px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  	
