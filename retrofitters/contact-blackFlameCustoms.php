@@ -9,8 +9,8 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Contact The Retrofit Source | Innovative Headlight Upgrades</title>
-	<meta name="description" content="Whether you're just getting started by dealing with our excellent customer service or you're already comfortably cruising on that dark road at night, you'll be glad you dealt with The Retrofit Source. Headlight upgrades is our passion, and we're here to help.">
+	<title>Contact Black Flame Customs: Recommended Retrofitter of The Retrofit Source | Innovative Headlight Upgrades</title>
+	<meta name="description" content="For hire! Black Flame Customs is part of our Recommended Retrofitters network of well-qualified shops that will build a set of custom headlights according to your specs.">
 	<meta name="author" content="THROTTLE, LTD. is a Columbus Ohio based boutique graphic design firm. We consult, strategize, design, build and manage web site, brand identity and print collateral projects for SME businesses. www.throttlestudios.com">
 
 	<!-- Mobile Specific Metas
@@ -61,7 +61,7 @@
 
 
 </head>
-<body onLoad="MM_preloadImages('../images/btn_bg-orangeDark.png','../images/btn_bg-blueDark.png','../images/btn_bg-grayDark.png')">
+<body onLoad="MM_preloadImages('images/btn_bg-orangeDark.png','images/btn_bg-blueDark.png','images/btn_bg-grayDark.png','images/products/productDetailTemp/1.jpg','images/products/productDetailTemp/2.jpg','images/products/productDetailTemp/3.jpg','images/products/productDetailTemp/4.jpg','images/products/productDetailTemp/5.jpg')">
 
 
 
@@ -73,46 +73,73 @@
     <div class="navMain hide460"><?php require('../include/navMain.html');?></div>
     <div class="navMobile mobile-only"><?php require('../include/navMobile.html');?></div>
     
-        <div class="container" id="contact">
+        <div class="container" id="contact-blackFlameCustoms">
         	<div class="full column">
-        	<div class="bodyContainer">
-            	
-                <div class="utility-header"><h1>Contact Us</h1></div>
+            
+<!-- =========== Bread Crumb ================================================== -->
+
+                <div class="breadCrumb-utilityContainer mobile-hide">            		
+                	<ul class="breadCrumb">
+                		<li><a href="/client/trs/index.php">Home</a></li>
+                		<li> > </li>
+                		<li><a href="/client/trs/retrofitters/recommended-retrofitters.php">Recommended Retrofitters</a></li>
+                        <li> > </li>
+                		<li><a href="#">Contact Black Flame Customs</a></li>
+                	</ul>
+                </div>
                 
-            	<div class="utility-sideColContainer2">
-                	<div class="utility-intro">
-                    	<h3>The Retrofit Source welcomes and values your feedback. Whether you have a technical question, want a personalized recommendation on parts for your project, or are seeking help on an install, we will be happy to help.<br><br> 
-                        <span class="weightRegular-styleNormal">Our goal here at TRS is to ensure the success of our customer's projects, so contact us today to get started!</span></h3>
+<!-- =========== Body Content ================================================== -->            
+        	
+            <div class="bodyContainer utilityBodyContainer">                
+                <div class="utility-sideColContainer2">
+                	<div class="rrContact-logo"><img src="/client/trs/images/retrofitters/rr_blackFlameCustoms2x.jpg" alt="Black Flame Customs Recommended Retrofitter" border="0"></div>
+                    <div class="utility-intro">
+                        <h3>Black Flame Customs delivers top notch custom built headlight projects. We take pride in our craftsmanship, ever-growing knowledge base &amp; customer support.</h3> 
+                        <div class="rrContact-storyShort">
+                        	<p>Providing our customers with world-class customer service (pre-sales knowledge &amp; post-sales technical support), along with superior craftsmanship and HID retrofitting components, you can rest assured you made the right choice by choosing the knowledgeable professionals which have completed well over a thousand projector conversions. We have the experience and skills needed to provide you with the best automotive headlight services, products, and support. <a href="#">[more]</a></p>
+                        </div>
+                        <div class="rrContact-storyLong">
+                        	<p>Having enough quality light output on the road in front of you is priceless. We use top quality products, hand-fabricate each application and pay careful attention to every detail. All projects are built to our customers specifications. We're specialists in all forms of headlight upgrades: HID Projector Retrofits, LED Lighting, CCFL Halo Lighting, Custom Paint &amp; Amber Lens Clearing. </p>
+							<p>We also currently offer complete installation services: Bumper removal, Wiring &amp; Ballast installations, Functionality testing &amp; Precision projector alignment. At Black Flame Customs customer service is our priority. We stand behind our work and guarantee you'll love the finished product.</p>
+                            <p>Some of our services include:</p>
+                            <ul>
+                                <li>&bull; Complete Custom Packages Available</li>
+                                <li>&bull; New OEM Style Housings</li>
+                                <li>&bull; Total Turnkey Solutions</li>
+                                <li>&bull; Professional Installation Services</li>
+                                <li>&bull; Projector Alignment Services</li>
+                                <li>&bull; Vehicle Wiring Services</li>
+                                <li>&bull; Custom Paint Designs</li>
+                                <li>&bull; LED Upgraded Lighting</li>
+                                <li>&bull; CCFL/LED Halo Systems</li>
+                                <li>&bull; Unique Project Integration</li>
+                                <li>&bull; Full Fabrication Labor</li>
+                            </ul>
+                        </div> 
 					</div>	
+                    
                     <div class="utility-sideColContent">
                     	<div class="utility-sideCol-section">
                         	<div class="contactIcon"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Business Hours" border="0" /></div>
                             <div class="utility-sideCol-sectionInner">
                             	<span class="utility-sideCol-sectionTitle">Business Hours</span>
-                        		<p>M–TH: 8:30am – 6pm EST</p>
-								<p>F: 8:30am – 5:30pm EST</p>
-                            </div>
-                        </div>
-                        <div class="utility-sideCol-section">
-                        	<div class="contactIcon contactIcon-phone"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Phone" border="0" /></div>
-                            <div class="utility-sideCol-sectionInner">
-                            	<span class="utility-sideCol-sectionTitle">Phone</span>
-                        		<p><a href="tel:404-220-7940" class="tel">404.220.7940</a></p>
+                        		<p>T–F: 10am – 6pm EST</p>
+                                <p>Saturday by appointment</p>
+                                <p>Sunday/Monday closed</p>
                             </div>
                         </div>
                         <div class="utility-sideCol-section">
                         	<div class="contactIcon contactIcon-address"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Address" border="0" /></div>
                             <div class="utility-sideCol-sectionInner">
                             	<span class="utility-sideCol-sectionTitle">Address</span>
-                        		<p>2135 Defoor Hills Rd. Suite H<br>Atlanta, GA 30318</p>  
-								<p><a href="https://www.google.com/maps/preview#!q=2135+Defoor+Hills+Rd.+Suite+H+Atlanta%2C+GA+30318&data=!4m10!1m9!4m8!1m3!1d66755!2d-83.0765949!3d40.170189!3m2!1i1102!2i1051!4f13.1" target="_blank">Get directions</a></p>
+                        		<p>Long Island, NY</p>  
                             </div>
                         </div>
                         <div class="utility-sideCol-section">
-                        	<div class="contactIcon contactIcon-chat"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Chat" border="0" /></div>
+                        	<div class="contactIcon contactIcon-web"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Web" border="0" /></div>
                             <div class="utility-sideCol-sectionInner">
-                            	<span class="utility-sideCol-sectionTitle">Chat</span>
-                        		<p>Status: <span class="weightRegular-styleItalic">Offline</span></p>
+                            	<span class="utility-sideCol-sectionTitle">Web</span>
+                        		<p><a href="http://www.BlackFlameCustoms.com " target="_blank">www.BlackFlameCustoms.com </a></p>
                             </div>
                         </div>
                         
@@ -182,16 +209,34 @@
                             </div>
                         </div>
                     </div>
-                    <span class="formNote">*After sending a message, you can expect a response from our customer service team within 1-2 business days.<br>
-											We reply to all emails in the order they are received.</span>
                 </div>
+
+
+<!-- =========== Preview Images ================================================== -->
+
+                <div class="utility-contentContainer2">
+                    <div class="utility-sectionTable">            		
+                        <div class="utility-sectionTitle">
+                        	<h2>Preview Gallery</h2>
+                        </div>
+                        <div class="rrImagesContainer">
+                            <div class="rrImage-main"><img src="/client/trs/images/products/productDetailTemp/1.jpg" alt="temp" border="0" name="productMain" id="productMain"></div>
+                            <div class="rrCaption-main">
+                            	<p>Saturn Ion Mini H1 Retrofit with blacked out bezel, Morimoto xbaled amber angel eye turn signal/running lights, side emitting Audi style LED strips and OEM color matched E55-R Shrouds</p>
+                            </div>
+                            <div class="rrImage-thumbsContainer">	
+                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/1thumb2x.jpg" alt="temp" id="thumb1" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/1.jpg',1)" border="0"/></div>
+                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/2thumb2x.jpg" alt="temp" id="thumb2" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/2.jpg',1)" border="0" /></div>
+                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/3thumb2x.jpg" alt="temp" id="thumb3" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/3.jpg',1)" border="0" /></div>
+                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/4thumb2x.jpg" alt="temp" id="thumb4" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/4.jpg',1)" border="0" /></div>
+                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/5thumb2x.jpg" alt="temp" id="thumb5" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/5.jpg',1)" border="0" /></div>
+                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/1thumb2x.jpg" alt="temp" id="thumb1" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/1.jpg',1)" border="0" /></div>
+                            </div>
+                        </div>
+            		</div>
+            	</div>
                 
-                <div class="utility-contentContainer3">
-                	<div class="contactMapContainer mobile-hide">
-                    	<div class="contactMap" id="contactMap-trs"></div>
-                    </div>
-                </div>
-            	    
+                	    
             </div> 
             </div>       
         </div>
@@ -205,52 +250,7 @@
 
 <!-- Javascript [secondary]
 ================================================== -->
-	<!-- Map --> 
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbwL9YqHseLTFieUq445j-3uRDWCv0gKA&sensor=true"></script>	
-<script type="text/javascript">
-	function initialize() {
-  var mapOptions = {
-    zoom: 11,
-    center: new google.maps.LatLng(33.813497, -84.431918),
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    disableDefaultUI: true,
-    mapTypeControl: false,
-    panControl: true,
-    panControlOptions: {
-    	position: google.maps.ControlPosition.TOP_RIGHT
-    	},
-    scaleControl: false,
-    zoomControl: true,
-    zoomControlOptions: {
-    	style: google.maps.ZoomControlStyle.SMALL,
-    	position: google.maps.ControlPosition.TOP_RIGHT
-    	},
-    styles: [ {
-    	"stylers": [
-    	{ "visibility": "on" },
-    	{ "saturation": -80 },
-    	{ "lightness": 25 }
-    	]
-    } ]
-    }
-  var map = new google.maps.Map(document.getElementById('contactMap-trs'),
-                                mapOptions);
-
-   var myLatLng = new google.maps.LatLng(33.813497, -84.431918);
-   var mapMarker = new google.maps.MarkerImage("/client/trs/images/mapMarker_trs2x.png", null, null, new google.maps.Point(32, 56), new google.maps.Size(39,56));
-	  	var marker = new google.maps.Marker({ 
-			position: myLatLng, 
-			map: map, 
-			flat: true,
-			clickable: false,
-			title: 'TRS | The Retrofit Source',
-			icon: mapMarker
-		});
-}
-
-google.maps.event.addDomListener(window, 'load', initialize); 
-	  
-</script>  
+	
   
 <!-- End Document
 ================================================== -->

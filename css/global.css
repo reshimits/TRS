@@ -41,7 +41,7 @@
 	.nav-utility li:hover > ul 					{ visibility: visible; }
 	.nav-utility li:hover > a	 				{ text-decoration: none; }
 	.nav-utility a								{ display: block; padding: 0px 7px 0px 7px; margin: 0px 0px 0px 0px; color: #333; text-transform: uppercase; }
-	.nav-utility li.last-child	a				{ cursor: default; font-family: "PlutoSansBold", sans-serif; }
+	.nav-utility li.last-child	a				{ cursor: default; font-family: "PlutoSansBold", sans-serif; padding: 0px 0px 0px 7px; }
 	#nav-rule									{ color: #999; }
 	
 	/* Utility Buttons */
@@ -51,10 +51,9 @@
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
 	.utilityBtn:hover							{ background-image: url(../images/btn_bg-orangeDark.png); background-repeat: repeat-x; background-position: left center;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }											  
-	#utilityBtn-chat							{ background-image: url(../images/btn_bg-gray.png); background-repeat: repeat-x; background-position: left center;
+	#utilityBtn-chat							{ background-image: url(../images/btn_bg-grayLight.png); background-repeat: repeat-x; background-position: left center;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
-	#utilityBtn-chat:hover						{ background-image: url(../images/btn_bg-grayDark.png); background-repeat: repeat-x; background-position: left center;
-												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	#utilityBtn-chat:hover						{}
 	#utilityBtn-phone							{ background-image: url(../images/btn_bg-blue.png); background-repeat: repeat-x; background-position: left center;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
 	#utilityBtn-phone:hover						{ background-image: url(../images/btn_bg-blueDark.png); background-repeat: repeat-x; background-position: left center;
@@ -62,12 +61,16 @@
 	.utilityBtn-icon							{ float: left; padding: 3px 6px 4px 6px; border-right: 1px solid #ed8b4e;
 												  background-image: url(../images/btn_bg-orangeDark.png); background-repeat: repeat-x; background-position: left center;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
-	#utilityBtn-chat .utilityBtn-icon			{ border-right: 1px solid #b8b8b8; background-image: url(../images/btn_bg-grayDark.png); background-repeat: repeat-x; background-position: left center;
+	#utilityBtn-chat .utilityBtn-icon			{ border-right: 1px solid #b8b8b8; background-image: url(../images/btn_bg-grayLight.png); background-repeat: repeat-x; background-position: left center;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
 	.utilityBtn-icon img						{ float: left; width: 14px; height: auto; }
 	.utilityBtn-title							{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; color: #fff; font-size: 11px; line-height: 10px; text-transform: uppercase;
-	 											  padding: 6px 7px 0px 6px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	 											  padding: 6px 7px 5px 6px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.utilityBtn-title .weightRegular-styleItalic 	{ text-transform: none; }	
+	
+	.nav-logOffContainer						{ float: right; padding: 7px 0px 0px 0px; }
+	.nav-logOffContainer .utilityBtn-title		{ font-family: "PlutoSansRegular", sans-serif; font-style: normal; color: #888; font-size: 10px; line-height: 10px; text-transform: uppercase; }
+	
 	
 	/* Main Product Nav */	
 	#navMain									{ padding: 12px 0px 0px 0px; }
@@ -380,6 +383,9 @@
 	.utilityBtn-icon img						{ float: left; width: 14px; height: auto; }
 	.utilityBtn-title							{ display: none; }	
 
+	.nav-logOffContainer						{ float: right; padding: 5px 5px 0px 0px; }
+	.nav-logOffContainer .utilityBtn-title		{ display: block; }	
+
 	/* Mobile Product Nav */	
 	#navMobile									{ padding: 12px 0px 0px 0px; }
 	.nav-productsContainer						{ width: 460px; margin: 0px 0px 0px 0px; }
@@ -483,7 +489,10 @@
 	#utilityBtn-chat .utilityBtn-icon			{ border-right: none; background-image: none; }
 	.utilityBtn-icon img						{ float: left; width: 14px; height: auto; }
 	.utilityBtn-title							{ display: none; }	
-
+	
+	.nav-logOffContainer						{ float: right; padding: 5px 5px 0px 0px; }
+	.nav-logOffContainer .utilityBtn-title		{ display: block; }	
+	
 	/* Mobile Product Nav */	
 	#navMobile									{ padding: 12px 0px 0px 0px; }
 	.nav-productsContainer						{ width: 300px; margin: 0px 0px 0px 0px; }

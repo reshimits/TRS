@@ -9,8 +9,8 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Contact The Retrofit Source | Innovative Headlight Upgrades</title>
-	<meta name="description" content="Whether you're just getting started by dealing with our excellent customer service or you're already comfortably cruising on that dark road at night, you'll be glad you dealt with The Retrofit Source. Headlight upgrades is our passion, and we're here to help.">
+	<title>Contact HID Illusionz: Recommended Retrofitter of The Retrofit Source | Innovative Headlight Upgrades</title>
+	<meta name="description" content="For hire! HID Illusionz is part of our Recommended Retrofitters network of well-qualified shops that will build a set of custom headlights according to your specs.">
 	<meta name="author" content="THROTTLE, LTD. is a Columbus Ohio based boutique graphic design firm. We consult, strategize, design, build and manage web site, brand identity and print collateral projects for SME businesses. www.throttlestudios.com">
 
 	<!-- Mobile Specific Metas
@@ -61,7 +61,7 @@
 
 
 </head>
-<body onLoad="MM_preloadImages('../images/btn_bg-orangeDark.png','../images/btn_bg-blueDark.png','../images/btn_bg-grayDark.png')">
+<body onLoad="MM_preloadImages('images/btn_bg-orangeDark.png','images/btn_bg-blueDark.png','images/btn_bg-grayDark.png','images/products/productDetailTemp/1.jpg','images/products/productDetailTemp/2.jpg','images/products/productDetailTemp/3.jpg','images/products/productDetailTemp/4.jpg','images/products/productDetailTemp/5.jpg')">
 
 
 
@@ -73,46 +73,70 @@
     <div class="navMain hide460"><?php require('../include/navMain.html');?></div>
     <div class="navMobile mobile-only"><?php require('../include/navMobile.html');?></div>
     
-        <div class="container" id="contact">
+        <div class="container" id="contact-hidIllusionz">
         	<div class="full column">
-        	<div class="bodyContainer">
-            	
-                <div class="utility-header"><h1>Contact Us</h1></div>
+            
+<!-- =========== Bread Crumb ================================================== -->
+
+                <div class="breadCrumb-utilityContainer mobile-hide">            		
+                	<ul class="breadCrumb">
+                		<li><a href="/client/trs/index.php">Home</a></li>
+                		<li> > </li>
+                		<li><a href="/client/trs/retrofitters/recommended-retrofitters.php">Recommended Retrofitters</a></li>
+                        <li> > </li>
+                		<li><a href="#">Contact HID Illusionz</a></li>
+                	</ul>
+                </div>
                 
-            	<div class="utility-sideColContainer2">
-                	<div class="utility-intro">
-                    	<h3>The Retrofit Source welcomes and values your feedback. Whether you have a technical question, want a personalized recommendation on parts for your project, or are seeking help on an install, we will be happy to help.<br><br> 
-                        <span class="weightRegular-styleNormal">Our goal here at TRS is to ensure the success of our customer's projects, so contact us today to get started!</span></h3>
-					</div>	
-                    <div class="utility-sideColContent">
-                    	<div class="utility-sideCol-section">
-                        	<div class="contactIcon"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Business Hours" border="0" /></div>
-                            <div class="utility-sideCol-sectionInner">
-                            	<span class="utility-sideCol-sectionTitle">Business Hours</span>
-                        		<p>M–TH: 8:30am – 6pm EST</p>
-								<p>F: 8:30am – 5:30pm EST</p>
-                            </div>
+<!-- =========== Body Content ================================================== -->            
+        	
+            <div class="bodyContainer utilityBodyContainer">                
+                <div class="utility-sideColContainer2">
+                	<div class="rrContact-logo"><img src="/client/trs/images/retrofitters/rr_hidIllusionz2x.jpg" alt="HID Illusionz Recommended Retrofitter" border="0"></div>
+                    <div class="utility-intro">
+                        <h3>HID Illusionz located as part of the 5 boroughs of NYC, is here to serve the world in need of a retrofit. With having one of the longest standing retrofitters around, we have only strived for perfection, not only with our work, but also with our services.</h3> 
+                        <div class="rrContact-storyShort">
+                        	<p>Take a look at our wide selection of vehicles we have done and you let us know how you feel about the quality of workmanship that we have provided. Still need more? Not a problem. Let us give you the best results one can buy. Don't believe the old phrase "you get what you pay for". Let us show you how wrong that phrase can finally be. We offer full customizations from headlights to taillights to fog lights, and to side marker lights. Basically anything that has to deal with lights, we are sure that we can customize it to your liking within reason. <a href="#">[more]</a></p>
                         </div>
+                        <div class="rrContact-storyLong">
+							<p>Some of our services include:</p>
+                            <ul>
+                                <li>&bull; Life-Time Warranty</li>
+                                <li>&bull; HID Retrofit Projector Headlights</li>
+                                <li>&bull; Custom LED Tail-light Conversions</li>
+                                <li>&bull; HID Projector Fog-light Retrofits</li>
+                                <li>&bull; Custom LED Headlight Retrofits</li>
+                                <li>&bull; HID Projector Clear Lense/Color Mod</li>
+                                <li>&bull; LED Angel Eyes/CCFL Angel Eyes</li>
+                                <li>&bull; Custom Housing/Reflectors Painting</li>
+                                <li>&bull; Tinting/Removal OEM Amber Reflector</li>
+                                <li>&bull; Headlight Lens Restorations</li>
+                                <li>&bull; Clear Headlight Lens Conversions</li>
+                                <li>&bull; Custom Services/Installations</li>
+                            </ul>
+                        </div> 
+					</div>	
+                    
+                    <div class="utility-sideColContent">
                         <div class="utility-sideCol-section">
                         	<div class="contactIcon contactIcon-phone"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Phone" border="0" /></div>
                             <div class="utility-sideCol-sectionInner">
                             	<span class="utility-sideCol-sectionTitle">Phone</span>
-                        		<p><a href="tel:404-220-7940" class="tel">404.220.7940</a></p>
+                        		<p><a href="tel:212-300-5906" class="tel">212.300.5906</a></p>
                             </div>
                         </div>
                         <div class="utility-sideCol-section">
                         	<div class="contactIcon contactIcon-address"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Address" border="0" /></div>
                             <div class="utility-sideCol-sectionInner">
                             	<span class="utility-sideCol-sectionTitle">Address</span>
-                        		<p>2135 Defoor Hills Rd. Suite H<br>Atlanta, GA 30318</p>  
-								<p><a href="https://www.google.com/maps/preview#!q=2135+Defoor+Hills+Rd.+Suite+H+Atlanta%2C+GA+30318&data=!4m10!1m9!4m8!1m3!1d66755!2d-83.0765949!3d40.170189!3m2!1i1102!2i1051!4f13.1" target="_blank">Get directions</a></p>
+                        		<p>Brooklyn, NY</p>  
                             </div>
                         </div>
                         <div class="utility-sideCol-section">
-                        	<div class="contactIcon contactIcon-chat"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Chat" border="0" /></div>
+                        	<div class="contactIcon contactIcon-web"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Web" border="0" /></div>
                             <div class="utility-sideCol-sectionInner">
-                            	<span class="utility-sideCol-sectionTitle">Chat</span>
-                        		<p>Status: <span class="weightRegular-styleItalic">Offline</span></p>
+                            	<span class="utility-sideCol-sectionTitle">Web</span>
+                        		<p><a href="http://www.hidillusionz.com/" target="_blank">www.hidillusionz.com</a></p>
                             </div>
                         </div>
                         
@@ -182,16 +206,34 @@
                             </div>
                         </div>
                     </div>
-                    <span class="formNote">*After sending a message, you can expect a response from our customer service team within 1-2 business days.<br>
-											We reply to all emails in the order they are received.</span>
                 </div>
+
+
+<!-- =========== Preview Images ================================================== -->
+
+                <div class="utility-contentContainer2">
+                    <div class="utility-sectionTable">            		
+                        <div class="utility-sectionTitle">
+                        	<h2>Preview Gallery</h2>
+                        </div>
+                        <div class="rrImagesContainer">
+                            <div class="rrImage-main"><img src="/client/trs/images/products/productDetailTemp/1.jpg" alt="temp" border="0" name="productMain" id="productMain"></div>
+                            <div class="rrCaption-main">
+                            	<p>Saturn Ion Mini H1 Retrofit with blacked out bezel, Morimoto xbaled amber angel eye turn signal/running lights, side emitting Audi style LED strips and OEM color matched E55-R Shrouds</p>
+                            </div>
+                            <div class="rrImage-thumbsContainer">	
+                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/1thumb2x.jpg" alt="temp" id="thumb1" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/1.jpg',1)" border="0"/></div>
+                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/2thumb2x.jpg" alt="temp" id="thumb2" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/2.jpg',1)" border="0" /></div>
+                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/3thumb2x.jpg" alt="temp" id="thumb3" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/3.jpg',1)" border="0" /></div>
+                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/4thumb2x.jpg" alt="temp" id="thumb4" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/4.jpg',1)" border="0" /></div>
+                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/5thumb2x.jpg" alt="temp" id="thumb5" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/5.jpg',1)" border="0" /></div>
+                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/1thumb2x.jpg" alt="temp" id="thumb1" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/1.jpg',1)" border="0" /></div>
+                            </div>
+                        </div>
+            		</div>
+            	</div>
                 
-                <div class="utility-contentContainer3">
-                	<div class="contactMapContainer mobile-hide">
-                    	<div class="contactMap" id="contactMap-trs"></div>
-                    </div>
-                </div>
-            	    
+                	    
             </div> 
             </div>       
         </div>
@@ -205,52 +247,7 @@
 
 <!-- Javascript [secondary]
 ================================================== -->
-	<!-- Map --> 
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbwL9YqHseLTFieUq445j-3uRDWCv0gKA&sensor=true"></script>	
-<script type="text/javascript">
-	function initialize() {
-  var mapOptions = {
-    zoom: 11,
-    center: new google.maps.LatLng(33.813497, -84.431918),
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    disableDefaultUI: true,
-    mapTypeControl: false,
-    panControl: true,
-    panControlOptions: {
-    	position: google.maps.ControlPosition.TOP_RIGHT
-    	},
-    scaleControl: false,
-    zoomControl: true,
-    zoomControlOptions: {
-    	style: google.maps.ZoomControlStyle.SMALL,
-    	position: google.maps.ControlPosition.TOP_RIGHT
-    	},
-    styles: [ {
-    	"stylers": [
-    	{ "visibility": "on" },
-    	{ "saturation": -80 },
-    	{ "lightness": 25 }
-    	]
-    } ]
-    }
-  var map = new google.maps.Map(document.getElementById('contactMap-trs'),
-                                mapOptions);
-
-   var myLatLng = new google.maps.LatLng(33.813497, -84.431918);
-   var mapMarker = new google.maps.MarkerImage("/client/trs/images/mapMarker_trs2x.png", null, null, new google.maps.Point(32, 56), new google.maps.Size(39,56));
-	  	var marker = new google.maps.Marker({ 
-			position: myLatLng, 
-			map: map, 
-			flat: true,
-			clickable: false,
-			title: 'TRS | The Retrofit Source',
-			icon: mapMarker
-		});
-}
-
-google.maps.event.addDomListener(window, 'load', initialize); 
-	  
-</script>  
+	
   
 <!-- End Document
 ================================================== -->

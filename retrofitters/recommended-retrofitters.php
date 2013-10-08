@@ -152,7 +152,7 @@
                                 </a>
                                 </li>
                                 <li class="nonProductGrid-retrofitters5thChild">
-                                <a href="/client/trs/retrofitters/contact-lightwerkz.php">
+                                <a href="/client/trs/retrofitters/contact-lightWerkz.php">
                                     <div class="nonProductGrid-wide-image retrofitterLogo-lightwerkz"><img src="/client/trs/images/retrofitters/rr_lightwerkz2x.jpg" alt="LightWerkz" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
                                         <div class="premierRetrofitterIcon"><img src="/client/trs/images/icon_mapMarker2x.png" alt="Premier Retrofitter" border="0" /></div>
