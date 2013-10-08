@@ -214,7 +214,7 @@
                                         <option value="12">Shrouds: Ocular</option>
                                         <option value="13">Shrouds: Orbit</option>
                                         <option value="14">Shrouds: Panamera</option>
-                                        <option value="15">Shrouds: Subtract/Do not include (-$30.00)</option>
+                                        <option value="15">Shrouds: Do not include (-$30.00)</option>
                     				</select>
                     			</div>
                     		</div>

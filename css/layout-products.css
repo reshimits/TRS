@@ -169,7 +169,7 @@
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }											  
 	.cartCTA .cartSubmit						{ float: left; cursor: pointer; font-family: 'PlutoSansLight', sans-serif; font-style: normal; color: #fff; font-size: 16px; line-height: 20px; text-transform: uppercase;
 	 											  padding: 4px 8px 2px 8px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; 
-												  border-radius: 0; border: none; background-color: transparent; -webkit-appearance: none;  }
+												  border-radius: 0; border: none; background-color: transparent; -webkit-appearance: none; }
 	.productCart-shipping						{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: italic; font-size: 9px; line-height: 8px; color: #666;
 	 											  padding: 15px 10px 0px 10px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.productCart-secure							{ float: left; margin: -50px 0px 0px 0px; padding: 0px 0px 0px 10px; }
