@@ -247,8 +247,9 @@
 			legend span { font-weight: normal; font-size: 13px; color: #444; }
 			.formError							{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: italic; font-size: 11px; line-height: 14px; color: #d14001; text-transform: uppercase;
 	 											  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-			.formNote							{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: italic; font-size: 11px; line-height: 13px; color: #777;
+			.formNote							{ width: 90%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: italic; font-size: 11px; line-height: 13px; color: #777;
 	 											  padding: 10px 0px 0px 15px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+			.formNote a							{ color: #d14001; }
 			.formLink a							{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 13px; color: #777; text-decoration: underline;
 	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 			.formLink a:hover					{ color: #ea5f03; }
