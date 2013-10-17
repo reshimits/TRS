@@ -57,7 +57,9 @@
     
 	<!-- Favicons
   ================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="icon" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../images/favicon-152.png">
 
 
 </head>

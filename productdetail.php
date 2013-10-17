@@ -61,6 +61,8 @@
 	<!-- Favicons
   ================================================== -->
 	<link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/favicon-152.png">
 
 
 </head>
@@ -313,21 +315,21 @@
                     <div class="productInfo-section">
                         <h3>Installation &amp; Performance</h3>
 						<div class="installationPerformance-section">
-							<img src="/client/trs/images/icon_installTime6hrs2x.png" alt="6hrs Install Time" border="0">
+							<img src="/client/trs/images/icon_productDetail-installTime-6hrs_2x.png" alt="6hrs Install Time" border="0">
                             <ul class="installationPerformance">
                                 <li><strong>Time to install:</strong></li>
                                 <li>6 hours (estimate)</li>
 							</ul> 
 						</div>
                         <div class="installationPerformance-section">
-							<img src="/client/trs/images/icon_installTime6hrs2x.png" alt="6hrs Install Time" border="0">
+							<img src="/client/trs/images/icon_productDetail-cutting-yes_2x.png" alt="Cutting Involved" border="0">
                             <ul class="installationPerformance">
                                 <li><strong>Cutting involved:</strong></li>
                                 <li>Yes</li>
 							</ul> 
 						</div>
                         <div class="installationPerformance-section">
-							<img src="/client/trs/images/icon_installTime6hrs2x.png" alt="6hrs Install Time" border="0">
+							<img src="/client/trs/images/icon_productDetail-performance-2brighter_2x.png" alt="Performance Brightness" border="0">
                             <ul class="installationPerformance">
                                 <li><strong>Performance:</strong></li>
                                 <li>Level 2</li>
