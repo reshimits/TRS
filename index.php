@@ -90,7 +90,7 @@
                     <div class="homePromos-content">
                         <span class="homePromos-title"><span class="hide300">The Almighty</span> Inspiration Gallery</span>
                         <span class="homePromos-info">Customer projects in just about every imaginable (legal) application.</span>
-                        <div class="generalBtn-blue"><a href="#"><span class="generalBtn-title">Be Inspired</span></a></div> 
+                        <div class="generalBtn-blue"><a href="/client/trs/gallery/retrofit-of-the-month.php"><span class="generalBtn-title">Be Inspired</span></a></div> 
                 	</div>        
                 </div>
                 <div class="homePromosR"> 

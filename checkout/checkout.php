@@ -95,7 +95,45 @@
             <div class="bodyContainer utilityBodyContainer">
                 <div class="utility-header"><h1>Checkout</h1></div>
 
-                <div class="checkoutStep checkoutStep-first completed">
+				<div class="checkoutStep checkoutStep-first active">
+                    <div class="checkoutSectionHeader">                 
+                        <span class="checkoutSectionHeader-title">Checkout Method</span>
+                	</div>
+                    
+                    <div class="checkoutSectionContent">
+                        <div class="utility-sectionContent">
+                            <form id="checkoutLogin" action="/client/trs/#.php" method="get">
+                            <div class="utility-form">
+                                <div class="checkoutSection-radioSubHead">
+                                    <input name="login" type="radio" class="checkoutStep-radio" value="login1">
+                                    <h4>Returning Customer</h4>
+                                </div>
+                            	<div class="formFieldContainer">
+                                	<input class="general general-required" type="text" value="Email:" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />
+                                </div>
+                                <div class="formFieldContainer formFieldContainer-col2">
+                                	<input class="general general-required" type="text" value="Password:" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />
+                                </div>
+                                <div class="checkoutSection-radioSubHead">
+                                    <input name="login" type="radio" class="checkoutStep-radio" value="login2">
+                                    <h4>New Customer Registeration</h4>
+                                </div>
+                                <div class="checkoutSection-radioSubHead">
+                                    <input name="login" type="radio" class="checkoutStep-radio" value="login3">
+                                    <h4>Continue as Guest</h4>
+                                </div>
+                            	<span class="summary-info"><br></span>
+                            </div>
+                            <div class="formCTAContainer">
+                                <div class="formCTA"><input class="formSubmit" type="submit" value="Continue" /></div>
+                                <div class="formGoBack"><a href="#">Forgot Password</a></div>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="checkoutStep future">
                     <div class="checkoutSectionHeader">                 
                         <span class="checkoutSectionHeader-title">1. Billing Address</span>
                         <span class="checkoutSectionHeader-edit"><a href="#">Edit</a></span>
@@ -476,7 +514,7 @@
                     </div>    
                 </div>
                 
-                <div class="checkoutStep completed">
+                <div class="checkoutStep future">
                     <div class="checkoutSectionHeader">                 
                         <span class="checkoutSectionHeader-title">2. Shipping Address</span>
                         <span class="checkoutSectionHeader-edit"><a href="#">Edit</a></span>
@@ -862,7 +900,7 @@
                     </div>    
                 </div>
                 
-                <div class="checkoutStep completed">
+                <div class="checkoutStep future">
                     <div class="checkoutSectionHeader">                 
                         <span class="checkoutSectionHeader-title">3. Shipping Method</span>
                         <span class="checkoutSectionHeader-edit"><a href="#">Edit</a></span>
@@ -911,7 +949,7 @@
                     </div>    
                 </div>
                 
-                <div class="checkoutStep completed">
+                <div class="checkoutStep future">
                     <div class="checkoutSectionHeader">                 
                         <span class="checkoutSectionHeader-title">4. Payment Information</span>
                         <span class="checkoutSectionHeader-edit"><a href="#">Edit</a></span>
@@ -1020,7 +1058,7 @@
                     </div>    
                 </div>
                 
-                <div class="checkoutStep completed">
+                <div class="checkoutStep future">
                     <div class="checkoutSectionHeader">                 
                         <span class="checkoutSectionHeader-title">5. TRS Audit <span class="weightRegular-styleNormal">(Optional)</span></span>
                         <span class="checkoutSectionHeader-edit"><a href="#">Edit</a></span>
@@ -1067,7 +1105,7 @@
                     </div>    
                 </div>
                         
-                <div class="checkoutStep reviewConfirm active">
+                <div class="checkoutStep reviewConfirm future">
                     <div class="checkoutSectionHeader">                 
                         <span class="checkoutSectionHeader-title">6. Review Order &amp; Confirm</span>
                 	</div>
