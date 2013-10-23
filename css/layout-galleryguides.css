@@ -1,0 +1,262 @@
+/*
+* CSS Layout
+* Copyright 2013, Throttle Studios
+* www.throttlestudios.com
+* 2013
+*/
+
+
+/* TABLE OF CONTENTS
+======================================================================================================================================================
+	#Base 960 Grid (Small Desktop/Tablet Landscape)
+	#Tablet (Portrait)
+	#Mobile (Landscape)
+	#Mobile (Portrait)
+	
+	
+
+/* #Base 960 Grid (Small Desktop/Tablet Landscape)
+======================================================================================================================================================
+======================================================================================================================================================
+====================================================================================================================================================== */
+
+/*//// GALLERY & DIY GUIDE PAGES ////////
+////////////////////////////*/
+	/* GENERAL STYLES */
+	.bodyContainer								{ width: 940px; float: left; margin: 40px 10px 0px 10px; }
+	.utilityBodyContainer						{ width: 940px; float: left; margin: 20px 10px 0px 10px; }	
+	.bodyContainer h1							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 64px; line-height: 46px; color: #191919; 
+												  text-transform: uppercase; letter-spacing: -1px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.bodyContainer h3							{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 15px; line-height: 17px; color: #d14001;
+												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.bodyContainer h2							{ width: 100%; float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 22px; line-height: 18px; color: #d14001; text-transform: uppercase; 
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.bodyContainer h4							{ width: 100%; float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 13px; line-height: 13px; color: #191919;
+												  padding: 20px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.utility-header								{ width: 940px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 15px 0px; }
+	.utility-contentContainer					{ width: 940px; float: left; margin: 20px 0px 0px 0px; }
+	.utility-section							{ width: 940px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc;
+												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }	
+	.utility-sectionSpecial						{ width: 940px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc; }
+	.utility-sectionFirst						{ margin: 0px 0px 0px 0px; }
+	.utility-sectionContent						{ width: 910px; float: left; margin: 0px 0px 0px 0px; padding: 0px 15px 0px 15px; }
+	.utility-sectionContent h4					{ width: 905px; text-transform: uppercase; padding: 20px 0px 5px 5px; margin: 0px 0px 5px 0px; border-bottom: 1px solid #ddd; }
+	.utility-sectionContent .generalBtn-orange, 
+		.utility-sectionContent .generalBtn-orange:hover	 { float: right; margin: 25px 0px 0px 0px; }
+	
+		
+	/* GENERAL STYLES Cont... */											  
+		/* Bread Crumb | Print | Share */
+	.breadCrumb-utilityContainer				{ width: 940px; float: left; margin: 0px 10px 0px 10px; border-bottom: 1px solid #ccc; }	
+	.breadCrumb			 						{ float: left; margin: 0px 0px 0px 0px; padding: 15px 0px 15px 10px; }
+	.breadCrumb	 li 							{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 10px; line-height: 8px; color: #333; text-transform: uppercase;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 3px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.breadCrumb a								{ color: #555; }
+	.breadCrumb a:hover							{ color: #ea5f03; }
+	.productUtility								{ float: right; padding: 8px 10px 0px 0px; margin: 0px 0px 0px 0px; }
+	.print										{ float: left;  margin: 4px 10px 0px 0px; } 
+	.print img									{ width: 16px; height: auto; }
+	.addthis									{ float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; } 
+	.addthis_button								{ float: left; border: 1px solid #666; border-radius: 3px 3px 3px 3px; 
+												  background-image: url(../images/btn_bg-gray.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.addthis_counter.addthis_pill_style 		{ height: 16px; }
+	.addthis_button	a							{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 10px; line-height: 8px; color: #fff; 
+												  padding: 4px 4px 0px 4px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }	
+	.addthis_button img							{ width: 10px; height: auto; padding: 0px 4px 0px 0px; }
+	
+		/* Utility Forms */		
+	.utility-form								{ width: 600px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.utility-form .formFieldContainer			{ width: 215px; float: left; margin: 7px 10px 0px 0px; position: relative; z-index: 2; }
+	.utility-form .formFieldContainer-half		{ width: 102px; float: left; margin: 7px 10px 0px 0px; position: relative; z-index: 2; }
+	.utility-form .formFieldContainer-double	{ width: 440px; float: left; margin: 7px 0px 0px 0px; position: relative; z-index: 2; }
+	.utility-form .formFieldContainer-attach	{ width: 440px; float: left; margin: 5px 0px 0px 0px; position: relative; z-index: 2; }
+	.utility-form .formFieldContainer-attach input	{ font-family: Helvetica, Arial, sans-serif; font-style: italic; font-size: 11px; line-height: 14px; color: #555; }
+	.utility-form select						{ min-width: 100%; height: 22px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #555;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }												  											    .utility-form label							{ width: 95%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #555;
+	 											  padding: 0px 0px 0px 5px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.utility-form .general						{ width: 203px; height: 20px; float: left; border: none; padding: 0px 0px 0px 10px; margin: 0px 0px 0px 0px;
+	 											  font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #555;
+												  -webkit-appearance: none; border-radius: 3px; border: 1px solid #ccc; background-color: #fff; }											  
+	.utility-form .general-half					{ width: 90px; }
+	.utility-form .general-required				{ font-weight: bold; }
+	.utility-form textarea						{ width: 418px; float: left; overflow: hidden; border: none; padding: 5px 10px 5px 10px; margin: 0px 0px 0px 0px;
+	 											  font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #555;
+												  -webkit-appearance: none; border-radius: 3px; border: 1px solid #ccc; background-color: #fff; }
+	.formCTAContainer							{ width: 100%; float: left; margin: -21px 0px 0px 0px; padding: 0px 0px 0px 0px; position: relative; z-index: 1; }
+	.formCTA									{ float: right; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border-radius: 4px; overflow: hidden;
+												  background-image: url(../images/btn_bg-orange.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.formCTA:hover								{ background-image: url(../images/btn_bg-orangeDark.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }											  
+	.formCTA .formSubmit						{ float: left; cursor: pointer; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; color: #fff; font-size: 10px; line-height: 14px; text-transform: uppercase;
+	 											  padding: 4px 12px 3px 12px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; 
+												  border-radius: 0; border: none; background-color: transparent; -webkit-appearance: none; }
+	.utility-form .formFieldContainer-formBtn	{ margin: 10px 10px 0px 0px; }
+	
+		/* Tab Nav */			
+	.utility-tabNavContainer					{ width: 940px; float: left; margin: 0px 10px 0px 10px; border-bottom: 1px solid #ccc; }
+	.tabNav										{ width: 940px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.tabNav h1 									{ font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 16px; line-height: 14px; color: #fff; text-transform: uppercase;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.tabNav li 									{ font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 16px; line-height: 14px; color: #fff; text-transform: uppercase; text-align: center;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.tabNav a									{ width: 313px; float: left; color: #191919; padding: 10px 0px 10px 0px; margin: 0px 0px 0px 0px; background-color: #eee; border-right: 1px solid #ccc; }
+	.tabNav-active a							{ color: #fff; border-right: none;
+												  background-image: url(../images/btn_bg-blue.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.tabNav a:hover								{ background-color: #345eb9; color: #fff; }						  
+	.tabNav-lastChild a							{ border-right: none; }											  
+	
+	
+	/* GALLERY */
+	.galleryTitle-section						{ width: 460px; float: left; margin: 0px 0px 0px 0px; padding: 0px 15px 0px 10px; }
+	#rotm .galleryTitle-section					{ width: 375px; }
+	.galleryTitle-upper							{ float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 32px; line-height: 16px; color: #191919; text-transform: uppercase; 
+												  letter-spacing: -1px; padding: 6px 0px 0px 5px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  
+	.galleryTitle-lower							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 170px; line-height: 120px; color: #191919; 
+												  text-transform: uppercase; letter-spacing: -1px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	
+	
+	
+	
+	
+	
+												  
+/* #Tablet (Portrait) size to standard 960 (devices and browsers)
+======================================================================================================================================================
+======================================================================================================================================================
+====================================================================================================================================================== */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+/*//// GALLERY & DIY GUIDE PAGES ////////
+////////////////////////////*/
+	/* GENERAL STYLES */
+	.bodyContainer								{ width: 700px; float: left; margin: 30px 10px 0px 10px; }	
+	.utilityBodyContainer						{ width: 700px; float: left; margin: 20px 10px 0px 10px; }	
+	.utility-header								{ width: 700px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 15px 0px; }
+	.utility-contentContainer					{ width: 700px; float: left; margin: 20px 0px 0px 0px; }
+	.utility-section							{ width: 700px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc;
+												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.utility-sectionSpecial						{ width: 700px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc; }
+	.utility-sectionFirst						{ margin: 0px 0px 0px 0px; }
+	.utility-sectionContent						{ width: 670px; float: left; margin: 0px 0px 0px 0px; padding: 0px 15px 0px 15px; }
+	.utility-sectionContent h4					{ width: 670px; text-transform: uppercase; padding: 20px 0px 5px 5px; margin: 0px 0px 5px 0px; border-bottom: 1px solid #ddd; }	
+	
+	/* GENERAL STYLES Cont... */
+		/* Bread Crumb | Print | Share */
+	.breadCrumb-utilityContainer				{ width: 700px; float: left; margin: 0px 10px 0px 10px; border-bottom: 1px solid #ccc; }
+	
+											
+	}
+
+
+/* #Mobile (Landscape) size to Tablet Portrait (devices and browsers)
+======================================================================================================================================================
+======================================================================================================================================================
+====================================================================================================================================================== */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+/*//// GALLERY & DIY GUIDE PAGES ////////
+////////////////////////////*/
+	/* GENERAL STYLES */
+	.bodyContainer								{ width: 460px; float: left; margin: 20px 0px 0px 0px; }	
+	.bodyContainer h1							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 44px; line-height: 40px; color: #191919; 
+												  text-transform: uppercase; letter-spacing: -1px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.bodyContainer h3							{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 13px; line-height: 15px; color: #d14001;
+												  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.bodyContainer h2							{ width: 100%; float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 20px; line-height: 18px; color: #d14001; text-transform: uppercase; 
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.bodyContainer h4							{ width: 100%; float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 12px; line-height: 13px; color: #191919;
+												  padding: 20px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.utility-header								{ width: 460px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.utility-contentContainer					{ width: 460px; float: left; margin: 20px 0px 0px 0px; }
+	.utility-section							{ width: 460px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc;
+												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.utility-sectionSpecial						{ width: 100%; float: left; margin: 15px 0px 0px 0px; padding: 0px 0px 15px 0px; border-bottom: 1px solid #ccc; }
+	.utility-sectionFirst						{ margin: 0px 0px 0px 0px; }
+	.utility-sectionContent						{ width: 440px; float: left; margin: 0px 0px 0px 0px; padding: 0px 10px 0px 10px; }
+	.utility-sectionContent h4					{ width: 440px; text-transform: uppercase; padding: 20px 0px 5px 0px; margin: 0px 0px 5px 0px; border-bottom: 1px solid #ddd; }
+	.utility-sectionContent .generalBtn-orange,
+		.utility-sectionContent .generalBtn-orange:hover	 { margin: 15px 0px 0px 0px; }
+	
+	/* GENERAL STYLES Cont... */	
+		/* Bread Crumb | Print | Share */
+	.breadCrumb-utilityContainer				{ width: 460px; float: left; margin: 0px 0px 0px 0px; border-bottom: 1px solid #ccc; }	
+	.productUtility								{ float: right; padding: 8px 10px 8px 0px; margin: 0px 0px 0px 0px; }
+	
+		/* Utility Forms */		
+	.utility-form								{ width: 440px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.utility-form .formFieldContainer-col2		{ width: 215px; float: left; margin: 7px 0px 0px 0px; }
+	.utility-form .formFieldContainer-half-col4	{ width: 102px; float: left; margin: 7px 0px 0px 0px; position: relative; z-index: 2; }
+	.formCTAContainer							{ width: 100%; float: left; margin: 20px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	
+	}
+
+
+
+/* #Mobile (Portrait) size to Mobile Landscape Size (devices and browsers)
+======================================================================================================================================================
+======================================================================================================================================================
+====================================================================================================================================================== */
+	@media only screen and (max-width: 479px) {
+		
+/*//// GALLERY & DIY GUIDE PAGES ////////
+////////////////////////////*/
+	/* GENERAL STYLES */
+	.bodyContainer								{ width: 300px; float: left; margin: 20px 0px 0px 0px; }	
+	.bodyContainer h1							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 38px; line-height: 38px; color: #191919; 
+												  text-transform: uppercase; letter-spacing: -1px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.bodyContainer h3							{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 13px; line-height: 15px; color: #d14001;
+												  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.bodyContainer h2							{ width: 100%; float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 16px; line-height: 14px; color: #d14001; text-transform: uppercase; 
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.bodyContainer h4							{ width: 100%; float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #191919;
+												  padding: 20px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.utility-header								{ width: 300px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.utility-contentContainer					{ width: 300px; float: left; margin: 20px 0px 0px 0px; }
+	.utility-section							{ width: 300px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc;
+												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.utility-sectionSpecial						{ width: 100%; float: left; margin: 15px 0px 0px 0px; padding: 0px 0px 15px 0px; border-bottom: 1px solid #ccc; }
+	.utility-sectionFirst						{ margin: 0px 0px 0px 0px; }
+	.utility-sectionContent						{ width: 280px; float: left; margin: 0px 0px 0px 0px; padding: 0px 10px 0px 10px; }
+	.utility-sectionContent h4					{ text-transform: uppercase; padding: 20px 0px 5px 0px; margin: 0px 0px 5px 0px; border-bottom: 1px solid #ddd; }
+	.utility-sectionContent .generalBtn-orange,
+		.utility-sectionContent .generalBtn-orange:hover	 { margin: 15px 0px 0px 0px; }
+	
+	/* GENERAL STYLES Cont... */	
+		/* Bread Crumb | Print | Share */
+	.breadCrumb-utilityContainer				{ width: 300px; float: left; margin: 0px 0px 0px 0px; border-bottom: 1px solid #ccc; }	
+	.productUtility								{ float: right; padding: 8px 10px 8px 0px; margin: 0px 0px 0px 0px; }	
+	
+		/* Utility Forms */		
+	.utility-form								{ width: 280px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.utility-form .formFieldContainer			{ width: 280px; float: left; margin: 10px 10px 0px 0px; }
+	.utility-form .formFieldContainer-col2		{ width: 280px; float: left; margin: 10px 0px 0px 0px; }
+	.utility-form .formFieldContainer-half		{ width: 135px; float: left; margin: 10px 10px 0px 0px; }
+	.utility-form .formFieldContainer-half-col2 { width: 135px; float: left; margin: 10px 0px 0px 0px; }
+	.utility-form .formFieldContainer-half-col4 { width: 135px; float: left; margin: 10px 0px 0px 0px; }
+	.utility-form .formFieldContainer-double	{ width: 280px; float: left; margin: 10px 0px 0px 0px; }
+	.utility-form .formFieldContainer-attach	{ width: 280px; float: left; margin: 5px 0px 0px 0px; }
+	.utility-form select						{ width: 280px; height: 22px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #555;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }												  											    .utility-form label							{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #555;
+	 											  padding: 0px 0px 0px 5px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.utility-form .general						{ width: 268px; height: 20px; float: left; border: none; padding: 0px 0px 0px 10px; margin: 0px 0px 0px 0px;
+	 											  font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #555;
+												  -webkit-appearance: none; border-radius: 3px; border: 1px solid #ccc; background-color: #fff; }											  
+	.utility-form .general-half					{ width: 123px; }
+	.utility-form .general-required				{ font-weight: bold; }
+	.utility-form textarea						{ width: 258px; float: left; overflow: hidden; border: none; padding: 5px 10px 5px 10px; margin: 0px 0px 0px 0px;
+	 											  font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #555;
+												  -webkit-appearance: none; border-radius: 3px; border: 1px solid #ccc; background-color: #fff; }
+	.formCTAContainer							{ width: 100%; float: left; margin: 20px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+
+										  
+												  									  
+	}
+
+

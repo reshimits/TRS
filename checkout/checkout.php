@@ -133,7 +133,7 @@
                     </div>
                 </div>
                     
-                <div class="checkoutStep future">
+                <div class="checkoutStep active">
                     <div class="checkoutSectionHeader">                 
                         <span class="checkoutSectionHeader-title">1. Billing Address</span>
                         <span class="checkoutSectionHeader-edit"><a href="#">Edit</a></span>
@@ -493,6 +493,25 @@
                                     <div class="formFieldContainer">
                                         <input class="general general-required" type="tel" value="Phone:" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />
                                     </div>
+                                    <div class="formFieldContainer formFieldContainer-col2">
+                                    	<div class="formRadioContainer">
+                                        	<input class="formRadio" type="checkbox" name="method" />
+                                			<span class="formRadio-label">Save in Address Book</span>
+                                    	</div>
+                                    </div>
+                                    <div class="formFieldContainer-double">- -</div>
+                                    <div class="formFieldContainer">
+                                        <input class="general general-required" type="text" value="Email:" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />
+                                    </div>
+                                    <div class="formFieldContainer formFieldContainer-col2">
+                                        <input class="general general-required" type="text" value="Password:" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />
+                                    </div>
+                                    <div class="formFieldContainer">
+                                        <input class="general general-required" type="text" value="Confirm Email:" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />
+                                    </div>
+                                    <div class="formFieldContainer formFieldContainer-col2">
+                                        <input class="general general-required" type="text" value="Confirm Password:" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />
+                                    </div>    
                                 </div>
                             </div>
                             <div class="formCTAContainer">
@@ -514,7 +533,7 @@
                     </div>    
                 </div>
                 
-                <div class="checkoutStep future">
+                <div class="checkoutStep active">
                     <div class="checkoutSectionHeader">                 
                         <span class="checkoutSectionHeader-title">2. Shipping Address</span>
                         <span class="checkoutSectionHeader-edit"><a href="#">Edit</a></span>
@@ -877,6 +896,9 @@
                                     </div>
                                     <div class="formFieldContainer">
                                         <input class="general general-required" type="tel" value="Phone:" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />
+                                    </div>
+                                    <div class="formFieldContainer formFieldContainer-col2">
+                                        <input class="general general-required" type="text" value="Email:" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />
                                     </div>
                                 </div>
                             </div>
