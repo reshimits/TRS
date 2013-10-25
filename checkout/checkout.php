@@ -133,7 +133,7 @@
                     </div>
                 </div>
                     
-                <div class="checkoutStep active">
+                <div class="checkoutStep completed">
                     <div class="checkoutSectionHeader">                 
                         <span class="checkoutSectionHeader-title">1. Billing Address</span>
                         <span class="checkoutSectionHeader-edit"><a href="#">Edit</a></span>
@@ -533,7 +533,7 @@
                     </div>    
                 </div>
                 
-                <div class="checkoutStep active">
+                <div class="checkoutStep completed">
                     <div class="checkoutSectionHeader">                 
                         <span class="checkoutSectionHeader-title">2. Shipping Address</span>
                         <span class="checkoutSectionHeader-edit"><a href="#">Edit</a></span>
@@ -922,7 +922,7 @@
                     </div>    
                 </div>
                 
-                <div class="checkoutStep future">
+                <div class="checkoutStep completed">
                     <div class="checkoutSectionHeader">                 
                         <span class="checkoutSectionHeader-title">3. Shipping Method</span>
                         <span class="checkoutSectionHeader-edit"><a href="#">Edit</a></span>
@@ -971,7 +971,7 @@
                     </div>    
                 </div>
                 
-                <div class="checkoutStep future">
+                <div class="checkoutStep completed">
                     <div class="checkoutSectionHeader">                 
                         <span class="checkoutSectionHeader-title">4. Payment Information</span>
                         <span class="checkoutSectionHeader-edit"><a href="#">Edit</a></span>
@@ -1080,7 +1080,7 @@
                     </div>    
                 </div>
                 
-                <div class="checkoutStep future">
+                <div class="checkoutStep completed">
                     <div class="checkoutSectionHeader">                 
                         <span class="checkoutSectionHeader-title">5. TRS Audit <span class="weightRegular-styleNormal">(Optional)</span></span>
                         <span class="checkoutSectionHeader-edit"><a href="#">Edit</a></span>
@@ -1127,7 +1127,7 @@
                     </div>    
                 </div>
                         
-                <div class="checkoutStep reviewConfirm future">
+                <div class="checkoutStep reviewConfirm active">
                     <div class="checkoutSectionHeader">                 
                         <span class="checkoutSectionHeader-title">6. Review Order &amp; Confirm</span>
                 	</div>
@@ -1219,9 +1219,9 @@
                         <div class="summary-sectionCTA">     
                             <div class="summary-CTAs">
                                 <div class="secureCheckoutCTA">
-                                    <a href="/client/trs/checkout/invoice.php">
-                                    <span class="secureCheckoutCTA-title">Confirm Order</span>
-                                    </a>
+                                    <form id="confirmCheckout" action="/client/trs/#.php" method="get">
+                                        <div class="confirmCheckoutCTA"><input class="orderSubmit" type="submit" value="Confirm Order" /></div>
+                                    </form>
                                 </div>
                                 <div class="formGoBack">Forgot an item? <a href="#">Edit Your Cart</a></div>
                             </div>

@@ -128,6 +128,15 @@
 	.secureCheckoutCTA-icon img					{ float: left; width: 13px; height: auto; }
 	.secureCheckoutCTA-title					{ float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; color: #fff; font-size: 16px; line-height: 20px; text-transform: uppercase;
 	 											  padding: 4px 8px 3px 8px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.confirmCheckoutCTA							{ float: left; height: 26px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border-radius: 4px; overflow: hidden;
+												  background-image: url(../images/btn_bg-orange.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.confirmCheckoutCTA:hover					{ background-image: url(../images/btn_bg-orangeDark.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }											  
+	.confirmCheckoutCTA .orderSubmit			{ float: left; cursor: pointer; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; color: #fff; font-size: 16px; line-height: 20px; text-transform: uppercase;
+	 											  padding: 4px 8px 2px 8px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; 
+												  border-radius: 0; border: none; background-color: transparent; -webkit-appearance: none; }
+	
 	.continueShopping a							{ float: right; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #999; text-decoration: underline;
 												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 											  
@@ -190,7 +199,8 @@
 		.checkoutStep-invoiceCol2 .utility-sectionContent	{ width: 435px; min-height: 100px; }
 	.checkoutStep-invoiceCol1 .checkoutSectionHeader,
 		.checkoutStep-invoiceCol2 .checkoutSectionHeader	{ width: 445px; }
-												  											  											  
+	
+	
 	/* GENERAL STYLES Cont... */											  
 		/* Bread Crumb | Print | Share */
 	.breadCrumb-utilityContainer				{ width: 940px; float: left; margin: 0px 10px 0px 10px; border-bottom: 1px solid #ccc; }	
