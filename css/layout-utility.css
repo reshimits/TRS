@@ -155,8 +155,9 @@
 	.sidebarNav									{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 	.sidebarNav li 								{ font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #fff; text-transform: uppercase;
 	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-	.sidebarNav a								{ width: 195px; float: left; color: #191919; padding: 7px 7px 7px 8px; margin: 0px 0px 3px 0px; background-color: #ddd; }
-	.sidebarNav-active a						{ background-color: #345eb9; color: #fff; }
+	.sidebarNav a								{ width: 195px; float: left; color: #191919; padding: 7px 7px 7px 8px; margin: 0px 0px 3px 0px; background-color: #eee; }
+	.sidebarNav-active a						{ color: #fff; background-image: url(../images/btn_bg-blue.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
 	.sidebarNav a:hover							{ background-color: #345eb9; color: #fff; }
 	
 	.allAboutTRS-header							{ width: 700px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 30px 0px; border-bottom: 1px solid #ccc; }
@@ -336,7 +337,7 @@
 	.sidebarNav									{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 	.sidebarNav li 								{ float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #fff; text-transform: uppercase;
 	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-	.sidebarNav a								{ width: 122px; float: left; color: #191919; padding: 7px 7px 7px 8px; margin: 0px 3px 0px 0px; background-color: #ddd; text-align: center; }
+	.sidebarNav a								{ width: 122px; float: left; color: #191919; padding: 7px 7px 7px 8px; margin: 0px 3px 0px 0px; background-color: #eee; text-align: center; }
 	.sidebarNav-active a						{ background-color: #345eb9; color: #fff; }
 	.sidebarNav-lastChild a						{ margin: 0px 0px 0px 0px; }
 	.sidebarNav a:hover							{ background-color: #345eb9; color: #fff; }
@@ -496,7 +497,7 @@
 	.sidebarNav									{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 	.sidebarNav li 								{ float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #fff; text-transform: uppercase;
 	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-	.sidebarNav a								{ width: auto; float: left; color: #191919; padding: 7px 14px 7px 14px; margin: 5px 5px 0px 0px; background-color: #ddd; text-align: center; }
+	.sidebarNav a								{ width: auto; float: left; color: #191919; padding: 7px 14px 7px 14px; margin: 5px 5px 0px 0px; background-color: #eee; text-align: center; }
 	.sidebarNav-active a						{ background-color: #345eb9; color: #fff; }
 	.sidebarNav-lastChild a						{ margin: 5px 0px 0px 0px; }
 	.sidebarNav a:hover							{ background-color: #345eb9; color: #fff; }
@@ -705,7 +706,7 @@
 	.sidebarNav									{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 	.sidebarNav li 								{ font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #fff; text-transform: uppercase;
 	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-	.sidebarNav a								{ width: 285px; float: left; color: #191919; padding: 7px 7px 7px 8px; margin: 0px 0px 5px 0px; background-color: #ddd; }
+	.sidebarNav a								{ width: 285px; float: left; color: #191919; padding: 7px 7px 7px 8px; margin: 0px 0px 5px 0px; background-color: #eee; }
 	.sidebarNav-active a						{ background-color: #345eb9; color: #fff; }
 	.sidebarNav a:hover							{ background-color: #345eb9; color: #fff; }
 	

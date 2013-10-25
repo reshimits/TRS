@@ -9,8 +9,8 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Retrofit of the Month Project Gallery from The Retrofit Source | Innovative Headlight Upgrades</title>
-	<meta name="description" content="Mad Props! With the help of the HID Planet community we highlight the best of the best our customer's work.">
+	<title>The Retrofit Source DIY Product Installation Guides | Innovative Headlight Upgrades</title>
+	<meta name="description" content="From motorcycles, to Hot Rods, to SUV's - TRS has helped enthusiasts retrofit an upgraded headlight system into an endless variety of applications. Here we showcase a variety of examples to illustrate the flexibility of our kits.">
 	<meta name="author" content="THROTTLE, LTD. is a Columbus Ohio based boutique graphic design firm. We consult, strategize, design, build and manage web site, brand identity and print collateral projects for SME businesses. www.throttlestudios.com">
 
 	<!-- Mobile Specific Metas
@@ -23,7 +23,6 @@
 	<link rel="stylesheet" href="../css/base.css">
 	<link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/layout-galleryguides.css">
-    <link rel="stylesheet" href="../css/layout-promos.css">
 
 	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
@@ -68,7 +67,7 @@
 
 
 
-	<!-- Retrofit of the Month Project Gallery
+	<!-- Customer Project Gallery
 	================================================== -->
 
  
@@ -76,7 +75,7 @@
     <div class="navMain hide460"><?php require('../include/navMain.html');?></div>
     <div class="navMobile mobile-only"><?php require('../include/navMobile.html');?></div>
     
-        <div class="container" id="rotm">
+        <div class="container" id="diyLanding">
         	<div class="full column">
         	
 <!-- =========== Bread Crumb ================================================== -->
@@ -85,17 +84,7 @@
                 	<ul class="breadCrumb">
                 		<li><a href="/client/trs/index.php">Home</a></li>
                 		<li> > </li>
-                		<li><a href="#">Retrofit of the Month Project Gallery</a></li>
-                	</ul>
-                </div>
-
-<!-- =========== Gallery Navigation ================================================== -->
-                
-                <div class="utility-tabNavContainer">
-                	<ul class="tabNav">
-                		<li class="tabNav-firstChild tabNav-active"><a href="#"><h1><span class="hide460">Retrofit of the Month</span><span class="mobile-only">ROTM</span></h1></a></li>
-                		<li class="tabNav-midChild"><a href="/client/trs/gallery/customer-projects.php"><span class="hide460">Customer </span>Projects</a></li>
-                        <li class="tabNav-lastChild"><a href="/client/trs/gallery/case-studies.php"><span class="hide460">Retrofit </span>Case Studies</a></li>
+                		<li><a href="#">DIY Installation Guides</a></li>
                 	</ul>
                 </div>
                 
@@ -104,22 +93,61 @@
             <div class="bodyContainer utilityBodyContainer">
                 
                 <div class="utility-sectionSpecial utility-sectionFirst">            		
-                    <div class="galleryTitle-section">
-                        <span class="galleryTitle-upper">November 2013</span>
-                        <span class="galleryTitle-lower">Kiss Ass Project</span>
-                            
-                        <div class="rotmPreview-sectionContent">
-                            <div class="rotmPreview-info"><h2>1987 Porsche 944 S2</h2></div>
-                            <div class="rotmPreview-info"><h3>Ned Yuckenheimer, Atlanta GA</h3></div>
-                            <div class="generalBtn-orange"><a href="#"><span class="generalBtn-title">See the Details</span></a></div>
-                        </div>
+                    <div class="diyTitle-section">
+                        <span class="diyTitle-upper">DIY Installation</span>
+                        <span class="diyTitle-lower">Guides</span>
                     </div>
-                    <div class="rotmPreview-sectionImage">
-                        <a href="#"><img src="/client/trs/images/gallery/porsche944TEMP.jpg" alt="Retrofit of the Month: 1987 Porsche 944 S2" border="0" /></a>
-                    </div>
+                    <div class="galleryPreview-content"><p><span class="weightBold-styleNormal">Whether you're a minivan-mom or setting lap records, if you drive at night you need a headlight retrofit.</span> TRS has something for every application. Here you’ll find examples of the universal nature of our products.</p></div>
                 </div>
                 
                 <div class="utility-section utility-sectionFirst">            		
+                        <div class="nonProductGrid-filter">            		
+                            <span class="nonProductGrid-filter-title">Filter Options:</span>
+                            <div class="filter">
+                                <form id="filter-options">
+                                    <div class="formFieldContainer">
+                                        <label for>Vehicle Type:</label>
+                                        <div class="formField-dropdown">
+                                            <select name="application" size="1">
+                                                <option value="ALL" title="All">Display All</option>
+                                                <option value="1">Camping Vehicle</option>
+                                                <option value="2">Classic Car</option>
+                                                <option value="3">Minivan</option>
+                                                <option value="4">Sports Car</option>
+                                                <option value="5">Race Race</option>
+                                                <option value="6">Modern Sedan</option>
+                                                <option value="7">Sport Bike</option>
+                                                <option value="8">Truck</option>
+                                                <option value="9">Scooter</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="formFieldContainer">
+                                        <label for>Headlight Style:</label>
+                                        <div class="formField-dropdown">
+                                            <select name="style" size="1">
+                                                <option value="ALL" title="All">Display All</option>
+                                                <option value="1">Pop up Headlight</option>
+                                                <option value="2">Sealed Beam Headlight</option>
+                                                <option value="3">Traditional Headlight</option>
+                                                <option value="4">Single Headlight</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="formFieldContainer">
+                                        <label for>Headlight Use:</label>
+                                        <div class="formField-dropdown">
+                                            <select name="use" size="1">
+                                                <option value="ALL" title="All">Display All</option>
+                                                <option value="1">Wild Design</option>
+                                                <option value="2">Fog Light</option>
+                                                <option value="3">Quad Projector</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                         <div class="nonProductGridContainer-wide"> 
                     		<ul class="nonProductGrid-wide">
                     	
@@ -127,7 +155,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/e4a7780f-cbf4-4301-aac3-3b2c93063c97-1.jpg" alt="Past ROTM: 2003 Dodge Ram Diesel" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">October 2013</span>
+                                        <span class="nonProductGrid-wide-title">Quad Projector Retrofit</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-specTitle">2003 Dodge Ram Diesel</span>
                                             <span class="nonProductGrid-wide-spec">William Latuf</span>
@@ -140,7 +168,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/f35ef804-4026-47e7-bd87-bcced236c87f-1.jpg" alt="Past ROTM: 2009 Scion TC" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">January 2013</span>
+                                        <span class="nonProductGrid-wide-title">Camping Vehicle Retrofit</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-specTitle">2009 Scion TC</span>
                                             <span class="nonProductGrid-wide-spec">Nick Huggins</span>
@@ -153,7 +181,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/85b62865-9558-466b-b792-26de1b3d1519-1.jpg" alt="Past ROTM: 2013 Subaru Impreza WRX" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">December 2012</span>
+                                        <span class="nonProductGrid-wide-title">Wild Design Retrofit</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-specTitle">2013 Subaru Impreza WRX</span>
                                             <span class="nonProductGrid-wide-spec">Justin Fong</span>
@@ -166,7 +194,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/ae9f58b3-d445-46d1-a1df-7d6bbfd2b430-1.jpg" alt="Past ROTM: 2004 Acura RSX" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">November 2012</span>
+                                        <span class="nonProductGrid-wide-title">Fog Light Retrofit</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-specTitle">2004 Acura RSX</span>
                                             <span class="nonProductGrid-wide-spec">Cullen Chen</span>
@@ -179,7 +207,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/b1be6b75-4a6f-4cd6-9b77-9e4c25eab09a-1.jpg" alt="Past ROTM: 2012 Kia Forte Koup" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">October 2012</span>
+                                        <span class="nonProductGrid-wide-title">Classic Car Retrofit</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-specTitle">2012 Kia Forte Koup</span>
                                             <span class="nonProductGrid-wide-spec">Deckoz2302</span>
@@ -192,7 +220,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/9d709dc9-300e-40e0-96c6-f0d79b3abedb-1.jpg" alt="Past ROTM: 2012 Kia Sorento" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">September 2012</span>
+                                        <span class="nonProductGrid-wide-title">Minivan Retrofit</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-specTitle">2012 Kia Sorento</span>
                                             <span class="nonProductGrid-wide-spec">kobi411</span>
@@ -205,7 +233,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/705d0d32-6dab-4ce5-9147-531aa0949e3a-1.jpg" alt="Past ROTM: 2003 Honda Accord" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">August 2012</span>
+                                        <span class="nonProductGrid-wide-title">Exotic Retrofit</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-specTitle">2003 Honda Accord</span>
                                             <span class="nonProductGrid-wide-spec">tommastie</span>
@@ -218,7 +246,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/f16f659b-07b6-4689-8d28-bf2cf6977ffe-1.jpg" alt="Past ROTM: 2002 Subaru WRX" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">July 2012</span>
+                                        <span class="nonProductGrid-wide-title">Race Car Retrofit</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-specTitle">2002 Subaru WRX</span>
                                             <span class="nonProductGrid-wide-spec">satrya</span>
@@ -231,7 +259,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/ae9f58b3-d445-46d1-a1df-7d6bbfd2b430-1.jpg" alt="Past ROTM: 2004 Acura RSX" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">June 2012</span>
+                                        <span class="nonProductGrid-wide-title">Pop-Up Headlight Retrofit</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-specTitle">2004 Acura RSX</span>
                                             <span class="nonProductGrid-wide-spec">Cullen Chen</span>
@@ -244,7 +272,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/f35ef804-4026-47e7-bd87-bcced236c87f-1.jpg" alt="Past ROTM: 2009 Scion TC" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">May 2012</span>
+                                        <span class="nonProductGrid-wide-title">Sealed Beam Retrofit</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-specTitle">2009 Scion TC</span>
                                             <span class="nonProductGrid-wide-spec">Nick Huggins</span>
@@ -257,7 +285,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/b1be6b75-4a6f-4cd6-9b77-9e4c25eab09a-1.jpg" alt="Past ROTM: 2012 Kia Forte Koup" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">April 2012</span>
+                                        <span class="nonProductGrid-wide-title">Modern Sedan Retrofit</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-specTitle">2012 Kia Forte Koup</span>
                                             <span class="nonProductGrid-wide-spec">Deckoz2302</span>
@@ -270,7 +298,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/85b62865-9558-466b-b792-26de1b3d1519-1.jpg" alt="Past ROTM: 2013 Subaru Impreza WRX" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">March 2012</span>
+                                        <span class="nonProductGrid-wide-title">Sport Bike Retrofit</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-specTitle">2013 Subaru Impreza WRX</span>
                                             <span class="nonProductGrid-wide-spec">Justin Fong</span>
@@ -279,19 +307,40 @@
                                     </div>
                                 </a>
                                 </li>
-                                
+                                <li>
+                                <a href="#">
+                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/9d709dc9-300e-40e0-96c6-f0d79b3abedb-1.jpg" alt="Past ROTM: 2012 Kia Sorento" border="0" /></div>
+                                    <div class="nonProductGrid-wide-info">
+                                        <span class="nonProductGrid-wide-title">Truck Retrofit</span>
+                                        <div class="nonProductGrid-wide-specs">
+                                            <span class="nonProductGrid-wide-specTitle">2012 Kia Sorento</span>
+                                            <span class="nonProductGrid-wide-spec">kobi411</span>
+                                            <span class="nonProductGrid-wide-spec"><em>Lethbridge, AB, CA</em></span>
+                                        </div>
+                                    </div>
+                                </a>
+                                </li>
+                                <li>
+                                <a href="#">
+                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/705d0d32-6dab-4ce5-9147-531aa0949e3a-1.jpg" alt="Past ROTM: 2003 Honda Accord" border="0" /></div>
+                                    <div class="nonProductGrid-wide-info">
+                                        <span class="nonProductGrid-wide-title">Scooter Retrofit</span>
+                                        <div class="nonProductGrid-wide-specs">
+                                            <span class="nonProductGrid-wide-specTitle">2003 Honda Accord</span>
+                                            <span class="nonProductGrid-wide-spec">tommastie</span>
+                                            <span class="nonProductGrid-wide-spec"><em>Sacramento, CA</em></span>
+                                        </div>
+                                    </div>
+                                </a>
+                                </li>
                     		</ul>
                     	</div>    
                 </div>
-                <div class="showMore">
-                	<div class="generalBtn-blue"><a href="#"><span class="generalBtn-title">Show More</span></a></div> 
-                </div>    
                     
             </div> 
             </div>       
         </div>
         
-    <?php require('../include/promo_gallery.html');?>    
     
 	<?php require('../include/footer.html');?>
         

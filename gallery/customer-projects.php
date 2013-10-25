@@ -9,8 +9,8 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Retrofit of the Month Project Gallery from The Retrofit Source | Innovative Headlight Upgrades</title>
-	<meta name="description" content="Mad Props! With the help of the HID Planet community we highlight the best of the best our customer's work.">
+	<title>Customer Project Gallery from The Retrofit Source | Innovative Headlight Upgrades</title>
+	<meta name="description" content="A collection of retrofits from A-Z, our customer gallery is filled with great examples of nearly every imaginable application.">
 	<meta name="author" content="THROTTLE, LTD. is a Columbus Ohio based boutique graphic design firm. We consult, strategize, design, build and manage web site, brand identity and print collateral projects for SME businesses. www.throttlestudios.com">
 
 	<!-- Mobile Specific Metas
@@ -68,7 +68,7 @@
 
 
 
-	<!-- Retrofit of the Month Project Gallery
+	<!-- Customer Project Gallery
 	================================================== -->
 
  
@@ -76,7 +76,7 @@
     <div class="navMain hide460"><?php require('../include/navMain.html');?></div>
     <div class="navMobile mobile-only"><?php require('../include/navMobile.html');?></div>
     
-        <div class="container" id="rotm">
+        <div class="container" id="customerProjects">
         	<div class="full column">
         	
 <!-- =========== Bread Crumb ================================================== -->
@@ -85,7 +85,9 @@
                 	<ul class="breadCrumb">
                 		<li><a href="/client/trs/index.php">Home</a></li>
                 		<li> > </li>
-                		<li><a href="#">Retrofit of the Month Project Gallery</a></li>
+                		<li><a href="/client/trs/gallery/retrofit-of-the-month.php">Retrofit of the Month</a></li>
+                        <li> > </li>
+                		<li><a href="#">Customer Project Gallery</a></li>
                 	</ul>
                 </div>
 
@@ -93,8 +95,8 @@
                 
                 <div class="utility-tabNavContainer">
                 	<ul class="tabNav">
-                		<li class="tabNav-firstChild tabNav-active"><a href="#"><h1><span class="hide460">Retrofit of the Month</span><span class="mobile-only">ROTM</span></h1></a></li>
-                		<li class="tabNav-midChild"><a href="/client/trs/gallery/customer-projects.php"><span class="hide460">Customer </span>Projects</a></li>
+                		<li class="tabNav-firstChild"><a href="/client/trs/gallery/retrofit-of-the-month.php"><span class="hide460">Retrofit of the Month</span><span class="mobile-only">ROTM</span></a></li>
+                		<li class="tabNav-midChild tabNav-active"><a href="/client/trs/gallery/customer-projects.php"><h1><span class="hide460">Customer </span>Projects</h1></a></li>
                         <li class="tabNav-lastChild"><a href="/client/trs/gallery/case-studies.php"><span class="hide460">Retrofit </span>Case Studies</a></li>
                 	</ul>
                 </div>
@@ -105,21 +107,45 @@
                 
                 <div class="utility-sectionSpecial utility-sectionFirst">            		
                     <div class="galleryTitle-section">
-                        <span class="galleryTitle-upper">November 2013</span>
-                        <span class="galleryTitle-lower">Kiss Ass Project</span>
-                            
-                        <div class="rotmPreview-sectionContent">
-                            <div class="rotmPreview-info"><h2>1987 Porsche 944 S2</h2></div>
-                            <div class="rotmPreview-info"><h3>Ned Yuckenheimer, Atlanta GA</h3></div>
-                            <div class="generalBtn-orange"><a href="#"><span class="generalBtn-title">See the Details</span></a></div>
-                        </div>
+                        <span class="galleryTitle-upper">Straight Up</span>
+                        <span class="galleryTitle-lower">Inspiration</span>
                     </div>
-                    <div class="rotmPreview-sectionImage">
-                        <a href="#"><img src="/client/trs/images/gallery/porsche944TEMP.jpg" alt="Retrofit of the Month: 1987 Porsche 944 S2" border="0" /></a>
-                    </div>
+                    <div class="galleryPreview-content"><p><span class="weightBold-styleNormal">With thousands of customers rocking the roads with TRS retrofits, it would be blasphemy if we didn't share the pics</span> –  on everything from Toyota Tacoma's to Vespa Scooters.</p></div>
                 </div>
                 
                 <div class="utility-section utility-sectionFirst">            		
+                        <div class="nonProductGrid-filter">            		
+                            <span class="nonProductGrid-filter-title">Filter Options:</span>
+                            <div class="filter">
+                                <form id="filter-options">
+                                    <div class="formFieldContainer">
+                                        <label for>Vehicle Make:</label>
+                                        <div class="formField-dropdown">
+                                            <select name="vehicleMake" size="1">
+                                                <option value="ALL" title="All">Display All</option>
+                                                <option value="1">Acura</option>
+                                                <option value="2">BMW</option>
+                                                <option value="3">Chevrolet</option>
+                                                <option value="4">Chrysler</option>
+                                                <option value="5">Dodge</option>
+                                                <option value="6">Ford</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="formFieldContainer">
+                                        <label for>Vehicle Model:</label>
+                                        <div class="formField-dropdown">
+                                            <select name="vehicleModel" size="1">
+                                                <option value="ALL" title="All">Display All</option>
+                                                <option value="1">Integra</option>
+                                                <option value="2">RSX</option>
+                                                
+                                            </select>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                         <div class="nonProductGridContainer-wide"> 
                     		<ul class="nonProductGrid-wide">
                     	
@@ -127,12 +153,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/e4a7780f-cbf4-4301-aac3-3b2c93063c97-1.jpg" alt="Past ROTM: 2003 Dodge Ram Diesel" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">October 2013</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2003 Dodge Ram Diesel</span>
-                                            <span class="nonProductGrid-wide-spec">William Latuf</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Little Rock, CA</em></span>
-                                        </div>
+                                        <span class="nonProductGrid-wide-title">2003 Dodge Ram Diesel</span>
                                     </div>
                                 </a>
                                 </li>
@@ -140,12 +161,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/f35ef804-4026-47e7-bd87-bcced236c87f-1.jpg" alt="Past ROTM: 2009 Scion TC" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">January 2013</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2009 Scion TC</span>
-                                            <span class="nonProductGrid-wide-spec">Nick Huggins</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Canton, GA</em></span>
-                                        </div>
+                                        <span class="nonProductGrid-wide-title">2009 Scion TC</span>
                                     </div>
                                 </a>
                                 </li>
@@ -153,12 +169,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/85b62865-9558-466b-b792-26de1b3d1519-1.jpg" alt="Past ROTM: 2013 Subaru Impreza WRX" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">December 2012</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2013 Subaru Impreza WRX</span>
-                                            <span class="nonProductGrid-wide-spec">Justin Fong</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Sacramento, CA</em></span>
-                                        </div>
+                                        <span class="nonProductGrid-wide-title">2013 Subaru Impreza WRX</span>
                                     </div>
                                 </a>
                                 </li>
@@ -166,12 +177,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/ae9f58b3-d445-46d1-a1df-7d6bbfd2b430-1.jpg" alt="Past ROTM: 2004 Acura RSX" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">November 2012</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2004 Acura RSX</span>
-                                            <span class="nonProductGrid-wide-spec">Cullen Chen</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Columbia, SC</em></span>
-                                        </div>
+                                        <span class="nonProductGrid-wide-title">2004 Acura RSX</span>
                                     </div>
                                 </a>
                                 </li>
@@ -179,12 +185,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/b1be6b75-4a6f-4cd6-9b77-9e4c25eab09a-1.jpg" alt="Past ROTM: 2012 Kia Forte Koup" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">October 2012</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2012 Kia Forte Koup</span>
-                                            <span class="nonProductGrid-wide-spec">Deckoz2302</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Raleigh, NC</em></span>
-                                        </div>
+                                        <span class="nonProductGrid-wide-title">2012 Kia Forte Koup</span>
                                     </div>
                                 </a>
                                 </li>
@@ -192,12 +193,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/9d709dc9-300e-40e0-96c6-f0d79b3abedb-1.jpg" alt="Past ROTM: 2012 Kia Sorento" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">September 2012</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2012 Kia Sorento</span>
-                                            <span class="nonProductGrid-wide-spec">kobi411</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Lethbridge, AB, CA</em></span>
-                                        </div>
+                                        <span class="nonProductGrid-wide-title">2012 Kia Sorento</span>
                                     </div>
                                 </a>
                                 </li>
@@ -205,12 +201,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/705d0d32-6dab-4ce5-9147-531aa0949e3a-1.jpg" alt="Past ROTM: 2003 Honda Accord" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">August 2012</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2003 Honda Accord</span>
-                                            <span class="nonProductGrid-wide-spec">tommastie</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Sacramento, CA</em></span>
-                                        </div>
+                                        <span class="nonProductGrid-wide-title">2003 Honda Accord</span>
                                     </div>
                                 </a>
                                 </li>
@@ -218,12 +209,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/f16f659b-07b6-4689-8d28-bf2cf6977ffe-1.jpg" alt="Past ROTM: 2002 Subaru WRX" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">July 2012</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2002 Subaru WRX</span>
-                                            <span class="nonProductGrid-wide-spec">satrya</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Fremont, CA</em></span>
-                                        </div>
+                                        <span class="nonProductGrid-wide-title">2002 Subaru WRX</span>
                                     </div>
                                 </a>
                                 </li>
@@ -231,12 +217,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/ae9f58b3-d445-46d1-a1df-7d6bbfd2b430-1.jpg" alt="Past ROTM: 2004 Acura RSX" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">June 2012</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2004 Acura RSX</span>
-                                            <span class="nonProductGrid-wide-spec">Cullen Chen</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Columbia, SC</em></span>
-                                        </div>
+                                        <span class="nonProductGrid-wide-title">2004 Acura RSX</span>
                                     </div>
                                 </a>
                                 </li>
@@ -244,12 +225,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/f35ef804-4026-47e7-bd87-bcced236c87f-1.jpg" alt="Past ROTM: 2009 Scion TC" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">May 2012</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2009 Scion TC</span>
-                                            <span class="nonProductGrid-wide-spec">Nick Huggins</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Canton, GA</em></span>
-                                        </div>
+                                        <span class="nonProductGrid-wide-title">2009 Scion TC</span>
                                     </div>
                                 </a>
                                 </li>
@@ -257,12 +233,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/b1be6b75-4a6f-4cd6-9b77-9e4c25eab09a-1.jpg" alt="Past ROTM: 2012 Kia Forte Koup" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">April 2012</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2012 Kia Forte Koup</span>
-                                            <span class="nonProductGrid-wide-spec">Deckoz2302</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Raleigh, NC</em></span>
-                                        </div>
+                                        <span class="nonProductGrid-wide-title">2012 Kia Forte Koup</span>
                                     </div>
                                 </a>
                                 </li>
@@ -270,12 +241,7 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/85b62865-9558-466b-b792-26de1b3d1519-1.jpg" alt="Past ROTM: 2013 Subaru Impreza WRX" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">March 2012</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2013 Subaru Impreza WRX</span>
-                                            <span class="nonProductGrid-wide-spec">Justin Fong</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Sacramento, CA</em></span>
-                                        </div>
+                                        <span class="nonProductGrid-wide-title">2013 Subaru Impreza WRX</span>
                                     </div>
                                 </a>
                                 </li>

@@ -77,7 +77,7 @@
     <?php require('include/header.html');?>
     <div class="navMain hide460"><?php require('include/navMain.html');?></div>
     <div class="navMobile mobile-only"><?php require('include/navMobile.html');?></div>
-    
+    	
         <div class="productCategoryBanner"><?php require('include/productCategoryBanner-projectors.html');?></div>
         
         <div class="container" id="productGrid">

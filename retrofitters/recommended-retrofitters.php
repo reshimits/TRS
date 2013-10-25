@@ -23,6 +23,7 @@
 	<link rel="stylesheet" href="../css/base.css">
 	<link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/layout-utility.css">
+    <link rel="stylesheet" href="../css/layout-promos.css">
 
 	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
@@ -548,7 +549,7 @@
             </div>       
         </div>
         
-        
+    <?php require('../include/promo_rr.html');?>    
     
 	<?php require('../include/footer.html');?>
         

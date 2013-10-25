@@ -105,7 +105,7 @@
                         <div class="homePromos-content">
                             <span class="homePromos-title">Do-It-Yourself Install Guides</span>
                             <span class="homePromos-info">Step-by-step video and text instruction. Suhweeet!</span>
-                            <div class="generalBtn-blue"><a href="#"><span class="generalBtn-title">Get Busy</span></a></div> 
+                            <div class="generalBtn-blue"><a href="/client/trs/diy/diy-install-guides.php"><span class="generalBtn-title">Get Busy</span></a></div> 
                         </div>
                     </div>
         		</div>
