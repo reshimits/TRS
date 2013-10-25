@@ -10,7 +10,7 @@
   ================================================== -->
 	<meta charset="utf-8">
 	<title>The Retrofit Source DIY Product Installation Guides | Innovative Headlight Upgrades</title>
-	<meta name="description" content="From motorcycles, to Hot Rods, to SUV's - TRS has helped enthusiasts retrofit an upgraded headlight system into an endless variety of applications. Here we showcase a variety of examples to illustrate the flexibility of our kits.">
+	<meta name="description" content="Installation information that's highly recommended for review before beginning your project.">
 	<meta name="author" content="THROTTLE, LTD. is a Columbus Ohio based boutique graphic design firm. We consult, strategize, design, build and manage web site, brand identity and print collateral projects for SME businesses. www.throttlestudios.com">
 
 	<!-- Mobile Specific Metas
@@ -67,7 +67,7 @@
 
 
 
-	<!-- Customer Project Gallery
+	<!-- DIY Product Installation Guides
 	================================================== -->
 
  
@@ -95,10 +95,32 @@
                 <div class="utility-sectionSpecial utility-sectionFirst">            		
                     <div class="diyTitle-section">
                         <span class="diyTitle-upper">DIY Installation</span>
-                        <span class="diyTitle-lower">Guides</span>
-                    </div>
-                    <div class="galleryPreview-content"><p><span class="weightBold-styleNormal">Whether you're a minivan-mom or setting lap records, if you drive at night you need a headlight retrofit.</span> TRS has something for every application. Here you’ll find examples of the universal nature of our products.</p></div>
+                        <span class="diyTitle-mid">Guides</span>
+                        <span class="diyTitle-lower">All the info you’ll need, including  cool tips / tricks to install your components.</span>
+
+                        <div class="diyPreview-content">
+                            <div class="diyPreview-spec">
+                                <div class="diyPreview-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides PDF Documentation" border="0" /></div>
+                                <p><span class="diyPreview-specTitle typekit_weightBold-styleNormal-uppercase">PDF Documentation</span> to review on the crapper and keep with you in the garage. Essential reference material.</span>
+                            </div>
+                            <div class="diyPreview-spec">
+                                <div class="diyPreview-specIcon diyPreview-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                                <p><span class="diyPreview-specTitle typekit_weightBold-styleNormal-uppercase">Instructional Videos</span> to guide you through the process – as we install your chosen product into a vehicle.</span>
+                            </div>
+                            <div class="diyPreview-spec">
+                                <div class="diyPreview-specIcon diyPreview-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                                <p><span class="diyPreview-specTitle typekit_weightBold-styleNormal-uppercase">Q&amp;A Forum</span> to discuss your project and get answers &amp; guidance from knowledgeable folks who’ve done it before.</span>
+                            </div>
+                            <div class="diyPreview-spec">
+                                <div class="diyPreview-specIcon diyPreview-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
+                                <p><span class="diyPreview-specTitle typekit_weightBold-styleNormal-uppercase">Inspiration Gallery</span> to view other customer’s images of the installed product in their vehicle.</span>
+                            </div>
+                        </div>
+                	</div>        
                 </div>
+                
+                
+                
                 
                 <div class="utility-section utility-sectionFirst">            		
                         <div class="nonProductGrid-filter">            		
@@ -106,235 +128,111 @@
                             <div class="filter">
                                 <form id="filter-options">
                                     <div class="formFieldContainer">
-                                        <label for>Vehicle Type:</label>
+                                        <label for>Product Type:</label>
                                         <div class="formField-dropdown">
-                                            <select name="application" size="1">
+                                            <select name="producttype" size="1">
                                                 <option value="ALL" title="All">Display All</option>
-                                                <option value="1">Camping Vehicle</option>
-                                                <option value="2">Classic Car</option>
-                                                <option value="3">Minivan</option>
-                                                <option value="4">Sports Car</option>
-                                                <option value="5">Race Race</option>
-                                                <option value="6">Modern Sedan</option>
-                                                <option value="7">Sport Bike</option>
-                                                <option value="8">Truck</option>
-                                                <option value="9">Scooter</option>
+                                                <option value="1">HID Projectors</option>
+                                                <option value="2">HID Ballasts</option>
+                                                <option value="3">HID Bulbs</option>
+                                                <option value="4">Wire Harnesses</option>
+                                                <option value="5">Clear Lenses</option>
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="formFieldContainer">
-                                        <label for>Headlight Style:</label>
-                                        <div class="formField-dropdown">
-                                            <select name="style" size="1">
-                                                <option value="ALL" title="All">Display All</option>
-                                                <option value="1">Pop up Headlight</option>
-                                                <option value="2">Sealed Beam Headlight</option>
-                                                <option value="3">Traditional Headlight</option>
-                                                <option value="4">Single Headlight</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="formFieldContainer">
-                                        <label for>Headlight Use:</label>
-                                        <div class="formField-dropdown">
-                                            <select name="use" size="1">
-                                                <option value="ALL" title="All">Display All</option>
-                                                <option value="1">Wild Design</option>
-                                                <option value="2">Fog Light</option>
-                                                <option value="3">Quad Projector</option>
-                                            </select>
-                                        </div>
-                                    </div>
+                                    
                                 </form>
                             </div>
+                            <span class="nonProductGrid-filter-note"><strong>Each product has it’s own guide</strong> - although some guides are shared. If you purchased a Kit or System look for the individual components.</span>
                         </div>
                         <div class="nonProductGridContainer-wide"> 
                     		<ul class="nonProductGrid-wide">
                     	
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/e4a7780f-cbf4-4301-aac3-3b2c93063c97-1.jpg" alt="Past ROTM: 2003 Dodge Ram Diesel" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp1.jpg" alt="DIY Installation Guide: Morimoto Elite HID (D2S)" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Quad Projector Retrofit</span>
+                                        <span class="nonProductGrid-wide-title">Morimoto Elite HID (D2S) Kit</span>
                                         <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2003 Dodge Ram Diesel</span>
-                                            <span class="nonProductGrid-wide-spec">William Latuf</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Little Rock, CA</em></span>
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
                                         </div>
                                     </div>
                                 </a>
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/f35ef804-4026-47e7-bd87-bcced236c87f-1.jpg" alt="Past ROTM: 2009 Scion TC" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp3.jpg" alt="DIY Installation Guide: FX-R 3.0 Projectors" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Camping Vehicle Retrofit</span>
+                                        <span class="nonProductGrid-wide-title">FX-R 3.0 Projectors</span>
                                         <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2009 Scion TC</span>
-                                            <span class="nonProductGrid-wide-spec">Nick Huggins</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Canton, GA</em></span>
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
                                         </div>
                                     </div>
                                 </a>
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/85b62865-9558-466b-b792-26de1b3d1519-1.jpg" alt="Past ROTM: 2013 Subaru Impreza WRX" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp2.jpg" alt="DIY Installation Guide: Morimoto Mini H1 Stage III" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Wild Design Retrofit</span>
+                                        <span class="nonProductGrid-wide-title">Morimoto Mini H1 Stage III</span>
                                         <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2013 Subaru Impreza WRX</span>
-                                            <span class="nonProductGrid-wide-spec">Justin Fong</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Sacramento, CA</em></span>
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
                                         </div>
                                     </div>
                                 </a>
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/ae9f58b3-d445-46d1-a1df-7d6bbfd2b430-1.jpg" alt="Past ROTM: 2004 Acura RSX" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp5.jpg" alt="DIY Installation Guide: VIP Projectors" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Fog Light Retrofit</span>
+                                        <span class="nonProductGrid-wide-title">VIP Projectors</span>
                                         <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2004 Acura RSX</span>
-                                            <span class="nonProductGrid-wide-spec">Cullen Chen</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Columbia, SC</em></span>
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
                                         </div>
                                     </div>
                                 </a>
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/b1be6b75-4a6f-4cd6-9b77-9e4c25eab09a-1.jpg" alt="Past ROTM: 2012 Kia Forte Koup" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp4.jpg" alt="DIY Installation Guide: Morimoto 3Five Bulbs H Series" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Classic Car Retrofit</span>
+                                        <span class="nonProductGrid-wide-title">Morimoto 3Five Bulbs H Series</span>
                                         <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2012 Kia Forte Koup</span>
-                                            <span class="nonProductGrid-wide-spec">Deckoz2302</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Raleigh, NC</em></span>
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
                                         </div>
                                     </div>
                                 </a>
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/9d709dc9-300e-40e0-96c6-f0d79b3abedb-1.jpg" alt="Past ROTM: 2012 Kia Sorento" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp7.jpg" alt="DIY Installation Guide: Morimoto Mini D2S 2.0" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Minivan Retrofit</span>
+                                        <span class="nonProductGrid-wide-title">Morimoto Mini D2S 2.0</span>
                                         <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2012 Kia Sorento</span>
-                                            <span class="nonProductGrid-wide-spec">kobi411</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Lethbridge, AB, CA</em></span>
-                                        </div>
-                                    </div>
-                                </a>
-                                </li>
-                                <li>
-                                <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/705d0d32-6dab-4ce5-9147-531aa0949e3a-1.jpg" alt="Past ROTM: 2003 Honda Accord" border="0" /></div>
-                                    <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Exotic Retrofit</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2003 Honda Accord</span>
-                                            <span class="nonProductGrid-wide-spec">tommastie</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Sacramento, CA</em></span>
-                                        </div>
-                                    </div>
-                                </a>
-                                </li>
-                                <li>
-                                <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/f16f659b-07b6-4689-8d28-bf2cf6977ffe-1.jpg" alt="Past ROTM: 2002 Subaru WRX" border="0" /></div>
-                                    <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Race Car Retrofit</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2002 Subaru WRX</span>
-                                            <span class="nonProductGrid-wide-spec">satrya</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Fremont, CA</em></span>
-                                        </div>
-                                    </div>
-                                </a>
-                                </li>
-                                <li>
-                                <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/ae9f58b3-d445-46d1-a1df-7d6bbfd2b430-1.jpg" alt="Past ROTM: 2004 Acura RSX" border="0" /></div>
-                                    <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Pop-Up Headlight Retrofit</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2004 Acura RSX</span>
-                                            <span class="nonProductGrid-wide-spec">Cullen Chen</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Columbia, SC</em></span>
-                                        </div>
-                                    </div>
-                                </a>
-                                </li>
-                                <li>
-                                <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/f35ef804-4026-47e7-bd87-bcced236c87f-1.jpg" alt="Past ROTM: 2009 Scion TC" border="0" /></div>
-                                    <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Sealed Beam Retrofit</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2009 Scion TC</span>
-                                            <span class="nonProductGrid-wide-spec">Nick Huggins</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Canton, GA</em></span>
-                                        </div>
-                                    </div>
-                                </a>
-                                </li>
-                                <li>
-                                <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/b1be6b75-4a6f-4cd6-9b77-9e4c25eab09a-1.jpg" alt="Past ROTM: 2012 Kia Forte Koup" border="0" /></div>
-                                    <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Modern Sedan Retrofit</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2012 Kia Forte Koup</span>
-                                            <span class="nonProductGrid-wide-spec">Deckoz2302</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Raleigh, NC</em></span>
-                                        </div>
-                                    </div>
-                                </a>
-                                </li>
-                                <li>
-                                <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/85b62865-9558-466b-b792-26de1b3d1519-1.jpg" alt="Past ROTM: 2013 Subaru Impreza WRX" border="0" /></div>
-                                    <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Sport Bike Retrofit</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2013 Subaru Impreza WRX</span>
-                                            <span class="nonProductGrid-wide-spec">Justin Fong</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Sacramento, CA</em></span>
-                                        </div>
-                                    </div>
-                                </a>
-                                </li>
-                                <li>
-                                <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/9d709dc9-300e-40e0-96c6-f0d79b3abedb-1.jpg" alt="Past ROTM: 2012 Kia Sorento" border="0" /></div>
-                                    <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Truck Retrofit</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2012 Kia Sorento</span>
-                                            <span class="nonProductGrid-wide-spec">kobi411</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Lethbridge, AB, CA</em></span>
-                                        </div>
-                                    </div>
-                                </a>
-                                </li>
-                                <li>
-                                <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/705d0d32-6dab-4ce5-9147-531aa0949e3a-1.jpg" alt="Past ROTM: 2003 Honda Accord" border="0" /></div>
-                                    <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Scooter Retrofit</span>
-                                        <div class="nonProductGrid-wide-specs">
-                                            <span class="nonProductGrid-wide-specTitle">2003 Honda Accord</span>
-                                            <span class="nonProductGrid-wide-spec">tommastie</span>
-                                            <span class="nonProductGrid-wide-spec"><em>Sacramento, CA</em></span>
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
                                         </div>
                                     </div>
                                 </a>
                                 </li>
                     		</ul>
                     	</div>    
+                </div>
+                <div class="showMore">
+                	<div class="generalBtn-blue"><a href="#"><span class="generalBtn-title">Show More</span></a></div> 
                 </div>
                     
             </div> 

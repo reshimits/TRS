@@ -87,7 +87,7 @@
 	.nonProductGrid-wide-image				 	{ width: 214px; height: 190px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; overflow: hidden; }
 	.nonProductGrid-wide-image img				{ width: auto; height: 100%; }
 	.nonProductGrid-wide-info					{ width: 214px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 0px; }
-	.nonProductGrid-wide-title					{ width: 100%; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 26px; line-height: 20px; color: #191919; 
+	.nonProductGrid-wide-title					{ width: 100%; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 24px; line-height: 20px; color: #191919; 
 												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.nonProductGrid-wide-specs					{ height: 60px; float: left; padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; }
 	.nonProductGrid-wide-specTitle				{ width: 100%; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 12px; line-height: 16px; color: #555;
@@ -132,6 +132,8 @@
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
 	.nonProductGrid-filter-title				{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 22px; line-height: 20px; color: #d14001; text-transform: uppercase; 
 												  padding: 15px 0px 0px 0px; margin: 0px 15px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.nonProductGrid-filter-note					{ width: 400px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: italic; font-size: 9px; line-height: 12px; color: #191919;
+												  padding: 11px 0px 0px 0px; margin: 0px 0px 0px 5px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  
 	.filter										{ float: left; }
 	.filter label								{ float: left; font-family: "PlutoSansMedium", sans-serif; font-style: normal; color: #191919; font-size: 10px; line-height: 10px;
 	 											  padding: 0px 0px 2px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
@@ -142,15 +144,37 @@
 	
 	
 	/* DIY GUIDES */
-	.diyTitle-section							{ width: 400px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 30px; }
-	.diyTitle-upper								{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 90px; line-height: 70px; color: #191919;  
-												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											    .diyTitle-lower								{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 110px; line-height: 102px; color: #191919; 
-												  text-transform: uppercase; letter-spacing: -8px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-	.diyPreview-content							{ width: 385px; float: left; margin: 27px 0px 0px 0px; padding: 0px 15px 20px 0px; }
-	.diyPreview-content p						{ width: 100%; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 15px; line-height: 17px; color: #888; 
-												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	#diyLanding .utilityBodyContainer			{ margin: 0px 10px 0px 10px; }	
+	#diyLanding .utility-sectionSpecial			{ margin: 0px 0px 20px 0px; padding: 0px 0px 0px 0px; border-radius: 0px 0px 8px 8px; overflow: hidden;
+												  background-image: url(../images/bg_diyGuides.jpg); background-repeat: no-repeat; background-position: left top; }
+	.diyTitle-section							{ width: 380px; float: left; margin: 0px 0px 0px 0px; padding: 15px 0px 0px 20px; }
+	.diyTitle-upper								{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 86px; line-height: 66px; color: #191919;  
+												  text-transform: uppercase; padding: 0px 0px 0px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											    .diyTitle-mid								{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 106px; line-height: 84px; color: #191919; 
+												  text-transform: uppercase; letter-spacing: -8px; padding: 7px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.diyTitle-lower								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 15px; line-height: 17px; color: #888; 
+												  text-transform: uppercase; padding: 0px 0px 0px 3px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	
-	
+	.diyPreview-content							{ float: left; margin: 5px 0px 0px 0px; padding: 0px 0px 25px 0px; }
+	.diyPreview-spec							{ width: 100%; float: left; padding: 0px 0px 0px 3px; margin: 10px 0px 0px 0px; }						  
+	.diyPreview-specIcon						{ width: 35px; height: 35px; float: left; padding: 0px 0px 0px 0px; margin: 0px 7px 0px 0px; overflow: hidden; } 
+	.diyPreview-specIcon img					{ width: 61px; height: auto; }
+		.diyPreview-specIcon-video img				{ margin-top: -35px; }
+		.diyPreview-specIcon-forum img				{ margin-top: -70px; }
+		.diyPreview-specIcon-gallery img			{ margin-top: -105px; }
+	.diyPreview-specTitle						{ font-size: 22px; line-height: 15px; }
+	.diyPreview-content p						{ width: 320px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #191919; 
+												  padding: 2px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	#diyLanding .nonProductGrid-wide-image			{ width: 214px; height: 145px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; overflow: hidden; }
+	#diyLanding .nonProductGrid-wide-image img		{ width: 100%; height: auto; }
+	#diyLanding .nonProductGrid-wide-info			{ width: 194px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 10px;
+												  	  background-image: url(../images/bg_gradientLight2.png); background-repeat: repeat-x; background-position: left top;
+												  	  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	#diyLanding .nonProductGrid-wide-specs			{ height: 40px; }
+	.nonProductGrid-wide-specIcon				{ width: 26px; height: 26px; float: left; padding: 0px 0px 0px 0px; margin: 7px 7px 0px 0px; overflow: hidden; } 
+	.nonProductGrid-wide-specIcon img			{ width: 61px; height: auto; float: right; }
+		.nonProductGrid-wide-specIcon-video img		{ margin-top: -35px; }
+		.nonProductGrid-wide-specIcon-forum img		{ margin-top: -70px; }
+		.nonProductGrid-wide-specIcon-gallery img	{ margin-top: -105px; }
 	
 	
 												  
@@ -270,8 +294,6 @@
 	.nonProductGrid-wide li:nth-child(2n+0)		{ border-right: none; }
 	.nonProductGrid-wide-image				 	{ width: 209px; height: 190px; }
 	.nonProductGrid-wide-info					{ width: 209px; float: left; }
-	.nonProductGrid-wide-title					{ width: 100%; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 24px; line-height: 18px; color: #191919; 
-												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	
 	/* GALLERY */
 	.galleryTitle-section						{ float: left; margin: 0px 0px 0px 0px; padding: 0px 15px 0px 0px; }

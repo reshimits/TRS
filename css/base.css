@@ -123,6 +123,7 @@
 			
 			.typekit_weightLight-styleNormal				{ font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 400; }
 			.typekit_weightLight-styleNormal-lowercase		{ font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 400; text-transform: none; }
+			.typekit_weightBold-styleNormal-uppercase		{ font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; text-transform: uppercase; }
 			
 			/*	Span Class Colors */
 			.lighten										{ color: #999; }
