@@ -36,12 +36,17 @@
 	.utility-contentContainer					{ width: 940px; float: left; margin: 20px 0px 0px 0px; }
 	.utility-section							{ width: 940px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc; }	
 	.utility-sectionSpecial						{ width: 940px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; }
-	.utility-sectionFirst						{ margin: 0px 0px 0px 0px; }
 	.utility-sectionContent						{ width: 910px; float: left; margin: 0px 0px 0px 0px; padding: 0px 15px 0px 15px; }
 	.utility-sectionContent h4					{ width: 905px; text-transform: uppercase; padding: 20px 0px 5px 5px; margin: 0px 0px 5px 0px; border-bottom: 1px solid #ddd; }
-	.utility-sectionContent .generalBtn-orange, 
-		.utility-sectionContent .generalBtn-orange:hover	 { float: right; margin: 25px 0px 0px 0px; }
+	.utility-sectionContent .generalBtn-orange, .utility-sectionContent .generalBtn-orange:hover	 { float: right; margin: 25px 0px 0px 0px; }
 	
+	.utility-section							{ width: 610px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc;
+												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }	
+	.utility-sideColContainer2					{ width: 300px; float: left; margin: 0px 10px 0px 0px; }
+	.utility-contentContainer2					{ width: 610px; float: left; margin: 0px 0px 0px 20px; }
+	
+	.utility-sectionFirst						{ margin: 0px 0px 0px 0px; }
 		
 	/* GENERAL STYLES Cont... */											  
 		/* Bread Crumb | Print | Share */
@@ -143,10 +148,37 @@
 	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	
 	
+	/* GALLERY DETAIL */
+	#rotmDetail .galleryTitle-upper				{ padding: 6px 0px 0px 0px; margin: 0px 0px 0px -2px; font-size: 34px; line-height: 20px; }
+	#rotmDetail .galleryTitle-lower				{ padding: 0px 0px 10px 0px; margin: 0px 0px 0px -7px; font-size: 176px; line-height: 128px; }
+	.galleryTitle-dynamic						{ width: 300px; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 34px; line-height: 26px; color: #fff; text-transform: uppercase; 
+												  text-align: center; letter-spacing: -2px; padding: 8px 0px 6px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; 
+												  background-color: #191919; }
+	.galleryDetailPreview-sectionContent		{ width: 270px; float: left; margin: 25px 0px 0px 0px; padding: 0px 15px 20px 15px; background-color: #eee; }
+	.galleryDetail-info							{ float: left; margin: 15px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.utility-sideCol-sectionInner-user			{ width: 190px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.user-avatar								{ width: 60px; height: 60px; float: left; margin: 0px 10px 0px 0px; padding: 1px 1px 1px 1px; border: 1px solid #ccc; }
+	.user-username								{ width: 100%; float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 18px; line-height: 18px; color: #191919; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.user-location								{ float: left; font-family: "PlutoSansBold", sans-serif; font-style: normal; font-size: 11px; line-height: 15px; color: #454545;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	
+	.galleryImagesContainer						{ width: 608px; float: left; margin: 0px 0px 15px 0px; padding: 0px 0px 20px 0px; border: 1px solid #ccc; }
+	.galleryImage-main							{ width: 608px; height: 400px; float: left; overflow: hidden; }
+	.galleryImage-main img						{ width: 100%; height: auto; }
+	.galleryCaption-main						{ float: left; padding: 0px 0px 0px 0px; margin: 10px 18px 10px 18px; }
+	.galleryCaption-main p						{ font-family: "PlutoSansRegular", sans-serif; font-style: normal; font-size: 11px; line-height: 15px; color: #454545; border-bottom: 1px solid #ddd;
+												  padding: 0px 0px 10px 0px; margin: 0px 0px 0px 0px;  -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.galleryImage-thumbsContainer				{ float: left; padding: 0px 0px 0px 0px; margin: 10px 0px 0px 18px; }
+	.galleryImage-thumb							{ width: 85px; height: 70px; overflow: hidden; float: left; padding: 0px 0px 0px 0px; margin: 0px 10px 0px 0px; border: 1px solid #ccc; } 
+	.galleryImage-thumb:hover					{ cursor: pointer; border: 1px solid #ea5f03; }
+	.galleryImage-thumb img						{ width: 85px; height: auto; }
+	
+	
 	/* DIY GUIDES */
 	#diyLanding .utilityBodyContainer			{ margin: 0px 10px 0px 10px; }	
-	#diyLanding .utility-sectionSpecial			{ margin: 0px 0px 20px 0px; padding: 0px 0px 0px 0px; border-radius: 0px 0px 8px 8px; overflow: hidden;
-												  background-image: url(../images/bg_diyGuides.jpg); background-repeat: no-repeat; background-position: left top; }
+	#diyLanding .utility-sectionSpecial			{ margin: 0px 0px 20px 0px; padding: 0px 0px 20px 0px; border-radius: 0px 0px 8px 8px; overflow: hidden;
+												  background-image: url(../images/bg_diyGuides.jpg); background-repeat: no-repeat; background-position: left -150px; }
 	.diyTitle-section							{ width: 380px; float: left; margin: 0px 0px 0px 0px; padding: 15px 0px 0px 20px; }
 	.diyTitle-upper								{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 86px; line-height: 66px; color: #191919;  
 												  text-transform: uppercase; padding: 0px 0px 0px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											    .diyTitle-mid								{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 106px; line-height: 84px; color: #191919; 
@@ -196,6 +228,9 @@
 	.utility-sectionContent						{ width: 670px; float: left; margin: 0px 0px 0px 0px; padding: 0px 15px 0px 15px; }
 	.utility-sectionContent h4					{ width: 670px; text-transform: uppercase; padding: 20px 0px 5px 5px; margin: 0px 0px 5px 0px; border-bottom: 1px solid #ddd; }	
 	
+	.utility-sideColContainer2					{ width: 700px; float: left; margin: 0px 0px 20px 0px; padding: 0px 0px 10px 0px; border-bottom: 1px solid #ccc; }	
+	.utility-contentContainer2					{ width: 700px; float: left; margin: 0px 0px 0px 0px; }
+	
 	/* GENERAL STYLES Cont... */
 		/* Bread Crumb | Print | Share */
 	.breadCrumb-utilityContainer				{ width: 700px; float: left; margin: 0px 10px 0px 10px; border-bottom: 1px solid #ccc; }
@@ -234,6 +269,8 @@
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%;  }
 	.nonProductGrid-filter-title				{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 22px; line-height: 20px; color: #d14001; text-transform: uppercase; 
 												  padding: 15px 0px 0px 0px; margin: 0px 15px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.nonProductGrid-filter-note					{ width: 300px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: italic; font-size: 9px; line-height: 12px; color: #191919;
+												  padding: 11px 0px 0px 0px; margin: 0px 0px 0px 5px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.filter										{ float: left; }
 	.filter label								{ float: left; font-family: "PlutoSansMedium", sans-serif; font-style: normal; color: #191919; font-size: 10px; line-height: 10px;
 	 											  padding: 0px 0px 2px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
@@ -241,6 +278,12 @@
 	
 	.filter select								{ height: 22px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #777;
 	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }										
+	
+	/* DIY GUIDES */
+	#diyLanding .utility-sectionSpecial			{ margin: 0px 0px 20px 0px; padding: 0px 0px 20px 0px; border-radius: 0px 0px 8px 8px; overflow: hidden;
+												  background-image: url(../images/bg_diyGuides.jpg); background-repeat: no-repeat; background-position: -50px -150px; }
+	
+		
 	}
 
 
@@ -270,6 +313,9 @@
 	.utility-sectionContent h4					{ width: 440px; text-transform: uppercase; padding: 20px 0px 5px 0px; margin: 0px 0px 5px 0px; border-bottom: 1px solid #ddd; }
 	.utility-sectionContent .generalBtn-orange,
 		.utility-sectionContent .generalBtn-orange:hover	 { margin: 15px 0px 0px 0px; }
+	
+	.utility-sideColContainer2					{ width: 460px; float: left; margin: 0px 0px 20px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc; }	
+	.utility-contentContainer2					{ width: 460px; float: left; margin: 0px 0px 0px 0px; }
 	
 	/* GENERAL STYLES Cont... */	
 		/* Bread Crumb | Print | Share */
@@ -326,6 +372,8 @@
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%;  }
 	.nonProductGrid-filter-title				{ width: 100%; float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 18px; line-height: 16px; color: #d14001; text-transform: uppercase; 
 												  padding: 0px 0px 5px 0px; margin: 0px 15px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.nonProductGrid-filter-note					{ width: 300px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: italic; font-size: 9px; line-height: 12px; color: #191919;
+												  padding: 11px 0px 0px 0px; margin: 0px 0px 0px 5px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.filter										{ float: left; }
 	.filter label								{ float: left; font-family: "PlutoSansMedium", sans-serif; font-style: normal; color: #191919; font-size: 10px; line-height: 10px;
 	 											  padding: 0px 0px 2px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
@@ -334,7 +382,14 @@
 	.filter select								{ height: 22px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #777;
 	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 												  
-												  											  
+	/* DIY GUIDES */
+	.diyTitle-section							{ width: 420px; float: left; margin: 0px 0px 0px 0px; padding: 15px 0px 0px 20px; }
+	.diyTitle-upper								{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 95px; line-height: 72px; color: #191919;  
+												  text-transform: uppercase; padding: 0px 0px 0px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											    .diyTitle-mid								{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 116px; line-height: 94px; color: #191919; 
+												  text-transform: uppercase; letter-spacing: -8px; padding: 7px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	
+		
+													  											  
 	}
 
 
@@ -366,6 +421,9 @@
 	.utility-sectionContent .generalBtn-orange,
 		.utility-sectionContent .generalBtn-orange:hover	 { margin: 15px 0px 0px 0px; }
 	
+	.utility-sideColContainer2					{ width: 300px; float: left; margin: 0px 0px 20px 0px; padding: 0px 0px 5px 0px; border-bottom: 1px solid #ccc; }	
+	.utility-contentContainer2					{ width: 300px; float: left; margin: 0px 0px 0px 0px; }
+	
 	/* GENERAL STYLES Cont... */	
 		/* Bread Crumb | Print | Share */
 	.breadCrumb-utilityContainer				{ width: 300px; float: left; margin: 0px 0px 0px 0px; border-bottom: 1px solid #ccc; }	
@@ -393,9 +451,9 @@
 	
 	/* GALLERY */
 	.galleryTitle-section						{ float: left; margin: 0px 0px 0px 0px; padding: 0px 15px 0px 0px; }
-		#rotm .galleryTitle-section					{ width: 445px; padding: 0px 15px 0px 0px; }
-		#customerProjects .galleryTitle-section		{ width: 445px; padding: 0px 15px 0px 0px; }
-		#caseStudies .galleryTitle-section			{ width: 445px; padding: 0px 15px 0px 0px; }
+		#rotm .galleryTitle-section					{ width: 285px; padding: 0px 15px 0px 0px; }
+		#customerProjects .galleryTitle-section		{ width: 285px; padding: 0px 15px 0px 0px; }
+		#caseStudies .galleryTitle-section			{ width: 285px; padding: 0px 15px 0px 0px; }
 	.galleryTitle-upper							{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 16px; line-height: 14px; color: #191919; text-transform: uppercase; 
 												  letter-spacing: 0px; padding: 2px 0px 0px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											    .galleryTitle-lower							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 48px; line-height: 36px; color: #191919; 
 												  text-transform: uppercase; letter-spacing: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
@@ -421,6 +479,8 @@
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%;  }
 	.nonProductGrid-filter-title				{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 18px; line-height: 16px; color: #d14001; text-transform: uppercase; 
 												  padding: 0px 0px 5px 0px; margin: 0px 50px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.nonProductGrid-filter-note					{ width: 260px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: italic; font-size: 9px; line-height: 12px; color: #191919;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.filter										{ float: left; }
 	.filter label								{ float: left; font-family: "PlutoSansMedium", sans-serif; font-style: normal; color: #191919; font-size: 10px; line-height: 10px;
 	 											  padding: 0px 0px 2px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
@@ -428,6 +488,28 @@
 	
 	.filter select								{ height: 22px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #777;
 	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  									  
+	/* DIY GUIDES */
+	#diyLanding .utilityBodyContainer			{ margin: 0px 0px 0px 0px; }	
+	#diyLanding .utility-sectionSpecial			{ margin: 0px 0px 20px 0px; padding: 0px 0px 15px 0px; border-radius: 0px 0px 8px 8px; overflow: hidden;
+												  background-image: url(../images/bg_diyGuides.jpg); background-repeat: no-repeat; background-position: left bottom; }
+	.diyTitle-section							{ width: 285px; float: left; margin: 0px 0px 0px 0px; padding: 15px 0px 0px 20px; }
+	.diyTitle-upper								{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 48px; line-height: 36px; color: #191919;  
+												  text-transform: uppercase; padding: 0px 0px 0px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											    .diyTitle-mid								{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 72px; line-height: 54px; color: #191919; 
+												  text-transform: uppercase; letter-spacing: -5px; padding: 7px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.diyTitle-lower								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #888; 
+												  text-transform: uppercase; padding: 3px 0px 0px 3px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	
+	.diyPreview-content							{ float: left; margin: 5px 0px 0px 0px; padding: 0px 0px 25px 0px; }
+	.diyPreview-spec							{ width: 100%; float: left; padding: 0px 0px 0px 3px; margin: 10px 0px 0px 0px; }						  
+	
+	#diyLanding .nonProductGrid-wide-image			{ width: 280px; height: 190px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; overflow: hidden; }
+	#diyLanding .nonProductGrid-wide-image img		{ width: 100%; height: auto; }
+	#diyLanding .nonProductGrid-wide-info			{ width: 260px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 10px;
+												  	  background-image: url(../images/bg_gradientLight2.png); background-repeat: repeat-x; background-position: left top;
+												  	  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	
+		
+		
 	}
 
 

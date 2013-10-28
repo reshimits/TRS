@@ -85,7 +85,7 @@
                 	<ul class="breadCrumb">
                 		<li><a href="/client/trs/index.php">Home</a></li>
                 		<li> > </li>
-                		<li><a href="/client/trs/gallery/retrofit-of-the-month.php">Retrofit of the Month</a></li>
+                		<li><a href="/client/trs/gallery/retrofit-of-the-month-gallery.php">Retrofit of the Month</a></li>
                         <li> > </li>
                 		<li><a href="#">Customer Project Gallery</a></li>
                 	</ul>
@@ -95,9 +95,9 @@
                 
                 <div class="utility-tabNavContainer">
                 	<ul class="tabNav">
-                		<li class="tabNav-firstChild"><a href="/client/trs/gallery/retrofit-of-the-month.php"><span class="hide460">Retrofit of the Month</span><span class="mobile-only">ROTM</span></a></li>
-                		<li class="tabNav-midChild tabNav-active"><a href="/client/trs/gallery/customer-projects.php"><h1><span class="hide460">Customer </span>Projects</h1></a></li>
-                        <li class="tabNav-lastChild"><a href="/client/trs/gallery/case-studies.php"><span class="hide460">Retrofit </span>Case Studies</a></li>
+                		<li class="tabNav-firstChild"><a href="/client/trs/gallery/retrofit-of-the-month-gallery.php"><span class="hide460">Retrofit of the Month</span><span class="mobile-only">ROTM</span></a></li>
+                		<li class="tabNav-midChild tabNav-active"><a href="/client/trs/gallery/customer-projects-gallery.php"><h1><span class="hide460">Customer </span>Projects</h1></a></li>
+                        <li class="tabNav-lastChild"><a href="/client/trs/gallery/case-studies-gallery.php"><span class="hide460">Retrofit </span>Case Studies</a></li>
                 	</ul>
                 </div>
                 

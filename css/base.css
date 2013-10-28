@@ -51,6 +51,7 @@
 			#Images
 			#Buttons
 			#Forms
+			#Notifications
 			#Misc */
 		
 		
@@ -254,6 +255,22 @@
 			.formLink a							{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 13px; color: #777; text-decoration: underline;
 	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 			.formLink a:hover					{ color: #ea5f03; }
+		
+		/* #Notifications
+		================================================== */
+			.messages, .messages ul 			{ list-style:none !important; margin:0 !important; padding:0 !important; }
+			.messages 							{ width:100%; overflow:hidden; }
+			.messages li 						{ margin:0 0 15px !important; }
+			.messages li li 					{ margin: 4px 0px 0px 0px !important; }
+			.error-msg, .success-msg, 
+				.note-msg, .notice-msg 			{ border-style:solid !important; border-width:1px !important; font-family: Helvetica, Arial, sans-serif !important; font-style: italic !important; 
+												  font-weight:bold !important; font-size:11px !important; padding:8px 8px 8px 32px !important; 
+												  background-position:10px 9px !important; background-repeat:no-repeat !important; min-height:20px !important;
+												  -webkit-background-size: 16px auto !important; -moz-background-size: 16px auto !important; background-size: 16px auto !important; }
+			.error-msg 							{ border-color:#bb0100; background-color:#faebe7; color:#bb0100; background-image: url(../images/icon_msg-error2x.png); }
+			.success-msg 						{ border-color:#008800; background-color:#eff5ea; background-image:url(../images/icon_msg-success2x.png); color:#008800; }
+			.note-msg, .notice-msg 				{ border-color:#345eb9; background-color:#d0dfff; color:#345eb9; 
+						  						  background-image:url(../images/icon_msg-note2x.png); }
 												  									  
 		/* #Misc
 		================================================== */
@@ -261,6 +278,8 @@
 			.half-bottom { margin-bottom: 10px !important; }
 			.add-bottom { margin-bottom: 20px !important; }
 
+
+			
 
 
 /* #Tablet (Portrait)

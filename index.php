@@ -10,7 +10,7 @@
   ================================================== -->
 	<meta charset="utf-8">
 	<title>The Retrofit Source | Innovative Headlight Upgrades</title>
-	<meta name="description" content="Easily the biggest and most trusted distributor for automotive headlight retrofits with high-end xenon and bi-xenon projector systems in North America. And now with global reach, TRS is a recognized leader in HID headlight retrofitting.">
+	<meta name="description" content="If you're driving something truly special, other enthusiasts will notice you in the day – but don't make the mistake of cruising by unnoticed at night. Easily the biggest and most trusted distributor for automotive headlight retrofits in North America. And now with global reach, TRS is a recognized leader in HID headlight retrofitting.">
 	<meta name="author" content="THROTTLE, LTD. is a Columbus Ohio based boutique graphic design firm. We consult, strategize, design, build and manage web site, brand identity and print collateral projects for SME businesses. www.throttlestudios.com">
 
 	<!-- Mobile Specific Metas
@@ -90,7 +90,7 @@
                     <div class="homePromos-content">
                         <span class="homePromos-title"><span class="hide300">The Almighty</span> Inspiration Gallery</span>
                         <span class="homePromos-info">Customer projects in just about every imaginable (legal) application.</span>
-                        <div class="generalBtn-blue"><a href="/client/trs/gallery/retrofit-of-the-month.php"><span class="generalBtn-title">Be Inspired</span></a></div> 
+                        <div class="generalBtn-blue"><a href="/client/trs/gallery/retrofit-of-the-month-gallery.php"><span class="generalBtn-title">Be Inspired</span></a></div> 
                 	</div>        
                 </div>
                 <div class="homePromosR"> 

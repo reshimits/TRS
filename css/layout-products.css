@@ -126,7 +126,7 @@
 	.productImage-main img						{ width: 100%; height: auto; }
 	.productImage-thumbsContainer				{ float: left; padding: 0px 0px 0px 0px; margin: 10px 0px 0px 17px; }
 	.productImage-thumb							{ width: 75px; height: 70px; float: left; padding: 0px 0px 0px 0px; margin: 0px 10px 0px 0px; border: 1px solid #ccc; } 
-	.productImage-thumb:hover					{ cursor: pointer; }
+	.productImage-thumb:hover					{ cursor: pointer; border: 1px solid #ea5f03; }
 	.productImage-thumb img						{ width: 75px; height: auto; }
 	.productBrand								{ width: 150px; top: -370px; float: left; position: relative; margin: 0px 0px 0px 10px; }
 	.productBrand img							{ width: 150px; height: auto; }

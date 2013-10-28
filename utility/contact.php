@@ -81,6 +81,21 @@
             	
                 <div class="utility-header"><h1>Contact Us</h1></div>
                 
+                <!-- Contact Us
+				================================================== -->
+                <ul class="messages">
+                	<li class="success-msg">
+                    	<ul><li><span>Projector E was added to your shopping cart.</span></li></ul>
+                    </li>
+                    <li class="error-msg">
+                    	<ul><li><span>Projector E cannot be added to your shopping cart at this time.</span></li></ul>
+                    </li>
+                    <li class="note-msg">
+                    	<ul><li><span>Projector E has been in to your shopping cart for 3 days.</span></li></ul>
+                    </li>
+                </ul>
+                
+    
             	<div class="utility-sideColContainer2">
                 	<div class="utility-intro">
                     	<h3>The Retrofit Source welcomes and values your feedback. Whether you have a technical question, want a personalized recommendation on parts for your project, or are seeking help on an install, we will be happy to help.<br><br> 
@@ -121,7 +136,7 @@
                     </div>	
                 </div>    
                 
-                <div class="utility-contentContainer2">
+                <div class="utility-contentContainer2 hide940">
                     <div class="utility-section utility-sectionFirst">            		
                         <div class="utility-sectionTitle-iconIntro">
                         	<img src="/client/trs/images/icon_messageplane2x.png" alt="Send A Message" border="0" />
@@ -130,7 +145,6 @@
                         <div class="utility-sectionContent">
                             <div class="utility-form">
                             <form id="contactForm" action="/client/trs/#.php" method="get">
-                            	<span class="formError only940">-- This space is where Error Alerts will appear --</span>
                             	<h4>Personal Information</h4>
                             	<div class="formFieldContainer">
                                 	<input class="general general-required" type="text" value="Name:" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />
@@ -186,6 +200,21 @@
                     </div>
                     <span class="formNote">*After sending a message, you can expect a response from our customer service team within 1-2 business days.<br>
 											We reply to all emails in the order they are received.</span>
+                </div>
+                
+                <div class="utility-contentContainer2">                            
+                	<div class="utility-section utility-sectionFirst">            		
+                        <div class="utility-sectionTitle-iconIntro">
+                        	<img src="/client/trs/images/icon_messageplane2x.png" alt="Send A Message" border="0" />
+                        	<h2>Thank You!</h2>
+                        </div>
+                        <div class="utility-sectionContent">
+                            <div class="utility-form">
+                            	<h4>Your message has been successfully sent.</h4>
+                            </div>
+                            <span class="formNote">Vroom vroom! We are moving as quickly as possible to answer all inquiries (in the order they are received). You will receive a personalized reply to the email address provided in 1-2 business days. Thank you for you patience.</span>
+                        </div>
+                    </div>
                 </div>
                 
                 <div class="utility-contentContainer3">

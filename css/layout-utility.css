@@ -72,7 +72,7 @@
 	.utility-sectionContent h4					{ text-transform: uppercase; padding: 20px 0px 5px 5px; margin: 0px 0px 5px 0px; border-bottom: 1px solid #ddd; }
 	.utility-sectionSpecial						{ width: 430px; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 12px; line-height: 16px; color: #888;
 												  padding: 20px 0px 5px 5px; margin: 0px 0px 10px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.utility-sectionContent .generalBtn-orange,.utility-sectionContent .generalBtn-orange:hover	 { float: right; margin: 25px 0px 0px 0px; }
+		.utility-sectionContent .generalBtn-orange, .utility-sectionContent .generalBtn-orange:hover	 { float: right; margin: 25px 0px 0px 0px; }
 		
 		/* Bread Crumb | Print | Share */
 	.breadCrumb-utilityContainer				{ width: 940px; float: left; margin: 0px 10px 0px 10px; border-bottom: 1px solid #ccc; }	
@@ -277,15 +277,15 @@
 	.rrContact-logo img							{ width: 210px; height: auto; }
 	.rrContact-storyLong						{ display: none; }
 
-	.rrImagesContainer							{ width: 610px; float: left; margin: 20px 0px 15px 0px; padding: 0px 0px 20px 0px; border: 1px solid #ccc; }
-	.rrImage-main								{ width: 610px; height: 400px; float: left; overflow: hidden; }
+	.rrImagesContainer							{ width: 608px; float: left; margin: 20px 0px 15px 0px; padding: 0px 0px 20px 0px; border: 1px solid #ccc; }
+	.rrImage-main								{ width: 608px; height: 400px; float: left; overflow: hidden; }
 	.rrImage-main img							{ width: 100%; height: auto; }
-	.rrCaption-main								{ float: left; padding: 0px 0px 0px 0px; margin: 10px 19px 10px 19px; }
+	.rrCaption-main								{ float: left; padding: 0px 0px 0px 0px; margin: 10px 18px 10px 18px; }
 	.rrCaption-main p							{ font-family: "PlutoSansRegular", sans-serif; font-style: normal; font-size: 11px; line-height: 15px; color: #454545; border-bottom: 1px solid #ddd;
 												  padding: 0px 0px 10px 0px; margin: 0px 0px 0px 0px;  -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-	.rrImage-thumbsContainer					{ float: left; padding: 0px 0px 0px 0px; margin: 10px 0px 0px 19px; }
+	.rrImage-thumbsContainer					{ float: left; padding: 0px 0px 0px 0px; margin: 10px 0px 0px 18px; }
 	.rrImage-thumb								{ width: 85px; height: 70px; overflow: hidden; float: left; padding: 0px 0px 0px 0px; margin: 0px 10px 0px 0px; border: 1px solid #ccc; } 
-	.rrImage-thumb:hover						{ cursor: pointer; }
+	.rrImage-thumb:hover						{ cursor: pointer; border: 1px solid #ea5f03; }
 	.rrImage-thumb img							{ width: 85px; height: auto; }
 
 
