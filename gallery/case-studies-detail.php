@@ -9,8 +9,8 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Retrofit of the Month Project Detail from The Retrofit Source | Innovative Headlight Upgrades</title>
-	<meta name="description" content="This is a modification for those who are serious about the looks and performance of their vehicle. The guy who takes his time to make sure every detail is perfect – the beam pattern is as straight as an arrow, and not a fingerprint in sight. This is what Retrofit of the Month is all about.">
+	<title>Retrofit Case Studies Detail from The Retrofit Source | Innovative Headlight Upgrades</title>
+	<meta name="description" content="Here we showcase a variety of examples to illustrate the flexibility of our kits. Actual TRS customers who have spent their hard-earned free time building them and explaining to their woman why exactly their headlights are in the oven. These guys enjoy the benefit of a great looking set of custom headlights every day, and a great performing set of headlights every night.">
 	<meta name="author" content="THROTTLE, LTD. is a Columbus Ohio based boutique graphic design firm. We consult, strategize, design, build and manage web site, brand identity and print collateral projects for SME businesses. www.throttlestudios.com">
 
 	<!-- Mobile Specific Metas
@@ -67,7 +67,7 @@
 
 
 
-	<!-- Retrofit of the Month Project Detail
+	<!-- Case Study Detail
 	================================================== -->
 
  
@@ -75,7 +75,7 @@
     <div class="navMain hide460"><?php require('../include/navMain.html');?></div>
     <div class="navMobile mobile-only"><?php require('../include/navMobile.html');?></div>
     
-        <div class="container" id="rotmDetail">
+        <div class="container" id="caseStudiesDetail">
         	<div class="full column">
         	
 <!-- =========== Bread Crumb ================================================== -->
@@ -84,9 +84,9 @@
                 	<ul class="breadCrumb">
                 		<li><a href="/client/trs/index.php">Home</a></li>
                 		<li> > </li>
-                		<li><a href="/client/trs/gallery/retrofit-of-the-month-gallery.php">Retrofit of the Month Project Gallery</a></li>
+                		<li><a href="/client/trs/gallery/case-studies-gallery.php">Retrofit Case Studies</a></li>
                         <li> > </li>
-                		<li><a href="#">November Retrofit of the Month</a></li>
+                		<li><a href="#">Quad Projector Retrofit</a></li>
                 	</ul>
                 </div>
 
@@ -97,10 +97,10 @@
                 <div class="utility-sideColContainer2">            		
                 	<div class="galleryTitle-section">
                     <h1>
-                    	<span class="galleryTitle-upper">Retrofit of the</span>
-                		<span class="galleryTitle-lower">Month</span>
+                    	<span class="galleryTitle-upper">A Retrofit Case</span>
+                		<span class="galleryTitle-lower">Study</span>
                     </h1>
-                	<span class="galleryTitle-dynamic">November 2013</span>
+                	<span class="galleryTitle-dynamic">Quad Projector Retrofit</span>
                     </div>        
                 	<div class="galleryDetailPreview-sectionContent">
                 		<div class="galleryDetail-info galleryDetail-infoUser">

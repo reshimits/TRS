@@ -165,7 +165,7 @@
                     		<ul class="nonProductGrid-wide">
                     	
                                 <li>
-                                <a href="#">
+                                <a href="/client/trs/gallery/case-studies-detail.php">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/e4a7780f-cbf4-4301-aac3-3b2c93063c97-1.jpg" alt="Past ROTM: 2003 Dodge Ram Diesel" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
                                         <span class="nonProductGrid-wide-title">Quad Projector Retrofit</span>

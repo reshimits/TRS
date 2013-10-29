@@ -40,13 +40,10 @@
 	.utility-sectionContent h4					{ width: 905px; text-transform: uppercase; padding: 20px 0px 5px 5px; margin: 0px 0px 5px 0px; border-bottom: 1px solid #ddd; }
 	.utility-sectionContent .generalBtn-orange, .utility-sectionContent .generalBtn-orange:hover	 { float: right; margin: 25px 0px 0px 0px; }
 	
-	.utility-section							{ width: 610px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc;
-												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
-												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }	
 	.utility-sideColContainer2					{ width: 300px; float: left; margin: 0px 10px 0px 0px; }
-	.utility-contentContainer2					{ width: 610px; float: left; margin: 0px 0px 0px 20px; }
+	.utility-contentContainer2					{ width: 610px; float: left; margin: 20px 0px 0px 20px; }
 	
-	.utility-sectionFirst						{ margin: 0px 0px 0px 0px; }
+	.utility-sectionFirst						{ margin-top: 0px; }
 		
 	/* GENERAL STYLES Cont... */											  
 		/* Bread Crumb | Print | Share */
@@ -149,19 +146,23 @@
 	
 	
 	/* GALLERY DETAIL */
-	#rotmDetail .galleryTitle-upper				{ padding: 6px 0px 0px 0px; margin: 0px 0px 0px -2px; font-size: 34px; line-height: 20px; }
+	#rotmDetail .galleryTitle-upper,
+		#caseStudiesDetail .galleryTitle-upper	{ padding: 6px 0px 0px 0px; margin: 0px 0px 0px 0px; font-size: 34px; line-height: 20px; }
 	#rotmDetail .galleryTitle-lower				{ padding: 0px 0px 10px 0px; margin: 0px 0px 0px -7px; font-size: 176px; line-height: 128px; }
+	#caseStudiesDetail .galleryTitle-lower		{ padding: 0px 0px 10px 0px; margin: 0px 0px 0px -3px; font-size: 198px; line-height: 140px; }
+	#rotmDetail .galleryTitle-section,
+		#caseStudiesDetail .galleryTitle-section 	{ padding: 0px 0px 0px 0px; }
 	.galleryTitle-dynamic						{ width: 300px; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 34px; line-height: 26px; color: #fff; text-transform: uppercase; 
 												  text-align: center; letter-spacing: -2px; padding: 8px 0px 6px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; 
 												  background-color: #191919; }
-	.galleryDetailPreview-sectionContent		{ width: 270px; float: left; margin: 25px 0px 0px 0px; padding: 0px 15px 20px 15px; background-color: #eee; }
-	.galleryDetail-info							{ float: left; margin: 15px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	#caseStudiesDetail .galleryTitle-dynamic	{ font-size: 28px; }					
+	.galleryDetailPreview-sectionContent		{ min-height: 700px; width: 270px; float: left; margin: 25px 0px 0px 0px; padding: 0px 15px 20px 15px; background-color: #eee; }
+	.galleryDetail-info							{ width: 100%; float: left; margin: 15px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 	.utility-sideCol-sectionInner-user			{ width: 190px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 	.user-avatar								{ width: 60px; height: 60px; float: left; margin: 0px 10px 0px 0px; padding: 1px 1px 1px 1px; border: 1px solid #ccc; }
-	.user-username								{ width: 100%; float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 18px; line-height: 18px; color: #191919; text-transform: uppercase;
-												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-	.user-location								{ float: left; font-family: "PlutoSansBold", sans-serif; font-style: normal; font-size: 11px; line-height: 15px; color: #454545;
-												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	#rotmDetail .nonProductGrid-wide-specTitle,
+		#caseStudiesDetail .nonProductGrid-wide-specTitle	{ padding: 5px 10px 0px 0px; }
+	.galleryDetail-info h2						{ width: 100%; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 24px; line-height: 20px; color: #191919;												  												  text-transform: none; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	
 	.galleryImagesContainer						{ width: 608px; float: left; margin: 0px 0px 15px 0px; padding: 0px 0px 20px 0px; border: 1px solid #ccc; }
 	.galleryImage-main							{ width: 608px; height: 400px; float: left; overflow: hidden; }
@@ -173,6 +174,9 @@
 	.galleryImage-thumb							{ width: 85px; height: 70px; overflow: hidden; float: left; padding: 0px 0px 0px 0px; margin: 0px 10px 0px 0px; border: 1px solid #ccc; } 
 	.galleryImage-thumb:hover					{ cursor: pointer; border: 1px solid #ea5f03; }
 	.galleryImage-thumb img						{ width: 85px; height: auto; }
+	
+	.galleryContent								{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 13px; line-height: 16px; color: #454545;
+	 											  padding: 8px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; border-bottom: 1px solid #ccc; }
 	
 	
 	/* DIY GUIDES */
@@ -224,12 +228,13 @@
 	.utility-contentContainer					{ width: 700px; float: left; margin: 20px 0px 0px 0px; }
 	.utility-section							{ width: 700px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc; }
 	.utility-sectionSpecial						{ width: 700px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; }
-	.utility-sectionFirst						{ margin: 0px 0px 0px 0px; }
 	.utility-sectionContent						{ width: 670px; float: left; margin: 0px 0px 0px 0px; padding: 0px 15px 0px 15px; }
 	.utility-sectionContent h4					{ width: 670px; text-transform: uppercase; padding: 20px 0px 5px 5px; margin: 0px 0px 5px 0px; border-bottom: 1px solid #ddd; }	
 	
-	.utility-sideColContainer2					{ width: 700px; float: left; margin: 0px 0px 20px 0px; padding: 0px 0px 10px 0px; border-bottom: 1px solid #ccc; }	
-	.utility-contentContainer2					{ width: 700px; float: left; margin: 0px 0px 0px 0px; }
+	.utility-sideColContainer2					{ width: 700px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; border-bottom: none; }	
+	.utility-contentContainer2					{ width: 700px; float: left; margin: 20px 0px 0px 0px; }
+	
+	.utility-sectionFirst						{ margin-top: 0px; }
 	
 	/* GENERAL STYLES Cont... */
 		/* Bread Crumb | Print | Share */
@@ -256,7 +261,6 @@
 	
 	
 	/* GALLERY */
-	
 	.rotmPreview-sectionImage					{ width: 290px; height: 426px; float: right; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; overflow: hidden; text-align: center; }
 	.rotmPreview-sectionImage img				{ width: auto; height: 100%; }
 	.galleryPreview-content						{ float: left; margin: 20px 0px 0px 0px; padding: 0px 15px 20px 15px; }
@@ -279,6 +283,25 @@
 	.filter select								{ height: 22px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #777;
 	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }										
 	
+	
+	/* GALLERY DETAIL */
+	#rotmDetail .galleryTitle-section,
+		#caseStudiesDetail .galleryTitle-section	 { width: 320px; padding: 0px 0px 0px 0px; }
+	
+	.galleryDetailPreview-sectionContent		{ min-height: inherit; width: 350px; float: left; margin: 0px 0px 0px 0px; padding: 0px 15px 20px 15px; background-color: #eee; }
+	.galleryDetail-info							{ width: 50%; float: left; margin: 15px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.galleryDetail-infoUser						{ width: 100%; }
+	.utility-sideCol-sectionInner-user			{ width: 270px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	
+	.galleryImagesContainer						{ width: 698px; float: left; margin: 20px 0px 15px 0px; padding: 0px 0px 20px 0px; border: 1px solid #ccc; }
+	.galleryImage-main							{ width: 698px; height: 460px; float: left; overflow: hidden; }
+	.galleryCaption-main						{ float: left; padding: 0px 0px 0px 0px; margin: 10px 64px 10px 64px; }
+	.galleryCaption-main p						{ font-family: "PlutoSansRegular", sans-serif; font-style: normal; font-size: 11px; line-height: 15px; color: #454545; border-bottom: 1px solid #ddd;
+												  padding: 0px 0px 10px 0px; margin: 0px 0px 0px 0px;  -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.galleryImage-thumbsContainer				{ float: left; padding: 0px 0px 0px 0px; margin: 10px 0px 0px 64px; }
+	
+												  
+											  
 	/* DIY GUIDES */
 	#diyLanding .utility-sectionSpecial			{ margin: 0px 0px 20px 0px; padding: 0px 0px 20px 0px; border-radius: 0px 0px 8px 8px; overflow: hidden;
 												  background-image: url(../images/bg_diyGuides.jpg); background-repeat: no-repeat; background-position: -50px -150px; }
@@ -308,14 +331,15 @@
 	.utility-contentContainer					{ width: 460px; float: left; margin: 20px 0px 0px 0px; }
 	.utility-section							{ width: 460px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc; }
 	.utility-sectionSpecial						{ width: 100%; float: left; margin: 15px 0px 0px 0px; padding: 0px 0px 15px 0px; }
-	.utility-sectionFirst						{ margin: 0px 0px 0px 0px; }
 	.utility-sectionContent						{ width: 440px; float: left; margin: 0px 0px 0px 0px; padding: 0px 10px 0px 10px; }
 	.utility-sectionContent h4					{ width: 440px; text-transform: uppercase; padding: 20px 0px 5px 0px; margin: 0px 0px 5px 0px; border-bottom: 1px solid #ddd; }
 	.utility-sectionContent .generalBtn-orange,
 		.utility-sectionContent .generalBtn-orange:hover	 { margin: 15px 0px 0px 0px; }
 	
-	.utility-sideColContainer2					{ width: 460px; float: left; margin: 0px 0px 20px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc; }	
-	.utility-contentContainer2					{ width: 460px; float: left; margin: 0px 0px 0px 0px; }
+	.utility-sideColContainer2					{ width: 460px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; border-bottom: none; }	
+	.utility-contentContainer2					{ width: 460px; float: left; margin: 20px 0px 0px 0px; }
+	
+	.utility-sectionFirst						{ margin-top: 0px; }
 	
 	/* GENERAL STYLES Cont... */	
 		/* Bread Crumb | Print | Share */
@@ -382,6 +406,38 @@
 	.filter select								{ height: 22px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #777;
 	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 												  
+	/* GALLERY DETAIL */
+	#rotmDetail .galleryTitle-upper,
+		#caseStudiesDetail .galleryTitle-upper	{ padding: 6px 0px 0px 0px; margin: 0px 0px 0px 2px; font-size: 20px; line-height: 14px; }
+	#rotmDetail .galleryTitle-lower,
+		#caseStudiesDetail .galleryTitle-lower	{ padding: 0px 0px 10px 0px; margin: 0px 0px 0px -2px; font-size: 100px; line-height: 75px; }
+	#rotmDetail .galleryTitle-section,
+		#caseStudiesDetail .galleryTitle-section	{ width: inherit; padding: 0px 0px 0px 0px; }
+	#rotmDetail .bodyContainer h1				{ width: 190px; }
+	#caseStudiesDetail .bodyContainer h1		{ width: 180px; }
+	.galleryTitle-dynamic						{ position: relative; top: 27px; height: 55px; width: 270px; float: left; 
+												  font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 30px; line-height: 46px; color: #fff;  
+												  text-transform: uppercase; text-align: center; letter-spacing: -2px; padding: 12px 0px 0px 0px; margin: 0px 0px 0px 0px; 
+												  background-color: #191919; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+	#caseStudiesDetail .galleryTitle-dynamic	{ width: 280px; font-size: 16px; letter-spacing: 0px; }
+	.galleryDetailPreview-sectionContent		{ min-height: inherit; width: 430px; float: left; margin: 0px 0px 0px 0px; padding: 0px 15px 20px 15px; background-color: #eee; }
+	.galleryDetail-info							{ width: 50%; float: left; margin: 15px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.galleryDetail-infoUser						{ width: 100%; }
+	.utility-sideCol-sectionInner-user			{ width: 350px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.galleryDetail-info h2						{ width: 100%; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 24px; line-height: 20px; color: #191919;												  												  text-transform: none; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	
+	.galleryImagesContainer						{ width: 458px; float: left; margin: 20px 0px 15px 0px; padding: 0px 0px 20px 0px; border: 1px solid #ccc; }
+	.galleryImage-main							{ width: 458px; height: 300px; float: left; overflow: hidden; }
+	.galleryCaption-main						{ float: left; padding: 0px 0px 0px 0px; margin: 10px 17px 10px 17px; }
+	.galleryCaption-main p						{ font-family: "PlutoSansRegular", sans-serif; font-style: normal; font-size: 11px; line-height: 15px; color: #454545; border-bottom: 1px solid #ddd;
+												  padding: 0px 0px 10px 0px; margin: 0px 0px 0px 0px;  -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.galleryImage-thumbsContainer				{ float: left; padding: 0px 0px 0px 0px; margin: 10px 0px 0px 17px; }
+	.galleryImage-thumb							{ width: 60px; height: 70px; overflow: hidden; float: left; padding: 0px 0px 0px 0px; margin: 0px 10px 0px 0px; border: 1px solid #ccc; } 
+	.galleryImage-thumb:hover					{ cursor: pointer; }
+	.galleryImage-thumb img						{ width: 85px; height: auto; }
+	
+	
 	/* DIY GUIDES */
 	.diyTitle-section							{ width: 420px; float: left; margin: 0px 0px 0px 0px; padding: 15px 0px 0px 20px; }
 	.diyTitle-upper								{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 95px; line-height: 72px; color: #191919;  
@@ -415,14 +471,15 @@
 	.utility-contentContainer					{ width: 300px; float: left; margin: 20px 0px 0px 0px; }
 	.utility-section							{ width: 300px; float: left; margin: 30px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc; }
 	.utility-sectionSpecial						{ width: 100%; float: left; margin: 15px 0px 0px 0px; padding: 0px 0px 15px 0px; }
-	.utility-sectionFirst						{ margin: 0px 0px 0px 0px; }
 	.utility-sectionContent						{ width: 280px; float: left; margin: 0px 0px 0px 0px; padding: 0px 10px 0px 10px; }
 	.utility-sectionContent h4					{ text-transform: uppercase; padding: 20px 0px 5px 0px; margin: 0px 0px 5px 0px; border-bottom: 1px solid #ddd; }
 	.utility-sectionContent .generalBtn-orange,
 		.utility-sectionContent .generalBtn-orange:hover	 { margin: 15px 0px 0px 0px; }
 	
-	.utility-sideColContainer2					{ width: 300px; float: left; margin: 0px 0px 20px 0px; padding: 0px 0px 5px 0px; border-bottom: 1px solid #ccc; }	
-	.utility-contentContainer2					{ width: 300px; float: left; margin: 0px 0px 0px 0px; }
+	.utility-sideColContainer2					{ width: 300px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; border-bottom: none; }	
+	.utility-contentContainer2					{ width: 300px; float: left; margin: 20px 0px 0px 0px; }
+	
+	.utility-sectionFirst						{ margin-top: 0px; }
 	
 	/* GENERAL STYLES Cont... */	
 		/* Bread Crumb | Print | Share */
@@ -488,6 +545,34 @@
 	
 	.filter select								{ height: 22px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #777;
 	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  									  
+	/* GALLERY DETAIL */
+	#rotmDetail .galleryTitle-upper,
+		#caseStudiesDetail .galleryTitle-upper		{ padding: 6px 0px 0px 0px; margin: 0px 0px 0px 2px; font-size: 16px; line-height: 14px; }
+	#rotmDetail .galleryTitle-lower,
+		#caseStudiesDetail .galleryTitle-lower		{ padding: 0px 0px 10px 0px; margin: 0px 0px 0px -2px; font-size: 100px; line-height: 75px; }
+	#rotmDetail .galleryTitle-section,
+		#caseStudiesDetail .galleryTitle-section	{ width: inherit; padding: 0px 0px 0px 0px; }
+	.galleryTitle-dynamic,
+		#caseStudiesDetail .galleryTitle-dynamic	{ width: 300px; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 24px; line-height: 26px; color: #fff; text-transform: uppercase; 
+												  text-align: center; letter-spacing: -1px; padding: 8px 0px 6px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; 
+												  background-color: #191919; }
+	.galleryDetailPreview-sectionContent		{ min-height: inherit; width: 270px; float: left; margin: 10px 0px 0px 0px; padding: 0px 15px 20px 15px; background-color: #eee; }
+	.galleryDetail-info							{ float: left; margin: 10px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.galleryDetail-infoUser						{ width: 100%; }
+	.utility-sideCol-sectionInner-user			{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.galleryDetail-info h2						{ width: 100%; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 24px; line-height: 20px; color: #191919;												  												  text-transform: none; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	
+	.galleryImagesContainer						{ width: 298px; float: left; margin: 20px 0px 15px 0px; padding: 0px 0px 10px 0px; border: 1px solid #ccc; }
+	.galleryImage-main							{ width: 298px; height: 200px; float: left; overflow: hidden; }
+	.galleryCaption-main						{ float: left; padding: 0px 0px 0px 0px; margin: 10px 16px 10px 16px; }
+	.galleryCaption-main p						{ font-family: "PlutoSansRegular", sans-serif; font-style: normal; font-size: 11px; line-height: 15px; color: #454545; border-bottom: 1px solid #ddd;
+												  padding: 0px 0px 10px 0px; margin: 0px 0px 0px 0px;  -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.galleryImage-thumbsContainer				{ float: left; padding: 0px 0px 0px 0px; margin: 10px 0px 0px 16px; }
+	.galleryImage-thumb							{ width: 80px; height: 70px; overflow: hidden; float: left; padding: 0px 0px 0px 0px; margin: 0px 10px 10px 0px; border: 1px solid #ccc; } 
+	.galleryImage-thumb:hover					{ cursor: pointer; }
+	.galleryImage-thumb img						{ width: 85px; height: auto; }
+	
+	
 	/* DIY GUIDES */
 	#diyLanding .utilityBodyContainer			{ margin: 0px 0px 0px 0px; }	
 	#diyLanding .utility-sectionSpecial			{ margin: 0px 0px 20px 0px; padding: 0px 0px 15px 0px; border-radius: 0px 0px 8px 8px; overflow: hidden;
