@@ -104,7 +104,7 @@
                     </div>        
                 	<div class="galleryDetailPreview-sectionContent">
                 		<div class="galleryDetail-info galleryDetail-infoUser">
-                        	<div class="user-avatar"><img src="/client/trs/images/user_mattKossoff-temp.jpg" alt="User Profile Picture TEMP" border="0"></div>
+                        	<div class="user-avatar"><img src="/client/trs/images/user_blank2x.png" alt="User Profile Picture" border="0"></div>
                             <div class="utility-sideCol-sectionInner-user">
                             	<h3>
                                 	<span class="nonProductGrid-wide-title">Ned Yuckenheimer</span>

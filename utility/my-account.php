@@ -98,7 +98,7 @@
             	<div class="utility-sideColContainer2">
                 	<div class="utility-sideColContent utility-sideColContent-user">
                     	<div class="utility-sideCol-section">
-                        	<div class="user-avatar"><img src="/client/trs/images/user_mattKossoff-temp.jpg" alt="User Profile Picture TEMP" border="0"></div>
+                        	<div class="user-avatar"><img src="/client/trs/images/user_blank2x.png" alt="User Profile Picture" border="0"></div>
                             <div class="utility-sideCol-sectionInner utility-sideCol-sectionInner-user">
                             	<span class="user-username">Matt Kossoff</span>
                         		<span class="user-location">Location: <span class="user-locationCityState">Atlanta, GA</span></span>

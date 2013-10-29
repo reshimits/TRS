@@ -216,6 +216,7 @@
 	.utility-sideColContent-user .utility-sideCol-section		{ margin: 0px 0px 0px 0px; }
 	.utility-sideCol-sectionInner-user			{ width: 220px; padding: 0px 0px 0px 0px; }
 	.user-avatar								{ width: 60px; height: 60px; float: left; margin: 0px 10px 0px 0px; padding: 1px 1px 1px 1px; border: 1px solid #ccc; }
+	.user-avatar img							{ width: 60px; height: auto; }
 	.user-username								{ width: 100%; float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 18px; line-height: 18px; color: #191919; text-transform: uppercase;
 												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.user-location								{ float: left; font-family: "PlutoSansBold", sans-serif; font-style: normal; font-size: 11px; line-height: 15px; color: #454545;
