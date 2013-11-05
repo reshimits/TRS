@@ -176,13 +176,15 @@
 	.ourStory-signature	 img					{ width: 150px; height: auto; }
 							
 	/* IN THE PRESS */									
-	#inThePress .nonProductGrid li				{ width: 220px; float: left; overflow: hidden; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;
+	#inThePress .nonProductGrid li				{ width: 219px; float: left; overflow: hidden; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;
 												  padding: 10px 10px 0px 0px; margin: 0px 0px 0px 0px; }											  
-		#inThePress .nonProductGrid .nonProductGrid-press2ndChild,
-		#inThePress .nonProductGrid .nonProductGrid-press5thChild,
-		#inThePress .nonProductGrid .nonProductGrid-press8thChild	{ width: 219px; padding: 10px 10px 0px 10px; border-right: 1px solid #ccc; }
-		#inThePress .nonProductGrid .nonProductGrid-press3rdChild,
-		#inThePress .nonProductGrid .nonProductGrid-press6thChild	{ width: 219px; padding: 10px 0px 0px 10px; border-right: none; }
+		
+		#inThePress .nonProductGrid li:nth-child(2n+0),
+		#inThePress .nonProductGrid li:nth-child(5n+0)					{ width: 219px; padding: 10px 10px 0px 10px; border-right: 1px solid #ccc; }
+		#inThePress .nonProductGrid li:nth-child(3n+0)					{ width: 220px; padding: 10px 0px 0px 10px; border-right: none; }
+		#inThePress .nonProductGrid li:nth-child(4n+0)					{ width: 219px; padding: 10px 10px 0px 0px; border-right: 1px solid #ccc; }
+		#inThePress .nonProductGrid li:nth-child(8n+0)					{ width: 219px; padding: 10px 10px 0px 10px; border-right: 1px solid #ccc; }
+
 	#inThePress .nonProductGrid-info			{ width: 220px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 0px; }											  
 	#inThePress .nonProductGrid-specs			{ height: 20px;	}
 	
@@ -266,9 +268,11 @@
 	#retrofitters .nonProductGrid-wide-spec		{ width: 180px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
 	.premierRetrofitterIcon						{ float: left; padding: 0px 0px 0px 0px; margin: 0px 7px 0px 0px; } 
 	.premierRetrofitterIcon img					{ width: 30px; height: auto; }
-	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters2ndChild,
-	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters3rdChild { width: 219px; padding: 10px 10px 0px 10px; border-right: 1px solid #ccc; }
-	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters4thChild { width: 219px; padding: 10px 0px 0px 10px; border-right: none; }
+
+	#retrofitters .nonProductGrid-wide li:nth-child(2n+0),				
+		#retrofitters .nonProductGrid-wide li:nth-child(3n+0)				{ width: 219px; padding: 10px 10px 0px 10px; border-right: 1px solid #ccc; }
+	#retrofitters .nonProductGrid-wide li:nth-child(4n+0)					{ width: 219px; padding: 10px 0px 0px 10px; border-right: none; }	
+
 	.retrofitterLogo-hidIllusionz				{ height: 60px; padding: 30px 0px 0px 3px; } 
 	.retrofitterLogo-inlineCarbon				{ height: 65px; padding: 25px 0px 0px 3px; } 
 	.retrofitterLogo-lightModz					{ height: 70px; padding: 20px 0px 0px 3px; } 
@@ -398,10 +402,12 @@
 	#retrofitters .nonProductGrid-wide-spec		{ width: 170px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
 	.premierRetrofitterIcon						{ float: left; padding: 0px 0px 0px 0px; margin: 0px 7px 0px 0px; } 
 	.premierRetrofitterIcon img					{ width: 30px; height: auto; }
-	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters2ndChild,
-	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters5thChild { width: 219px; padding: 10px 10px 0px 10px; border-right: 1px solid #ccc; }
-	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters3rdChild { width: 220px; padding: 10px 0px 0px 10px; border-right: none; }
-	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters4thChild { width: 219px; padding: 10px 0px 0px 10px; border-right: 1px solid #ccc; }
+
+	#retrofitters .nonProductGrid-wide li:nth-child(2n+0),
+		#retrofitters .nonProductGrid-wide li:nth-child(5n+0)				{ width: 219px; padding: 10px 10px 0px 10px; border-right: 1px solid #ccc; }
+	#retrofitters .nonProductGrid-wide li:nth-child(3n+0)					{ width: 220px; padding: 10px 0px 0px 10px; border-right: none; }
+	#retrofitters .nonProductGrid-wide li:nth-child(4n+0)					{ width: 219px; padding: 10px 10px 0px 0px; border-right: 1px solid #ccc; }
+	
 	.retrofitterLogo-lightModz					{ height: 70px; padding: 20px 0px 0px 0px; } 
 		/* Contact Retrofitter */	
 	.rrImagesContainer							{ width: 698px; float: left; margin: 20px 0px 15px 0px; padding: 0px 0px 20px 0px; border: 1px solid #ccc; }
@@ -519,13 +525,12 @@
 	/* IN THE PRESS */									
 	#inThePress .nonProductGrid li				{ width: 220px; float: left; overflow: hidden; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;
 												  padding: 10px 10px 0px 0px; margin: 0px 0px 0px 0px; }											  
-		#inThePress .nonProductGrid .nonProductGrid-press2ndChild,
-		#inThePress .nonProductGrid .nonProductGrid-press4thChild,
-		#inThePress .nonProductGrid .nonProductGrid-press6thChild,
-		#inThePress .nonProductGrid .nonProductGrid-press8thChild	{ width: 219px; padding: 10px 0px 0px 10px; border-right: none; }
-		#inThePress .nonProductGrid .nonProductGrid-press3rdChild,
-		#inThePress .nonProductGrid .nonProductGrid-press5thChild,
-		#inThePress .nonProductGrid .nonProductGrid-press7thChild	{ width: 220px; padding: 10px 10px 0px 0px; border-right: 1px solid #ccc; }
+	
+		#inThePress .nonProductGrid li:nth-child(3n+0),					
+		#inThePress .nonProductGrid li:nth-child(5n+0)					{ width: 220px; padding: 10px 10px 0px 0px; border-right: 1px solid #ccc; }
+		#inThePress .nonProductGrid li:nth-child(2n+0),
+		#inThePress .nonProductGrid li:nth-child(4n+0)					{ width: 219px; padding: 10px 0px 0px 10px; border-right: none; }
+
 	#inThePress .nonProductGrid-image			{ float: left; }
 	#inThePress .nonProductGrid-info			{ width: 220px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 0px; }											  
 	#inThePress .nonProductGrid-specs			{ height: 15px;	}
@@ -578,10 +583,12 @@
 	#retrofitters .nonProductGrid-wide-spec		{ width: 180px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
 	.premierRetrofitterIcon						{ float: left; padding: 0px 0px 0px 0px; margin: 0px 7px 0px 0px; } 
 	.premierRetrofitterIcon img					{ width: 30px; height: auto; }
-	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters3rdChild,
-	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters5thChild { width: 219px; padding: 10px 10px 0px 0px; border-right: 1px solid #ccc; }
-	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters2ndChild, 
-	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters4thChild { width: 220px; padding: 10px 0px 0px 10px; border-right: none; }
+
+	#retrofitters .nonProductGrid-wide li:nth-child(2n+0),				
+		#retrofitters .nonProductGrid-wide li:nth-child(4n+0)				{ width: 220px; padding: 10px 0px 0px 10px; border-right: none; }
+	#retrofitters .nonProductGrid-wide li:nth-child(3n+0),	
+		#retrofitters .nonProductGrid-wide li:nth-child(5n+0)				{ width: 219px; padding: 10px 10px 0px 0px; border-right: 1px solid #ccc; }
+
 	.retrofitterLogo-lightModz					{ height: 70px; padding: 20px 0px 0px 0px; } 
 	
 	#retrofitters .utility-sectionContentTable .tableKey li.first-child 	{ width: auto; padding: 0px 10px 0px 0px; }
@@ -725,15 +732,14 @@
 	.ourStory-signature	 img					{ width: 150px; height: auto; }
 							
 	/* IN THE PRESS */									
-	#inThePress .nonProductGrid li				{ width: 140px; height: 265px; float: left; overflow: hidden; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;
+	#inThePress .nonProductGrid li				{ width: 140px; height: 280px; float: left; overflow: hidden; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;
 												  padding: 10px 10px 0px 0px; margin: 0px 0px 0px 0px; }											  
-		#inThePress .nonProductGrid .nonProductGrid-press2ndChild,
-		#inThePress .nonProductGrid .nonProductGrid-press4thChild,
-		#inThePress .nonProductGrid .nonProductGrid-press6thChild,
-		#inThePress .nonProductGrid .nonProductGrid-press8thChild	{ width: 139px; padding: 10px 0px 0px 10px; border-right: none; }
-		#inThePress .nonProductGrid .nonProductGrid-press3rdChild,
-		#inThePress .nonProductGrid .nonProductGrid-press5thChild,
-		#inThePress .nonProductGrid .nonProductGrid-press7thChild	{ width: 140px; padding: 10px 10px 0px 0px; border-right: 1px solid #ccc; }
+
+		#inThePress .nonProductGrid li:nth-child(3n+0),					
+		#inThePress .nonProductGrid li:nth-child(5n+0)					{ width: 140px; padding: 10px 10px 0px 0px; border-right: 1px solid #ccc; }
+		#inThePress .nonProductGrid li:nth-child(2n+0),
+		#inThePress .nonProductGrid li:nth-child(4n+0)					{ width: 139px; padding: 10px 0px 0px 10px; border-right: none; }
+
 	#inThePress .nonProductGrid-image			{ width: 140px; float: left; }
 	#inThePress .nonProductGrid-image img		{ width: 100%; height: auto; }
 	#inThePress .nonProductGrid-info			{ width: 140px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 0px 0px; }											  
@@ -787,10 +793,12 @@
 	#retrofitters .nonProductGrid-wide-spec		{ width: 180px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
 	.premierRetrofitterIcon						{ float: left; padding: 0px 0px 0px 0px; margin: 0px 7px 0px 0px; } 
 	.premierRetrofitterIcon img					{ width: 30px; height: auto; }
-	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters2ndChild,
-	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters3rdChild, 
-	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters4thChild, 
-	#retrofitters .nonProductGrid-wide .nonProductGrid-retrofitters5thChild { width: 300px; padding: 0px 0px 0px 0px; border-right: none; }
+
+	#retrofitters .nonProductGrid-wide li:nth-child(2n+0),				
+		#retrofitters .nonProductGrid-wide li:nth-child(3n+0),
+		#retrofitters .nonProductGrid-wide li:nth-child(4n+0),	
+		#retrofitters .nonProductGrid-wide li:nth-child(5n+0)				{ width: 300px; padding: 0px 0px 0px 0px; border-right: none; }
+
 	.retrofitterLogo-lightModz					{ height: 70px; padding: 20px 0px 0px 0px; } 
 	
 	#retrofitters .utility-sectionContentTable .tableKey li.first-child 	{ width: auto; padding: 0px 10px 0px 0px; }

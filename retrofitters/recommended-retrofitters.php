@@ -115,7 +115,7 @@
                                     </div>
                                 </a>
                                 </li>
-                                <li class="nonProductGrid-retrofitters2ndChild">
+                                <li>
                                 <a href="/client/trs/retrofitters/contact-hidIllusionz.php">
                                     <div class="nonProductGrid-wide-image retrofitterLogo-hidIllusionz"><img src="/client/trs/images/retrofitters/rr_hidIllusionz2x.jpg" alt="HID Illusionz" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
@@ -128,7 +128,7 @@
                                     </div>
                                 </a>
                                 </li>
-                                <li class="nonProductGrid-retrofitters3rdChild">
+                                <li>
                                 <a href="/client/trs/retrofitters/contact-inlineCarbon.php">
                                     <div class="nonProductGrid-wide-image retrofitterLogo-inlineCarbon"><img src="/client/trs/images/retrofitters/rr_inlineCarbon2x.jpg" alt="Inline Carbon" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
@@ -141,7 +141,7 @@
                                     </div>
                                 </a>
                                 </li>
-                                <li class="nonProductGrid-retrofitters4thChild">
+                                <li>
                                 <a href="/client/trs/retrofitters/contact-lightModz.php">
                                     <div class="nonProductGrid-wide-image retrofitterLogo-lightModz"><img src="/client/trs/images/retrofitters/rr_lightModz2x.jpg" alt="LightModz" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
@@ -154,7 +154,7 @@
                                     </div>
                                 </a>
                                 </li>
-                                <li class="nonProductGrid-retrofitters5thChild">
+                                <li>
                                 <a href="/client/trs/retrofitters/contact-lightWerkz.php">
                                     <div class="nonProductGrid-wide-image retrofitterLogo-lightwerkz"><img src="/client/trs/images/retrofitters/rr_lightwerkz2x.jpg" alt="LightWerkz" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">

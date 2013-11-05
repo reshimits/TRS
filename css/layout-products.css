@@ -72,7 +72,19 @@
 												  padding: 5px 5px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.product-price								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 22px; line-height: 22px; color: #191919;
 												  padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-												  
+	
+	#productGrid-productsWholesale .products li							{ height: 419px; }
+	#productGrid .productPriceContainer									{ width: 272px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px; border-bottom: none; }
+		#productGrid .productPriceContainer-wholesale					{ display: block; padding: 0px 0px 0px 0px; }
+	#productGrid .productPriceWholesaleContainer-retail .product-price	{ color: #999; text-decoration: line-through; }	
+	#productGrid .productPriceWholesaleContainer						{ width: 90px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border-right: 1px solid #ccc; }
+		#productGrid .productPriceWholesaleContainer-retail				{ width: 272px; float: left; border-right: none; border-bottom: 1px solid #ccc; }
+		#productGrid .productPriceWholesaleContainer-wholesale			{ padding: 5px 0px 5px 0px; }
+		#productGrid .productPriceWholesaleContainer-20orMore			{ padding: 5px 0px 5px 10px; margin: 0px 0px 0px 0px; border-right: none; }
+	#productGrid .productPriceWholesaleContainer .product-price 		{ padding: 5px 0px 0px 0px; }
+	#productGrid .productPrice-type										{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #999; text-transform: uppercase;
+												  						  padding: 2px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
 	.product-banner								{ width: 109px; top: -109px; float: right; position: relative; }
 	.product-banner img							{ width: 109px; height: auto; }
 
@@ -299,7 +311,19 @@
 												  padding: 5px 5px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.product-price								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 22px; line-height: 22px; color: #191919;
 												  padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-												  
+	
+	#productGrid-productsWholesale .products li							{ height: 439px; }
+	#productGrid .productPriceContainer									{ width: 309px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px; border-bottom: none; }
+		#productGrid .productPriceContainer-wholesale					{ display: block; padding: 0px 0px 0px 0px; }
+	#productGrid .productPriceWholesaleContainer-retail .product-price	{ color: #999; text-decoration: line-through; }	
+	#productGrid .productPriceWholesaleContainer						{ width: 90px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border-right: 1px solid #ccc; }
+		#productGrid .productPriceWholesaleContainer-retail				{ width: 309px; float: left; border-right: none; border-bottom: 1px solid #ccc; }
+		#productGrid .productPriceWholesaleContainer-wholesale			{ padding: 5px 0px 5px 0px; }
+		#productGrid .productPriceWholesaleContainer-20orMore			{ padding: 5px 0px 5px 10px; margin: 0px 0px 0px 0px; border-right: none; }
+	#productGrid .productPriceWholesaleContainer .product-price 		{ padding: 5px 0px 0px 0px; }
+	#productGrid .productPrice-type										{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #999; text-transform: uppercase;
+												  						  padding: 2px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
 	.product-banner								{ width: 109px; top: -109px; float: right; position: relative; }
 	.product-banner img							{ width: 109px; height: auto; }	
 
@@ -496,7 +520,19 @@
 												  padding: 5px 5px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.product-price								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #191919;
 												  padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-												  
+	
+	#productGrid-productsWholesale .products li							{ height: 375px; }
+	#productGrid .productPriceContainer									{ width: 189px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px; border-bottom: none; }
+		#productGrid .productPriceContainer-wholesale					{ display: block; padding: 0px 0px 0px 0px; }
+	#productGrid .productPriceWholesaleContainer-retail .product-price	{ color: #999; text-decoration: line-through; }	
+	#productGrid .productPriceWholesaleContainer						{ width: 90px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border-right: 1px solid #ccc; }
+		#productGrid .productPriceWholesaleContainer-retail				{ width: 189px; float: left; border-right: none; border-bottom: 1px solid #ccc; }
+		#productGrid .productPriceWholesaleContainer-wholesale			{ width: 189px; float: left; border-right: none; border-bottom: 1px solid #ccc; padding: 0px 0px 0px 0px; }
+		#productGrid .productPriceWholesaleContainer-20orMore			{ width: 189px; float: left; border-right: none; padding: 0px 0px 5px 0px; margin: 0px 0px 0px 0px; }
+	#productGrid .productPriceWholesaleContainer .product-price 		{ padding: 5px 0px 0px 0px; }
+	#productGrid .productPrice-type										{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 9px; line-height: 9px; color: #999; text-transform: uppercase;
+												  						  padding: 2px 0px 5px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
 	.product-banner								{ width: 109px; top: -109px; float: right; position: relative; }
 	.product-banner img							{ width: 109px; height: auto; }		
 
@@ -622,14 +658,18 @@
 	.product-title								{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 26px; line-height: 20px; color: #191919; 
 												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.products li a:hover .product-title	 		{ color: #ea5f03; }
-	.product-specs								{ height: 57px; float: left; padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; }
-	.product-spec								{ width: 100%; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 10px; line-height: 8px; color: #555;
+	.product-specs								{ height: 62px; float: left; padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.product-spec								{ width: 100%; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #555;
 												  padding: 5px 10px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  	
 	.product-priceStart							{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: italic; font-size: 12px; line-height: 12px; color: #191919;
 												  padding: 5px 5px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.product-price								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #191919;
 												  padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-												  
+	
+	#productGrid-productsWholesale .products li							{ height: 383px; }
+	#productGrid .productPrice-type										{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 10px; line-height: 8px; color: #999; text-transform: uppercase;
+												  						  padding: 2px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
 	.product-banner								{ width: 109px; top: -109px; float: right; position: relative; }
 	.product-banner img							{ width: 109px; height: auto; }	
 

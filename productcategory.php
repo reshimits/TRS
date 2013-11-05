@@ -135,7 +135,7 @@
                     	</form>
                 	</div>
                 </div>
-                <div class="productGrid-products"> 
+                <div class="productGrid-products" id="productGrid-productsWholesale"> 
                     <ul class="image-grid products">
                     	
                         <li class="product" id="projector-1" data-id="id-1" data-type="application functionality size priceRange installationDifficulty">
@@ -149,7 +149,20 @@
                                     <span class="product-spec"><span class="weightBold-styleNormal">Size:</span> Medium</span>
                                     <span class="product-spec"><span class="weightBold-styleNormal">Installation:</span> Advanced</span>
                                 </div>
-                                <span class="product-price">$140</span>    
+                                <div class="productPriceContainer productPriceContainer-wholesale">
+                                     <div class="productPriceWholesaleContainer productPriceWholesaleContainer-retail">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">Retail</span>
+                                     </div>
+                                     <div class="productPriceWholesaleContainer productPriceWholesaleContainer-wholesale">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">Wholesale</span>
+                                     </div>
+                                     <div class="productPriceWholesaleContainer productPriceWholesaleContainer-20orMore">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">20 or More</span>
+                                     </div>    
+                                </div>   
                             </div>
                             <div class="product-banner"><img src="/client/trs/images/products/banner_featureProduct-topSeller2x.png" alt="Top Selling Product!" border="0" /></div>
                             </a>

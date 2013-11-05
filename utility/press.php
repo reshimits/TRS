@@ -110,7 +110,7 @@
                                     </div>
                                 </a>
                                 </li>
-                                <li class="nonProductGrid-press2ndChild">
+                                <li>
                                 <a href="http://www.eurotuner.com/techarticles/160_0701_et_volkswagen_jetta_gli_hid_headlight_installation/" target="_blank">
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/press/press_euroTuner.jpg" alt="Euro Tuner" border="0" /></div>
                                     <div class="nonProductGrid-info">
@@ -121,7 +121,7 @@
                                     </div>
                                 </a>
                                 </li>
-                                <li class="nonProductGrid-press3rdChild">
+                                <li>
                                 <a href="/client/trs/images/press/JapanesePerformance.pdf" target="_blank">
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/press/press_japanesePerformance.jpg" alt="Japanese Performance" border="0" /></div>
                                     <div class="nonProductGrid-info">
@@ -132,7 +132,7 @@
                                     </div>
                                 </a>
                                 </li>
-                                <li class="nonProductGrid-press4thChild">
+                                <li>
                                 <a href="/client/trs/images/press/Totalimpreza.pdf" target="_blank">
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/press/press_totalImpreza.jpg" alt="Total Impreza" border="0" /></div>
                                     <div class="nonProductGrid-info">
@@ -143,7 +143,7 @@
                                     </div>
                                 </a>
                                 </li>
-                                <li class="nonProductGrid-press5thChild">
+                                <li>
                                 <a href="http://www.nsnews.com/living/got-organs-1.363025" target="_blank">
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/press/press_northShoreNews.jpg" alt="North Shore News" border="0" /></div>
                                     <div class="nonProductGrid-info">
@@ -154,7 +154,7 @@
                                     </div>
                                 </a>
                                 </li>
-                                <li class="nonProductGrid-press6thChild">
+                                <li>
                                 <a href="http://www.modified.com/tech/modp-1104-2008-subaru-impreza-wrx/" target="_blank">
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/press/press_modifiedMag.jpg" alt="Modified" border="0" /></div>
                                     <div class="nonProductGrid-info">
@@ -165,7 +165,7 @@
                                     </div>
                                 </a>
                                 </li>
-                                <li class="nonProductGrid-press7thChild">
+                                <li>
                                 <a href="http://www.truckinweb.com/toc/archive/1213tr_toc/" target="_blank">
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/press/press_truckinMag.jpg" alt="Truckin'" border="0" /></div>
                                     <div class="nonProductGrid-info">
@@ -176,7 +176,7 @@
                                     </div>
                                 </a>
                                 </li>
-                                <li class="nonProductGrid-press8thChild">
+                                <li>
                                 <a href="/client/trs/images/press/PasMagAd.pdf" target="_blank">
                                     <div class="nonProductGrid-image"><img src="/client/trs/images/press/press_performanceAutoSound.jpg" alt="Performance Auto &amp; Sound" border="0" /></div>
                                     <div class="nonProductGrid-info">

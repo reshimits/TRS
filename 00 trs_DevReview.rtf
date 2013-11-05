@@ -1,7 +1,7 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1265
 {\fonttbl\f0\fnil\fcharset0 TradeGothicLTStd-BdCn20;\f1\fnil\fcharset0 TradeGothicLTStd;}
-{\colortbl;\red255\green255\blue255;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+{\colortbl;\red255\green255\blue255;\red206\green59\blue0;}
+\margl1440\margr1440\vieww12220\viewh15880\viewkind0
 \deftab720
 \pard\pardeftab720\sl312\slmult1
 
@@ -15,7 +15,7 @@
 \b0 \
 \'95 Utility Nav\
    - Phone number (last child) styles\
-   - Chat button styles\
+   - Chat button, remove cursor when not active. Style with light gray at 480/300\
    - Log Off styles (700/480/300) \'96 Don\'92t need link for Log In\
 \'95 Main Nav\
    - CTA title needs to be white\
@@ -39,9 +39,8 @@
    - Remove Google Checkout\
 \
 \
-\pard\pardeftab720\sl312\slmult1
 
-\b \cf0 HOMEPAGE: 
+\b HOMEPAGE: 
 \b0 \
 \'95 Carousel\
    - Space above/below\
@@ -49,40 +48,47 @@
    - 700/300 views don\'92t stay within container\
    - Pagination styles\
    - Loading gif\
+   - Shouldn\'92t fade to white prior to fading to next slide\
+   * Reverting back to HTML/CSS/JS from RS version\
 \'95 Promos\
    - Button hover states need to be preloaded to prevent blinking (all generalBtns throughout site)\
 \'95 Featured Products\
    - Need consistency in pricing language\
    - Watermarks not needed\
-   - Plan for refreshing?\
 \'95 Featured Testimonials\
    - Need link to view all, show more\
    - Plan for refreshing?\
 \
 \
-\pard\pardeftab720\sl312\slmult1
 
-\b \cf0 PRODUCT CATEGORY:
+\b PRODUCT CATEGORY:
 \b0 \
 \'95 Banners\
    - Title font styles have changed\
+\pard\pardeftab720\sl312\slmult1
 
-\i    - Throttle: Create an All Products/Closeouts Banner?\
+\i \cf0 x   - \cf2 Throttle:\cf0  Create an All Products/Closeouts Banner \'96 no image needed for initial launch.\
+\pard\pardeftab720\sl312\slmult1
 
-\i0 \'95 Products\
-   - Title font styles have changed\
+\i0 \cf0 \'95 Products\
+   - Filter missing\
    - Watermarks not needed\
    - Products should NOT be loading full size images, but just a thumbnail\
-   - Should only show 9 on a page before hitting Show More?\
-   - Show More button needs cursor pointer\
-	   - Something still not right about the functionality of this button\
+   - When hitting Show More, needs to display loading gif \
+   	- Show More button needs cursor pointer\
+\pard\pardeftab720\sl312\slmult1
 
-\i    - Throttle: Talk to Nate/Matt about product naming
+\i \cf0 x   - \cf2 Throttle:\cf0  Talk to Nate/Matt about product naming\
+   	- Needs consistency, remove unnecessary components/make text smaller/set style height
+\i0 \
+
+\i    - \cf2 Throttle:\cf0  Update watermark to show change in logotype style\
+x   - \cf2 Throttle:\cf0  Mockup Retail/Wholesale/20+ view for Homepage featured products & Product Category
 \i0 \
 \
-\
+\pard\pardeftab720\sl312\slmult1
 
-\b PRODUCT DETAIL:
+\b \cf0 PRODUCT DETAIL:
 \b0 \
 \'95 Breadcrumb\
    - Product Category naming\
@@ -93,43 +99,73 @@
 \'95 Product Images\
    - Main image should be Image 1 of the thumbs\
    - Watermark distorting\
-   - Limit to 5 total images? If not possible, styles need tweaked\
    - Upon clicking thumbnail, the larger image should appear, but show with watermark\
+\pard\pardeftab720\sl312\slmult1
+
+\i \cf0    - \cf2 Throttle:\cf0  Update thumbnail carousel icon image/style
+\i0 \
 \'95 Product Options\
-   - Pricing or quantity note needs to be styled \'96 moved to below price?\
-   - Availability was never discussed as a needed element?\
-   - Price as Configured was never discussed as a needed element?\
+   - Pricing or quantity note needs to be removed\
+   - Availability was never discussed as a needed element. Style as note and place below price.\
+   - Price as Configured was never discussed as a needed element. Remove unless requested after testing.\
 \'95 Product Description\
    - Copy styles are not correctly implemented\
    - Installation & Performance icons not implemented\
 \'95 Product Promos\
    - Make sure all are linked to correct locations\
-   - Remove Chat for time being?\
+   - Remove Chat for time being\
 \'95 Customers Also Purchased\
    - Missing\
 \'95 Product Reviews\
    - Missing\
 \
 \
+\pard\pardeftab720\sl312\slmult1
 
-\b SHOPPING CART:
+\b \cf0 SHOPPING CART:
 \b0 \
 \'95 Notifications\
    - Icon not showing\
 \'95 Product Listing\
-   - Should product titles be links?\
-   - Product image?\
-   - Don\'92t need .00 displayed with pricing unless within the Order Summary\
-
-\i    - Throttle: Edit should be styled and placed within product title area 
-\i0 \
+   - Product titles link styling\
+   - Product image missing?\
+   - Edit should be styled and placed within product title area \
+\'95 Empty\
+   - \'93Continue Shopping\'94 should be a button\
+\'95 Utility CTA\
+   - Should update item number when products are added to cart\
 \
 \
 
 \b CHECKOUT:
 \b0 \
 \'95 Checkout Method\
-   - \
+   - Can all 3 should be selectable by radio button?\
+   	- If not, Forgot Password and Login need correct styling\
+   - Input styling\
+   - Keep language consistent with that of My Account page\
+   - Continue styling is broken, causing Register difficult to select\
+\'95 Billing Information (Address \'96 not Info)\
+   - Need login to view Address book options\
+   - Register input selections not corrected\
+   	- If Registering, need a place to confirm Email\
+  	- Never had the option to input Phone, but instead Username appears in this place\
+\'95 Shipping Address (not Info)\
+\'95 Shipping Method\
+   - Continue button not in consistent location\
+\'95 Payment Info\
+   - CVV2 needs formNote class\
+\'95 Invoice\
+   - Order link color style\
+   - Time issue to create page\
+\
+\
+
+\b MY ACCOUNT:
+\b0 \
+\'95 Login/Register\
+   - 2 pages need combined\
+   - Add in 3 dash separator (used in Checkout) for Captcha\
 \
 \
 
@@ -138,36 +174,48 @@
 \'95 All About TRS, FAQ, Contact Us not implemented\
 \'95 Login/Register\
    - Only currently showing Returning Customer\
+\pard\pardeftab720\sl312\slmult1
 
-\i    - Throttle: Need test account to review internal Account/Checkout pages
+\i \cf0    - \cf2 Throttle:\cf0  Need test account to review internal Account/Checkout pages
 \i0 \
 \
 \
+\pard\pardeftab720\sl312\slmult1
 
-\b GALLERY:
+\b \cf0 GALLERY:
 \b0 \
+\'95 Not yet implemented\
 \
 \
 
 \b RECOMMENDED RETROFITTERS:
 \b0 \
+\'95 Not yet implemented/\
 \'95 Gallery\
    - Plugin styles?\
 \
+\pard\pardeftab720\sl312\slmult1
 
-\b DIY INSTALLATION GUIDES:
-\b0 \
+\i \cf0 x   - \cf2 Throttle:\cf0  Edit RR grid to use \'93nth child\'94 and not classes
+\i0 \
 \
+\
+\pard\pardeftab720\sl312\slmult1
+
+\b \cf0 DIY INSTALLATION GUIDES:
+\b0 \
+\'95Not yet implemented\
 
 \b \
+\
 MISCELLANEOUS:
 \b0 \
 \'95 Cross Browser testing\
    - IE specific styles, Firefox breaks\
    - Browser out of date message implementation?\
 \'95 Batch automate all product images\
-   - Location?\
-   - Thumbnails?\
+   - Location - Josh will grant access?\
+   - Thumbnails - Magento may be able to take care of this?\
    - Review\
 \'95 Meta Descriptions\
 \
@@ -177,11 +225,13 @@ MISCELLANEOUS:
 \b0 \
 \'95 Homepage Slides\
    - Need correct/approved content\
-\'95 Forgot Password\
 \'95 Submit Testimonial\
 \'95 Write Product Review\
 \
-\
+\pard\pardeftab720\sl312\slmult1
+
+\i \cf0    - \cf2 Throttle:\cf0  Figure out how much \'93Support\'94 Matt is expecting/willing to accept in order to get site completed
+\i0 \
 \
 \
 \
