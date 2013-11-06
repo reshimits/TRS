@@ -121,7 +121,7 @@
                         	</a>
                         </div>
                         <div class="reviewTotal"><a href="#reviews"><span class="reviewTotalUsers">5</span> Reviews</a></div>
-                        <div class="reviewWrite"><a href="#">Write a Review</a></div>
+                        <div class="reviewWrite"><a href="/client/trs/utility/write-review.php">Write a Review</a></div>
                      </div>
                 </div>
 

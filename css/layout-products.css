@@ -352,8 +352,8 @@
 	.productCartOptionsContainer				{ width: 240px; float: right; margin: 20px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 		/* Product Price */
 	.productPriceContainer						{ width: 240px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px; border-bottom: 1px solid #ccc; }
-		.productPriceContainer-retail								{ display: block; }
-		.productPriceContainer-wholesale							{ display: none; padding: 0px 0px 0px 0px; }
+		.productPriceContainer-retail								{ display: none; }
+		.productPriceContainer-wholesale							{ display: block; padding: 0px 0px 0px 0px; }
 	.productPrice								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 40px; line-height: 36px; color: #ea5f03;
 	 											  padding: 0px 0px 0px 5px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 		.productPriceWholesaleContainer-retail .productPrice		{ color: #999; text-decoration: line-through; }	

@@ -293,6 +293,9 @@
 	.rrImage-thumb:hover						{ cursor: pointer; border: 1px solid #ea5f03; }
 	.rrImage-thumb img							{ width: 85px; height: auto; }
 
+	/* PRODUCT REVIEW & TESTIMONIAL */
+	#writeReview .utility-form .general			{ width: 428px; }
+
 
 /* #Tablet (Portrait) size to standard 960 (devices and browsers)
 ======================================================================================================================================================
@@ -417,7 +420,10 @@
 												  padding: 0px 0px 10px 0px; margin: 0px 0px 0px 0px;  -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.rrImage-thumbsContainer					{ float: left; padding: 0px 0px 0px 0px; margin: 10px 0px 0px 64px; }
 	
-	
+	/* PRODUCT REVIEW & TESTIMONIAL */
+	#writeReview .utility-intro					{ width: 700px; margin: 0px 0px 0px 0px; }
+
+
 	}
 
 
