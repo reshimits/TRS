@@ -272,7 +272,7 @@
 	
 	
 	/* PROMOS */
-	.homePromosContainer						{ width: 460px; height: 242px; float: left; margin: 0px 0px 0px 0px; background-color: #191919; border-radius: 0px 0px 8px 8px; overflow: hidden; }
+	.homePromosContainer						{ width: 460px; height: 242px; float: left; margin: 20px 0px 0px 0px; background-color: #191919; border-radius: 8px 8px 8px 8px; overflow: hidden; }
 	.homePromosL								{ width: 460px; height: 120px; float: left;background-image: url(../images/bg_promo-gallery.jpg); background-repeat: no-repeat; background-position: left top; }
 	.homePromosR								{ width: 460px; float: left; padding: 0px 0px 0px 0px; border-top: 1px solid #454545; }
 	.rRetrofitters								{ width: 205px; float: left; margin: 0px 20px 0px 0px; }
@@ -374,7 +374,7 @@
 	
 	
 	/* PROMOS */
-	.homePromosContainer						{ width: 300px; height: 368px; float: left; margin: 0px 0px 0px 0px; background-color: #191919; border-radius: 0px 0px 8px 8px; overflow: hidden; }
+	.homePromosContainer						{ width: 300px; height: 368px; float: left; margin: 20px 0px 0px 0px; background-color: #191919; border-radius: 8px 8px 8px 8px; overflow: hidden; }
 	.homePromosL								{ width: 300px; height: 122px; float: left;background-image: url(../images/bg_promo-gallery.jpg); background-repeat: no-repeat; background-position: -110px top; }
 	.homePromosR								{ width: 300px; float: left; padding: 0px 0px 0px 0px; border-top: 1px solid #454545; }
 	.rRetrofitters								{ width: 280px; float: left; margin: 0px 20px 0px 0px; }

@@ -79,9 +79,7 @@
     <div class="navMain hide460"><?php require('include/navMain.html');?></div>
     <div class="navMobile mobile-only"><?php require('include/navMobile.html');?></div>
     
-    	<div class="featureCarouselMain hide460"><?php require('include/featureCarouselMain.html');?></div>
-        <div class="featureCarouselMobile mobile-only"><?php require('include/featureCarouselMobile.html');?></div>
-        
+    	<div class="featureCarouselMain hide460"><?php require('include/featureCarouselMain.html');?></div>        
         
         <div class="container" id="homePromos">
             <div class="full column">
