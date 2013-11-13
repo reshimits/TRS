@@ -1,15 +1,15 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1265
-{\fonttbl\f0\fnil\fcharset0 TradeGothicLTStd-BdCn20;\f1\fnil\fcharset0 TradeGothicLTStd;}
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green68\blue254;\red255\green83\blue8;\red206\green59\blue0;
 }
-\margl1440\margr1440\vieww13780\viewh16580\viewkind0
+\margl1440\margr1440\vieww13780\viewh13140\viewkind0
 \deftab720
 \pard\pardeftab720\sl312\slmult1
 
 \f0\b\fs48 \cf0 TRS Site Front/Back Dev Review\
 \pard\pardeftab720\sl312\slmult1
 
-\f1\b0\fs24 \cf0 \
+\b0\fs24 \cf0 \
 - - -\
 Needs attention from Josh: [blank space]\
 Completed by Josh: 
@@ -39,7 +39,9 @@ Completed by Throttle:
    - Chat button, Style with light gray at 480/300\
    - Log Off styles (700/480/300) \'96 Don\'92t need link for Log In\
 	- \cf2 Josh\cf0  how does the \'91Log Off\'92 button functionality work? Does a class just display? We need to work out the styles of the button nav for when the Log Off is and is not visible. \
+	The logoff button HTML code is placed into the block (or not) by a configuration that\'92s been set up in Magento when the user is logged in (or not).  In order to make the adjacent buttons have a style change to this a class is added to the div which contains the nag-utilityBtnsContainer div.\
 	- Styles are broken in all views\'85\
+	This is referring to the log out link being a bit far to the right?  Or something else?\
    - Clickable <a> area is off \'96 cannot click the icon for My Account. Works for Cart though.\
 \'95 Main Nav\
 
@@ -125,19 +127,17 @@ Completed by Throttle:
 
 \b \cf2 X
 \b0 \cf0    - Title font styles have changed\
-\pard\pardeftab720\sl312\slmult1
 
 \i \cf3 X   - Throttle:\cf0  Create an All Products/Closeouts Banner \'96 no image needed for initial launch.\
 \pard\pardeftab720\sl312\slmult1
 
 \i0 \cf0 \'95 Products\
+\pard\pardeftab720\sl312\slmult1
 
 \b \cf2 X
 \b0 \cf0    - Filter missing\
-\pard\pardeftab720\sl312\slmult1
 
 \i \cf3    - Throttle:\cf0  Get Josh new styles for when there are an excessive amount of filter options\
-\pard\pardeftab720\sl312\slmult1
 
 \i0\b \cf2 X
 \b0 \cf0    - Watermarks not needed\
@@ -147,7 +147,6 @@ Completed by Throttle:
 \b \cf2 X
 \b0 \cf0    	- Show More button needs cursor pointer\
 	- Remove bottom rule line that is created by AJAX load\
-\pard\pardeftab720\sl312\slmult1
 
 \i \cf3 X   - Throttle: \cf0 Talk to Nate/Matt about product naming\
    - Implement product naming changes   	\
@@ -179,12 +178,10 @@ Completed by Throttle:
    - Missing the brand logo\
    - If we are not going to use the magnification option you showed me that one day, lets make sure the overflow is set to hidden on the image. Right now it is causing the right border to disappear.\
    - Tablet/Mobile image styles are broken\
-\pard\pardeftab720\sl312\slmult1
 
 \i \cf3    - Throttle:\cf0  Update thumbnail carousel icon image/style
 \i0 \
 \'95 Product Options\
-\pard\pardeftab720\sl312\slmult1
 
 \b \cf2 X
 \b0 \cf0    - Pricing or quantity note needs to be removed\
@@ -201,6 +198,8 @@ Completed by Throttle:
 	- In our original design, we had \'91Compatibility\'92 above \'91Installation & Performance\'92 \'96 Im ok with keeping it this way, but Matt/Nate you should decide which content is more important. \
 	- Original design actually pulls out the \'91Warranty\'92 to live in its own section\
 	- This description is significantly shorter than that on the current site, is that because content has been cut or because it simply hasn\'92t been copied over? Josh, have you figured out how to implement the [more] option for when descriptions get longer than 1 paragraph?\
+	The current description is the \'93short\'94 description from the current site.  The \'93long\'94 description hasn\'92t been lost.  My assumption was that the more link would change from the \'93short\'94 description to the \'93long\'94 description.  I didn\'92t realize that it was supposed to be the first paragraph of the \'93long\'94 description, then the whole thing.\
+	I know how to do it; it\'92s quite easy.  Just haven\'92t gotten to it yet.\
 
 \b \cf2 X
 \b0 \cf0    - Installation & Performance icons not implemented\
@@ -280,6 +279,10 @@ Completed by Throttle:
 \pard\pardeftab720\sl312\slmult1
 
 \i \cf2 Josh\cf0 , can we setup a text account to review internal Account/Checkout pages?   \
+	
+\i0 Test account: test@theretrofitsource.com / t3stm3b!tch
+\i \
+\pard\pardeftab720\sl312\slmult1
 \cf3 - Throttle: \cf0 Review internal Account/Checkout pages
 \i0 \
 \'95 Testimonials styling not correct\
