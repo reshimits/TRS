@@ -36,14 +36,6 @@
 			}
 		},
 		{
-			"file": "include/navMobile.html",
-			"settings":
-			{
-				"buffer_size": 1721,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "css/global.css",
 			"settings":
 			{
@@ -80,6 +72,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Shimits/Sites/client/TRS/include/navMobile.html",
 		"/Users/Shimits/Sites/client/SmartCrowdz/include/eventDetail_bodyContact.html",
 		"/Users/Shimits/Sites/client/SmartCrowdz/include/eventDetail_bodyTasks.html",
 		"/Users/Shimits/Sites/client/SmartCrowdz/members/event-detail.php",
@@ -267,41 +260,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5224.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "include/navMobile.html",
-					"settings":
-					{
-						"buffer_size": 1721,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								265,
-								265
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "css/global.css",
 					"settings":
 					{
@@ -312,8 +277,8 @@
 						"selection":
 						[
 							[
-								34150,
-								34150
+								2773,
+								2749
 							]
 						],
 						"settings":
@@ -321,8 +286,8 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 8.0,
-						"translation.y": 5664.0,
+						"translation.x": 0.0,
+						"translation.y": 5568.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
