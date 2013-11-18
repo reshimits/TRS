@@ -46,7 +46,6 @@
 	.loading .flex-viewport 					{ max-height: 300px; }
 	.flexslider .slides 						{ width: 940px; margin: 0px 10px 0px 10px; zoom: 1; }
 
-
 	/* Direction Nav (Arrows) */
 	.flex-direction-nav a 						{ width: 31px; height: 60px; margin: -260px 0px 0px 0px; display: block; position: absolute; z-index: 2; cursor: pointer; text-indent: -9999px;
 												  background-image: url(../images/carousel/carouselArrows2x.png); background-repeat: no-repeat; background-position: left top;
@@ -59,7 +58,7 @@
 	.flex-direction-nav .flex-disabled 			{ opacity: .3!important; filter:alpha(opacity=30); cursor: default; }
 
 	/* Control Nav (Slide ID) */
-	.flex-control-nav 							{ width: 100%; position: absolute; z-index: 2; text-align: center; margin: -40px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.flex-control-nav 							{ width: 100%; position: absolute; z-index: 2; text-align: center; margin: -30px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 	.flex-control-nav li 						{ margin: 0px 6px 0px 6px; display: inline-block; zoom: 1; *display: inline; }
 	.flex-control-paging li a 					{ width: 6px; height: 6px; display: block; cursor: pointer; text-indent: -9999px; 
 												 background: #191919; border: 1px solid #191919;
@@ -68,9 +67,31 @@
 	.flex-control-paging li a.flex-active 		{ background: #fff; border: 1px solid #fff; cursor: default; }
 
 	/* Slide Caption */ 
-	.slide-content								{ float: left; position: relative; z-index: 2; margin: -120px 0px 0px 100px; }
-	
-	
+	.slide-contentContainer						{ width: 296px; float: left; position: relative; z-index: 2; }
+		.slide-1 .slide-contentContainer			{ margin: -132px 0px 0px 91px; }
+		.slide-2 .slide-contentContainer			{ margin: -135px 0px 0px 559px; }
+		.slide-3 .slide-contentContainer			{ margin: -180px 0px 0px 56px; }
+		.slide-4 .slide-contentContainer			{ margin: -143px 0px 0px 572px; }
+		.slide-5 .slide-contentContainer			{ margin: -174px 0px 0px 508px; }
+	.slide-content								{ width: 296px; float: left; margin: 0px 0px 0px 0px; padding: 10px 0px 20px 0px; border-top: 1px solid #fff; border-bottom: 1px solid #fff; }
+		.slide-2 .slide-content						{ border-top: 2px solid #000; border-bottom: 2px solid #000; }
+		.slide-4 .slide-content						{ border-top: 1px solid #7298b6; border-bottom: 1px solid #7298b6; }
+	.featureProduct 							{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+		.slide-1 .featureProduct 					{ width: 208px; }
+		.slide-2 .featureProduct,
+			.slide-4 .featureProduct 				{ width: 200px; }
+		.slide-3 .featureProduct 					{ width: 230px; }
+		.slide-5 .featureProduct 					{ width: 218px; }
+	.featureProduct-title 						{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 15px; line-height: 14px; color: #fff;
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		.slide-2 .featureProduct-title 				{ color: #000; }
+	.featureProduct-starting 					{ float: right; font-family: 'PlutoSansRegular', sans-serif; font-style: italic; font-size: 12px; line-height: 14px; color: #fff;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											 
+	.featureProduct-price 						{ float: right; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 34px; line-height: 28px; color: #fff;
+												  letter-spacing: -2px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		.slide-2 .featureProduct-price 				{ font-family: 'PlutoSansRegular', sans-serif; color: #93182b; }
+	.slide .generalBtn-orange 					{ float: right; margin: -11px 15px 0px 0px; }
+
 	/* PROMOS */
 	.homePromosContainer						{ width: 940px; height: 160px; float: left; margin: 0px 10px 0px 10px; background-color: #191919; border-radius: 0px 0px 8px 8px; overflow: hidden; }
 	.homePromosL								{ width: 460px; height: 160px; float: left; background-image: url(../images/bg_promo-gallery.jpg); background-repeat: no-repeat; background-position: left top; }
@@ -153,22 +174,24 @@
 		
 /*//// HOME */
 	/* CAROUSEL */
-	 
-	.flexslider 								{ margin: 0; padding: 0; min-height: 309px; background: #fff url(../images/carousel/ajax-loader.gif) no-repeat center center; } 	 
-	.flexslider .slides 						{ width: 700px; margin: 0px 10px 0px 10px; zoom: 1; }
+	
+	/* FlexSlider Necessary Styles */ 
+	.flexslider .slides img 					{ width: 940px; display: block; }
+	.flexslider .slides 						{ width: 700px; margin: 0px 10px 0px 10px; zoom: 1; overflow: hidden; position: relative; }
+
+	.flexslider .slide-1 						{ left: -30px; }
+	.flexslider .slide-2 						{ left: -220px; }
+	.flexslider .slide-3 						{ left: 0px; }
+	.flexslider .slide-4 						{ left: -220px; }
+	.flexslider .slide-5 						{ left: -160px; }
 
 	/* Direction Nav (Arrows) */
-	.flex-direction-nav a 						{ width: 31px; height: 60px; margin: -190px 0px 0px 0px; display: block; position: absolute; z-index: 2; cursor: pointer; text-indent: -9999px;
-												  background-image: url(../images/carousel/carouselArrows2x.png); background-repeat: no-repeat; background-position: left top;
-												  background-size: 31px auto; -webkit-background-size: 31px auto; -moz-background-size: 31px auto; }
 	.flex-direction-nav .flex-next 				{ float: right; background-position: 100% 100%; right: 10px; }
 	.flex-direction-nav .flex-prev 				{ left: 10px; }
 
 	/* Control Nav (Slide ID) */
 	.flex-control-nav 							{ width: 720px; position: absolute; z-index: 2; text-align: center; margin: -30px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 
-	/* Slide Caption */ 
-	.slide-content								{ float: left; position: relative; z-index: 2; margin: -120px 0px 0px 100px; }
 	
 	
 	/* PROMOS */
@@ -257,23 +280,57 @@
 	
 /*//// HOME */
 	/* CAROUSEL */
-	 
-	.flexslider 								{ margin: 0; padding: 0; min-height: 250px; background: #fff url(../images/carousel/ajax-loader.gif) no-repeat center center; } 	 
-	.flexslider .slides 						{ width: 460px; margin: 0px 0px 0px 0px; zoom: 1; }
+	
+	/* FlexSlider Necessary Styles */ 
+	.flexslider 								{ margin: 0; padding: 0; min-height: 220px; background: #fff url(../images/carousel/ajax-loader.gif) no-repeat center center; }
+	.flexslider .slides img 					{ width: 940px; display: block; }
+	.flexslider .slides 						{ width: 460px; height: 220px; margin: 0px 0px 0px 0px; zoom: 1; overflow: hidden; position: relative; }
+
+	.flexslider .slide-1 						{ left: -440px; top: -180px; }
+	.flexslider .slide-2 						{ left: -50px; top: -100px; }
+	.flexslider .slide-3 						{ left: -455px; top: -100px; }
+	.flexslider .slide-4 						{ left: -95px; top: -80px; }
+	.flexslider .slide-5 						{ left: -45px; top: -125px; }
 
 	/* Direction Nav (Arrows) */
 	.flex-direction-nav a 						{ display: none; }
-
+	
 	/* Control Nav (Slide ID) */
 	.flex-control-nav 							{ width: 460px; position: absolute; text-align: center; margin: -30px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 
 	/* Slide Caption */ 
-	.slide-content								{ float: left; position: relative; z-index: 2; margin: -120px 0px 0px 100px; }
-	
+	.slide-contentContainer						{ width: 420px; float: left; position: relative; z-index: 2; }
+		.slide-1 .slide-contentContainer			{ margin: -120px 0px 0px 460px; }
+		.slide-2 .slide-contentContainer			{ margin: -200px 0px 0px 70px; }
+		.slide-3 .slide-contentContainer			{ margin: -200px 0px 0px 475px; }
+		.slide-4 .slide-contentContainer			{ margin: -220px 0px 0px 115px; }
+		.slide-5 .slide-contentContainer			{ margin: -175px 0px 0px 65px; }
+	.slide-content								{ width: 380px; float: left; margin: 0px 0px 0px 0px; padding: 10px 20px 20px 20px; border-top: 1px solid #fff; border-bottom: 1px solid #fff; 
+												  background-image: url(../images/bg_captionMobile.png); background-repeat: repeat-y; background-position: center top;
+												  background-size: 100% 1px; -webkit-background-size: 100% 1px; -moz-background-size: 100% 1px; }
+		.slide-2 .slide-content,
+		.slide-4 .slide-content						{ border-top: 1px solid #fff; border-bottom: 1px solid #fff; }
+	.featureProduct 							{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+		.slide-1 .featureProduct 					{ width: 208px; margin: 0px 0px 0px 85px; }
+		.slide-2 .featureProduct 					{ width: 200px; margin: 0px 0px 0px 95px; }
+		.slide-3 .featureProduct 					{ width: 230px; margin: 0px 0px 0px 75px; }
+		.slide-4 .featureProduct 					{ width: 200px; margin: 0px 0px 0px 95px; }
+		.slide-5 .featureProduct 					{ width: 218px; margin: 0px 0px 0px 80px; }
+	.featureProduct-title 						{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 15px; line-height: 14px; color: #fff;
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		.slide-2 .featureProduct-title 				{ color: #fff; }
+	.featureProduct-starting 					{ float: right; font-family: 'PlutoSansRegular', sans-serif; font-style: italic; font-size: 12px; line-height: 14px; color: #fff;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											 
+	.featureProduct-price 						{ float: right; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 34px; line-height: 28px; color: #fff;
+												  letter-spacing: -2px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		.slide-2 .featureProduct-price 				{ font-family: 'PlutoSansLight', sans-serif; color: #fff; }
+	.slide .generalBtn-orange 					{ float: right; margin: -11px 20px 0px 0px; }
+
+
 	
 	/* PROMOS */
-	.homePromosContainer						{ width: 460px; height: 242px; float: left; margin: 20px 0px 0px 0px; background-color: #191919; border-radius: 8px 8px 8px 8px; overflow: hidden; }
-	.homePromosL								{ width: 460px; height: 120px; float: left;background-image: url(../images/bg_promo-gallery.jpg); background-repeat: no-repeat; background-position: left top; }
+	.homePromosContainer						{ width: 460px; height: 242px; float: left; margin: 0px 0px 0px 0px; background-color: #191919; border-radius: 0px 0px 8px 8px; overflow: hidden; }
+	.homePromosL								{ width: 460px; height: 120px; float: left; background-image: url(../images/bg_promo-gallery.jpg); background-repeat: no-repeat; background-position: left top; }
 	.homePromosR								{ width: 460px; float: left; padding: 0px 0px 0px 0px; border-top: 1px solid #454545; }
 	.rRetrofitters								{ width: 205px; float: left; margin: 0px 20px 0px 0px; }
 	.diyInstallGuides							{ width: 220px; float: left; }
@@ -359,22 +416,58 @@
 	
 /*//// HOME */
 	/* CAROUSEL */
-	 
-	.flexslider 								{ margin: 0; padding: 0; min-height: 163px; background: #fff url(../images/carousel/ajax-loader.gif) no-repeat center center; } 	 
-	.flexslider .slides 						{ width: 300px; margin: 0px 0px 0px 0px; zoom: 1; }
+	
+	/* FlexSlider Necessary Styles */ 
+	.flexslider 								{ margin: 0; padding: 0; min-height: 240px; background: #fff url(../images/carousel/ajax-loader.gif) no-repeat center center; }
+	.flexslider .slides img 					{ width: 940px; display: block; }
+	.flexslider .slides 						{ width: 300px; height: 240px; margin: 0px 0px 0px 0px; zoom: 1; overflow: hidden; position: relative; }
+
+	.flexslider .slide-1 						{ left: -440px; top: -165px; }
+	.flexslider .slide-2 						{ left: -200px; top: -100px; }
+	.flexslider .slide-3 						{ left: -525px; top: -100px; }
+	.flexslider .slide-4 						{ left: -245px; top: -70px; }
+	.flexslider .slide-5 						{ left: -30px; top: -120px; }
 
 	/* Direction Nav (Arrows) */
 	.flex-direction-nav a 						{ display: none; }
-
+	
 	/* Control Nav (Slide ID) */
 	.flex-control-nav 							{ width: 300px; position: absolute; text-align: center; margin: -30px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 
 	/* Slide Caption */ 
-	.slide-content								{ float: left; position: relative; z-index: 2; margin: -120px 0px 0px 100px; }
-	
+	.slide-contentContainer						{ width: 260px; float: left; position: relative; z-index: 2; }
+		.slide-1 .slide-contentContainer			{ margin: -115px 0px 0px 460px; }
+		.slide-2 .slide-contentContainer			{ margin: -180px 0px 0px 220px; }
+		.slide-3 .slide-contentContainer			{ margin: -180px 0px 0px 545px; }
+		.slide-4 .slide-contentContainer			{ margin: -210px 0px 0px 265px; }
+		.slide-5 .slide-contentContainer			{ margin: -160px 0px 0px 50px; }
+	.slide-content								{ width: 240px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 20px 10px; border-top: 1px solid #fff; border-bottom: 1px solid #fff; 
+												  background-image: url(../images/bg_captionMobile.png); background-repeat: repeat-y; background-position: center top;
+												  background-size: 100% 1px; -webkit-background-size: 100% 1px; -moz-background-size: 100% 1px; }
+		.slide-2 .slide-content,
+		.slide-4 .slide-content						{ border-top: 1px solid #fff; border-bottom: 1px solid #fff; }
+	.featureProduct 							{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+		.slide-1 .featureProduct 					{ width: 168px; margin: 0px 0px 0px 0px; }
+		.slide-2 .featureProduct 					{ width: 166px; margin: 0px 0px 0px 0px; }
+		.slide-3 .featureProduct 					{ width: 183px; margin: 0px 0px 0px 0px; }
+		.slide-4 .featureProduct 					{ width: 166px; margin: 0px 0px 0px 0px; }
+		.slide-5 .featureProduct 					{ width: 172px; margin: 0px 0px 0px 0px; }
+	.featureProduct-title 						{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #fff;
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		.slide-2 .featureProduct-title 				{ color: #fff; }
+		.slide-3 .featureProduct-title,
+		.slide-5 .featureProduct-title 				{ word-spacing: -1px; }
+	.featureProduct-starting 					{ float: right; font-family: 'PlutoSansRegular', sans-serif; font-style: italic; font-size: 11px; line-height: 10px; color: #fff;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											 
+	.featureProduct-price 						{ float: right; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 30px; line-height: 26px; color: #fff;
+												  letter-spacing: -2px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		.slide-2 .featureProduct-price 				{ font-family: 'PlutoSansLight', sans-serif; color: #fff; }
+	.slide .generalBtn-orange 					{ float: right; margin: -11px 15px 0px 0px; }
+
+
 	
 	/* PROMOS */
-	.homePromosContainer						{ width: 300px; height: 368px; float: left; margin: 20px 0px 0px 0px; background-color: #191919; border-radius: 8px 8px 8px 8px; overflow: hidden; }
+	.homePromosContainer						{ width: 300px; height: 368px; float: left; margin: 0px 0px 0px 0px; background-color: #191919; border-radius: 0px 0px 8px 8px; overflow: hidden; }
 	.homePromosL								{ width: 300px; height: 122px; float: left;background-image: url(../images/bg_promo-gallery.jpg); background-repeat: no-repeat; background-position: -110px top; }
 	.homePromosR								{ width: 300px; float: left; padding: 0px 0px 0px 0px; border-top: 1px solid #454545; }
 	.rRetrofitters								{ width: 280px; float: left; margin: 0px 20px 0px 0px; }
