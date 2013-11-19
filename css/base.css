@@ -263,14 +263,14 @@
 			.messages li 						{ margin:0 0 15px !important; }
 			.messages li li 					{ margin: 4px 0px 0px 0px !important; }
 			.error-msg, .success-msg, 
-				.note-msg, .notice-msg 			{ border-style:solid !important; border-width:1px !important; font-family: Helvetica, Arial, sans-serif !important; font-style: italic !important; 
+				.note-msg, .notice-msg 			{ border-style:solid !important; border-width:1px !important; border-color:#d14001; background-color:#d14001; color:#fff;
+												  font-family: Helvetica, Arial, sans-serif !important; font-style: italic !important; 
 												  font-weight:bold !important; font-size:11px !important; padding:8px 8px 8px 32px !important; 
 												  background-position:10px 9px !important; background-repeat:no-repeat !important; min-height:20px !important;
 												  -webkit-background-size: 16px auto !important; -moz-background-size: 16px auto !important; background-size: 16px auto !important; }
-			.error-msg 							{ border-color:#bb0100; background-color:#faebe7; color:#bb0100; background-image: url(../images/icon_msg-error2x.png); }
-			.success-msg 						{ border-color:#008800; background-color:#eff5ea; background-image:url(../images/icon_msg-success2x.png); color:#008800; }
-			.note-msg, .notice-msg 				{ border-color:#345eb9; background-color:#d0dfff; color:#345eb9; 
-						  						  background-image:url(../images/icon_msg-note2x.png); }
+			.error-msg 							{ background-image: url(../images/icon_msg-error2x.png); }
+			.success-msg 						{ background-image:url(../images/icon_msg-success2x.png); }
+			.note-msg, .notice-msg 				{ background-image:url(../images/icon_msg-note2x.png); }
 												  									  
 		/* #Misc
 		================================================== */

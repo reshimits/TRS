@@ -28,26 +28,10 @@
 			}
 		},
 		{
-			"file": "css/layout-home.css",
+			"file": "css/base.css",
 			"settings":
 			{
-				"buffer_size": 49407,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/global.css",
-			"settings":
-			{
-				"buffer_size": 47063,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "include/featureCarouselMain.html",
-			"settings":
-			{
-				"buffer_size": 4758,
+				"buffer_size": 22625,
 				"line_ending": "Unix"
 			}
 		}
@@ -81,6 +65,8 @@
 	"file_history":
 	[
 		"/Users/Shimits/Sites/client/TRS/include/featureCarouselMain.html",
+		"/Users/Shimits/Sites/client/TRS/css/global.css",
+		"/Users/Shimits/Sites/client/TRS/css/layout-home.css",
 		"/Users/Shimits/Sites/client/TRS/include/navMobile.html",
 		"/Users/Shimits/Sites/client/SmartCrowdz/include/eventDetail_bodyContact.html",
 		"/Users/Shimits/Sites/client/SmartCrowdz/include/eventDetail_bodyTasks.html",
@@ -249,45 +235,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "css/layout-home.css",
+					"file": "css/base.css",
 					"settings":
 					{
-						"buffer_size": 49407,
+						"buffer_size": 22625,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38792,
-								38792
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 7.0,
-						"translation.y": 6288.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/global.css",
-					"settings":
-					{
-						"buffer_size": 47063,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2616,
-								2599
+								17343,
+								17349
 							]
 						],
 						"settings":
@@ -296,35 +255,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 166.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "include/featureCarouselMain.html",
-					"settings":
-					{
-						"buffer_size": 4758,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4436,
-								4436
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 237.0,
+						"translation.y": 3575.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
