@@ -130,6 +130,7 @@ Completed by Throttle:
 
 \b \cf2 X
 \b0 \cf0    - Filter missing\
+   - For Projector Shrouds, change \'92Shroud Depth Rating to simply \'91Depth\'92\
 
 \i \cf3    - Throttle:\cf0  Get Josh new styles for when there are an excessive amount of filter options\
 
@@ -169,7 +170,9 @@ Completed by Throttle:
 
 \b \cf2 X
 \b0 \cf0    - Reviews missing. If no reviews, give it 5 stars; 0 Reviews; Write a Review?\
-   - Product Category is missing below the title of the product. This is causing the alignment to be off in that upper section.\
+
+\b \cf2 X
+\b0 \cf0    - Product Category is missing below the title of the product. This is causing the alignment to be off in that upper section.\
 \'95 Product Images\
    - Main image should be Image 1 of the thumbs\
    - Watermark distorting\
@@ -177,7 +180,8 @@ Completed by Throttle:
    - If we are not going to use the magnification option you showed me that one day, lets make sure the overflow is set to hidden on the image. Right now it is causing the right border to disappear.\
    - Tablet/Mobile image styles are broken\
 
-\i \cf3    - Throttle:\cf0  Update thumbnail carousel icon image/style
+\i \cf3 X   - Throttle:\cf0  Update thumbnail carousel icon image/style\
+   - Josh, implement new slider for gallery carousel
 \i0 \
 \'95 Product Options\
 
@@ -227,7 +231,15 @@ Completed by Throttle:
 
 \b \cf2 X
 \b0 \cf0    - Edit should be styled and placed within product title area \
-\'95 Empty\
+
+\b \cf2 X
+\b0 \cf0 - Out of stock notice: add these styles: float: left, padding: 10px 10px 0px 0px, font-style: italic\
+\'95 Promo Code\
+   - Firefox only: Redeem button styling looks to be off, as well as breaking to below title\
+
+\b \cf2 X
+\b0 \cf0 	- Change padding: 7px 8px 2px 8px; line-height: 15px;\
+   - btn_bg-gray needs to be preloaded\
 
 \b \cf2 X
 \b0 \cf0    - \'93Continue Shopping\'94 should be a button\
@@ -248,34 +260,55 @@ Completed by Throttle:
 
 \b \cf2 X
 \b0 \cf0    - Couldn\'92t proceed past Shipping Method\'85 failed to load Step 5\
-
-\b \cf2 X
-\b0 \cf0    - Can all 3 should be selectable by radio button?\
-   	- If not, Forgot Password and Login need correct styling\
+ - Can all 3 should be selectable by radio button?\
 
 \b \cf2 X
 \b0 \cf0    - Input styling\
-   - Keep language consistent with that of My Account page\
+
+\b \cf2 X
+\b0 \cf0    - Keep language consistent with that of My Account page\
 
 \b \cf2 X
 \b0 \cf0    - Continue styling is broken, causing Register difficult to select\
-\'95 Billing Information (Address \'96 not Info)\
+   - Need more padding above \'93Continue\'94 area\
+   - If \'93Returning Customer\'94 is selected, the button changes to \'93Login,\'94 this is great. But, if the other 2 options are selected, \'93Forgot your password?\'94 does not go away.\
+   - Change \'93Forgot your password?\'94 to \'93Forgot Password\'94\
+   - Logging in should take me to the next step in the process, not to My Account.\
+\'95 Billing Information (\'93Address\'94 \'96 not \'93Information\'94)\
 
 \b \cf2 X
 \b0 \cf0    - Need login to view Address book options - Address book drop down is too wide\
-   - Register input selections not corrected\
+    - Should any addresses in the Address book ever come back with a validation error? Shouldn\'92t they be validated upon creation? And shouldn\'92t the error follow suit with the other notification alerts we have created?\
+
+\b \cf2 X
+\b0 \cf0    - Register input selections not corrected\
 
 \b \cf2 X
 \b0 \cf0    	- If Registering, need a place to confirm Email\
-  	- Never had the option to input Phone, but instead Username appears in this place\
-\'95 Shipping Address (not Info)\
+	- If Registering and Email/Password confirmation don\'92t match up, the notification should be the full width style red (!) alert\
+
+\b \cf2 X
+\b0 \cf0   	- Never had the option to input Phone, but instead Username appears in this place\
+   - Remove extra bottom margin in this container. Looks to be a part of <fieldset class>\
+   - When this section is completed, can the name field be bolded?\
+   - \'93Loading next step\'94 \'96 can this use the same loading gif that is used for the homepage carousel, as well as the Pluto font, and 5-10px margin-top.\
+\'95 Shipping Address (\'93Address\'94 \'96 not \'93Information\'94)\
+   - Are you not required to put an email address in here?\
+   - Remove extra bottom margin in this container. Looks to be a part of <fieldset class>. This should bring the \'93Continue\'94 button up to correct position.\
 \'95 Shipping Method\
 
 \b \cf2 X
 \b0 \cf0    - Continue button not in consistent location\
-   - Correct Shipping & Handling notes\
+      - Correct Shipping & Handling notes\
+  - Not included: \
+	- Special Order Instructions. Plan for this (Phase II item)?\
+	- \'93*Any questions about your shipment? Check out the Store Policies(link) for answers to many common shipping questions.\'94\
 \'95 Payment Info\
    - CVV2 needs formNote class\
+   - Remove extra bottom margin in this container. Looks to be a part of <fieldset class>. This should bring the \'93Continue\'94 button up to correct position.\
+   - Same issue with alerts here, but putting them at the top of the page may not work since the user may not see them unless the page jumps to the top. Can they appear at the top of their given section below the Blue banner title (in this case 5. Payment Information)?\
+   - I noticed that if you select to checkout with PayPal and then change your mind, selecting to go back via the browsers navigation starts you over in the checkout process.\
+\'95 Order Review( add \'93& Confirm\'94)\
 \'95 Invoice\
    - Order link color style\
    - Time issue to create page\
@@ -286,8 +319,14 @@ Completed by Throttle:
 \b \cf0 MY ACCOUNT:
 \b0 \
 \'95 Login/Register\
-   - 2 pages need combined\
-   - Add in 3 dash separator (used in Checkout) for Captcha\
+\pard\pardeftab720\sl312\slmult1
+
+\b \cf2 X
+\b0 \cf0    - 2 pages need combined\
+   - Remove link for \'93Create an Account\'94 under Forgot Password\
+   - Change \'93Telephone\'94 field to simply \'93Phone\'94\
+\'95 Logout\
+   - No styles for the text have been placed\
 \'95 My Account\
    - Left Column - Account Summary \
 	- Need to include Avatar picture\
@@ -341,8 +380,9 @@ Completed by Throttle:
 	- Needs to be a divider line and space between Sub-Total items and Total\
 \
 \
+\pard\pardeftab720\sl312\slmult1
 
-\b UTILITY PAGES:
+\b \cf0 UTILITY PAGES:
 \b0 \
 \pard\pardeftab720\sl312\slmult1
 
@@ -352,9 +392,8 @@ Completed by Throttle:
    - Only currently showing Returning Customer\
    - Have New Customer Registration and Returning Customer live on same page. Tiny little link is not sufficient.
 \i \
-\cf3 - Throttle: \cf0 Review internal Account/Checkout pages
-\i0 \
-\'95 Testimonials styling not correct\
+
+\i0 \'95 Testimonials styling not correct\
    - Submit Your Testimonial not setup\
 \'95 Contact Us\
    - Why is the Contact Us page file names \'91contacts\'92 ? This is strange. Lets remove the \'92s\'92\
