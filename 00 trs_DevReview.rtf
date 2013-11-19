@@ -2,7 +2,7 @@
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green68\blue254;\red255\green83\blue8;\red206\green59\blue0;
 }
-\margl1440\margr1440\vieww13780\viewh13140\viewkind0
+\margl1440\margr1440\vieww16100\viewh13140\viewkind0
 \deftab720
 \pard\pardeftab720\sl312\slmult1
 
@@ -37,11 +37,7 @@ Completed by Throttle:
 \b \cf2 X
 \b0 \cf0    - Chat button, remove cursor when not active. \
    - Chat button, Style with light gray at 480/300\
-   - Log Off styles (700/480/300) \'96 Don\'92t need link for Log In\
-	- \cf2 Josh\cf0  how does the \'91Log Off\'92 button functionality work? Does a class just display? We need to work out the styles of the button nav for when the Log Off is and is not visible. \
-	The logoff button HTML code is placed into the block (or not) by a configuration that\'92s been set up in Magento when the user is logged in (or not).  In order to make the adjacent buttons have a style change to this a class is added to the div which contains the nag-utilityBtnsContainer div.\
-	- Styles are broken in all views\'85\
-	This is referring to the log out link being a bit far to the right?  Or something else?\
+   - Log Off styles (700/480/300) vs. Log Off hidden styles\
    - Clickable <a> area is off \'96 cannot click the icon for My Account. Works for Cart though.\
 \'95 Main Nav\
 
@@ -129,10 +125,8 @@ Completed by Throttle:
 \b0 \cf0    - Title font styles have changed\
 
 \i \cf3 X   - Throttle:\cf0  Create an All Products/Closeouts Banner \'96 no image needed for initial launch.\
-\pard\pardeftab720\sl312\slmult1
 
-\i0 \cf0 \'95 Products\
-\pard\pardeftab720\sl312\slmult1
+\i0 \'95 Products\
 
 \b \cf2 X
 \b0 \cf0    - Filter missing\
@@ -141,8 +135,12 @@ Completed by Throttle:
 
 \i0\b \cf2 X
 \b0 \cf0    - Watermarks not needed\
-   - Products should NOT be loading full size images, but just a thumbnail\
-   - When hitting Show More, needs to display loading gif \
+
+\b \cf2 X
+\b0 \cf0    - Products should NOT be loading full size images, but just a thumbnail\
+
+\b \cf2 X
+\b0 \cf0    - When hitting Show More, needs to display loading gif \
 
 \b \cf2 X
 \b0 \cf0    	- Show More button needs cursor pointer\
@@ -197,7 +195,7 @@ Completed by Throttle:
 	- \'91Compatibility' should have the same look as \'91Technical\'92 \'96 bold title, with regular weight description to the right, wrapping to 2 lines if needed\
 	- In our original design, we had \'91Compatibility\'92 above \'91Installation & Performance\'92 \'96 Im ok with keeping it this way, but Matt/Nate you should decide which content is more important. \
 	- Original design actually pulls out the \'91Warranty\'92 to live in its own section\
-	- This description is significantly shorter than that on the current site, is that because content has been cut or because it simply hasn\'92t been copied over? Josh, have you figured out how to implement the [more] option for when descriptions get longer than 1 paragraph?\
+	- This description is significantly shorter than that on the current site, is that because content has been cut or because it simply hasn\'92t been copied over? \cf2 Josh\cf0 , have you figured out how to implement the [more] option for when descriptions get longer than 1 paragraph?\
 	The current description is the \'93short\'94 description from the current site.  The \'93long\'94 description hasn\'92t been lost.  My assumption was that the more link would change from the \'93short\'94 description to the \'93long\'94 description.  I didn\'92t realize that it was supposed to be the first paragraph of the \'93long\'94 description, then the whole thing.\
 	I know how to do it; it\'92s quite easy.  Just haven\'92t gotten to it yet.\
 
@@ -219,17 +217,31 @@ Completed by Throttle:
 \'95 Notifications\
    - Icon not showing\
 \'95 Product Listing\
-   - Product titles link styling\
-   - Product image missing?\
-   - Edit should be styled and placed within product title area \
-\'95 Empty\
-   - \'93Continue Shopping\'94 should be a button\
-\'95 Utility CTA\
-   - Should update item number when products are added to cart\
-\
-\
+\pard\pardeftab720\sl312\slmult1
 
-\b CHECKOUT:
+\b \cf2 X
+\b0 \cf0    - Product titles link styling\
+
+\b \cf2 X
+\b0 \cf0    - Product image missing?\
+
+\b \cf2 X
+\b0 \cf0    - Edit should be styled and placed within product title area \
+\'95 Empty\
+
+\b \cf2 X
+\b0 \cf0    - \'93Continue Shopping\'94 should be a button\
+
+\b \cf2 X
+\b0 \cf0 \'95 Utility CTA\
+
+\b \cf2 X
+\b0 \cf0    - Should update item number when products are added to cart\
+\
+\
+\pard\pardeftab720\sl312\slmult1
+
+\b \cf0 CHECKOUT:
 \b0 \
 \'95 Checkout Method\
 \pard\pardeftab720\sl312\slmult1
@@ -252,7 +264,9 @@ Completed by Throttle:
 \b \cf2 X
 \b0 \cf0    - Need login to view Address book options - Address book drop down is too wide\
    - Register input selections not corrected\
-   	- If Registering, need a place to confirm Email\
+
+\b \cf2 X
+\b0 \cf0    	- If Registering, need a place to confirm Email\
   	- Never had the option to input Phone, but instead Username appears in this place\
 \'95 Shipping Address (not Info)\
 \'95 Shipping Method\
@@ -274,6 +288,57 @@ Completed by Throttle:
 \'95 Login/Register\
    - 2 pages need combined\
    - Add in 3 dash separator (used in Checkout) for Captcha\
+\'95 My Account\
+   - Left Column - Account Summary \
+	- Need to include Avatar picture\
+	- \'91Edit\'92 should be changed to Edit Account Information\
+   - Left Column - Newsletter\
+	- Why does this go to a second page? This is 1 too many steps so lets keep it all right here. \
+   - Left Column - Password\
+	- Why does this go to a second page? Is this a requirement through Magento? If so, we can probably remove this all together \
+	since you enable it in the Account Info. \
+   - Address Book \
+	- Use correct font styling for when there are no address book entries\
+	- Edit Address should be named Add Address if there isn\'92t one\
+	- Or, Perhaps remove both of these links and just have Manage Addresses take the user to the Address Book?\
+   - Order History \
+	- I don\'92t like the placement of the button to View All. Either have it centered on the line and blue like the Show More buttons or, \
+	below an additional line that separates the sections and floating right (similar to the \'91Continue\'92 buttons used in Checkout)\\\
+	- Order should be selectable by entire <ul><li> - refer to what is highlighting upon hover\
+\'95 Edit Account Information\
+   - Needs gray gradient container with bottom rule.\
+   - Where is the spot for a user to upload a picture?\
+   - Change Password style is broken\
+   - When Change Password button is selected the Change Password section is styled strange. Can we simply have them both always visible instead?\
+\'95 Newsletter Subscription\
+   - If this page must be kept, I would like the styling placement of the Checkbox fixed to be left of the copy.\
+   - Min page height is a problem here\
+\'95 Address Book\
+   - Again, issue with the font styling of the note saying there is no default.\
+   - Move \'91Add New Address\'92 to below the Additional Addresses title (similar to how it is done on the Testimonials page)\
+   - Addresses need proper font styling\
+	- Move buttons in each section. Should have a -21px margin so they align bottom with the copy. \
+	- The buttons should have space between them\
+\'95 Modify Address\
+   - Checkbox styling. Have 1 in the left column, and the other in the right, both below Country\
+\'95 Order History\
+   - Title is pushed awkwardly down the page\
+   - I thought the plan was to remove the pagination?\
+   - Order should be selectable by entire <ul><li> - refer to what is highlighting upon hover\
+\'95 Order Details\
+   - Entire body of page is missing the margin L/R which is causing broken alignment.\
+   - Order Number and Status have incorrect font styling\
+   - Make \'91Reorder\'92 a button (gray or orange)\
+   - There should be a print button in the breadcrumb. Breadcrumb should also have a bottom border\
+	- Page shows an example of current page not being bolded in breadcrumb\
+   - Remove Print Order\
+   - Remove \'91Order Information\'92 and add top margin and bold styling to Order Date\
+   - Order Items:\
+	- Change \'91Ordered\'92 title to QTY and shorten <cartProduct-qty> to width:50px\
+	- Extended <cartProduct-total> to width:80px\
+   - Order Summary:\
+	- Title font styling incorrect\
+	- Needs to be a divider line and space between Sub-Total items and Total\
 \
 \
 
@@ -285,14 +350,8 @@ Completed by Throttle:
 \b0 \cf0 \'95 All About TRS, FAQ, Contact Us not implemented\
 \'95 Login/Register\
    - Only currently showing Returning Customer\
-   - Have New Customer Registration and Returning Customer live on same page. Tiny little link is not sufficient.\
-\pard\pardeftab720\sl312\slmult1
-
-\i \cf2 Josh\cf0 , can we setup a text account to review internal Account/Checkout pages?   \
-	
-\i0 Test account: test@theretrofitsource.com / t3stm3b!tch
+   - Have New Customer Registration and Returning Customer live on same page. Tiny little link is not sufficient.
 \i \
-\pard\pardeftab720\sl312\slmult1
 \cf3 - Throttle: \cf0 Review internal Account/Checkout pages
 \i0 \
 \'95 Testimonials styling not correct\
