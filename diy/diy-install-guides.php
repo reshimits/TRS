@@ -98,10 +98,26 @@
                         <span class="diyTitle-mid">Guides</span>
                         <span class="diyTitle-lower">All the info you’ll need, including  cool tips / tricks to install your components.</span>
 
+                        <div class="diyPreview-content">
+                            <div class="diyPreview-spec">
+                                <div class="diyPreview-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides PDF Documentation" border="0" /></div>
+                                <p><span class="diyPreview-specTitle typekit_weightBold-styleNormal-uppercase">PDF Documentation</span> to review on the crapper and keep with you in the garage. Essential reference material.</span>
+                            </div>
+                            <div class="diyPreview-spec">
+                                <div class="diyPreview-specIcon diyPreview-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                                <p><span class="diyPreview-specTitle typekit_weightBold-styleNormal-uppercase">Instructional Videos</span> to guide you through the process – as we install your chosen product into a vehicle.</span>
+                            </div>
+                            <div class="diyPreview-spec">
+                                <div class="diyPreview-specIcon diyPreview-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                                <p><span class="diyPreview-specTitle typekit_weightBold-styleNormal-uppercase">Q&amp;A Forum</span> to discuss your project and get answers &amp; guidance from knowledgeable folks who’ve done it before.</span>
+                            </div>
+                            <div class="diyPreview-spec">
+                                <div class="diyPreview-specIcon diyPreview-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
+                                <p><span class="diyPreview-specTitle typekit_weightBold-styleNormal-uppercase">Inspiration Gallery</span> to view other customer’s images of the installed product in their vehicle.</span>
+                            </div>
+                        </div>
                 	</div>        
                 </div>
-                
-                
                 
                 
                 <div class="utility-section utility-sectionFirst">            		
@@ -134,8 +150,13 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp1.jpg" alt="DIY Installation Guide: Morimoto Elite HID (D2S)" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Morimoto Elite HID (D2S) Kit</span>
-                                        <div class="nonProductGrid-wide-specs"></div>
+                                        <span class="nonProductGrid-wide-title">Morimoto Elite HID (Bi-Xenon)</span>
+                                        <div class="nonProductGrid-wide-specs">
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
+                                        </div>
                                     </div>
                                 </a>
                                 </li>
@@ -143,8 +164,12 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp3.jpg" alt="DIY Installation Guide: FX-R 3.0 Projectors" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">FX-R 3.0 Projectors</span>
-                                        <div class="nonProductGrid-wide-specs"></div>
+                                        <span class="nonProductGrid-wide-title">Morimoto Elite HID (Single Xenon)</span>
+                                        <div class="nonProductGrid-wide-specs">
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
+                                        </div>
                                     </div>
                                 </a>
                                 </li>
@@ -152,8 +177,13 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp2.jpg" alt="DIY Installation Guide: Morimoto Mini H1 Stage III" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Morimoto Mini H1 Stage III</span>
-                                        <div class="nonProductGrid-wide-specs"></div>
+                                        <span class="nonProductGrid-wide-title">Morimoto Elite HID (D2S)</span>
+                                        <div class="nonProductGrid-wide-specs">
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
+                                        </div>
                                     </div>
                                 </a>
                                 </li>
@@ -161,8 +191,11 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp5.jpg" alt="DIY Installation Guide: VIP Projectors" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">VIP Projectors</span>
-                                        <div class="nonProductGrid-wide-specs"></div>
+                                        <span class="nonProductGrid-wide-title">Ballast Adapters</span>
+                                        <div class="nonProductGrid-wide-specs">
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                                        </div>
                                     </div>
                                 </a>
                                 </li>
@@ -170,8 +203,12 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp4.jpg" alt="DIY Installation Guide: Morimoto 3Five Bulbs H Series" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Morimoto 3Five Bulbs H Series</span>
-                                        <div class="nonProductGrid-wide-specs"></div>
+                                        <span class="nonProductGrid-wide-title">Morimoto H Series Bulbs</span>
+                                        <div class="nonProductGrid-wide-specs">
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                                        </div>
                                     </div>
                                 </a>
                                 </li>
@@ -179,8 +216,13 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp7.jpg" alt="DIY Installation Guide: Morimoto Mini D2S 2.0" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Morimoto Mini D2S 2.0</span>
-                                        <div class="nonProductGrid-wide-specs"></div>
+                                        <span class="nonProductGrid-wide-title">Clear Lens Size Reference Guide</span>
+                                        <div class="nonProductGrid-wide-specs">
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
+                                        </div>
                                     </div>
                                 </a>
                                 </li>
@@ -188,8 +230,13 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp1.jpg" alt="DIY Installation Guide: Morimoto Elite HID (D2S)" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Morimoto Elite HID (D2S) Kit</span>
-                                        <div class="nonProductGrid-wide-specs"></div>
+                                        <span class="nonProductGrid-wide-title">Morimoto Mini H1 6.0 Bi-xenon</span>
+                                        <div class="nonProductGrid-wide-specs">
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
+                                        </div>
                                     </div>
                                 </a>
                                 </li>
@@ -197,8 +244,12 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp3.jpg" alt="DIY Installation Guide: FX-R 3.0 Projectors" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">FX-R 3.0 Projectors</span>
-                                        <div class="nonProductGrid-wide-specs"></div>
+                                        <span class="nonProductGrid-wide-title">Morimoto Mini D2S 2.0 Bi-xenon</span>
+                                        <div class="nonProductGrid-wide-specs">
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
+                                        </div>
                                     </div>
                                 </a>
                                 </li>
@@ -206,8 +257,13 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp2.jpg" alt="DIY Installation Guide: Morimoto Mini H1 Stage III" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Morimoto Mini H1 Stage III</span>
-                                        <div class="nonProductGrid-wide-specs"></div>
+                                        <span class="nonProductGrid-wide-title">Full Size Projector Retrofit</span>
+                                        <div class="nonProductGrid-wide-specs">
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
+                                        </div>
                                     </div>
                                 </a>
                                 </li>
@@ -215,8 +271,11 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp5.jpg" alt="DIY Installation Guide: VIP Projectors" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">VIP Projectors</span>
-                                        <div class="nonProductGrid-wide-specs"></div>
+                                        <span class="nonProductGrid-wide-title">TRS Projector Size Guide</span>
+                                        <div class="nonProductGrid-wide-specs">
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                                        </div>
                                     </div>
                                 </a>
                                 </li>
@@ -224,8 +283,12 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp4.jpg" alt="DIY Installation Guide: Morimoto 3Five Bulbs H Series" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Morimoto 3Five Bulbs H Series</span>
-                                        <div class="nonProductGrid-wide-specs"></div>
+                                        <span class="nonProductGrid-wide-title">Morimoto H7 Motorcycle Harness (Single Output)</span>
+                                        <div class="nonProductGrid-wide-specs">
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                                        </div>
                                     </div>
                                 </a>
                                 </li>
@@ -233,11 +296,17 @@
                                 <a href="#">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp7.jpg" alt="DIY Installation Guide: Morimoto Mini D2S 2.0" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <span class="nonProductGrid-wide-title">Morimoto Mini D2S 2.0</span>
-                                        <div class="nonProductGrid-wide-specs"></div>
+                                        <span class="nonProductGrid-wide-title">Morimoto HD Low Beam Harness</span>
+                                        <div class="nonProductGrid-wide-specs">
+                                            <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
+                                        </div>
                                     </div>
                                 </a>
                                 </li>
+
                     		</ul>
                     	</div>    
                 </div>

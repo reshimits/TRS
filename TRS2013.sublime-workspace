@@ -20,18 +20,18 @@
 	"buffers":
 	[
 		{
-			"file": "index.php",
+			"file": "css/layout-galleryguides.css",
 			"settings":
 			{
-				"buffer_size": 15279,
+				"buffer_size": 56855,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/base.css",
+			"file": "diy/diy-install-guides.php",
 			"settings":
 			{
-				"buffer_size": 22625,
+				"buffer_size": 27785,
 				"line_ending": "Unix"
 			}
 		}
@@ -64,8 +64,17 @@
 	},
 	"file_history":
 	[
-		"/Users/Shimits/Sites/client/TRS/include/featureCarouselMain.html",
 		"/Users/Shimits/Sites/client/TRS/css/global.css",
+		"/Users/Shimits/Sites/client/TRS/index.php",
+		"/Users/Shimits/Sites/client/TRS/utility/contact.php",
+		"/Users/Shimits/Sites/client/TRS/utility/our-story.php",
+		"/Users/Shimits/Sites/client/TRS/css/layout-utility.css",
+		"/Users/Shimits/Sites/client/TRS/include/footer.html",
+		"/Users/Shimits/Sites/client/TRS/eNewsletters/20131120-thanksgiving/index.php",
+		"/Users/Shimits/Sites/client/TRS/eNewsletters/20131120-thanksgiving/css/styles-home.css",
+		"/Users/Shimits/Sites/client/TRS/eNewsletters/20131120-blackFriday/index.php",
+		"/Users/Shimits/Sites/client/TRS/css/base.css",
+		"/Users/Shimits/Sites/client/TRS/include/featureCarouselMain.html",
 		"/Users/Shimits/Sites/client/TRS/css/layout-home.css",
 		"/Users/Shimits/Sites/client/TRS/include/navMobile.html",
 		"/Users/Shimits/Sites/client/SmartCrowdz/include/eventDetail_bodyContact.html",
@@ -177,6 +186,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"../../",
 			"ab3305",
 			"			h5 												",
 			"<a href=\"#\">",
@@ -184,11 +194,12 @@
 			"h3"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"../../../",
 			"882a01",
 			"",
 			"h4"
@@ -202,60 +213,62 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.php",
+					"file": "css/layout-galleryguides.css",
 					"settings":
 					{
-						"buffer_size": 15279,
+						"buffer_size": 56855,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4384,
-								4483
+								56175,
+								56175
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
 						},
-						"translation.x": 12.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 8524.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "css/base.css",
+					"file": "diy/diy-install-guides.php",
 					"settings":
 					{
-						"buffer_size": 22625,
+						"buffer_size": 27785,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17343,
-								17349
+								7049,
+								7049
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3575.0,
+						"translation.y": 1475.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
