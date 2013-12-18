@@ -111,10 +111,6 @@
                                 <div class="diyPreview-specIcon diyPreview-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
                                 <p><span class="diyPreview-specTitle typekit_weightBold-styleNormal-uppercase">Q&amp;A Forum</span> to discuss your project and get answers &amp; guidance from knowledgeable folks who’ve done it before.</span>
                             </div>
-                            <div class="diyPreview-spec">
-                                <div class="diyPreview-specIcon diyPreview-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
-                                <p><span class="diyPreview-specTitle typekit_weightBold-styleNormal-uppercase">Inspiration Gallery</span> to view other customer’s images of the installed product in their vehicle.</span>
-                            </div>
                         </div>
                 	</div>        
                 </div>
@@ -147,7 +143,7 @@
                     		<ul class="nonProductGrid-wide">
                     	
                                 <li>
-                                <a href="#">
+                                <a href="/client/trs/diy/diy-install-guides-detail.php">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp1.jpg" alt="DIY Installation Guide: Morimoto Elite HID (D2S)" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
                                         <span class="nonProductGrid-wide-title">Morimoto Elite HID (Bi-Xenon)</span>
@@ -155,7 +151,6 @@
                                             <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
                                             <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
                                             <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
-                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
                                         </div>
                                     </div>
                                 </a>
@@ -168,7 +163,6 @@
                                         <div class="nonProductGrid-wide-specs">
                                             <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
                                             <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
-                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
                                         </div>
                                     </div>
                                 </a>
@@ -182,7 +176,6 @@
                                             <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
                                             <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
                                             <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
-                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
                                         </div>
                                     </div>
                                 </a>
@@ -221,7 +214,6 @@
                                             <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
                                             <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
                                             <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
-                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
                                         </div>
                                     </div>
                                 </a>
@@ -235,7 +227,6 @@
                                             <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
                                             <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
                                             <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
-                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
                                         </div>
                                     </div>
                                 </a>
@@ -248,7 +239,6 @@
                                         <div class="nonProductGrid-wide-specs">
                                             <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
                                             <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
-                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
                                         </div>
                                     </div>
                                 </a>
@@ -262,7 +252,6 @@
                                             <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
                                             <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
                                             <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
-                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
                                         </div>
                                     </div>
                                 </a>
@@ -301,7 +290,6 @@
                                             <div class="nonProductGrid-wide-specIcon"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration PDF Documentation" border="0" /></div>
                                             <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
                                             <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
-                                            <div class="nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Inspiration Gallery" border="0" /></div>
                                         </div>
                                     </div>
                                 </a>

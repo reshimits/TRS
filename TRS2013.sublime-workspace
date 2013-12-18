@@ -19,22 +19,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "css/layout-galleryguides.css",
-			"settings":
-			{
-				"buffer_size": 56855,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "diy/diy-install-guides.php",
-			"settings":
-			{
-				"buffer_size": 27785,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -64,6 +48,11 @@
 	},
 	"file_history":
 	[
+		"/Users/Shimits/Sites/client/TRS/productdetail.php",
+		"/Users/Shimits/Sites/client/TRS/css/layout-products.css",
+		"/Users/Shimits/Sites/client/TRS/diy/diy-install-guides-detail.php",
+		"/Users/Shimits/Sites/client/TRS/css/layout-galleryguides.css",
+		"/Users/Shimits/Sites/client/TRS/diy/diy-install-guides.php",
 		"/Users/Shimits/Sites/client/TRS/css/global.css",
 		"/Users/Shimits/Sites/client/TRS/index.php",
 		"/Users/Shimits/Sites/client/TRS/utility/contact.php",
@@ -186,6 +175,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<div class=\"nonProductGrid-wide-specIcon nonProductGrid-wide-specIcon-gallery\"><img src=\"/client/trs/images/icon_diyguidesSprite2x.png\" alt=\"DIY Installation Guides Inspiration Gallery\" border=\"0\" /></div>",
 			"../../",
 			"ab3305",
 			"			h5 												",
@@ -213,66 +203,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "css/layout-galleryguides.css",
-					"settings":
-					{
-						"buffer_size": 56855,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								56175,
-								56175
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 8524.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "diy/diy-install-guides.php",
-					"settings":
-					{
-						"buffer_size": 27785,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7049,
-								7049
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1475.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

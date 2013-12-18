@@ -25,7 +25,7 @@
 	/* GENERAL STYLES */
 	.bodyContainer								{ width: 940px; float: left; margin: 40px 10px 0px 10px; }
 	.utilityBodyContainer						{ width: 940px; float: left; margin: 20px 10px 0px 10px; }	
-	.bodyContainer h1							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 64px; line-height: 46px; color: #191919; 
+	.bodyContainer h1							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 64px; line-height: 50px; color: #191919; 
 												  text-transform: uppercase; letter-spacing: -1px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.bodyContainer h3							{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 15px; line-height: 17px; color: #d14001;
 												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
@@ -108,7 +108,8 @@
 		#customerProjects .galleryTitle-section		{ width: 540px; }
 		#caseStudies .galleryTitle-section			{ width: 440px; }
 	.galleryTitle-upper							{ float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 32px; line-height: 16px; color: #191919; text-transform: uppercase; 
-												  letter-spacing: -1px; padding: 6px 0px 0px 15px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											    .galleryTitle-lower							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 170px; line-height: 125px; color: #191919; 
+												  letter-spacing: -1px; padding: 6px 0px 0px 15px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }									
+	.galleryTitle-lower							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 170px; line-height: 125px; color: #191919; 
 												  text-transform: uppercase; letter-spacing: -1px; padding: 0px 0px 0px 10px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.galleryPreview-content						{ float: left; margin: 27px 0px 0px 0px; padding: 0px 15px 20px 0px; }
 		#customerProjects .galleryPreview-content	{ width: 370px; }
@@ -119,7 +120,8 @@
 												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
 	.rotmPreview-info h2						{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 400; font-size: 44px; line-height: 34px; color: #191919;   
-												  text-transform: none; padding: 20px 0px 0px 5px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											    .rotmPreview-info h3						{ width: 100%; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: italic; font-size: 15px; line-height: 17px; color: #888; 
+												  text-transform: none; padding: 20px 0px 0px 5px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }									
+	.rotmPreview-info h3						{ width: 100%; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: italic; font-size: 15px; line-height: 17px; color: #888; 
 												  padding: 5px 0px 0px 5px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.rotmPreview-sectionContent .generalBtn-orange, 
 		.rotmPreview-sectionContent .generalBtn-orange:hover	 { margin: 10px 0px 0px 5px; }
@@ -163,7 +165,7 @@
 	.user-avatar img							{ width: 60px; height: auto; }
 	#rotmDetail .nonProductGrid-wide-specTitle,
 		#caseStudiesDetail .nonProductGrid-wide-specTitle	{ padding: 5px 10px 0px 0px; }
-	.galleryDetail-info h2						{ width: 100%; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 24px; line-height: 20px; color: #191919;												  												  text-transform: none; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.galleryDetail-info h2						{ width: 100%; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 24px; line-height: 20px; color: #191919;											text-transform: none; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	
 	.galleryImagesContainer						{ width: 608px; float: left; margin: 0px 0px 15px 0px; padding: 0px 0px 20px 0px; border: 1px solid #ccc; }
 	.galleryImage-main							{ width: 608px; height: 400px; float: left; overflow: hidden; }
@@ -180,13 +182,14 @@
 	 											  padding: 8px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; border-bottom: 1px solid #ccc; }
 	
 	
-	/* DIY GUIDES */
+	/* DIY GUIDES LANDING */
 	#diyLanding .utilityBodyContainer			{ margin-top: 0px; }	
 	#diyLanding .utility-sectionSpecial			{ margin: 0px 0px 20px 0px; padding: 0px 0px 0px 0px; border-radius: 0px 0px 8px 8px; overflow: hidden;
 												  background-image: url(../images/bg_diyGuides.jpg); background-repeat: no-repeat; background-position: top left; }
 	.diyTitle-section							{ width: 380px; float: left; margin: 0px 0px 0px 0px; padding: 15px 0px 0px 20px; }
 	.diyTitle-upper								{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 86px; line-height: 66px; color: #191919;  
-												  text-transform: uppercase; padding: 0px 0px 0px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											    .diyTitle-mid								{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 106px; line-height: 84px; color: #191919; 
+												  text-transform: uppercase; padding: 0px 0px 0px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }									
+	.diyTitle-mid								{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 106px; line-height: 84px; color: #191919; 
 												  text-transform: uppercase; letter-spacing: -8px; padding: 7px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.diyTitle-lower								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 15px; line-height: 17px; color: #888; 
 												  text-transform: uppercase; padding: 0px 0px 0px 3px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
@@ -214,8 +217,36 @@
 		.nonProductGrid-wide-specIcon-forum img		{ margin-top: -70px; }
 		.nonProductGrid-wide-specIcon-gallery img	{ margin-top: -105px; }
 	
-	
-												  
+	/* DIY GUIDES DETAIL */
+	.productInfo-section						{ float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 20px 20px; }
+	.productInfo-section ul						{ float: left; padding: 5px 50px 0px 0px; margin: 0px 0px 0px 0px; }
+	.productInfo-section li						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #454545;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.diyDetailContainer							{ width: 100%; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;
+												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.diyInfo-section							{ float: left; padding: 20px 20px 25px 0px; margin: 0px 20px 0px 20px; border-right: 1px solid #ccc; }
+	.installationPerformance-section			{ width: 148px; float: left; padding: 0px 0px 0px 0px; margin: 0px 5px 0px 0px; }					
+	.installationPerformance-section img		{ width: 46px; height: auto; float: left; padding: 0px 4px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section ul			{ width: 97px; float: left; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section li			{ font-size: 11px; line-height: 14px; }
+	.diyPDFcta									{ float: left; margin: 20px 0px 0px 10px; padding: 10px 10px 10px 10px; border-radius: 4px; overflow: hidden;
+												  background-image: url(../images/btn_bg-red.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.diyPDFcta:hover							{ background-image: url(../images/btn_bg-redDark.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }											  
+	.diyPDFcta-icon								{ float: left; padding: 0px 10px 0px 0px; }
+	.diyPDFcta-icon img							{ float: left; width: 22px; height: auto; }
+	.diyPDFcta-title							{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+	.secondaryHeader							{ width: 920px; float: left; padding: 10px 10px 10px 10px; margin: 30px 0px 10px 0px; background-color: #191919; }
+	.secondaryHeader .productPromo-title 		{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; } 											  
+	.secondaryHeader .diyPreview-specIcon		{ width: 35px; height: 35px; float: left; padding: 0px 0px 0px 0px; margin: -18px 10px 0px 0px; overflow: hidden; }			
+
+
+
 /* #Tablet (Portrait) size to standard 960 (devices and browsers)
 ======================================================================================================================================================
 ======================================================================================================================================================
@@ -304,11 +335,39 @@
 	
 												  
 											  
-	/* DIY GUIDES */
+	/* DIY GUIDES LANDING */
 	#diyLanding .utility-sectionSpecial			{ margin: 0px 0px 20px 0px; padding: 0px 0px 0px 0px; border-radius: 0px 0px 8px 8px; overflow: hidden;
 												  background-image: url(../images/bg_diyGuides.jpg); background-repeat: no-repeat; background-position: -20px top; }
 	
-		
+	/* DIY GUIDES DETAIL */
+	.productInfo-section						{ float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 20px 20px; }
+	.productInfo-section ul						{ float: left; padding: 5px 30px 0px 0px; margin: 0px 0px 0px 0px; }
+	.productInfo-section li						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #454545;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.diyDetailContainer							{ width: 100%; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;
+												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.diyInfo-section							{ float: left; padding: 20px 20px 25px 0px; margin: 0px 20px 0px 20px; border-right: 1px solid #ccc; }
+	.installationPerformance-section			{ width: 148px; float: left; padding: 0px 0px 0px 0px; margin: 0px 5px 0px 0px; }					
+	.installationPerformance-section img		{ width: 46px; height: auto; float: left; padding: 0px 4px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section ul			{ width: 97px; float: left; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section li			{ font-size: 11px; line-height: 14px; }
+	.diyPDFcta									{ float: left; margin: 20px 0px 0px 10px; padding: 10px 10px 10px 10px; border-radius: 4px; overflow: hidden;
+												  background-image: url(../images/btn_bg-red.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.diyPDFcta:hover							{ background-image: url(../images/btn_bg-redDark.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }											  
+	.diyPDFcta-icon								{ float: left; padding: 0px 10px 0px 0px; }
+	.diyPDFcta-icon img							{ float: left; width: 22px; height: auto; }
+	.diyPDFcta-title							{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+	.secondaryHeader							{ width: 680px; float: left; padding: 10px 10px 10px 10px; margin: 20px 0px 10px 0px; background-color: #191919; }
+	.secondaryHeader .productPromo-title 		{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; } 											  
+	.secondaryHeader .diyPreview-specIcon		{ width: 35px; height: 35px; float: left; padding: 0px 0px 0px 0px; margin: -18px 10px 0px 0px; overflow: hidden; }			
+
+
 	}
 
 
@@ -427,7 +486,7 @@
 	.galleryDetail-info							{ width: 50%; float: left; margin: 15px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 	.galleryDetail-infoUser						{ width: 100%; }
 	.utility-sideCol-sectionInner-user			{ width: 350px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
-	.galleryDetail-info h2						{ width: 100%; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 24px; line-height: 20px; color: #191919;												  												  text-transform: none; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.galleryDetail-info h2						{ width: 100%; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 24px; line-height: 20px; color: #191919;											text-transform: none; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	
 	.galleryImagesContainer						{ width: 458px; float: left; margin: 20px 0px 15px 0px; padding: 0px 0px 20px 0px; border: 1px solid #ccc; }
 	.galleryImage-main							{ width: 458px; height: 300px; float: left; overflow: hidden; }
@@ -440,16 +499,43 @@
 	.galleryImage-thumb img						{ width: 85px; height: auto; }
 	
 	
-	/* DIY GUIDES */
+	/* DIY GUIDES LANDING */
 	#diyLanding .utility-sectionSpecial			{ margin: 0px 0px 20px 0px; padding: 0px 0px 0px 0px; border-radius: 0px 0px 8px 8px; overflow: hidden;
 												  background-image: url(../images/bg_diyGuides.jpg); background-repeat: no-repeat; background-position: top left;
 												  background-size: auto 100%; -webkit-background-size: auto 100%; -moz-background-size: auto 100%; }
 	.diyTitle-section							{ width: 420px; float: left; margin: 0px 0px 0px 0px; padding: 15px 0px 0px 20px; }
 	.diyTitle-upper								{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 95px; line-height: 72px; color: #191919;  
-												  text-transform: uppercase; padding: 0px 0px 0px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											    .diyTitle-mid								{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 116px; line-height: 94px; color: #191919; 
+												  text-transform: uppercase; padding: 0px 0px 0px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }									
+	.diyTitle-mid								{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 116px; line-height: 94px; color: #191919; 
 												  text-transform: uppercase; letter-spacing: -8px; padding: 7px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	
-		
+	/* DIY GUIDES DETAIL */
+	.productInfo-section						{ float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 20px 20px; }
+	.productInfo-section ul						{ width: 100%; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.productInfo-section li						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #454545;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.diyDetailContainer							{ width: 100%; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;
+												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.diyInfo-section							{ width: 400px; float: left; padding: 20px 20px 25px 0px; margin: 0px 20px 0px 20px; border-right: none; border-bottom: 1px solid #ccc; }
+	.installationPerformance-section			{ width: 148px; float: left; padding: 0px 0px 0px 0px; margin: 0px 5px 0px 0px; }					
+	.installationPerformance-section img		{ width: 46px; height: auto; float: left; padding: 0px 4px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section ul			{ width: 97px; float: left; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section li			{ font-size: 11px; line-height: 14px; }
+	.diyPDFcta									{ float: left; margin: 20px 0px 20px 20px; padding: 10px 10px 10px 10px; border-radius: 4px; overflow: hidden;
+												  background-image: url(../images/btn_bg-red.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.diyPDFcta:hover							{ background-image: url(../images/btn_bg-redDark.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }											  
+	.diyPDFcta-icon								{ float: left; padding: 0px 10px 0px 0px; }
+	.diyPDFcta-icon img							{ float: left; width: 22px; height: auto; }
+	.diyPDFcta-title							{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+	.secondaryHeader							{ width: 440px; float: left; padding: 10px 10px 10px 10px; margin: 20px 0px 10px 0px; background-color: #191919; }
+	.secondaryHeader .productPromo-title 		{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; } 											  
+	.secondaryHeader .diyPreview-specIcon		{ width: 35px; height: 35px; float: left; padding: 0px 0px 0px 0px; margin: -18px 10px 0px 0px; overflow: hidden; }	
 													  											  
 	}
 
@@ -465,7 +551,7 @@
 ////////////////////////////*/
 	/* GENERAL STYLES */
 	.bodyContainer								{ width: 300px; float: left; margin: 20px 0px 0px 0px; }	
-	.bodyContainer h1							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 38px; line-height: 38px; color: #191919; 
+	.bodyContainer h1							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 38px; line-height: 32px; color: #191919; 
 												  text-transform: uppercase; letter-spacing: -1px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.bodyContainer h3							{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 13px; line-height: 15px; color: #d14001;
 												  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
@@ -565,7 +651,7 @@
 	.galleryDetail-info							{ float: left; margin: 10px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 	.galleryDetail-infoUser						{ width: 100%; }
 	.utility-sideCol-sectionInner-user			{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
-	.galleryDetail-info h2						{ width: 100%; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 24px; line-height: 20px; color: #191919;												  												  text-transform: none; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.galleryDetail-info h2						{ width: 100%; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 24px; line-height: 20px; color: #191919;											text-transform: none; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	
 	.galleryImagesContainer						{ width: 298px; float: left; margin: 20px 0px 15px 0px; padding: 0px 0px 10px 0px; border: 1px solid #ccc; }
 	.galleryImage-main							{ width: 298px; height: 200px; float: left; overflow: hidden; }
@@ -578,14 +664,15 @@
 	.galleryImage-thumb img						{ width: 85px; height: auto; }
 	
 	
-	/* DIY GUIDES */
+	/* DIY GUIDES LANDING */
 	#diyLanding .utilityBodyContainer			{ margin: 0px 0px 0px 0px; }	
 	#diyLanding .utility-sectionSpecial			{ margin: 0px 0px 20px 0px; padding: 0px 0px 0px 0px; border-radius: 0px 0px 8px 8px; overflow: hidden;
 												  background-image: url(../images/bg_diyGuides.jpg); background-repeat: no-repeat; background-position: -100px top;
 												  background-size: auto 100%; -webkit-background-size: auto 100%; -moz-background-size: auto 100%;  }
 	.diyTitle-section							{ width: 285px; float: left; margin: 0px 0px 0px 0px; padding: 15px 0px 0px 20px; }
 	.diyTitle-upper								{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 48px; line-height: 36px; color: #191919;  
-												  text-transform: uppercase; padding: 0px 0px 0px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											    .diyTitle-mid								{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 72px; line-height: 54px; color: #191919; 
+												  text-transform: uppercase; padding: 0px 0px 0px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }									
+	.diyTitle-mid								{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 72px; line-height: 54px; color: #191919; 
 												  text-transform: uppercase; letter-spacing: -5px; padding: 7px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 	.diyTitle-lower								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #888; 
 												  text-transform: uppercase; padding: 3px 0px 0px 3px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
@@ -601,7 +688,33 @@
 												  	  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
 	#diyLanding .nonProductGrid-wide-title  	{ height: auto; }
 		
-		
+	/* DIY GUIDES DETAIL */
+	.productInfo-section						{ float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 20px 20px; }
+	.productInfo-section ul						{ width: 100%; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.productInfo-section li						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #454545;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.diyDetailContainer							{ width: 100%; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;
+												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.diyInfo-section							{ width: 260px; float: left; padding: 15px 0px 25px 0px; margin: 0px 20px 0px 20px; border-right: none; border-bottom: 1px solid #ccc; }
+	.installationPerformance-section			{ width: 148px; float: left; padding: 0px 0px 0px 0px; margin: 5px 5px 0px 0px; }					
+	.installationPerformance-section img		{ width: 46px; height: auto; float: left; padding: 0px 4px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section ul			{ width: 97px; float: left; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section li			{ font-size: 11px; line-height: 14px; }
+	.diyPDFcta									{ float: left; margin: 20px 0px 20px 20px; padding: 10px 10px 10px 10px; border-radius: 4px; overflow: hidden;
+												  background-image: url(../images/btn_bg-red.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.diyPDFcta:hover							{ background-image: url(../images/btn_bg-redDark.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }											  
+	.diyPDFcta-icon								{ float: left; padding: 0px 10px 0px 0px; }
+	.diyPDFcta-icon img							{ float: left; width: 22px; height: auto; }
+	.diyPDFcta-title							{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+	.secondaryHeader							{ width: 280px; float: left; padding: 10px 10px 10px 10px; margin: 20px 0px 10px 0px; background-color: #191919; }
+	.secondaryHeader .productPromo-title 		{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; } 											  
+	.secondaryHeader .diyPreview-specIcon		{ width: 35px; height: 35px; float: left; padding: 0px 0px 0px 0px; margin: -18px 10px 0px 0px; overflow: hidden; }		
 	}
 
 
