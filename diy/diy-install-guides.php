@@ -143,7 +143,7 @@
                     		<ul class="nonProductGrid-wide">
                     	
                                 <li>
-                                <a href="/client/trs/diy/diy-install-guides-detail.php">
+                                <a href="/client/trs/diy/diy-install-guides-detailNew.php">
                                     <div class="nonProductGrid-wide-image"><img src="/client/trs/images/products/productTemp1.jpg" alt="DIY Installation Guide: Morimoto Elite HID (D2S)" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
                                         <span class="nonProductGrid-wide-title">Morimoto Elite HID (Bi-Xenon)</span>

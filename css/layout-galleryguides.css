@@ -225,10 +225,11 @@
 	.diyDetailContainer							{ width: 100%; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;
 												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
-	.diyInfo-section							{ float: left; padding: 20px 20px 25px 0px; margin: 0px 20px 0px 20px; border-right: 1px solid #ccc; }
-	.installationPerformance-section			{ width: 148px; float: left; padding: 0px 0px 0px 0px; margin: 0px 5px 0px 0px; }					
-	.installationPerformance-section img		{ width: 46px; height: auto; float: left; padding: 0px 4px 0px 0px; margin: 0px 0px 0px 0px; }
-	.installationPerformance-section ul			{ width: 97px; float: left; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	
+	.diyInfo-section							{ float: left; padding: 20px 0px 25px 0px; margin: 0px 20px 0px 20px; }
+	.installationPerformance-section			{ width: 220px; float: left; padding: 0px 0px 0px 0px; margin: 0px 5px 0px 0px; }					
+	.installationPerformance-section img		{ width: 46px; height: auto; float: left; padding: 0px 7px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section ul			{ width: 165px; float: left; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }
 	.installationPerformance-section li			{ font-size: 11px; line-height: 14px; }
 	.diyPDFcta									{ float: left; margin: 20px 0px 0px 10px; padding: 10px 10px 10px 10px; border-radius: 4px; overflow: hidden;
 												  background-image: url(../images/btn_bg-red.png); background-repeat: repeat-x; background-position: left center;
@@ -244,6 +245,20 @@
 	.secondaryHeader .productPromo-title 		{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
 												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; } 											  
 	.secondaryHeader .diyPreview-specIcon		{ width: 35px; height: 35px; float: left; padding: 0px 0px 0px 0px; margin: -18px 10px 0px 0px; overflow: hidden; }			
+
+	/* DIY GUIDE Step-by-Step Additional Styles */
+	.diyWarningContainer 						{ width: 100%; float: left; margin: 0px 0px 30px 0px; padding: 0px 0px 0px 0px; border-bottom: 1px solid #ccc;
+												  background-color: #ddd; }
+	.diyWarningContainer .formNote 				{ width: 100%; padding: 0px 0px 0px 0px; }
+		.diyWarningContainer .weightBold-styleItalic { color: #d14001; }
+	.guideInfo-section 							{ width: 100%; float: left; padding: 0px 0px 20px 0px; margin: 0px 0px 20px 0px; border-bottom: 1px solid #ddd; }
+	.guideStepDescription						{ width: 445px; float: left; padding: 0px 0px 0px 15px; margin: 0px 20px 0px 0px; }
+	.guideStepDescription h3					{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919; text-transform: uppercase;
+												  padding: 7px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.guideStepDescription p						{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #454545;
+	 											  padding: 2px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  
+	.guideStepImage 							{ width: 458px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border: 1px solid #ccc; overflow: hidden; } 											  
+	.guideStepImage img 						{ width: 100%; height: auto; }
 
 
 
@@ -347,10 +362,10 @@
 	.diyDetailContainer							{ width: 100%; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;
 												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
-	.diyInfo-section							{ float: left; padding: 20px 20px 25px 0px; margin: 0px 20px 0px 20px; border-right: 1px solid #ccc; }
-	.installationPerformance-section			{ width: 148px; float: left; padding: 0px 0px 0px 0px; margin: 0px 5px 0px 0px; }					
+	.diyInfo-section							{ float: left; padding: 20px 0px 25px 0px; margin: 0px 20px 0px 20px; }
+	.installationPerformance-section			{ width: 160px; float: left; padding: 0px 0px 0px 0px; margin: 0px 5px 0px 0px; }					
 	.installationPerformance-section img		{ width: 46px; height: auto; float: left; padding: 0px 4px 0px 0px; margin: 0px 0px 0px 0px; }
-	.installationPerformance-section ul			{ width: 97px; float: left; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section ul			{ width: 110px; float: left; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }
 	.installationPerformance-section li			{ font-size: 11px; line-height: 14px; }
 	.diyPDFcta									{ float: left; margin: 20px 0px 0px 10px; padding: 10px 10px 10px 10px; border-radius: 4px; overflow: hidden;
 												  background-image: url(../images/btn_bg-red.png); background-repeat: repeat-x; background-position: left center;
@@ -366,6 +381,16 @@
 	.secondaryHeader .productPromo-title 		{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
 												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; } 											  
 	.secondaryHeader .diyPreview-specIcon		{ width: 35px; height: 35px; float: left; padding: 0px 0px 0px 0px; margin: -18px 10px 0px 0px; overflow: hidden; }			
+
+	/* DIY GUIDE Step-by-Step */
+	.guideInfo-section 							{ width: 100%; float: left; padding: 0px 0px 20px 0px; margin: 0px 0px 20px 0px; border-bottom: 1px solid #ddd; }
+	.guideStepDescription						{ width: 325px; float: left; padding: 0px 0px 0px 15px; margin: 0px 20px 0px 0px; }
+	.guideStepDescription h3					{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919; text-transform: uppercase;
+												  padding: 7px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.guideStepDescription p						{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #454545;
+	 											  padding: 2px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  
+	.guideStepImage 							{ width: 338px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border: 1px solid #ccc; overflow: hidden; } 											  
+	.guideStepImage img 						{ width: 100%; height: auto; }
 
 
 	}
@@ -517,10 +542,10 @@
 	.diyDetailContainer							{ width: 100%; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;
 												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
-	.diyInfo-section							{ width: 400px; float: left; padding: 20px 20px 25px 0px; margin: 0px 20px 0px 20px; border-right: none; border-bottom: 1px solid #ccc; }
-	.installationPerformance-section			{ width: 148px; float: left; padding: 0px 0px 0px 0px; margin: 0px 5px 0px 0px; }					
+	.diyInfo-section							{ width: 420px; float: left; padding: 20px 0px 20px 0px; margin: 0px 20px 0px 20px; }
+	.installationPerformance-section			{ width: 205px; float: left; padding: 0px 0px 0px 0px; margin: 0px 5px 10px 0px; }					
 	.installationPerformance-section img		{ width: 46px; height: auto; float: left; padding: 0px 4px 0px 0px; margin: 0px 0px 0px 0px; }
-	.installationPerformance-section ul			{ width: 97px; float: left; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section ul			{ width: 150px; float: left; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }
 	.installationPerformance-section li			{ font-size: 11px; line-height: 14px; }
 	.diyPDFcta									{ float: left; margin: 20px 0px 20px 20px; padding: 10px 10px 10px 10px; border-radius: 4px; overflow: hidden;
 												  background-image: url(../images/btn_bg-red.png); background-repeat: repeat-x; background-position: left center;
@@ -536,7 +561,20 @@
 	.secondaryHeader .productPromo-title 		{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
 												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; } 											  
 	.secondaryHeader .diyPreview-specIcon		{ width: 35px; height: 35px; float: left; padding: 0px 0px 0px 0px; margin: -18px 10px 0px 0px; overflow: hidden; }	
-													  											  
+	
+	/* DIY GUIDE Step-by-Step Additional Styles */
+	.diyWarningContainer 						{ width: 100%; float: left; margin: 0px 0px 10px 0px; padding: 0px 0px 0px 0px; border-bottom: 1px solid #ccc;
+												  background-color: #ddd; }
+	.guideInfo-section 							{ width: 100%; float: left; padding: 0px 0px 20px 0px; margin: 0px 0px 20px 0px; border-bottom: 1px solid #ddd; }
+	.guideStepDescription						{ width: 460px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.guideStepDescription h3					{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919; text-transform: uppercase;
+												  padding: 7px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.guideStepDescription p						{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #454545;
+	 											  padding: 2px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  
+	.guideStepImage 							{ width: 458px; float: left; padding: 0px 0px 0px 0px; margin: 10px 0px 0px 0px; border: 1px solid #ccc; overflow: hidden; } 											  
+	.guideStepImage img 						{ width: 100%; height: auto; }
+
+
 	}
 
 
@@ -696,10 +734,10 @@
 	.diyDetailContainer							{ width: 100%; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;
 												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
-	.diyInfo-section							{ width: 260px; float: left; padding: 15px 0px 25px 0px; margin: 0px 20px 0px 20px; border-right: none; border-bottom: 1px solid #ccc; }
-	.installationPerformance-section			{ width: 148px; float: left; padding: 0px 0px 0px 0px; margin: 5px 5px 0px 0px; }					
+	.diyInfo-section							{ width: 260px; float: left; padding: 15px 0px 15px 0px; margin: 0px 20px 0px 20px; }
+	.installationPerformance-section			{ width: 260px; float: left; padding: 0px 0px 0px 0px; margin: 5px 0px 0px 0px; }					
 	.installationPerformance-section img		{ width: 46px; height: auto; float: left; padding: 0px 4px 0px 0px; margin: 0px 0px 0px 0px; }
-	.installationPerformance-section ul			{ width: 97px; float: left; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section ul			{ width: 210px; float: left; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }
 	.installationPerformance-section li			{ font-size: 11px; line-height: 14px; }
 	.diyPDFcta									{ float: left; margin: 20px 0px 20px 20px; padding: 10px 10px 10px 10px; border-radius: 4px; overflow: hidden;
 												  background-image: url(../images/btn_bg-red.png); background-repeat: repeat-x; background-position: left center;
@@ -715,6 +753,20 @@
 	.secondaryHeader .productPromo-title 		{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
 												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; } 											  
 	.secondaryHeader .diyPreview-specIcon		{ width: 35px; height: 35px; float: left; padding: 0px 0px 0px 0px; margin: -18px 10px 0px 0px; overflow: hidden; }		
+	
+	/* DIY GUIDE Step-by-Step Additional Styles */
+	.diyWarningContainer 						{ width: 100%; float: left; margin: 0px 0px 10px 0px; padding: 0px 0px 0px 0px; border-bottom: 1px solid #ccc;
+												  background-color: #ddd; }
+	.guideInfo-section 							{ width: 100%; float: left; padding: 0px 0px 20px 0px; margin: 0px 0px 20px 0px; border-bottom: 1px solid #ddd; }
+	.guideStepDescription						{ width: 300px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.guideStepDescription h3					{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 12px; line-height: 12px; color: #191919; text-transform: uppercase;
+												  padding: 7px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.guideStepDescription p						{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #454545;
+	 											  padding: 2px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  
+	.guideStepImage 							{ width: 298px; float: left; padding: 0px 0px 0px 0px; margin: 10px 0px 0px 0px; border: 1px solid #ccc; overflow: hidden; } 											  
+	.guideStepImage img 						{ width: 100%; height: auto; }
+
+
 	}
 
 
