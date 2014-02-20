@@ -104,7 +104,7 @@
 	ul.nav-products li.drop-components:hover ul li.dropVert-first ul 	{ visibility: visible; }
 	ul.nav-products li.drop-components:hover a.subLevel 				{ color: #fff; }
 	
-	ul.nav-products ul 							{ height: 238px; visibility: hidden; position: absolute; top: 100%; left: 0; z-index: -1; width: 100%; margin: -1px 0px 0px 0px; 
+	ul.nav-products ul 							{ height: 274px; visibility: hidden; position: absolute; top: 100%; left: 0; z-index: -1; width: 100%; margin: -1px 0px 0px 0px; 
 												  background-image: url(../images/bg_navGradient.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; border-top: 1px solid #454545; }
 	
@@ -116,28 +116,30 @@
 	ul.nav-products ul li.dropVert-last 		{ padding: 0px 12px 11px 12px; }											  
 	ul.nav-products ul li.dropVert:hover a.subLevel		{ color: #ea5f03; }
 	ul.nav-products ul li.dropVert:hover ul 	{ visibility: visible; }
-	ul.nav-products ul li.dropVert ul			{ height: 238px; width: 765px; float: right; visibility: hidden; position: absolute; top: 1px; left: 175px; z-index: 1001; 
+	ul.nav-products ul li.dropVert ul			{ height: 274px; width: 765px; float: right; visibility: hidden; position: absolute; top: 1px; left: 175px; z-index: 1001; 
 												  background-image: url(../images/bg_navGradient.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; border-top: none; }
 	
-	.productDrop	 							{ height: 238px; width: 100%; float: left; }
-		.productDrop-completekits	 			{ background-image: url(../images/nav_completekits.png); background-repeat: no-repeat; background-position: right top; }
-		.productDrop-hidsystems	 				{ background-image: url(../images/nav_hidsystems.png); background-repeat: no-repeat; background-position: right top; }
-		.productDrop-projectors	 				{ width: 765px; background-image: url(../images/nav_projectors.png); background-repeat: no-repeat; background-position: right top; }
-		.productDrop-ballasts	 				{ width: 765px; background-image: url(../images/nav_ballasts.png); background-repeat: no-repeat; background-position: right top; }
-		.productDrop-bulbs			 			{ width: 765px; background-image: url(../images/nav_bulbs.png); background-repeat: no-repeat; background-position: right top; }
-		.productDrop-shrouds	 				{ width: 765px; background-image: url(../images/nav_shrouds.png); background-repeat: no-repeat; background-position: right top; }
-		.productDrop-harnesses		 			{ width: 765px; background-image: url(../images/nav_harnesses.png); background-repeat: no-repeat; background-position: right top; }
-		.productDrop-lenses		 				{ width: 765px; background-image: url(../images/nav_lenses.png); background-repeat: no-repeat; background-position: right top; }
-		.productDrop-ledlighting	 			{ background-image: url(../images/nav_ledlighting.png); background-repeat: no-repeat; background-position: right top; }
-		.productDrop-offroad	 				{ background-image: url(../images/nav_offroad.png); background-repeat: no-repeat; background-position: right top; }
-		.productDrop-accessories	 			{ background-image: url(../images/nav_accessories.png); background-repeat: no-repeat; background-position: right top; }
+	.productDrop	 							{ height: 274px; width: 100%; float: left; }
+		.productDrop-completekits	 			{ background-image: url(../images/nav_completekits.png); background-repeat: no-repeat; background-position: right bottom; }
+		.productDrop-hidsystems	 				{ background-image: url(../images/nav_hidsystems.png); background-repeat: no-repeat; background-position: right bottom; }
+		.productDrop-projectors	 				{ width: 765px; background-image: url(../images/nav_projectors.png); background-repeat: no-repeat; background-position: right bottom; }
+		.productDrop-ballasts	 				{ width: 765px; background-image: url(../images/nav_ballasts.png); background-repeat: no-repeat; background-position: right bottom; }
+		.productDrop-bulbs			 			{ width: 765px; background-image: url(../images/nav_bulbs.png); background-repeat: no-repeat; background-position: right bottom; }
+		.productDrop-halogenBulbs			 	{ width: 765px; background-image: url(../images/nav_halogenBulbs.png); background-repeat: no-repeat; background-position: 400px bottom; }
+		.productDrop-shrouds	 				{ width: 765px; background-image: url(../images/nav_shrouds.png); background-repeat: no-repeat; background-position: right bottom; }
+		.productDrop-harnesses		 			{ width: 765px; background-image: url(../images/nav_harnesses.png); background-repeat: no-repeat; background-position: right bottom; }
+		.productDrop-lenses		 				{ width: 765px; background-image: url(../images/nav_lenses.png); background-repeat: no-repeat; background-position: right bottom; }
+		.productDrop-ledlighting	 			{ background-image: url(../images/nav_ledlighting.png); background-repeat: no-repeat; background-position: right bottom; }
+		.productDrop-offroad	 				{ background-image: url(../images/nav_offroad.png); background-repeat: no-repeat; background-position: right bottom; }
+		.productDrop-accessories	 			{ background-image: url(../images/nav_accessories.png); background-repeat: no-repeat; background-position: right bottom; }
 	.productDrop-content						{ width: 420px; float: left; padding: 0px 0px 0px 0px; margin: 30px 0px 0px 30px; }
 		.productDrop-completekits .productDrop-content	 { width: 337px; }
 		.productDrop-hidsystems .productDrop-content	 { width: 370px; }
 		.productDrop-projectors .productDrop-content	 { width: 290px; }
 		.productDrop-ballasts .productDrop-content		 { width: 320px; } .productDrop-ballasts .productDrop-info		 	 { width: 250px; }
 		.productDrop-bulbs .productDrop-content	 		 { width: 350px; }
+		.productDrop-halogenBulbs .productDrop-content	 { width: 410px; } 
 		.productDrop-shrouds .productDrop-content	 	 { width: 260px; }
 		.productDrop-harnesses .productDrop-content	 	 { width: 310px; }
 		.productDrop-lenses .productDrop-content	 	 { width: 410px; }
@@ -261,7 +263,7 @@
 	ul.nav-products li.drop-components:hover ul li.dropVert-first ul 	{ visibility: visible; }
 	ul.nav-products li.drop-components:hover a.subLevel 				{ color: #fff; }
 	
-	ul.nav-products ul 							{ height: 238px; visibility: hidden; position: absolute; top: 100%; left: 0; z-index: -1; width: 100%; margin: -1px 0px 0px 0px;
+	ul.nav-products ul 							{ height: 274px; visibility: hidden; position: absolute; top: 100%; left: 0; z-index: -1; width: 100%; margin: -1px 0px 0px 0px;
 												  background-image: url(../images/bg_navGradient.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; border-top: 1px solid #454545; }
 	
@@ -273,28 +275,30 @@
 	ul.nav-products ul li.dropVert-last 		{ padding: 0px 12px 11px 12px; }											  
 	ul.nav-products ul li.dropVert:hover		{ color: #ea5f03; }
 	ul.nav-products ul li.dropVert:hover ul 	{ visibility: visible; }
-	ul.nav-products ul li.dropVert ul			{ height: 238px; width: 525px; float: right; visibility: hidden; position: absolute; top: 1px; left: 175px; z-index: 1001; 
+	ul.nav-products ul li.dropVert ul			{ height: 274px; width: 525px; float: right; visibility: hidden; position: absolute; top: 1px; left: 175px; z-index: 1001; 
 												  background-image: url(../images/bg_navGradient.png); background-repeat: repeat-x; background-position: left top;
 												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; border-top: none;}
 	
-	.productDrop	 							{ height: 238px; width: 100%; float: left; }
-		.productDrop-completekits	 			{ background-image: url(../images/nav_completekits.png); background-repeat: no-repeat; background-position: 270px top; }
-		.productDrop-hidsystems	 				{ background-image: url(../images/nav_hidsystems.png); background-repeat: no-repeat; background-position: 300px top; }
-		.productDrop-projectors	 				{ width: 525px; background-image: url(../images/nav_projectors.png); background-repeat: no-repeat; background-position: 230px top; }
-		.productDrop-ballasts	 				{ width: 525px; background-image: url(../images/nav_ballasts.png); background-repeat: no-repeat; background-position: 180px top; }
-		.productDrop-bulbs			 			{ width: 525px; background-image: url(../images/nav_bulbs.png); background-repeat: no-repeat; background-position: 260px top; }
-		.productDrop-shrouds	 				{ width: 525px; background-image: url(../images/nav_shrouds.png); background-repeat: no-repeat; background-position: 230px top; }
-		.productDrop-harnesses		 			{ width: 525px; background-image: url(../images/nav_harnesses.png); background-repeat: no-repeat; background-position: 270px top; }
-		.productDrop-lenses		 				{ width: 525px; background-image: url(../images/nav_lenses.png); background-repeat: no-repeat; background-position: 280px top; }
-		.productDrop-ledlighting	 			{ background-image: url(../images/nav_ledlighting.png); background-repeat: no-repeat; background-position: 330px top; }
-		.productDrop-offroad	 				{ background-image: url(../images/nav_offroad.png); background-repeat: no-repeat; background-position: 310px top; }
-		.productDrop-accessories	 			{ background-image: url(../images/nav_accessories.png); background-repeat: no-repeat; background-position: 287px top; }
+	.productDrop	 							{ height: 274px; width: 100%; float: left; }
+		.productDrop-completekits	 			{ background-image: url(../images/nav_completekits.png); background-repeat: no-repeat; background-position: 270px bottom; }
+		.productDrop-hidsystems	 				{ background-image: url(../images/nav_hidsystems.png); background-repeat: no-repeat; background-position: 300px bottom; }
+		.productDrop-projectors	 				{ width: 525px; background-image: url(../images/nav_projectors.png); background-repeat: no-repeat; background-position: 230px bottom; }
+		.productDrop-ballasts	 				{ width: 525px; background-image: url(../images/nav_ballasts.png); background-repeat: no-repeat; background-position: 180px bottom; }
+		.productDrop-bulbs			 			{ width: 525px; background-image: url(../images/nav_bulbs.png); background-repeat: no-repeat; background-position: 260px bottom; }
+		.productDrop-halogenBulbs			 	{ width: 525px; background-image: url(../images/nav_halogenBulbs.png); background-repeat: no-repeat; background-position: 190px bottom; }
+		.productDrop-shrouds	 				{ width: 525px; background-image: url(../images/nav_shrouds.png); background-repeat: no-repeat; background-position: 230px bottom; }
+		.productDrop-harnesses		 			{ width: 525px; background-image: url(../images/nav_harnesses.png); background-repeat: no-repeat; background-position: 270px bottom; }
+		.productDrop-lenses		 				{ width: 525px; background-image: url(../images/nav_lenses.png); background-repeat: no-repeat; background-position: 280px bottom; }
+		.productDrop-ledlighting	 			{ background-image: url(../images/nav_ledlighting.png); background-repeat: no-repeat; background-position: 330px bottom; }
+		.productDrop-offroad	 				{ background-image: url(../images/nav_offroad.png); background-repeat: no-repeat; background-position: 310px bottom; }
+		.productDrop-accessories	 			{ background-image: url(../images/nav_accessories.png); background-repeat: no-repeat; background-position: 287px bottom; }
 	.productDrop-content						{ width: 420px; float: left; padding: 0px 0px 0px 0px; margin: 30px 0px 0px 30px; }
 		.productDrop-completekits .productDrop-content	 { width: 260px; }
 		.productDrop-hidsystems .productDrop-content	 { width: 280px; }
 		.productDrop-projectors .productDrop-content	 { width: 230px; }
 		.productDrop-ballasts .productDrop-content		 { width: 260px; } .productDrop-ballasts .productDrop-info		 	 { width: 190px; }
 		.productDrop-bulbs .productDrop-content	 		 { width: 320px; } .productDrop-bulbs .productDrop-info		 	 	 { width: 250px; }
+		.productDrop-halogenBulbs .productDrop-content	 { width: 230px; } 
 		.productDrop-shrouds .productDrop-content	 	 { width: 220px; }
 		.productDrop-harnesses .productDrop-content	 	 { width: 260px; }
 		.productDrop-lenses .productDrop-content	 	 { width: 260px; }
