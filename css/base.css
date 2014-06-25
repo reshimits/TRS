@@ -338,7 +338,7 @@
 		.section									{ width: 460px; float: left; }
 		
 		/* Global Show/Hide */
-		.mobile-only								{ display: block; }
+		.mobile-only								{ display: inline; }
 		.mobile-hide								{ display: none; }
 		.hide940									{ display: none; }
 		.hide700				  					{ display: none; }
@@ -373,7 +373,7 @@
 		.section									{ width: 460px; float: left; }
 		
 		/* Global Show/Hide */
-		.mobile-only								{ display: block; }
+		.mobile-only								{ display: inline; }
 		.mobile-hide								{ display: none; }
 		.hide940									{ display: none; }
 		.hide700				  					{ display: none; }

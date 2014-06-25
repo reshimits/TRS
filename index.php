@@ -140,6 +140,20 @@
             </div> 
             </div>       
         </div>
+
+         <div class="container" id="homeTestimonials">
+            <div class="full column">
+            <div class="homeTestimonialsContainer">
+                <div class="homeAbout-intro">                    
+                    <!-- <span class="homeAnnouncements-title">Innovative Headlight Upgrades</span> -->
+                    <span class="homeAnnouncements-info" style="padding-bottom: 0;"><span class="weightRegular-styleNormal">The Retrofit Source is more than the world's largest supplier of high-end automotive lighting upgrades. We're a group of enthusiasts with a passion for perfecting your night-time driving experience. <span class="mobile-hide">From humble beginnings to our current 15,000 square foot facility that's always stocked with an unbeatable selection of headlight happiness, our roots have nearly doubled in size annually since opening in 2005. Our goal is to supply you with the best performing headlight upgrades that have been tailored to fit your application, at a price that works within budget. This is an upgrade for those who are serious about the looks and performance of their vehicle. If you're looking the cheapest or easiest, go elsewhere. You want color changing halos? Don't bother. TRS carries the most trusted brands in the industry from Morimoto, Philips, Osram and Denso, so we have something that will meet every need except for the one to compromise.</span> <span class="mobile-only">Our massive facility is always stocked with an unbeatable selection of headlight happiness from the best brands, and our goal is to supply you with the best performing headlight upgrades that have been tailored to fit your application, at a price that works within budget.</span></span></span>
+                    
+                    <span class="homeAnnouncements-info"><span class="mobile-hide">Nobody can match our knowledge base and personalized customer support, and If you're unsure where to start; our team is always here to help. We've partnered up with over 300 authorized distributors all over the world and have served well over 100,000 individuals ourselves. </span>If you're driving something truly special, other enthusiasts will notice you during the day - but don't make the mistake of cruising by unnoticed at night. <span class="mobile-hide">No matter if you're daily driving a Dodge or running the streets on an R6, we can help! </span>Call TRS at <a href="tel:404-220-7940" class="tel">404-220-7940</a> today!</span>
+                </div>
+                
+            </div>
+            </div>        
+        </div>
         
         <div class="container" id="homeFeatureProducts">
         	<div class="full column">
