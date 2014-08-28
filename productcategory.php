@@ -27,6 +27,7 @@
 	<link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/layout-products.css">
 
+
 	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 	<!-- Javascript [primary]
@@ -78,220 +79,314 @@
     <div class="navMain hide460"><?php require('include/navMain.html');?></div>
     <div class="navMobile mobile-only"><?php require('include/navMobile.html');?></div>
     	
-        <div class="productCategoryBanner"><?php require('include/productCategoryBanner-projectors.html');?></div>
+        <div class="productCategoryBanner">
+            <?php require('buyersGuide/buyersGuide-projectors.html');?> 
+            <!-- <?php require('buyersGuide/buyersGuide-ballasts.html');?> -->
+        </div>
+
         
         <div class="container" id="productGrid">
         	<div class="full column">
         	<div class="productGridContainer">
                 
-                <div class="productGrid-filter">            		
-                	<span class="productGrid-filter-title">Filter Options:</span>
+                <div class="productGrid-filter active">            		
                 	<div class="filter">
                     	<form id="filter-options">
-                    		<div class="formFieldContainer">
-                    			<label for>Application:</label>
-                    			<div class="formField-dropdown">
-                    				<select name="application" size="1">
-                    					<option value="ALL" title="All">Display All</option>
-                    					<option value="UC">Universal (cars)</option>
-                                        <option value="UC">Universal (motorcycles)</option>
-                                        <option value="VS">Vehicle Specific</option>
-                    				</select>
-                    			</div>
-                    		</div>
                             <div class="formFieldContainer">
-                    			<label for>Functionality:</label>
-                    			<div class="formField-dropdown">
-                    				<select name="functionality" size="1">
-                    					<option value="ALL" title="All">Display All</option>
-                    					<option value="LB">Dedicated Low Beam</option>
-                                        <option value="BX">Low &amp; High Beam (Bi-xenon)</option>
-                                        <option value="FL">Fog Light Specific</option>
-                    				</select>
-                    			</div>
-                    		</div>
+                                <select name="function" size="1">
+                                    <option value="" title="">All Function Types</option>
+                                    <option value="selected">Low &amp; High Beam (Bi-xenon) (10)</option>
+                                    <option value="selected">Dedicated Low Beam (4)</option>
+                                    <option value="selected">Fog Light Specific (1)</option>
+                                </select>
+                            </div>
                             <div class="formFieldContainer">
-                    			<label for>Size:</label>
-                    			<div class="formField-dropdown">
-                    				<select name="size" size="1">
-                    					<option value="ALL" title="All">Display All</option>
-                    					<option value="S">Smallest</option>
-                                        <option value="M">Medium</option>
-                                        <option value="L">Large</option>
-                                        <option value="XL">Huge</option>
-                    				</select>
-                    			</div>
-                    		</div>
+                                <select name="installation" size="1">
+                                    <option value="" title="">All Installation Types</option>
+                                    <option value="selected">Advanced (cutting required) (10)</option>
+                                    <option value="selected">Basic (little/no cutting) (3)</option>
+                                </select>
+                            </div>
                             <div class="formFieldContainer">
-                    			<label for>Installation:</label>
-                    			<div class="formField-dropdown">
-                    				<select name="installation" size="1">
-                    					<option value="ALL" title="All">Display All</option>
-                    					<option value="B">Basic</option>
-                                        <option value="A">Advanced</option>
-                    				</select>
-                    			</div>
-                    		</div>
+                                <select name="origin" size="1">
+                                    <option value="" title="">All Origin Types</option>
+                                    <option value="selected">Aftermarket (6)</option>
+                                    <option value="selected">OEM Part (8)</option>
+                                </select>
+                            </div>
+                            <div class="formFieldContainer">
+                                <select name="size" size="1">
+                                    <option value="" title="">All Sizes</option>
+                                    <option value="selected">Smallest (2)</option>
+                                    <option value="selected">Medium (6)</option>
+                                    <option value="selected">Large (5)</option>
+                                    <option value="selected">Huge (3)</option>
+                                </select>
+                            </div>
+                            <div class="formFieldContainer last">
+                                <select name="dev" size="1">
+                                    <option value="" title="">Extra for Dev Use</option>
+                                    <option value="selected">NA</option>
+                                </select>
+                            </div>
+
                     	</form>
                 	</div>
                 </div>
-                <div class="productGrid-products" id="productGrid-productsWholesale"> 
+
+                <!-- Apply id="productGrid-productsWholesale" to "productGrid-products" if user is logged in as Wholesaler -->
+                <div class="productGrid-products"> 
                     <ul class="image-grid products">
                     	
                         <li class="product" id="projector-1" data-id="id-1" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="/client/trs/productdetail.php">
-                            <div class="product-image"><img src="/client/trs/images/products/productTemp3.jpg" alt="temp" id="temp" border="0" /></div>
-                            <div class="product-info">
+                            <div class="product-image"><img src="/client/trs/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-info info-main">
                             	<span class="product-title">FX-R 3.0 Projectors</span>
                                 <div class="product-specs">
-                                	<span class="product-spec"><span class="weightBold-styleNormal">Application:</span> Universal (Cars)</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Functionality:</span> Bi-xenon</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Size:</span> Medium</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Installation:</span> Advanced</span>
+                                	<span class="product-spec">By far our most popular full size bi-xenon projector ever. The 3.0 is a retrofitters delight with its high precision castings, advanced optics, available 2.5 and 3 inch clear lens. It all adds up to put our FX-R near the top of the totem poll.</span>
                                 </div>
-                                <div class="productPriceContainer productPriceContainer-wholesale">
-                                     <div class="productPriceWholesaleContainer productPriceWholesaleContainer-retail">
+                            </div>    
+                            <div class="product-info">    
+                                <div class="productPriceContainer">
+                                     <div class="productPrice productPrice-retail">
                                         <span class="product-price">$140</span>
                                         <span class="productPrice-type">Retail</span>
                                      </div>
-                                     <div class="productPriceWholesaleContainer productPriceWholesaleContainer-wholesale">
+                                     <div class="productPrice productPrice-wholesale">
                                         <span class="product-price">$140</span>
                                         <span class="productPrice-type">Wholesale</span>
                                      </div>
-                                     <div class="productPriceWholesaleContainer productPriceWholesaleContainer-20orMore">
+                                     <div class="productPrice productPrice-20orMore">
                                         <span class="product-price">$140</span>
                                         <span class="productPrice-type">20 or More</span>
                                      </div>    
                                 </div>   
                             </div>
-                            <div class="product-banner"><img src="/client/trs/images/products/banner_featureProduct-topSeller2x.png" alt="Top Selling Product!" border="0" /></div>
+                            <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-topSeller2x.png" alt="Top Selling Product!" border="0" /></div>
                             </a>
                     	</li>
                         <li class="product" id="projector-2" data-id="id-2" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTemp5.jpg" alt="temp" id="temp" border="0" /></div>
-                            <div class="product-info">
+                            <div class="product-image"><img src="/client/trs/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-info info-main">
                             	<span class="product-title">VIP Projectors</span>
                                 <div class="product-specs">
-                                	<span class="product-spec"><span class="weightBold-styleNormal">Application:</span> Universal (Cars)</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Functionality:</span> Bi-xenon</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Size:</span> Medium</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Installation:</span> Advanced</span>
+                                	<span class="product-spec">Well renowned for being THE best dedicated low beam projector ever made. 'Nuff said.</span>
                                 </div>
-                                <span class="product-priceStart">starting at</span> 
-                                <span class="product-price">$100</span>    
+                            </div>    
+                            <div class="product-info">    
+                                <div class="productPriceContainer">
+                                     <div class="productPrice productPrice-retail">
+                                        <span class="product-priceStart">starting at</span> 
+                                        <span class="product-price">$100</span>  
+                                        <span class="productPrice-type">Retail</span>
+                                     </div>
+                                     <div class="productPrice productPrice-wholesale">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">Wholesale</span>
+                                     </div>
+                                     <div class="productPrice productPrice-20orMore">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">20 or More</span>
+                                     </div>    
+                                </div>   
                             </div>
                             <div class="product-banner"></div>
                             </a>
                     	</li>
                         <li class="product" id="projector-3" data-id="id-3" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTemp6.jpg" alt="temp" id="temp" border="0" /></div>
-                            <div class="product-info">
-                            	<span class="product-title">Lexus RX-AFS Projectors</span>
+                            <div class="product-image"><img src="/client/trs/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-info info-main">
+                            	<span class="product-title">Bi-xenon Morimoto Mini Stage III Kit (D2S)</span>
                                 <div class="product-specs">
-                                	<span class="product-spec"><span class="weightBold-styleNormal">Application:</span> Universal (Cars)</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Functionality:</span> Bi-xenon</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Size:</span> Medium</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Installation:</span> Advanced</span>
+                                	<span class="product-spec">Morimoto's Mini D2S Three point O has finally arrived! All new from the solenoid up, the reinvented Morimoto Mini D2S 3.0 will make every retrofitter re-think their next choice in projectors.</span>
                                 </div>
-                                <span class="product-price">$190</span>    
+                            </div>    
+                            <div class="product-info">    
+                                <div class="productPriceContainer">
+                                     <div class="productPrice productPrice-retail">
+                                        <span class="product-price">$190</span>
+                                        <span class="productPrice-type">Retail</span>
+                                     </div>
+                                     <div class="productPrice productPrice-wholesale">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">Wholesale</span>
+                                     </div>
+                                     <div class="productPrice productPrice-20orMore">
+                                        <span class="product-price">$130</span>
+                                        <span class="productPrice-type">20 or More</span>
+                                     </div>    
+                                </div>    
                             </div>
-                            <div class="product-banner"><img src="/client/trs/images/products/banner_featureProduct-onSale2x.png" alt="Product On Sale!" border="0" /></div>
+                            <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-onSale2x.png" alt="Product On Sale!" border="0" /></div>
                             </a>
                     	</li>
                         <li class="product" id="projector-4" data-id="id-4" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTemp7.jpg" alt="temp" id="temp" border="0" /></div>
-                            <div class="product-info">
+                            <div class="product-image"><img src="/client/trs/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-info info-main">
                             	<span class="product-title">Morimoto Mini D2S 2.0</span>
                                 <div class="product-specs">
-                                	<span class="product-spec"><span class="weightBold-styleNormal">Application:</span> Universal (Cars)</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Functionality:</span> Bi-xenon</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Size:</span> Medium</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Installation:</span> Advanced</span>
+                                	<span class="product-spec">Morimoto's Mini D2S Three point O has finally arrived! All new from the solenoid up, the reinvented Morimoto Mini D2S 3.0 will make every retrofitter re-think their next choice in projectors.</span>
                                 </div>
-                                <span class="product-price">$100</span>    
+                            </div>    
+                            <div class="product-info">    
+                                <div class="productPriceContainer">
+                                     <div class="productPrice productPrice-retail">
+                                        <span class="product-price">$100</span>
+                                        <span class="productPrice-type">Retail</span>
+                                     </div>
+                                     <div class="productPrice productPrice-wholesale">
+                                        <span class="product-price">$90</span>
+                                        <span class="productPrice-type">Wholesale</span>
+                                     </div>
+                                     <div class="productPrice productPrice-20orMore">
+                                        <span class="product-price">$85</span>
+                                        <span class="productPrice-type">20 or More</span>
+                                     </div>    
+                                </div>    
                             </div>
                             <div class="product-banner"></div>
                             </a>
                     	</li>
                         <li class="product" id="projector-5" data-id="id-5" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTemp3.jpg" alt="temp" id="temp" border="0" /></div>
-                            <div class="product-info">
+                            <div class="product-image"><img src="/client/trs/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-info info-main">
                             	<span class="product-title">FX-R 3.0 Projectors</span>
                                 <div class="product-specs">
-                                	<span class="product-spec"><span class="weightBold-styleNormal">Application:</span> Universal (Cars)</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Functionality:</span> Bi-xenon</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Size:</span> Medium</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Installation:</span> Advanced</span>
+                                	<span class="product-spec">By far our most popular full size bi-xenon projector ever. The 3.0 is a retrofitters delight with its high precision castings, advanced optics, available 2.5 and 3 inch clear lens. It all adds up to put our FX-R near the top of the totem poll.</span>
                                 </div>
-                                <span class="product-price">$140</span>    
+                            </div>    
+                            <div class="product-info">    
+                                <div class="productPriceContainer">
+                                     <div class="productPrice productPrice-retail">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">Retail</span>
+                                     </div>
+                                     <div class="productPrice productPrice-wholesale">
+                                        <span class="product-price">$135</span>
+                                        <span class="productPrice-type">Wholesale</span>
+                                     </div>
+                                     <div class="productPrice productPrice-20orMore">
+                                        <span class="product-price">$132</span>
+                                        <span class="productPrice-type">20 or More</span>
+                                     </div>    
+                                </div>    
                             </div>
                             <div class="product-banner"></div>
                             </a>
                     	</li>
                         <li class="product" id="projector-6" data-id="id-6" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTemp5.jpg" alt="temp" id="temp" border="0" /></div>
-                            <div class="product-info">
+                            <div class="product-image"><img src="/client/trs/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-info info-main">
                             	<span class="product-title">VIP Projectors</span>
                                 <div class="product-specs">
-                                	<span class="product-spec"><span class="weightBold-styleNormal">Application:</span> Universal (Cars)</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Functionality:</span> Bi-xenon</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Size:</span> Medium</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Installation:</span> Advanced</span>
+                                	<span class="product-spec">Well renowned for being THE best dedicated low beam projector ever made. 'Nuff said.</span>
                                 </div>
-                                <span class="product-price">$100</span>    
+                            </div>    
+                            <div class="product-info">    
+                                <div class="productPriceContainer">
+                                     <div class="productPrice productPrice-retail">
+                                        <span class="product-price">$100</span>
+                                        <span class="productPrice-type">Retail</span>
+                                     </div>
+                                     <div class="productPrice productPrice-wholesale">
+                                        <span class="product-price">$100</span>
+                                        <span class="productPrice-type">Wholesale</span>
+                                     </div>
+                                     <div class="productPrice productPrice-20orMore">
+                                        <span class="product-price">$100</span>
+                                        <span class="productPrice-type">20 or More</span>
+                                     </div>    
+                                </div>    
                             </div>
-                            <div class="product-banner"><img src="/client/trs/images/products/banner_featureProduct-topSeller2x.png" alt="Top Selling Product!" border="0" /></div>
+                            <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
                             </a>
                     	</li>
                         <li class="product" id="projector-7" data-id="id-7" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTemp6.jpg" alt="temp" id="temp" border="0" /></div>
-                            <div class="product-info">
+                            <div class="product-image"><img src="/client/trs/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-info info-main">
                             	<span class="product-title">Lexus RX-AFS Projectors</span>
                                 <div class="product-specs">
-                                	<span class="product-spec"><span class="weightBold-styleNormal">Application:</span> Universal (Cars)</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Functionality:</span> Bi-xenon</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Size:</span> Medium</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Installation:</span> Advanced</span>
+                                	<span class="product-spec">Morimoto's Mini D2S Three point O has finally arrived! All new from the solenoid up, the reinvented Morimoto Mini D2S 3.0 will make every retrofitter re-think their next choice in projectors.</span>
                                 </div>
-                                <span class="product-price">$190</span>    
+                            </div>    
+                            <div class="product-info">    
+                                <div class="productPriceContainer">
+                                     <div class="productPrice productPrice-retail">
+                                        <span class="product-price">$190</span>
+                                        <span class="productPrice-type">Retail</span>
+                                     </div>
+                                     <div class="productPrice productPrice-wholesale">
+                                        <span class="product-price">$180</span>
+                                        <span class="productPrice-type">Wholesale</span>
+                                     </div>
+                                     <div class="productPrice productPrice-20orMore">
+                                        <span class="product-price">$170</span>
+                                        <span class="productPrice-type">20 or More</span>
+                                     </div>    
+                                </div>    
                             </div>
                             <div class="product-banner"></div>
                             </a>
                     	</li>
                         <li class="product" id="projector-8" data-id="id-8" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTemp7.jpg" alt="temp" id="temp" border="0" /></div>
-                            <div class="product-info">
+                            <div class="product-image"><img src="/client/trs/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-info info-main">
                             	<span class="product-title">Morimoto Mini D2S 2.0</span>
                                 <div class="product-specs">
-                                	<span class="product-spec"><span class="weightBold-styleNormal">Application:</span> Universal (Cars)</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Functionality:</span> Bi-xenon</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Size:</span> Medium</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Installation:</span> Advanced</span>
+                                	<span class="product-spec">Morimoto's Mini D2S Three point O has finally arrived! All new from the solenoid up, the reinvented Morimoto Mini D2S 3.0 will make every retrofitter re-think their next choice in projectors.</span>
                                 </div>
-                                <span class="product-price">$100</span>    
+                            </div>    
+                            <div class="product-info">    
+                                <div class="productPriceContainer">
+                                     <div class="productPrice productPrice-retail">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">Retail</span>
+                                     </div>
+                                     <div class="productPrice productPrice-wholesale">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">Wholesale</span>
+                                     </div>
+                                     <div class="productPrice productPrice-20orMore">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">20 or More</span>
+                                     </div>    
+                                </div>     
                             </div>
-                            <div class="product-banner"><img src="/client/trs/images/products/banner_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
+                            <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-topSeller2x.png" alt="Top Selling Product!" border="0" /></div>
                             </a>
                     	</li>
                         <li class="product" id="projector-9" data-id="id-9" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTemp3.jpg" alt="temp" id="temp" border="0" /></div>
-                            <div class="product-info">
+                            <div class="product-image"><img src="/client/trs/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-info info-main">
                             	<span class="product-title">FX-R 3.0 Projectors</span>
                                 <div class="product-specs">
-                                	<span class="product-spec"><span class="weightBold-styleNormal">Application:</span> Universal (Cars)</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Functionality:</span> Bi-xenon</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Size:</span> Medium</span>
-                                    <span class="product-spec"><span class="weightBold-styleNormal">Installation:</span> Advanced</span>
+                                	<span class="product-spec">By far our most popular full size bi-xenon projector ever. The 3.0 is a retrofitters delight with its high precision castings, advanced optics, available 2.5 and 3 inch clear lens. It all adds up to put our FX-R near the top of the totem poll.</span>
                                 </div>
-                                <span class="product-price">$140</span>    
+                            </div>    
+                            <div class="product-info">    
+                                <div class="productPriceContainer">
+                                     <div class="productPrice productPrice-retail">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">Retail</span>
+                                     </div>
+                                     <div class="productPrice productPrice-wholesale">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">Wholesale</span>
+                                     </div>
+                                     <div class="productPrice productPrice-20orMore">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">20 or More</span>
+                                     </div>    
+                                </div>     
                             </div>
                             <div class="product-banner"></div>
                             </a>
@@ -319,8 +414,61 @@
     
 
 	<!-- Javascript [secondary]
-  ================================================== -->
+    ================================================== -->
+    <!-- INPUT SELECT STYLE CHANGE SCRIPT -->
+    <script type="text/javascript">
+        $('select').on('change', function(ev) {
+            $(this).attr('class', '').addClass($(this).children(':selected').val());
+        });
+    </script>
   
+    <!-- BUYERS GUIDE SCRIPT -->
+    <script type='text/javascript'>
+        function toggleText(id) {
+            var showMore = document.getElementById(id);
+            (showMore.style.display=='block') ? showMore.style.display='none' : showMore.style.display='block' ;  
+        }
+        // Applies class of 'active' to 'buyersGuide' upon selecting 'go,' then removes 'active' from 'productGrid-filter'
+        $( ".buyersGuide-filter .buyersGuideCTA" ).click(function() {
+            $(".buyersGuide").toggleClass( "active",true );
+            $(".productGrid-filter").toggleClass( "active",false );
+        });
+        // Removes all classes, then applies 'active' back to 'productGrid-filter'
+        $( ".buyersGuide-filter .clearAll" ).click(function() {
+            $(".buyersGuide").toggleClass( "active",false );
+            $(".buyersGuide-questionWrap").toggleClass( "toggle-q2",false );
+            $(".buyersGuide-questionWrap").toggleClass( "toggle-q3",false );
+            $(".buyersGuide-questionWrap").toggleClass( "toggle-q4",false );
+            $(".productGrid-filter").toggleClass( "active",true );
+        });
+        
+        // Applies classes to toggle from question 1 to 2 to 3 to 4.. etc.
+        $( ".buyersGuide-select .select-a1" ).click(function() {
+            $(".buyersGuide-questionWrap").toggleClass( "toggle-q2" );
+        });
+        $( ".buyersGuide-select .select-a2" ).click(function() {
+            $(".buyersGuide-questionWrap").toggleClass( "toggle-q3" );
+        });
+        $( ".buyersGuide-select .select-a3" ).click(function() {
+            $(".buyersGuide-questionWrap").toggleClass( "toggle-q4" );
+        });
+
+        // Removes classes to toggle back to question 3, 2, 1.. etc.
+        $( ".buyersGuide-selections .select-back2-a1" ).click(function() {
+            $(".buyersGuide-questionWrap").toggleClass( "toggle-q2",false );
+            $(".buyersGuide-questionWrap").toggleClass( "toggle-q3",false );
+            $(".buyersGuide-questionWrap").toggleClass( "toggle-q4",false );
+        });
+        $( ".buyersGuide-selections .select-back2-a2" ).click(function() {
+            $(".buyersGuide-questionWrap").toggleClass( "toggle-q3",false );
+            $(".buyersGuide-questionWrap").toggleClass( "toggle-q4",false );
+        });
+        $( ".buyersGuide-selections .select-back2-a3" ).click(function() {
+            $(".buyersGuide-questionWrap").toggleClass( "toggle-q4",false );
+        });
+        
+    </script>
+    
   
 <!-- End Document
 ================================================== -->

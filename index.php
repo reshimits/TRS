@@ -158,7 +158,7 @@
         <div class="container" id="homeFeatureProducts">
         	<div class="full column">
         	<div class="homeFeatureProductsContainer">
-                <div class="homeFeatureProductsL">
+                <!-- <div class="homeFeatureProductsL">
                 	<div class="homeFeatureProduct-wide homeFeatureProduct-1">
                     <a href="#">            		
                 		<div class="homeFeatureProduct-product"><img src="/client/trs/images/products/productTemp1.jpg" alt="temp" border="0" /></div>
@@ -202,8 +202,185 @@
                         <div class="homeFeatureProduct-banner"><img src="/client/trs/images/products/banner_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
                 	</a>
                     </div>
+                </div>-->
+            
+
+                <!-- Apply id="productGrid-productsWholesale" to "productGrid-products" if user is logged in as Wholesaler -->
+                <div class="productGrid-products"> 
+                    <ul class="image-grid products">
+                        
+                        <li class="product" id="projector-1" data-id="id-1" data-type="application functionality size priceRange installationDifficulty">
+                            <a href="/client/trs/productdetail.php">
+                            <div class="product-image"><img src="/client/trs/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-info info-main">
+                                <span class="product-title">FX-R 3.0 Projectors</span>
+                                <div class="product-specs">
+                                    <span class="product-spec">By far our most popular full size bi-xenon projector ever. The 3.0 is a retrofitters delight with its high precision castings, advanced optics, available 2.5 and 3 inch clear lens. It all adds up to put our FX-R near the top of the totem poll.</span>
+                                </div>
+                            </div>    
+                            <div class="product-info">    
+                                <div class="productPriceContainer">
+                                     <div class="productPrice productPrice-retail">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">Retail</span>
+                                     </div>
+                                     <div class="productPrice productPrice-wholesale">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">Wholesale</span>
+                                     </div>
+                                     <div class="productPrice productPrice-20orMore">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">20 or More</span>
+                                     </div>    
+                                </div>   
+                            </div>
+                            <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
+                            </a>
+                        </li>
+                        <li class="product" id="projector-2" data-id="id-2" data-type="application functionality size priceRange installationDifficulty">
+                            <a href="#">
+                            <div class="product-image"><img src="/client/trs/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-info info-main">
+                                <span class="product-title">VIP Projectors</span>
+                                <div class="product-specs">
+                                    <span class="product-spec">Well renowned for being THE best dedicated low beam projector ever made. 'Nuff said.</span>
+                                </div>
+                            </div>    
+                            <div class="product-info">    
+                                <div class="productPriceContainer">
+                                     <div class="productPrice productPrice-retail">
+                                        <span class="product-priceStart">starting at</span> 
+                                        <span class="product-price">$100</span>  
+                                        <span class="productPrice-type">Retail</span>
+                                     </div>
+                                     <div class="productPrice productPrice-wholesale">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">Wholesale</span>
+                                     </div>
+                                     <div class="productPrice productPrice-20orMore">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">20 or More</span>
+                                     </div>    
+                                </div>   
+                            </div>
+                            <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
+                            </a>
+                        </li>
+                        <li class="product" id="projector-3" data-id="id-3" data-type="application functionality size priceRange installationDifficulty">
+                            <a href="#">
+                            <div class="product-image"><img src="/client/trs/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-info info-main">
+                                <span class="product-title">Bi-xenon Morimoto Mini Stage III Kit (D2S)</span>
+                                <div class="product-specs">
+                                    <span class="product-spec">Morimoto's Mini D2S Three point O has finally arrived! All new from the solenoid up, the reinvented Morimoto Mini D2S 3.0 will make every retrofitter re-think their next choice in projectors.</span>
+                                </div>
+                            </div>    
+                            <div class="product-info">    
+                                <div class="productPriceContainer">
+                                     <div class="productPrice productPrice-retail">
+                                        <span class="product-price">$190</span>
+                                        <span class="productPrice-type">Retail</span>
+                                     </div>
+                                     <div class="productPrice productPrice-wholesale">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">Wholesale</span>
+                                     </div>
+                                     <div class="productPrice productPrice-20orMore">
+                                        <span class="product-price">$130</span>
+                                        <span class="productPrice-type">20 or More</span>
+                                     </div>    
+                                </div>    
+                            </div>
+                            <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
+                            </a>
+                        </li>
+                        <li class="product" id="projector-4" data-id="id-4" data-type="application functionality size priceRange installationDifficulty">
+                            <a href="#">
+                            <div class="product-image"><img src="/client/trs/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-info info-main">
+                                <span class="product-title">Morimoto Mini D2S 2.0</span>
+                                <div class="product-specs">
+                                    <span class="product-spec">Morimoto's Mini D2S Three point O has finally arrived! All new from the solenoid up, the reinvented Morimoto Mini D2S 3.0 will make every retrofitter re-think their next choice in projectors.</span>
+                                </div>
+                            </div>    
+                            <div class="product-info">    
+                                <div class="productPriceContainer">
+                                     <div class="productPrice productPrice-retail">
+                                        <span class="product-price">$100</span>
+                                        <span class="productPrice-type">Retail</span>
+                                     </div>
+                                     <div class="productPrice productPrice-wholesale">
+                                        <span class="product-price">$90</span>
+                                        <span class="productPrice-type">Wholesale</span>
+                                     </div>
+                                     <div class="productPrice productPrice-20orMore">
+                                        <span class="product-price">$85</span>
+                                        <span class="productPrice-type">20 or More</span>
+                                     </div>    
+                                </div>    
+                            </div>
+                            <div class="product-banner"></div>
+                            </a>
+                        </li>
+                        <li class="product" id="projector-5" data-id="id-5" data-type="application functionality size priceRange installationDifficulty">
+                            <a href="#">
+                            <div class="product-image"><img src="/client/trs/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-info info-main">
+                                <span class="product-title">FX-R 3.0 Projectors</span>
+                                <div class="product-specs">
+                                    <span class="product-spec">By far our most popular full size bi-xenon projector ever. The 3.0 is a retrofitters delight with its high precision castings, advanced optics, available 2.5 and 3 inch clear lens. It all adds up to put our FX-R near the top of the totem poll.</span>
+                                </div>
+                            </div>    
+                            <div class="product-info">    
+                                <div class="productPriceContainer">
+                                     <div class="productPrice productPrice-retail">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">Retail</span>
+                                     </div>
+                                     <div class="productPrice productPrice-wholesale">
+                                        <span class="product-price">$135</span>
+                                        <span class="productPrice-type">Wholesale</span>
+                                     </div>
+                                     <div class="productPrice productPrice-20orMore">
+                                        <span class="product-price">$132</span>
+                                        <span class="productPrice-type">20 or More</span>
+                                     </div>    
+                                </div>    
+                            </div>
+                            <div class="product-banner"></div>
+                            </a>
+                        </li>
+                        <li class="product" id="projector-6" data-id="id-6" data-type="application functionality size priceRange installationDifficulty">
+                            <a href="#">
+                            <div class="product-image"><img src="/client/trs/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-info info-main">
+                                <span class="product-title">VIP Projectors</span>
+                                <div class="product-specs">
+                                    <span class="product-spec">Well renowned for being THE best dedicated low beam projector ever made. 'Nuff said.</span>
+                                </div>
+                            </div>    
+                            <div class="product-info">    
+                                <div class="productPriceContainer">
+                                     <div class="productPrice productPrice-retail">
+                                        <span class="product-price">$100</span>
+                                        <span class="productPrice-type">Retail</span>
+                                     </div>
+                                     <div class="productPrice productPrice-wholesale">
+                                        <span class="product-price">$100</span>
+                                        <span class="productPrice-type">Wholesale</span>
+                                     </div>
+                                     <div class="productPrice productPrice-20orMore">
+                                        <span class="product-price">$100</span>
+                                        <span class="productPrice-type">20 or More</span>
+                                     </div>    
+                                </div>    
+                            </div>
+                            <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+            </div>     
             </div>        
         </div>
     	

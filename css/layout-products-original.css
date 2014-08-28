@@ -1,0 +1,820 @@
+/*
+* CSS Layout
+* Copyright 2013, Throttle Studios
+* www.throttlestudios.com
+* 2013
+*/
+
+
+/* TABLE OF CONTENTS
+======================================================================================================================================================
+	#Base 960 Grid (Small Desktop/Tablet Landscape)
+	#Tablet (Portrait)
+	#Mobile (Landscape)
+	#Mobile (Portrait)
+	
+	
+
+/* #Base 960 Grid (Small Desktop/Tablet Landscape)
+======================================================================================================================================================
+======================================================================================================================================================
+====================================================================================================================================================== */
+
+/*//// PRODUCT CATEGORY /////
+////////////////////////////*/
+	/* Intro Banner */
+	.productBannerContainer						{ width: 940px; height: 160px; float: left; margin: 0px 10px 0px 10px; border-top: 1px solid #454545; }
+	.productBannerContainer-inner				{ width: 940px; height: 130px; float: left; border-radius: 0px 0px 8px 8px;
+												  background-image: url(../images/bg_navGradient.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.productBanner-intro						{ width: 900px; float: left; position: relative; z-index: 1; margin: 10px 0px 10px 0px; padding: 0px 20px 0px 20px; }
+	.productBanner-intro h1						{ width: 900px; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 54px; line-height: 38px; color: #fff; 
+												  text-transform: uppercase; letter-spacing: -1px; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		.productBanner-intro .weightLight-styleNormal 				{ letter-spacing: -2px; }
+	.productBanner-intro h2						{ width: 500px; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 13px; line-height: 15px; color: #999;
+												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  											
+	.productBanner-image						{ float: right; padding: 0px 0px 0px 0px; margin: -123px 0px 0px 0px; }		
+	
+	
+	/* PRODUCTS */												  
+	.productGridContainer						{ width: 940px; float: left; margin: 10px 10px 0px 10px; }							  
+	
+	/* Products Filter */											  
+	.productGrid-filter							{ width: 900px; float: left; margin: 0px 0px 0px 0px; padding: 0px 20px 20px 20px; border-bottom: 1px solid #ccc;
+												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.productGrid-filter-title					{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 22px; line-height: 20px; color: #d14001; text-transform: uppercase; 
+												  padding: 15px 0px 0px 0px; margin: 0px 15px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.filter										{ float: left; }
+	.filter label								{ float: left; font-family: "PlutoSansMedium", sans-serif; font-style: normal; color: #191919; font-size: 10px; line-height: 10px;
+	 											  padding: 0px 0px 2px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.filter	.formFieldContainer				 	{ width: 105px; float: left; margin: 0px 10px 0px 0px; }
+	
+	.filter select								{ height: 22px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #777;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	/* Products Grid */
+	.productGrid-products						{ width: 940px; float: left; margin: 10px 0px 0px 0px; padding: 0px 0px 30px 0px; border-bottom: 1px solid #ccc; }	
+	.products li								{ width: 312px; height: 349px; float: left; overflow: hidden; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }											  
+	.products li:nth-child(3n+0)				{ border-right: none; }
+	.product-image				 				{ width: 312px; height: 210px; float: left; overflow: hidden; }
+	.product-image img							{ width: 100%; height: auto; top: 0; position: relative; margin: 0px 0px 0px 0px; }
+	.product-info								{ width: 272px; float: left; margin: 0px 10px 0px 10px; padding: 10px 10px 0px 10px;
+												  background-image: url(../images/bg_gradientLight2.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.product-title								{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 28px; line-height: 22px; color: #191919; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.products li a:hover .product-title	 		{ color: #ea5f03; }
+	.product-specs								{ height: 65px; float: left; padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.product-spec								{ width: 100%; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 12px; line-height: 10px; color: #555;
+												  padding: 5px 10px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  	
+	.product-priceStart							{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: italic; font-size: 12px; line-height: 12px; color: #191919;
+												  padding: 5px 5px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.product-price								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 22px; line-height: 22px; color: #191919;
+												  padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	
+	#productGrid-productsWholesale .products li							{ height: 419px; }
+	#productGrid .productPriceContainer									{ width: 272px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px; border-bottom: none; }
+		#productGrid .productPriceContainer-wholesale					{ display: block; padding: 0px 0px 0px 0px; }
+	#productGrid .productPriceWholesaleContainer-retail .product-price	{ color: #999; text-decoration: line-through; }	
+	#productGrid .productPriceWholesaleContainer						{ width: 90px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border-right: 1px solid #ccc; }
+		#productGrid .productPriceWholesaleContainer-retail				{ width: 272px; float: left; border-right: none; border-bottom: 1px solid #ccc; }
+		#productGrid .productPriceWholesaleContainer-wholesale			{ padding: 5px 0px 5px 0px; }
+		#productGrid .productPriceWholesaleContainer-20orMore			{ padding: 5px 0px 5px 10px; margin: 0px 0px 0px 0px; border-right: none; }
+	#productGrid .productPriceWholesaleContainer .product-price 		{ padding: 5px 0px 0px 0px; }
+	#productGrid .productPrice-type										{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #999; text-transform: uppercase;
+												  						  padding: 2px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+	.product-banner								{ width: 109px; top: -109px; float: right; position: relative; }
+	.product-banner img							{ width: 109px; height: auto; }
+
+
+/*//// PRODUCT DETAIL ///////
+////////////////////////////*/
+	.productDetailContainer						{ width: 940px; float: left; margin: 0px 10px 0px 10px; }
+	
+	/* Bread Crumb | Print | Share */
+	.breadCrumb-utilityContainer				{ width: 940px; float: left; margin: 0px 0px 0px 0px; border-bottom: 1px solid #ccc; }	
+	.breadCrumb			 						{ float: left; margin: 0px 0px 0px 0px; padding: 15px 0px 15px 10px; }
+	.breadCrumb	 li 							{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 10px; line-height: 8px; color: #333; text-transform: uppercase;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 3px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.breadCrumb a								{ color: #555; }
+	.breadCrumb a:hover							{ color: #ea5f03; }
+	.productUtility								{ float: right; padding: 8px 10px 0px 0px; margin: 0px 0px 0px 0px; }
+	.print										{ float: left; padding: 0px 0px 0px 0px; margin: 4px 10px 0px 0px; } 
+	.print img									{ width: 16px; height: auto; }
+	.addthis									{ float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; } 
+	.addthis_button								{ float: left; border: 1px solid #666; border-radius: 3px 3px 3px 3px; 
+												  background-image: url(../images/btn_bg-gray.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.addthis_counter.addthis_pill_style 		{ height: 16px; }
+	.addthis_button	a							{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 10px; line-height: 8px; color: #fff; 
+												  padding: 4px 4px 0px 4px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }	
+	.addthis_button img							{ width: 10px; height: auto; padding: 0px 4px 0px 0px; }
+	
+	/* Section 1 | Product Header */
+	.productHeaderContainer						{ width: 460px; float: right; margin: 20px 0px 0px 0px; border-bottom: 1px solid #ccc; }
+	.productHeader								{ width: 305px; float: left; padding: 0px 10px 10px 5px; margin: 0px 0px 0px 0px; border-right: 1px solid #ccc; }
+	.productHeader h1							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 54px; line-height: 42px; color: #191919; 
+												  text-transform: uppercase; letter-spacing: -1px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productHeader h2							{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #999; text-transform: uppercase;
+												  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }	
+	.productReviews								{ width: 119px; float: left; padding: 0px 10px 0px 10px; margin: 0px 0px 0px 0px; }
+	.reviewStars								{ width: 100%; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.reviewStar-iconContainer					{ width: 19px; height: 19px; float: left; padding: 0px 2px 0px 0px; margin: 0px 0px 0px 0px; overflow: hidden; }
+	.reviewStar-iconContainer img				{ width: 19px; height: auto; }
+		.reviewStar-halfStar img				{ margin-top: -19px; }
+		.reviewStar-emptyStar img				{ margin-top: -38px; }
+	.reviewTotal								{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 9px; color: #191919; 
+												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.reviewTotal a								{ font-weight: bold; color: #191919; }	
+	.reviewWrite a								{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #888; text-decoration: underline;
+												  padding: 8px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }	
+	.reviewWrite a:hover						{ color: #345eb9; }
+	
+	/* Section 2 | Product Images */
+	.productImagesContainer						{ width: 460px; height: 405px; float: left; margin: 20px 0px 100px 0px; border: 1px solid #ccc; }
+	.productImage-main							{ width: 460px; height: 300px; float: left; overflow: hidden; }
+	.productImage-main img						{ width: 100%; height: auto; }
+	.productImage-thumbsContainer				{ float: left; padding: 0px 0px 0px 0px; margin: 10px 0px 0px 17px; }
+	.productImage-thumb							{ width: 75px; height: 70px; float: left; padding: 0px 0px 0px 0px; margin: 0px 10px 0px 0px; border: 1px solid #ccc; } 
+	.productImage-thumb:hover					{ cursor: pointer; border: 1px solid #ea5f03; }
+	.productImage-thumb img						{ width: 75px; height: auto; }
+	.productBrand								{ width: 150px; top: -370px; float: left; position: relative; margin: 0px 0px 0px 10px; }
+	.productBrand img							{ width: 150px; height: auto; }
+	
+	/* Section 3 | Product Cart Options */
+	.productCartOptionsContainer				{ width: 460px; float: right; margin: 10px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+		/* Product Price */
+	.productPriceContainer						{ width: 460px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px; border-bottom: 1px solid #ccc; }
+		.productPriceContainer-retail								{ display: block; }
+		.productPriceContainer-wholesale							{ display: block; padding: 0px 0px 0px 0px; }
+	.productPrice								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 40px; line-height: 36px; color: #ea5f03;
+	 											  padding: 5px 0px 0px 5px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		.productPriceWholesaleContainer-retail .productPrice		{ color: #999; text-decoration: line-through; }	
+	.productPriceWholesaleContainer				{ width: 145px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border-right: 1px solid #ccc; }
+		.productPriceWholesaleContainer-wholesale					{ padding: 0px 0px 0px 10px; }
+		.productPriceWholesaleContainer-20orMore					{ padding: 0px 0px 0px 10px; margin: 0px 0px 0px 0px; border-right: none; }
+	.productPrice-type							{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #999; text-transform: uppercase;
+												  padding: 2px 0px 10px 5px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		/* Product Options */	
+	.productOptionsContainer					{ width: 460px; float: left; margin: 0px 0px 0px 0px; padding: 3px 0px 15px 0px; border-bottom: 1px solid #ccc; }
+	.productOptions								{ float: left; padding: 5px 0px 0px 5px; margin: 0px 0px 0px 0px; }
+	.productOptions	.formFieldContainer			{ width: 215px; float: left; margin: 7px 10px 0px 0px; }
+	
+	.productOptions select						{ height: 22px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #555;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		/* Product Add to Cart */	
+	.productCartContainer						{ width: 460px; float: left; margin: 0px 0px 0px 0px; padding: 15px 0px 15px 0px; border-bottom: 1px solid #ccc;
+												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.productCart-action							{ width: 245px; float: right; margin: 0px 0px 0px 0px; padding: 0px 10px 0px 0px; }
+	.productCart-action-qtyTitle				{ float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 16px; line-height: 16px; color: #191919; text-transform: uppercase;
+												  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productCart-action .quantity				{ width: 40px; height: 24px; float: left; border: none; padding: 0px 0px 0px 10px; margin: 0px 10px 0px 10px;
+	 											  font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 12px; line-height: 12px; color: #191919;
+												  -webkit-appearance: none; border-radius: 3px; border: 1px solid #ccc; background-color: #fff; }											  
+	.cartCTA									{ float: left; height: 26px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border-radius: 4px; overflow: hidden;
+												  background-image: url(../images/btn_bg-orange.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.cartCTA:hover								{ background-image: url(../images/btn_bg-orangeDark.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }											  
+	.cartCTA .cartSubmit						{ float: left; cursor: pointer; font-family: 'PlutoSansLight', sans-serif; font-style: normal; color: #fff; font-size: 16px; line-height: 20px; text-transform: uppercase;
+	 											  padding: 4px 8px 2px 8px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; 
+												  border-radius: 0; border: none; background-color: transparent; -webkit-appearance: none; }
+	.productCart-shipping						{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: italic; font-size: 9px; line-height: 8px; color: #666;
+	 											  padding: 15px 10px 0px 10px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productCart-secure							{ float: left; margin: -50px 0px 0px 0px; padding: 0px 0px 0px 10px; }
+	
+	/* Section 4 | Product Information */
+	.productInfoContainer						{ width: 460px; float: right; margin: 15px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.productInfo-section						{ width: 100%; float: left; margin: 0px 0px 15px 0px; padding: 0px 0px 10px 0px; border-bottom: 1px solid #ddd; }
+	.productInfo-section h3						{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productInfo-section p						{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #454545;
+	 											  padding: 8px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productInfo-section ul						{ float: left; padding: 8px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.productInfo-section li						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #454545;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productInfo-section a						{ font-family: Helvetica, Arial, sans-serif; font-style: normal; font-weight: bold; font-size: 12px; line-height: 15px; color: #d14001; }
+	.productInfo-section a:hover				{ color: #ea5f03; }
+	.productDescription-long					{ display: none; }
+	.installationPerformance-section			{ width: 148px; float: left; padding: 8px 0px 0px 0px; margin: 0px 5px 0px 0px; }					
+	.installationPerformance-section img		{ width: 46px; height: auto; float: left; padding: 0px 4px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section ul			{ width: 97px; float: left; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section li			{ font-size: 11px; line-height: 14px; }
+	
+	
+	/* Section 5 | Product Promos */	
+	.productPromosContainer						{ width: 462px; float: left; margin: -100px 0px 0px 0px; padding: 0px 0px 0px 0px;
+												  background-color: #191919; border-radius: 0px 0px 8px 8px; }
+	.productPromo								{ float: left; }
+	.productPromo-title							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 36px; line-height: 30px; color: #fff; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productPromo-info							{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #999;
+												  padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }	
+	.productPromo-contact						{ margin: 0px 20px 0px 20px; padding: 20px 0px 20px 0px; border-bottom: 1px solid #454545; }
+		.productPromo-contact .generalBtn-orange, .productPromo-contact .generalBtn-orange:hover	{ margin: 0px 10px 0px 0px; }
+	.productPromo-rr							{ width: 200px; margin: 0px 0px 10px 20px; padding: 18px 10px 10px 0px; border-right: 1px solid #454545; }
+	.productPromo-diy							{ width: 190px; margin: 0px 0px 10px 20px; padding: 18px 0px 10px 0px; }
+
+	/* Section 6 | Customers Also Purchased */	
+	.alsoPurchasedContainer						{ width: 940px; float: left; margin: 20px 0px 0px 0px; }
+	.secondaryHeader							{ width: 920px; float: left; padding: 10px 10px 10px 10px; margin: 0px 0px 10px 0px; background-color: #191919; }
+	.secondaryHeader .productPromo-title 		{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	
+	/* Section 7 | Product Reviews */	
+	.productReviewsContainer					{ width: 940px; float: left; margin: 40px 0px 0px 0px; }
+	.productReviews-intro						{ width: 900px; float: left; padding: 10px 20px 10px 20px; }
+	.productReviews-intro h4					{ width: 100%; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 16px; line-height: 16px; color: #191919; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productReviews-intro .productReviews							{ width: 100%; padding: 10px 0px 0px 0px; }
+	.productReviews-intro .reviewStars								{ width: 110px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.reviewScore								{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #345eb9; 
+												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }	
+	
+		/* User Reviews */	
+	.userReviewsContainer						{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 30px 0px; border-bottom: 1px solid #ccc; }													
+	.userReview									{ width: 940px; float: left; margin: 0px 0px 0px 0px; padding: 20px 0px 0px 0px; border-bottom: 1px solid #ccc; }									
+	.userReview-info							{ width: 285px; float: left; margin: 0px 0px 0px 0px; padding: 0px 20px 0px 0px; }									
+	.userReview-avatar							{ width: 60px; height: 60px; float: left; margin: 0px 10px 0px 0px; padding: 1px 1px 1px 1px; border: 1px solid #ccc; }
+	.userReview-username						{ width: 210px; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.userReview-date							{ width: 210px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 9px; color: #333; 
+												  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.userReview .reviewStars										{ width: 110px; float: left; padding: 18px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.userReview .reviewScore										{ padding: 28px 0px 0px 0px; }
+	.userReview-content							{ width: 590px; min-height: 80px; float: left; margin: 0px 0px 0px 0px; padding: 0px 20px 0px 20px; border-left: 1px solid #ccc; }											
+	.userReview-headline						{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }									
+	.userReview-content p						{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #454545;
+	 											  padding: 5px 0px 15px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }									
+										
+												  
+												  
+
+/* #Tablet (Portrait) size to standard 960 (devices and browsers)
+======================================================================================================================================================
+======================================================================================================================================================
+====================================================================================================================================================== */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+/*//// PRODUCT CATEGORY /////
+////////////////////////////*/
+	/* Intro Banner */
+	.productBannerContainer						{ width: 700px; height: 160px; float: left; margin: 0px 10px 0px 10px; border-top: 1px solid #454545; }
+	.productBannerContainer-inner				{ width: 700px; height: 130px; float: left; border-radius: 0px 0px 8px 8px;
+												  background-image: url(../images/bg_navGradient.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.productBanner-intro						{ width: 660px; float: left; position: relative; z-index: 1; margin: 10px 0px 10px 0px; padding: 0px 20px 0px 20px; }
+	.productBanner-intro h1						{ width: 660px; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 48px; line-height: 34px; 
+												  text-transform: uppercase; letter-spacing: -1px; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		.productBanner-intro .weightLight-styleNormal 				{ letter-spacing: -2px; }
+	.productBanner-intro h2						{ width: 400px; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 13px; line-height: 16px; color: #999;
+												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  											
+	.productBanner-image						{ width: 420px; float: right; padding: 0px 0px 0px 0px; margin: -122px 0px 0px 0px; overflow: hidden; }	
+	.productBanner-image img					{ float: right; margin: 0px -120px 0px 0px; }		
+	
+	
+	/* PRODUCTS */												  
+	.productGridContainer						{ width: 700px; float: left; margin: 10px 10px 0px 10px; }							  
+	
+	/* Products Filter */											  
+	.productGrid-filter							{ width: 660px; float: left; margin: 0px 0px 0px 0px; padding: 0px 20px 20px 20px; border-bottom: 1px solid #ccc;
+												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%;  }
+	.productGrid-filter-title					{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 22px; line-height: 20px; color: #d14001; text-transform: uppercase; 
+												  padding: 15px 0px 0px 0px; margin: 0px 15px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.filter										{ float: left; }
+	.filter label								{ float: left; font-family: "PlutoSansMedium", sans-serif; font-style: normal; color: #191919; font-size: 10px; line-height: 10px;
+	 											  padding: 0px 0px 2px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.filter	.formFieldContainer				 	{ width: 100px; float: left; margin: 0px 10px 0px 0px; }
+	
+	.filter select								{ height: 22px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #777;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	/* Products Grid */
+	.productGrid-products						{ width: 700px; float: left; margin: 10px 0px 0px 0px; padding: 0px 0px 30px 0px; border-bottom: 1px solid #ccc; }	
+	.products li								{ width: 349px; height: 369px; float: left; overflow: hidden; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }											  
+	.products li:nth-child(3n+0)				{ border-right: 1px solid #ccc; }
+	.products li:nth-child(2n+0)				{ border-right: none; }
+	.product-image				 				{ width: 349px; height: 230px; float: left; overflow: hidden; }
+	.product-image img							{ width: 100%; height: auto; top: 0; position: relative; margin: 0px 0px 0px 0px; }
+	.product-info								{ width: 309px; float: left; margin: 0px 10px 0px 10px; padding: 10px 10px 0px 10px;
+												  background-image: url(../images/bg_gradientLight2.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.product-specs								{ height: 65px; float: left; padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.product-spec								{ width: 100%; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 12px; line-height: 10px; color: #555;
+												  padding: 5px 10px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  	
+	.product-priceStart							{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: italic; font-size: 12px; line-height: 12px; color: #191919;
+												  padding: 5px 5px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.product-price								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 22px; line-height: 22px; color: #191919;
+												  padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	
+	#productGrid-productsWholesale .products li							{ height: 439px; }
+	#productGrid .productPriceContainer									{ width: 309px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px; border-bottom: none; }
+		#productGrid .productPriceContainer-wholesale					{ display: block; padding: 0px 0px 0px 0px; }
+	#productGrid .productPriceWholesaleContainer-retail .product-price	{ color: #999; text-decoration: line-through; }	
+	#productGrid .productPriceWholesaleContainer						{ width: 90px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border-right: 1px solid #ccc; }
+		#productGrid .productPriceWholesaleContainer-retail				{ width: 309px; float: left; border-right: none; border-bottom: 1px solid #ccc; }
+		#productGrid .productPriceWholesaleContainer-wholesale			{ padding: 5px 0px 5px 0px; }
+		#productGrid .productPriceWholesaleContainer-20orMore			{ padding: 5px 0px 5px 10px; margin: 0px 0px 0px 0px; border-right: none; }
+	#productGrid .productPriceWholesaleContainer .product-price 		{ padding: 5px 0px 0px 0px; }
+	#productGrid .productPrice-type										{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #999; text-transform: uppercase;
+												  						  padding: 2px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+	.product-banner								{ width: 109px; top: -109px; float: right; position: relative; }
+	.product-banner img							{ width: 109px; height: auto; }	
+
+		
+/*//// PRODUCT DETAIL ///////
+////////////////////////////*/
+	.productDetailContainer						{ width: 700px; float: left; margin: 0px 10px 0px 10px; }
+	
+	/* Bread Crumb | Print | Share */
+	.breadCrumb-utilityContainer				{ width: 700px; float: left; margin: 0px 0px 0px 0px; border-bottom: 1px solid #ccc; }	
+	
+	/* Section 1 | Product Header */
+	.productHeaderContainer						{ width: 700px; float: left; margin: 20px 0px 0px 0px; border-bottom: 1px solid #ccc; }
+	.productHeader								{ width: 555px; min-height: 55px; float: left; padding: 0px 10px 10px 5px; margin: 0px 0px 0px 0px; border-right: 1px solid #ccc; }
+	.productReviews								{ width: 109px; float: left; padding: 0px 10px 0px 10px; margin: 0px 0px 0px 0px; }
+	.reviewTotal								{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 9px; color: #191919; 
+												  padding: 8px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+												  
+	/* Section 2 | Product Images */
+	.productImagesContainer						{ width: 445px; height: 395px; float: left; margin: 20px 0px 0px 0px; border: 1px solid #ccc; }
+	.productImage-main							{ width: 445px; height: 300px; float: left; overflow: hidden; }
+	.productImage-thumbsContainer				{ float: left; padding: 0px 0px 0px 0px; margin: 10px 0px 0px 10px; }
+	
+	
+	/* Section 3 | Product Cart Options */
+	.productCartOptionsContainer				{ width: 240px; float: right; margin: 20px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+		/* Product Price */
+	.productPriceContainer						{ width: 240px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px; border-bottom: 1px solid #ccc; }
+		.productPriceContainer-retail								{ display: none; }
+		.productPriceContainer-wholesale							{ display: block; padding: 0px 0px 0px 0px; }
+	.productPrice								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 40px; line-height: 36px; color: #ea5f03;
+	 											  padding: 0px 0px 0px 5px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		.productPriceWholesaleContainer-retail .productPrice		{ color: #999; text-decoration: line-through; }	
+	.productPriceWholesaleContainer				{ width: 115px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border-right: 1px solid #ccc; }
+		.productPriceWholesaleContainer-retail						{ width: 240px; padding: 0px 0px 0px 0px; border-right: none; border-bottom: 1px solid #ccc; }
+		.productPriceWholesaleContainer-wholesale					{ padding: 10px 0px 0px 0px; }
+		.productPriceWholesaleContainer-20orMore					{ padding: 10px 0px 0px 5px; margin: 0px 0px 0px 0px; border-right: none; }
+		.productPriceWholesaleContainer .productPrice				{ font-size: 38px; }
+	.productPrice-type							{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #999; text-transform: uppercase;
+												  padding: 2px 0px 10px 5px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		/* Product Options */	
+	.productOptionsContainer					{ width: 240px; float: left; margin: 0px 0px 0px 0px; padding: 3px 0px 15px 0px; border-bottom: 1px solid #ccc; }
+	.productOptions								{ float: left; padding: 5px 0px 0px 5px; margin: 0px 0px 0px 0px; }
+	.productOptions	.formFieldContainer			{ width: 215px; float: left; margin: 7px 10px 0px 0px; }
+	
+	.productOptions select						{ height: 22px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #555;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		/* Product Add to Cart */	
+	.productCartContainer						{ width: 240px; float: left; margin: 0px 0px 0px 0px; padding: 15px 0px 15px 0px; border-bottom: 1px solid #ccc;
+												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.productCart-action							{ width: 220px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 10px; }
+	.productCart-action-qtyTitle				{ float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 16px; line-height: 16px; color: #191919; text-transform: uppercase;
+												  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productCart-action .quantity				{ width: 30px; height: 24px; float: left; border: none; padding: 0px 0px 0px 10px; margin: 0px 10px 0px 10px;
+	 											  font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 12px; line-height: 12px; color: #191919;
+												  -webkit-appearance: none; border-radius: 3px; border: 1px solid #ccc; background-color: #fff; }											  
+	.cartCTA									{ float: left; height: 26px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border-radius: 4px; overflow: hidden;
+												  background-image: url(../images/btn_bg-orange.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.cartCTA:hover								{ background-image: url(../images/btn_bg-orangeDark.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }											  
+	.cartCTA .cartSubmit						{ float: left; cursor: pointer; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; color: #fff; font-size: 14px; line-height: 20px; text-transform: uppercase;
+	 											  padding: 4px 8px 2px 8px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; 
+												  border-radius: 0; border: none; background-color: transparent; -webkit-appearance: none;  }
+	.productCart-shipping						{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: italic; font-size: 9px; line-height: 10px; color: #666;
+	 											  padding: 10px 10px 0px 10px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productCart-secure							{ float: left; margin: 0px 0px 0px 0px; padding: 10px 0px 0px 10px; }
+	
+	/* Section 4 | Product Information */
+	.productInfoContainer						{ width: 700px; float: left; margin: 15px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.productInfo-section						{ width: 100%; float: left; margin: 0px 0px 15px 0px; padding: 0px 0px 10px 0px; border-bottom: 1px solid #ddd; }
+	.productInfo-section h3						{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productInfo-section p						{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #454545;
+	 											  padding: 8px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productInfo-section ul						{ float: left; padding: 8px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.productInfo-section li						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #454545;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productInfo-section a						{ font-family: Helvetica, Arial, sans-serif; font-style: normal; font-weight: bold; font-size: 12px; line-height: 15px; color: #d14001; }
+	.productInfo-section a:hover				{ color: #ea5f03; }
+	.productDescription-long					{ display: none; }
+	.installationPerformance-section			{ width: 160px; float: left; padding: 8px 0px 0px 0px; margin: 0px 5px 0px 0px; }					
+	.installationPerformance-section img		{ width: 46px; height: auto; float: left; padding: 0px 4px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section ul			{ width: 110px; float: left; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section li			{ font-size: 12px; line-height: 14px; }
+	
+	
+	/* Section 5 | Product Promos */	
+	.productPromosContainer						{ width: 700px; float: left; margin: -15px 0px 0px 0px; padding: 0px 0px 0px 0px;
+												  background-color: #191919; border-radius: 0px 0px 8px 8px; }
+	.productPromo								{ float: left; }
+	.productPromo-title							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 36px; line-height: 30px; color: #fff; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productPromo-info							{ width: 100%; height: 42px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #999;
+												  padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }	
+	.productPromo-contact						{ width: 220px; margin: 10px 0px 10px 20px; padding: 10px 10px 10px 0px; border-bottom: none; border-right: 1px solid #454545; }
+		.productPromo-contact .generalBtn-orange, .productPromo-contact .generalBtn-orange:hover	{ margin: 0px 8px 0px 0px; }
+	.productPromo-rr							{ width: 200px; margin: 10px 0px 10px 20px; padding: 10px 10px 10px 0px; border-right: 1px solid #454545; }
+	.productPromo-diy							{ width: 185px; margin: 10px 0px 10px 20px; padding: 10px 0px 10px 0px; }
+
+	/* Section 6 | Customers Also Purchased */	
+	.alsoPurchasedContainer						{ width: 700px; float: left; margin: 20px 0px 0px 0px; }
+	.secondaryHeader							{ width: 680px; float: left; padding: 10px 10px 8px 10px; margin: 0px 0px 10px 0px; background-color: #191919; }
+	.secondaryHeader .productPromo-title		{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 18px; line-height: 18px; color: #fff; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+	/* Section 7 | Product Reviews */	
+	.productReviewsContainer					{ width: 700px; float: left; margin: 40px 0px 0px 0px; }
+	.productReviews-intro						{ width: 660px; float: left; padding: 10px 20px 10px 20px; }
+	.productReviews-intro h4					{ width: 100%; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 16px; line-height: 16px; color: #191919; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productReviews-intro .productReviews							{ width: 100%; padding: 10px 0px 0px 0px; }
+	.productReviews-intro .reviewStars								{ width: 110px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.reviewScore								{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #345eb9; 
+												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }	
+	
+		/* User Reviews */	
+	.userReviewsContainer						{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 30px 0px; border-bottom: 1px solid #ccc; }													
+	.userReview									{ width: 700px; float: left; margin: 0px 0px 0px 0px; padding: 20px 0px 0px 0px; border-bottom: 1px solid #ccc; }									
+	.userReview-info							{ width: 285px; float: left; margin: 0px 0px 0px 0px; padding: 0px 20px 0px 0px; }									
+	.userReview-avatar							{ width: 60px; height: 60px; float: left; margin: 0px 10px 0px 0px; padding: 1px 1px 1px 1px; border: 1px solid #ccc; }
+	.userReview-username						{ width: 200px; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.userReview-date							{ width: 120px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 9px; color: #333; 
+												  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.userReview .reviewStars										{ width: 110px; float: left; padding: 18px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.userReview .reviewScore										{ padding: 28px 0px 0px 0px; }
+	.userReview-content							{ width: 350px; min-height: 80px; float: left; margin: 0px 0px 0px 0px; padding: 0px 20px 0px 20px; border-left: 1px solid #ccc; }											
+	.userReview-headline						{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }									
+	.userReview-content p						{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #454545;
+	 											  padding: 5px 0px 15px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }	
+												  		
+	}
+
+
+/* #Mobile (Landscape) size to Tablet Portrait (devices and browsers)
+======================================================================================================================================================
+======================================================================================================================================================
+====================================================================================================================================================== */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+/*//// PRODUCT CATEGORY /////
+////////////////////////////*/
+	/* Intro Banner */
+	.productBannerContainer						{ width: 460px; height: auto; float: left; margin: 0px 0px 10px 0px; border-top: 1px solid #454545; }
+	.productBannerContainer-inner				{ width: 460px; height: auto; float: left; border-radius: 0px 0px 8px 8px;
+												  background-image: url(../images/bg_navGradient.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.productBanner-intro						{ width: 420px; float: left; position: relative; z-index: 1; margin: 10px 0px 20px 0px; padding: 0px 20px 0px 20px; }
+	.productBanner-intro h1						{ width: 420px; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 46px; line-height: 32px; color: #fff; 
+												  text-transform: uppercase; letter-spacing: -1px; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		.productBanner-intro .weightLight-styleNormal 				{ letter-spacing: -1px; }
+	.productBanner-intro h2						{ width: 420px; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #999;
+												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  											
+	.productBanner-image						{ display: none; }	
+	
+	
+	/* PRODUCTS */												  
+	.productGridContainer						{ width: 460px; float: left; margin: 10px 0px 0px 0px; }							  
+	
+	/* Products Filter */											  
+	.productGrid-filter							{ width: 420px; float: left; margin: 0px 0px 0px 0px; padding: 0px 20px 20px 20px; border-bottom: 1px solid #ccc;
+												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%;  }
+	.productGrid-filter-title					{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 18px; line-height: 16px; color: #d14001; text-transform: uppercase; 
+												  padding: 0px 0px 5px 0px; margin: 0px 15px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.filter										{ float: left; }
+	.filter label								{ float: left; font-family: "PlutoSansMedium", sans-serif; font-style: normal; color: #191919; font-size: 10px; line-height: 10px;
+	 											  padding: 0px 0px 2px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.filter	.formFieldContainer				 	{ width: 95px; float: left; margin: 0px 10px 0px 0px; }
+	
+	.filter select								{ height: 22px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #777;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	/* Products Grid */
+	.productGrid-products						{ width: 460px; float: left; margin: 10px 0px 0px 0px; padding: 0px 0px 30px 0px; border-bottom: 1px solid #ccc; }	
+	.products li								{ width: 229px; height: 280px; float: left; overflow: hidden; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }											  
+	.products li:nth-child(3n+0)				{ border-right: 1px solid #ccc; }
+	.products li:nth-child(2n+0)				{ border-right: none; }
+	.product-image				 				{ width: 229px; height: 155px; float: left; overflow: hidden; }
+	.product-image img							{ width: 100%; height: auto; top: 0; position: relative; margin: 0px 0px 0px 0px; }
+	.product-info								{ width: 189px; float: left; margin: 0px 10px 0px 10px; padding: 10px 10px 0px 10px;
+												  background-image: url(../images/bg_gradientLight2.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.product-title								{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 24px; line-height: 18px; color: #191919; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.products li a:hover .product-title	 		{ color: #ea5f03; }
+	.product-specs								{ height: 57px; float: left; padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.product-spec								{ width: 100%; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 10px; line-height: 8px; color: #555;
+												  padding: 5px 10px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  	
+	.product-priceStart							{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: italic; font-size: 12px; line-height: 12px; color: #191919;
+												  padding: 5px 5px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.product-price								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #191919;
+												  padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	
+	#productGrid-productsWholesale .products li							{ height: 375px; }
+	#productGrid .productPriceContainer									{ width: 189px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px; border-bottom: none; }
+		#productGrid .productPriceContainer-wholesale					{ display: block; padding: 0px 0px 0px 0px; }
+	#productGrid .productPriceWholesaleContainer-retail .product-price	{ color: #999; text-decoration: line-through; }	
+	#productGrid .productPriceWholesaleContainer						{ width: 90px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border-right: 1px solid #ccc; }
+		#productGrid .productPriceWholesaleContainer-retail				{ width: 189px; float: left; border-right: none; border-bottom: 1px solid #ccc; }
+		#productGrid .productPriceWholesaleContainer-wholesale			{ width: 189px; float: left; border-right: none; border-bottom: 1px solid #ccc; padding: 0px 0px 0px 0px; }
+		#productGrid .productPriceWholesaleContainer-20orMore			{ width: 189px; float: left; border-right: none; padding: 0px 0px 5px 0px; margin: 0px 0px 0px 0px; }
+	#productGrid .productPriceWholesaleContainer .product-price 		{ padding: 5px 0px 0px 0px; }
+	#productGrid .productPrice-type										{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 9px; line-height: 9px; color: #999; text-transform: uppercase;
+												  						  padding: 2px 0px 5px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+	.product-banner								{ width: 109px; top: -109px; float: right; position: relative; }
+	.product-banner img							{ width: 109px; height: auto; }		
+
+	
+/*//// PRODUCT DETAIL ///////
+////////////////////////////*/
+	.productDetailContainer						{ width: 460px; float: left; margin: 0px 0px 0px 0px; }
+	
+	/* Bread Crumb | Print | Share */
+	.breadCrumb-utilityContainer				{ width: 460px; float: left; margin: 0px 0px 0px 0px; border-bottom: 1px solid #ccc; }	
+	.productUtility								{ float: right; padding: 8px 10px 8px 0px; margin: 0px 0px 0px 0px; }
+	
+	/* Section 1 | Product Header */
+	.productHeaderContainer						{ width: 460px; float: left; margin: 20px 0px 0px 0px; border-bottom: none; }
+	.productHeader								{ width: 320px; min-height: 55px; float: left; padding: 0px 10px 10px 0px; margin: 0px 0px 0px 0px; border-right: 1px solid #ccc; }
+	.productHeader h1							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 46px; line-height: 36px; color: #191919; 
+												  text-transform: uppercase; letter-spacing: -1px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productReviews								{ width: 109px; float: left; padding: 0px 10px 0px 10px; margin: 0px 0px 0px 0px; }
+	.reviewTotal								{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 9px; color: #191919; 
+												  padding: 8px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+												  
+	/* Section 2 | Product Images */
+	.productImagesContainer						{ width: 458px; height: 395px; float: left; margin: 0px 0px 0px 0px; border: 1px solid #ccc; }
+	.productImage-main							{ width: 458px; height: 300px; float: left; overflow: hidden; }
+	.productImage-thumbsContainer				{ float: left; padding: 0px 0px 0px 0px; margin: 10px 0px 0px 17px; }
+	
+	
+	/* Section 3 | Product Cart Options --> Same as Desktop */
+	.productOptions	.formFieldContainer			{ width: 215px; float: left; margin: 10px 10px 0px 0px; }
+	
+	/* Section 4 | Product Information --> Same as Desktop */
+	
+	
+	/* Section 5 | Product Promos --> Same as Desktop */	
+	.productPromosContainer						{ width: 460px; float: left; margin: -15px 0px 0px 0px; padding: 0px 0px 0px 0px;
+												  background-color: #191919; border-radius: 0px 0px 8px 8px; }
+
+	/* Section 6 | Customers Also Purchased */	
+	.alsoPurchasedContainer						{ width: 460px; float: left; margin: 20px 0px 0px 0px; }
+	.secondaryHeader							{ width: 440px; float: left; padding: 10px 10px 8px 10px; margin: 0px 0px 10px 0px; background-color: #191919; }
+	.secondaryHeader .productPromo-title 		{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 18px; line-height: 18px; color: #fff; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	/* Section 7 | Product Reviews */	
+	.productReviewsContainer					{ width: 460px; float: left; margin: 30px 0px 0px 0px; }
+	.productReviews-intro						{ width: 440px; float: left; padding: 0px 10px 10px 10px; border-bottom: 1px solid #ccc; }
+	.productReviews-intro h4					{ width: 100%; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productReviews-intro .productReviews							{ width: 100%; padding: 10px 0px 0px 0px; }
+	.productReviews-intro .reviewStars								{ width: 110px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.reviewScore								{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #345eb9; 
+												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }	
+	
+		/* User Reviews */	
+	.userReviewsContainer						{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 25px 0px; border-bottom: 1px solid #ccc; }													
+	.userReview									{ width: 460px; float: left; margin: 0px 0px 0px 0px; padding: 20px 0px 0px 0px; border-bottom: 1px solid #ccc; }									
+	.userReview-info							{ width: 285px; float: left; margin: 0px 0px 0px 0px; padding: 0px 20px 0px 10px; }									
+	.userReview-avatar							{ width: 60px; height: 60px; float: left; margin: 0px 10px 0px 0px; padding: 1px 1px 1px 1px; border: 1px solid #ccc; }
+	.userReview-username						{ width: 200px; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.userReview-date							{ width: 120px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 9px; color: #333; 
+												  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.userReview .reviewStars										{ width: 110px; float: left; padding: 8px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.userReview .reviewScore										{ padding: 18px 0px 0px 0px; }
+	.userReview-content							{ width: 440px; min-height: 80px; float: left; margin: 10px 0px 0px 0px; padding: 0px 10px 0px 10px; border-left: none; }											
+	.userReview-headline						{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }									
+	.userReview-content p						{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 15px; color: #454545;
+	 											  padding: 5px 0px 15px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+												  	
+	}
+
+
+
+/* #Mobile (Portrait) size to Mobile Landscape Size (devices and browsers)
+======================================================================================================================================================
+======================================================================================================================================================
+====================================================================================================================================================== */
+	@media only screen and (max-width: 479px) {
+		
+/*//// PRODUCT CATEGORY /////
+////////////////////////////*/
+	/* Intro Banner */
+	.productBannerContainer						{ width: 300px; height: auto; float: left; margin: 0px 0px 10px 0px; border-top: 1px solid #454545; }
+	.productBannerContainer-inner				{ width: 300px; height: auto; float: left; border-radius: 0px 0px 8px 8px;
+												  background-image: url(../images/bg_navGradient.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.productBanner-intro						{ width: 260px; float: left; position: relative; z-index: 1; margin: 10px 0px 20px 0px; padding: 0px 20px 0px 20px; }
+	.productBanner-intro h1						{ width: 260px; float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 31px; line-height: 24px; color: #fff; 
+												  text-transform: uppercase; letter-spacing: -1px; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		.productBanner-intro .weightLight-styleNormal 				{ letter-spacing: -1px; }
+	.productBanner-intro h2						{ width: 260px; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #999;
+												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  											
+	.productBanner-image						{ display: none; }	
+	
+	
+	/* PRODUCTS */												  
+	.productGridContainer						{ width: 300px; float: left; margin: 10px 0px 0px 0px; }							  
+	
+	/* Products Filter */											  
+	.productGrid-filter							{ width: 260px; float: left; margin: 0px 0px 0px 0px; padding: 0px 20px 10px 20px; border-bottom: 1px solid #ccc;
+												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%;  }
+	.productGrid-filter-title					{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 18px; line-height: 16px; color: #d14001; text-transform: uppercase; 
+												  padding: 0px 0px 5px 0px; margin: 0px 50px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.filter										{ float: left; }
+	.filter label								{ float: left; font-family: "PlutoSansMedium", sans-serif; font-style: normal; color: #191919; font-size: 10px; line-height: 10px;
+	 											  padding: 0px 0px 2px 2px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.filter	.formFieldContainer				 	{ width: 120px; float: left; margin: 0px 10px 10px 0px; }
+	
+	.filter select								{ height: 22px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #777;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	/* Products Grid */
+	.productGrid-products						{ width: 300px; float: left; margin: 10px 0px 0px 0px; padding: 0px 0px 30px 0px; border-bottom: 1px solid #ccc; }	
+	.products li								{ width: 300px; height: 312px; float: left; overflow: hidden; border-bottom: 1px solid #ccc; border-right: none;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }											  
+	.products li:nth-child(3n+0)				{ border-right: none; }
+	.products li:nth-child(2n+0)				{ border-right: none; }
+	.product-image				 				{ width: 280px; height: 185px; margin: 0px 10px 0px 10px; float: left; overflow: hidden; }
+	.product-image img							{ width: 100%; height: auto; top: 0; position: relative; margin: 0px 0px 0px 0px; }
+	.product-info								{ width: 260px; float: left; margin: 0px 10px 0px 10px; padding: 10px 10px 0px 10px;
+												  background-image: url(../images/bg_gradientLight2.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.product-title								{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 26px; line-height: 20px; color: #191919; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.products li a:hover .product-title	 		{ color: #ea5f03; }
+	.product-specs								{ height: 62px; float: left; padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.product-spec								{ width: 100%; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #555;
+												  padding: 5px 10px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }											  	
+	.product-priceStart							{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: italic; font-size: 12px; line-height: 12px; color: #191919;
+												  padding: 5px 5px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.product-price								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #191919;
+												  padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	
+	#productGrid-productsWholesale .products li							{ height: 383px; }
+	#productGrid .productPrice-type										{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 10px; line-height: 8px; color: #999; text-transform: uppercase;
+												  						  padding: 2px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+	.product-banner								{ width: 109px; top: -109px; float: right; position: relative; }
+	.product-banner img							{ width: 109px; height: auto; }	
+
+/*//// PRODUCT DETAIL ///////
+////////////////////////////*/
+	.productDetailContainer						{ width: 300px; float: left; margin: 0px 0px 0px 0px; }
+	
+	/* Bread Crumb | Print | Share */
+	.breadCrumb-utilityContainer				{ width: 300px; float: left; margin: 0px 0px 0px 0px; border-bottom: 1px solid #ccc; }	
+	.productUtility								{ float: right; padding: 8px 10px 8px 0px; margin: 0px 0px 0px 0px; }	
+	
+	/* Section 1 | Product Header */
+	.productHeaderContainer						{ width: 300px; float: left; margin: 10px 0px 0px 0px; border-bottom: none; }
+	.productHeader								{ width: 280px; min-height: 55px; float: left; padding: 0px 10px 10px 0px; margin: 0px 0px 0px 0px; border-right: none; }
+	.productHeader h1							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 31px; line-height: 27px; color: #191919; 
+												  text-transform: uppercase; letter-spacing: -1px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productReviews								{ width: 300px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.reviewStars								{ width: 120px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.reviewStar-iconContainer					{ width: 19px; height: 19px; float: left; padding: 0px 2px 0px 0px; margin: 0px 0px 0px 0px; overflow: hidden; }
+	.reviewStar-iconContainer img				{ width: 19px; height: auto; }
+		.reviewStar-halfStar img				{ margin-top: -19px; }
+		.reviewStar-emptyStar img				{ margin-top: -38px; }
+	.reviewTotal								{ width: 70px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 9px; color: #191919; 
+												  padding: 8px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+												  											  
+	/* Section 2 | Product Images */
+	.productImagesContainer						{ width: 300px; height: 267px; float: left; margin: 20px 0px 0px 0px; border: 1px solid #ccc; }
+	.productImage-main							{ width: 300px; height: 200px; float: left; overflow: hidden; }
+	.productImage-thumbsContainer				{ float: left; padding: 0px 0px 0px 0px; margin: 10px 0px 0px 13px; }
+	.productImage-thumb							{ width: 45px; height: 42px; float: left; padding: 0px 0px 0px 0px; margin: 0px 10px 0px 0px; border: 1px solid #ccc; } 
+	.productImage-thumb img						{ width: 45px; height: auto; }
+	.productBrand								{ width: 75px; top: -244px; float: left; position: relative; margin: 0px 0px 0px 10px; }
+	.productBrand img							{ width: 75px; height: auto; }
+	
+	/* Section 3 | Product Cart Options */
+	.productCartOptionsContainer				{ width: 300px; float: right; margin: 20px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+		/* Product Price */
+	.productPriceContainer						{ width: 300px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px; border-bottom: 1px solid #ccc; }
+		.productPriceContainer-retail								{ display: block; }
+		.productPriceContainer-wholesale							{ display: none; padding: 0px 0px 0px 0px; }
+	.productPrice								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 40px; line-height: 36px; color: #ea5f03;
+	 											  padding: 0px 0px 0px 5px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		.productPriceWholesaleContainer-retail .productPrice		{ color: #999; text-decoration: line-through; }	
+	.productPriceWholesaleContainer				{ width: 145px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border-right: 1px solid #ccc; }
+		.productPriceWholesaleContainer-retail						{ width: 300px; padding: 0px 0px 0px 0px; border-right: none; border-bottom: 1px solid #ccc; }
+		.productPriceWholesaleContainer-wholesale					{ padding: 10px 0px 0px 0px; }
+		.productPriceWholesaleContainer-20orMore					{ padding: 10px 0px 0px 5px; margin: 0px 0px 0px 0px; border-right: none; }
+		.productPriceWholesaleContainer .productPrice				{ font-size: 38px; }
+	.productPrice-type							{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #999; text-transform: uppercase;
+												  padding: 2px 0px 10px 5px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		/* Product Options */	
+	.productOptionsContainer					{ width: 300px; float: left; margin: 0px 0px 0px 0px; padding: 3px 0px 15px 0px; border-bottom: 1px solid #ccc; }
+	.productOptions								{ float: left; padding: 0px 0px 0px 10px; margin: 0px 0px 0px 0px; }
+	.productOptions	.formFieldContainer			{ width: 280px; float: left; margin: 10px 10px 0px 0px; }
+	
+	.productOptions select						{ width: 280px; height: 22px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #555;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+		/* Product Add to Cart */	
+	.productCartContainer						{ width: 300px; float: left; margin: 0px 0px 0px 0px; padding: 15px 0px 15px 0px; border-bottom: 1px solid #ccc;
+												  background-image: url(../images/bg_gradientLight.png); background-repeat: repeat-x; background-position: left top;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.productCart-action							{ width: 280px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 10px; }
+	.productCart-action-qtyTitle				{ float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 16px; line-height: 16px; color: #191919; text-transform: uppercase;
+												  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productCart-action .quantity				{ width: 40px; height: 24px; float: left; border: none; padding: 0px 0px 0px 10px; margin: 0px 10px 0px 10px;
+	 											  font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 12px; line-height: 12px; color: #191919;
+												  -webkit-appearance: none; border-radius: 3px; border: 1px solid #ccc; background-color: #fff; }											  
+	.cartCTA									{ float: left; height: 26px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border-radius: 4px; overflow: hidden;
+												  background-image: url(../images/btn_bg-orange.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+	.cartCTA:hover								{ background-image: url(../images/btn_bg-orangeDark.png); background-repeat: repeat-x; background-position: left center;
+												  background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }											  
+	.cartCTA .cartSubmit						{ float: left; cursor: pointer; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; color: #fff; font-size: 16px; line-height: 20px; text-transform: uppercase;
+	 											  padding: 4px 8px 2px 8px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; 
+												  border-radius: 0; border: none; background-color: transparent; -webkit-appearance: none;  }
+	.productCart-shipping						{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: italic; font-size: 9px; line-height: 10px; color: #666;
+	 											  padding: 10px 10px 0px 10px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productCart-secure							{ float: left; margin: 0px 0px 0px 0px; padding: 10px 0px 0px 10px; }
+	
+	/* Section 4 | Product Information */
+	.productInfoContainer						{ width: 300px; float: left; margin: 15px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.productInfo-section						{ width: 100%; float: left; margin: 0px 0px 15px 0px; padding: 0px 0px 10px 0px; border-bottom: 1px solid #ddd; }
+	.productInfo-section h3						{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productInfo-section p						{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #454545;
+	 											  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productInfo-section ul						{ float: left; padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.productInfo-section li						{ width: 100%; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #454545;
+	 											  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productInfo-section a						{ font-family: Helvetica, Arial, sans-serif; font-style: normal; font-weight: bold; font-size: 11px; line-height: 14px; color: #d14001; }
+	.productInfo-section a:hover				{ color: #ea5f03; }
+	.productDescription-long					{ display: none; }
+	.installationPerformance-section			{ width: 280px; float: left; padding: 8px 0px 0px 0px; margin: 0px 5px 0px 0px; }					
+	.installationPerformance-section img		{ width: 46px; height: auto; float: left; padding: 0px 4px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section ul			{ width: 110px; float: left; padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.installationPerformance-section li			{ font-size: 11px; line-height: 14px; }
+	
+	
+	/* Section 5 | Product Promos */	
+	.productPromosContainer						{ width: 300px; float: left; margin: -15px 0px 0px 0px; padding: 0px 0px 0px 0px;
+												  background-color: #191919; border-radius: 0px 0px 8px 8px; }
+	.productPromo								{ float: left; }
+	.productPromo-title							{ float: left; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 700; font-size: 28px; line-height: 20px; color: #fff; 
+												  text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productPromo-info							{ width: 100%; height: 30px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #999;
+												  padding: 7px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }	
+	.productPromo-contact						{ width: 260px; margin: 0px 0px 10px 20px; padding: 20px 0px 20px 0px; border-bottom: 1px solid #454545; border-right: none; }
+		.productPromo-contact .generalBtn-orange, .productPromo-contact .generalBtn-orange:hover	{ margin: 0px 8px 0px 0px; }
+	.productPromo-rr							{ width: 260px; margin: 0px 0px 10px 20px; padding: 10px 0px 20px 0px; border-bottom: 1px solid #454545; border-right: none; }
+	.productPromo-diy							{ width: 260px; margin: 0px 0px 10px 20px; padding: 10px 0px 10px 0px; }
+
+	/* Section 6 | Customers Also Purchased */	
+	.alsoPurchasedContainer						{ width: 300px; float: left; margin: 20px 0px 0px 0px; }
+	.secondaryHeader							{ width: 280px; float: left; padding: 10px 10px 8px 10px; margin: 0px 0px 10px 0px; background-color: #191919; }
+	.secondaryHeader .productPromo-title		{ float: left; font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-size: 14px; line-height: 16px; color: #fff; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	
+	/* Section 7 | Product Reviews */	
+	.productReviewsContainer					{ width: 300px; float: left; margin: 30px 0px 0px 0px; }
+	.productReviews-intro						{ width: 280px; float: left; padding: 0px 10px 15px 10px; border-bottom: 1px solid #ccc; }
+	.productReviews-intro h4					{ width: 100%; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #191919; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.productReviews-intro .productReviews							{ width: 100%; padding: 5px 0px 0px 0px; }
+	.productReviews-intro .reviewStars								{ width: 110px; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.reviewScore								{ float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 11px; line-height: 9px; color: #345eb9; 
+												  padding: 10px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }	
+	.productReviewsContainer .reviewTotal 		{ width: 100%; }
+		/* User Reviews */	
+	.userReviewsContainer						{ float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 20px 0px; border-bottom: 1px solid #ccc; }													
+	.userReview									{ width: 300px; float: left; margin: 0px 0px 0px 0px; padding: 15px 0px 0px 0px; border-bottom: 1px solid #ccc; }									
+	.userReview-info							{ width: 300px; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }									
+	.userReview-avatar							{ width: 60px; height: 60px; float: left; margin: 0px 10px 0px 0px; padding: 1px 1px 1px 1px; border: 1px solid #ccc; }
+	.userReview-username						{ width: 200px; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 13px; line-height: 13px; color: #191919; text-transform: uppercase;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.userReview-date							{ width: 120px; float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 9px; color: #333; 
+												  padding: 5px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+	.userReview .reviewStars										{ width: 110px; float: left; padding: 8px 0px 0px 0px; margin: 0px 0px 0px 0px; }
+	.userReview .reviewScore										{ padding: 18px 0px 0px 0px; }
+	.userReview-content							{ width: 300px; min-height: 80px; float: left; margin: 10px 0px 0px 0px; padding: 0px 0px 0px 0px; border-left: none; }											
+	.userReview-headline						{ width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 13px; line-height: 13px; color: #191919;
+												  padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }									
+	.userReview-content p						{ float: left; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 11px; line-height: 14px; color: #454545;
+	 											  padding: 5px 0px 10px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+												  
+												  
+	}
+
+
