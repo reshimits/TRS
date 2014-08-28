@@ -97,11 +97,11 @@
                     <div class="allAboutTRS-section">            		
                         <h2>A Brief History of TRS</h2>
                         <div class="ourStory-short">
+                            <p><strong>The Retrofit Source is more than the world's largest supplier of high-end automotive lighting upgrades.</strong> We're a group of enthusiasts with a passion for perfecting your night-time driving experience. From humble beginnings to our current 15,000 square foot facility that's always stocked with an unbeatable selection of headlight happiness, our roots have nearly doubled in size annually since opening in 2005. Our goal is to supply you with the best performing headlight upgrades that have been tailored to fit your application, at a price that works within budget. This is an upgrade for those who are serious about the looks and performance of their vehicle. If you're looking for the cheapest or easiest, go elsewhere. TRS carries the most trusted brands in the industry from Morimoto, Philips, Osram and Denso, so we have something that will meet every need except for the one to compromise. Nobody can match our knowledge base and personalized customer support, and If you're unsure where to start; our team is always here to help. We've partnered up with over 500 authorized distributors all over the world and have served well over 100,000 individuals ourselves. </p>
                             <p><strong>Years ago there were no formal sources for retrofitting components.</strong> You would have to get a damaged headlight off of eBay or from a salvage yard, extract all the parts from it yourself and design and put together your own wire harness. There were no guarantees on the internal or working condition of these parts, and they were expensive too. You want a a set of OEM [plastic] projector shrouds from a BMW E46? $200. A set of OEM clear lenses? That'll be another two bills. You haven't even purchased the core components for the retrofit yet. How about some Acura TL projectors? 300 bucks. Decent condition used OEM ballasts and Philips light bulbs: $200 please and thank you sir.</p>
                             <p><strong>And thus, The Retrofit Source was born in June of 2005.</strong></p> 
                             <p>Originally specializing in collecting and supplying the hard-to-find HID headlight retrofit components, we started out as a company who purchased and recycled slightly damaged headlight assemblies in bulk from salvage yards around the US. Everything salvageable was cleaned, tested and sold; only to realize road-use once again in a retrofit. Eventually we developed our own purpose-built lineup of parts. Starting with the high-demand parts that could be used across the board such as our E46-Replica shrouds or ZKW-Replica lenses, they were an instant hit. Offering OEM-like performance on an aftermarket budget, we expanded the lineup to include other necessities such as ballasts, bulbs, wire harnesses, and of course projectors. All of these components are designed and manufactured exclusively for TRS under our house brand known as Morimoto. Though we believe Morimoto parts offer the best bang for the buck, we also other well respected brands like Koito, Stanley, Philips, Osram, Denso, and Matsushita.</p>
-                    	</div>
-                        <div class="ourStory-long">
+                        
 							<p>We truly believed that everybody without a retrofit didn't know what they were missing. By significantly lowering prices, creating a single source for all required components, and educating those who gave us the chance, we were on a mission. In 2010, The Retrofit Source adopted the HIDplanet forum under our umbrella and ever since, the forum has been more alive with active posters, new members, and an avid group of great moderators.</p>
 							<p>Was it being in the right place at the right time that got us here? Is it the "no let-downs allowed" attitude in our customer service? Maybe the parts just sell themselves? Whatever it is, it's amazing how much we've accomplished since opening up shop in 2005. The Retrofit Source currently collaborates with over 15 various manufacturers, all of the most professional retrofitting shops here in the US, and has served tens of thousands of individuals worldwide. We are proud to have a prominent customer base in Canada, the Middle East, the UK and Australia. The Retrofit Source offers the absolute best when it comes to HID headlight retrofitting. We will make every customer happy without exception to uphold the reputation that we've worked so hard to build. Our goal was, still is, and always will be to supply our clients with the most appropriate and highest performing parts for their application at the best price.</p>
 							<p>Whether you're just getting started by dealing with our excellent customer service or you're already comfortably cruising on that dark road at night, you'll be glad you dealt with The Retrofit Source.</p> 
@@ -111,147 +111,83 @@
 							<p>Matt Kossoff<br>El Presidente @ TRS</p> 	
                     	</div>
                     </div>
-                    <div class="showMore">
-                		<div class="generalBtn-blue"><a href="#"><span class="generalBtn-title">Show More</span></a></div> 
-                	</div>
                     
-                    <div class="allAboutTRS-section allAboutTRS-sectionGrid">            		
+                    <div class="allAboutTRS-section">            		
                         <h2>The TRS Crew</h2>
+                        <p>The Retrofit Source is more than the world's largest supplier of high-end lighting upgrades. We're a group of automotive enthusiasts with a passion for perfecting your night-time driving experience. With a wide range of backgrounds from business management, marketing, the military, technology, customer service, and other automotive service sectors, our combined value consistently exceeds our customer’s expectations.</p>
+
                         <div class="nonProductGridContainer"> 
-                    		<ul class="nonProductGrid nonProductGrid-crew">
-                    	
+                            <div class="nonProductGrid-image">
+                                <img src="/client/trs/images/team.jpg" alt="The Team" border="0" />
+                                <div class="nonProductGrid-info">
+                                    <span class="nonProductGrid-title">Who are these guys anyways?</span>
+                                </div>  
+                            </div>
+                            <ul class="nonProductGrid nonProductGrid-crew">
                                 <li>
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_mattKossoff.jpg" alt="Matt Kossoff" border="0" /></div>
                                     <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Matt Kossoff <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">El Presidente</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">El Presidente</span></span></span>
                                         <div class="nonProductGrid-specs">
-                                            <span class="nonProductGrid-spec"><strong>Born:</strong> Solon, OH</span>
-                                            <span class="nonProductGrid-spec"><strong>Car:</strong> Porsche 997 TT, Toyota 4Runner</span>
-                                            <span class="nonProductGrid-spec"><strong>Best Car Feature:</strong> Warp speed acceleration (Porsche)</span>
-                                            <span class="nonProductGrid-spec"><strong>Retro of Choice:</strong> Infiniti Q45, Morimoto 50w, CBI, 110mm xBALED Inside</span>
+                                            <span class="nonProductGrid-spec"><strong>Matt Kossoff</strong> / President</span>
+                                            <span class="nonProductGrid-spec"><strong>Nate Brick</strong> / Chief Operating Officer</span>
+                                            <span class="nonProductGrid-spec"><strong>Andrew Powers</strong> / VP Sales</span>
+                                            <span class="nonProductGrid-spec"><strong>Josh Kossoff</strong> / Head of IT</span>
+                                            <span class="nonProductGrid-spec"><strong>Zach Williams</strong> / Customer Service Manager</span>
+                                            <span class="nonProductGrid-spec"><strong>Beau Salsi</strong> / VP Logistics</span>
+                                            <span class="nonProductGrid-spec"><strong>Jamielle Gummer</strong> / Customer Relations</span>
+                                            <span class="nonProductGrid-spec"><strong>Carlos Diaz</strong> / Customer Relations</span>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_nateBrick.jpg" alt="Nate Brick" border="0" /></div>
-                                    <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Nate Brick <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Chief Operations Officer</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Chief Operations Officer</span></span>
+                                    <div class="nonProductGrid-info second">
                                         <div class="nonProductGrid-specs">
-                                            <span class="nonProductGrid-spec"><strong>Born:</strong> Solon, OH</span>
-                                            <span class="nonProductGrid-spec"><strong>Car:</strong> BMW 335i Sedan, Jeep Wrangler</span>
-                                            <span class="nonProductGrid-spec"><strong>Best Car Feature:</strong> Permanent Convertible (Jeep)</span>
-                                            <span class="nonProductGrid-spec"><strong>Retro of Choice:</strong> Nissan Murano Bi-X</span>
+                                            <span class="nonProductGrid-spec"><strong>Charlie Kendall</strong> / Customer Relations</span>
+                                            <span class="nonProductGrid-spec"><strong>Max Baraynuk</strong> / Quality Control</span>
+                                            <span class="nonProductGrid-spec"><strong>Jonathan Shipmen</strong> / Quality Control</span>
+                                            <span class="nonProductGrid-spec"><strong>Val Cheban</strong> / Lead Order Fulfillment</span>
+                                            <span class="nonProductGrid-spec"><strong>Will Hardee</strong> / Order Fulfillment</span>
+                                            <span class="nonProductGrid-spec"><strong>Susan Kossoff</strong> / Human Resources</span>
+                                            <span class="nonProductGrid-spec"><strong>Stacy Frank</strong> / Accounting</span>
                                         </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_andrewPowers.jpg" alt="Andrew Powers" border="0" /></div>
-                                    <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Andrew Powers <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Customer Relations Mgmt</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Customer Relations Mgmt</span></span>
-                                        <div class="nonProductGrid-specs">
-                                            <span class="nonProductGrid-spec"><strong>Born:</strong> Orlando, FL</span>
-                                            <span class="nonProductGrid-spec"><strong>Car:</strong> Toyota FJ Cruiser</span>
-                                            <span class="nonProductGrid-spec"><strong>Best Car Feature:</strong> Sidewall / No more curbage</span>
-                                            <span class="nonProductGrid-spec"><strong>Retro of Choice:</strong> Lexus LS460R, Morimoto 50w, CBIs</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_zachWilliams.jpg" alt="Zach Williams" border="0" /></div>
-                                    <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Zach Williams <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Customer Relations</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Customer Relations</span></span>
-                                        <div class="nonProductGrid-specs">
-                                            <span class="nonProductGrid-spec"><strong>Born:</strong> Senoia, GA</span>
-                                            <span class="nonProductGrid-spec"><strong>Car:</strong> Buick Park Avenue</span>
-                                            <span class="nonProductGrid-spec"><strong>Best Car Feature:</strong> Comfort</span>
-                                            <span class="nonProductGrid-spec"><strong>Retro of Choice:</strong> Lexus SC430, Morimoto 50w, CBIs</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_beauSalsi.jpg" alt="Beau Salsi" border="0" /></div>
-                                    <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Beau Salsi <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Inventory Mgmt &amp; Fulfillment</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Inventory Mgmt &amp; Fulfillment</span></span>
-                                        <div class="nonProductGrid-specs">
-                                            <span class="nonProductGrid-spec"><strong>Born:</strong> Greensboro, NC</span>
-                                            <span class="nonProductGrid-spec"><strong>Car:</strong> BMW 330i Sedan (E46)</span>
-                                            <span class="nonProductGrid-spec"><strong>Best Car Feature:</strong> No Sunroof</span>
-                                            <span class="nonProductGrid-spec"><strong>Retro of Choice:</strong> Quad FX-R</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_quangDang.jpg" alt="Quang Dang" border="0" /></div>
-                                    <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Quang Dang <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Quality Control</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Quality Control</span></span>
-                                        <div class="nonProductGrid-specs">
-                                            <span class="nonProductGrid-spec"><strong>Born:</strong> Vietnam</span>
-                                            <span class="nonProductGrid-spec"><strong>Car:</strong> Mitsubishi Lancer Evolution</span>
-                                            <span class="nonProductGrid-spec"><strong>Best Car Feature:</strong> Boost</span>
-                                            <span class="nonProductGrid-spec"><strong>Retro of Choice:</strong> Quad LS460 BiX</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_jamielleGummer.jpg" alt="Jamielle Gummer" border="0" /></div>
-                                    <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Jamielle Gummer <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Customer Service</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Customer Service</span></span>
-                                        <div class="nonProductGrid-specs">
-                                            <span class="nonProductGrid-spec"><strong>Born:</strong> Wheeling, WV</span>
-                                            <span class="nonProductGrid-spec"><strong>Car:</strong> Honda Civic Si</span>
-                                            <span class="nonProductGrid-spec"><strong>Best Car Feature:</strong> Gas Mileage</span>
-                                            <span class="nonProductGrid-spec"><strong>Retro of Choice:</strong> Murano Projectors with CBI bulbs</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_maxBaranyuk.jpg" alt="Max Baranyuk" border="0" /></div>
-                                    <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Max Baranyuk  <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Quality Control</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Quality Control</span></span>
-                                        <div class="nonProductGrid-specs">
-                                            <span class="nonProductGrid-spec"><strong>Born:</strong> Odessa, Ukraine</span>
-                                            <span class="nonProductGrid-spec"><strong>Car:</strong> Infiniti G35</span>
-                                            <span class="nonProductGrid-spec"><strong>Best Car Feature:</strong> It was a salvage that I re-built. Real steal.</span>
-                                            <span class="nonProductGrid-spec"><strong>Retro of Choice:</strong> G37 Headlights with Murano projectors and Blue XB Halos</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_willHardee.jpg" alt="Will Hardee" border="0" /></div>
-                                    <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Will Hardee <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Order Fulfillment</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Order Fulfillment</span></span>
-                                        <div class="nonProductGrid-specs">
-                                            <span class="nonProductGrid-spec"><strong>Born:</strong> Charleston, SC</span>
-                                            <span class="nonProductGrid-spec"><strong>Car:</strong> Nissan 370Z, Dodge Ram SRT-10, Nissan 240SX</span>
-                                            <span class="nonProductGrid-spec"><strong>Best Car Feature:</strong> Admiration from others</span>
-                                            <span class="nonProductGrid-spec"><strong>Retro of Choice:</strong> Laser etched STi-R lenses on OEM Z projectors with quad XB Halos</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/crew/crew_rubenHernandez.jpg" alt="Ruben Hernandez" border="0" /></div>
-                                    <div class="nonProductGrid-info">
-                                        <span class="nonProductGrid-title">Ruben Hernandez <span class="mobile-hide">/ <span class="typekit_weightLight-styleNormal-lowercase">Head of Quality Control</span></span></span>
-                                        <span class="nonProductGrid-title mobile-only"><span class="typekit_weightLight-styleNormal-lowercase">Head of Quality Control</span></span>
-                                        <div class="nonProductGrid-specs">
-                                            <span class="nonProductGrid-spec"><strong>Born:</strong> Morela, Mexico</span>
-                                            <span class="nonProductGrid-spec"><strong>Car:</strong> Nissan 350Z</span>
-                                            <span class="nonProductGrid-spec"><strong>Best Car Feature:</strong> Engine swapped with RB28 DET</span>
-                                            <span class="nonProductGrid-spec"><strong>Retro of Choice:</strong> Q45 projectors molded in</span>
-                                        </div>
-                                    </div>
-                                </li>
-                    		</ul>
+                            </ul>  
                     	</div>    
+                    </div>  
+
+
+                    <div class="allAboutTRS-section allAboutTRS-sectionGrid">                   
+                        <h2>Our Shop</h2>
+                        <p>Located just West of Buckhead in the heart of Atlanta, Georgia; our one central facility houses all of our operations. Up front, we keep all of our current product offerings on display in our inviting, modern showroom. In the same room, our customer service and management team work atop an open-air mezzanine that overlooks the naturally lit indoor garage below. In the adjacent 15,000 square foot warehouse, many rows of industrial racks house an unbeatable selection of headlight happiness in enough volume to feed months of demand at a time.</p>
+
+                        <div class="nonProductGridContainer"> 
+                            <div class="nonProductGrid-image"><img src="/client/trs/images/ourShop1.jpg" alt="Our Shop" border="0" /></div>
+                        </div>    
+                        <div class="nonProductGridContainer"> 
+                            <ul class="nonProductGrid nonProductGrid-crew">
+                                <li>
+                                    <div class="nonProductGrid-image"><img src="/client/trs/images/ourShop2.jpg" alt="Our Shop" border="0" /></div>
+                                </li> 
+                                <li>
+                                    <div class="nonProductGrid-image"><img src="/client/trs/images/ourShop2b.jpg" alt="Our Shop" border="0" /></div>
+                                </li> 
+                            </ul>  
+                        </div>    
+
+                        <p>Each one of our unique quality control procedures has a dedicated workspace to ensure consistency. We even have a purpose built dark room for tuning and testing projectors in the perfect environment. Our prepared inventory then funnels into another set of shelves where it’s picked and packed by a team of two who work along 30-foot fulfillment desk.</p>
+
+                        <p>On any given day, the shop is filled with the sounds of deliveries coming and going, ballasts buzzing, dremel tools cutting, tape guns unreeling, phones ringing, and local customers inquiring. Since we’re open to the public, we invite you to come by anytime during our regular business hours.</p>
+
+                        <div class="nonProductGridContainer"> 
+                            <ul class="nonProductGrid nonProductGrid-crew">
+                                <li>
+                                    <div class="nonProductGrid-image"><img src="/client/trs/images/ourShop3.jpg" alt="Our Shop" border="0" /></div>
+                                </li> 
+                                <li>
+                                    <div class="nonProductGrid-image"><img src="/client/trs/images/ourShop4.jpg" alt="Our Shop" border="0" /></div>
+                                </li> 
+                            </ul>  
+                        </div> 
                     </div>    
                         
                 </div>
