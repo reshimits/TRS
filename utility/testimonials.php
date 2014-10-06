@@ -106,7 +106,7 @@
                         <h3>Without exception, we’ve dedicated ourselves to the art of the Happy Customer. We’re honored to have received affirmation with some pretty kind words...</h3>
                     </div>
                     <div class="allAboutTRS-section">  
-                        <h2>The Word on the Street</h2>
+                        <!-- <h2>The Word on the Street</h2> -->
                              
                         <ol class="testimonialsFilters">
                             <li class="active" data-filter="trs"><span class="filter">TRS Site Reviews</span></li>
