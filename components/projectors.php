@@ -23,16 +23,16 @@
 
 	<!-- CSS
   ================================================== -->
-	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/layout-products.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/layout-products.css">
 
 
 	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 	<!-- Javascript [primary]
   ================================================== -->
-  	<script type="text/javascript" src="javascript/jquery-1.10.2.min.js"></script>
+  	<script type="text/javascript" src="../javascript/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="//use.typekit.net/xib0jgf.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<script type="text/javascript" charset="utf-8">
@@ -61,13 +61,13 @@
     
 	<!-- Favicons
   ================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="icon" sizes="32x32" href="images/favicon-32.png">
-	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/favicon-152.png">
+	<link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="icon" sizes="32x32" href="../images/favicon-32.png">
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../images/favicon-152.png">
 
 
 </head>
-<body onLoad="MM_preloadImages('images/btn_bg-orangeDark.png','images/btn_bg-blueDark.png','images/btn_bg-grayDark.png')">
+<body onLoad="MM_preloadImages('../images/btn_bg-orangeDark.png','../images/btn_bg-blueDark.png','../images/btn_bg-grayDark.png')">
 
 
 
@@ -75,13 +75,12 @@
 	================================================== -->
 
  
-    <?php require('include/header.html');?>
-    <div class="navMain hide460"><?php require('include/navMain.html');?></div>
-    <div class="navMobile mobile-only"><?php require('include/navMobile.html');?></div>
+    <?php require('../include/header.html');?>
+    <div class="navMain hide460"><?php require('../include/navMain.html');?></div>
+    <div class="navMobile mobile-only"><?php require('../include/navMobile.html');?></div>
     	
         <div class="productCategoryBanner">
-            <?php require('buyersGuide/buyersGuide-projectors.html');?> 
-            <!-- <?php require('buyersGuide/buyersGuide-ballasts.html');?> -->
+            <?php require('../buyersGuide/buyersGuide-projectors.html');?> 
         </div>
 
         
@@ -408,7 +407,7 @@
 
               
     
-	<?php require('include/footer.html');?>
+	<?php require('../include/footer.html');?>
         
     
     
@@ -428,11 +427,19 @@
             var showMore = document.getElementById(id);
             (showMore.style.display=='block') ? showMore.style.display='none' : showMore.style.display='block' ;  
         }
+
+         // For mobile, displays Buyer's Guide options
+        $( ".buyersGuide-mobileStart" ).click(function() {
+            $(".buyersGuide").toggleClass( "mobile-active" );
+            $(".buyersGuide-mobileStart").toggleClass( "mobile-active" );
+        });
+
         // Applies class of 'active' to 'buyersGuide' upon selecting 'go,' then removes 'active' from 'productGrid-filter'
         $( ".buyersGuide-filter .buyersGuideCTA" ).click(function() {
             $(".buyersGuide").toggleClass( "active",true );
             $(".productGrid-filter").toggleClass( "active",false );
         });
+
         // Removes all classes, then applies 'active' back to 'productGrid-filter'
         $( ".buyersGuide-filter .clearAll" ).click(function() {
             $(".buyersGuide").toggleClass( "active",false );
