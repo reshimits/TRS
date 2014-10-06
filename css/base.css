@@ -83,6 +83,7 @@
 	 		.hide940									{ display: none; }
 			.only940									{ display: block; }
 			.only700									{ display: none; }
+			.hide700only				  				{ display: inline-block; }
 			.only460									{ display: none; }
 			.only300									{ display: none; }
 		
@@ -128,6 +129,7 @@
 			
 			/*	Span Class Colors */
 			.lighten										{ color: #999; }
+			.white											{ color: #fff; }
 			
 			/* @license
 			 * MyFonts Webfont Build ID 2331401, 2012-07-26T21:05:17-0400
@@ -309,6 +311,7 @@
 		.mobile-only								{ display: none; }
 		.hide940									{ display: none; }
 		.hide700				  					{ display: none; }
+		.hide700only				  				{ display: none; }
 		.only940									{ display: none; }
 		.only700									{ display: block; }
 		.only460									{ display: none; }
