@@ -64,16 +64,24 @@ html[xmlns] .slides { display: block; }
 .slide-3 .slide-contentContainer { margin: -180px 0px 0px 56px; }
 .slide-4 .slide-contentContainer { margin: -143px 0px 0px 572px; }
 .slide-5 .slide-contentContainer { margin: -174px 0px 0px 508px; }
+.slide-1_20141010 .slide-contentContainer { margin: -172px 0px 0px 584px; }
+.slide-2_20141010 .slide-contentContainer { margin: -138px 0px 0px 57px; }
+.slide-3_20141010 .slide-contentContainer { margin: -112px 0px 0px 70px; }
+.slide-4_20141010 .slide-contentContainer { margin: -125px 0px 0px 77px; }
+.slide-5_20141010 .slide-contentContainer { margin: -154px 0px 0px 80px; }
 .slide-content { width: 296px; float: left; margin: 0px 0px 0px 0px; padding: 10px 0px 20px 0px; border-top: 1px solid #fff; border-bottom: 1px solid #fff; }
 .slide-2 .slide-content { border-top: 2px solid #000; border-bottom: 2px solid #000; }
 .slide-4 .slide-content { border-top: 1px solid #7298b6; border-bottom: 1px solid #7298b6; }
+.slide-1_20141010 .slide-content { border-top: 1px solid #000; border-bottom: 1px solid #000; }
 .featureProduct { float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 .slide-1 .featureProduct { width: 208px; }
 .slide-2 .featureProduct, .slide-4 .featureProduct { width: 200px; }
 .slide-3 .featureProduct { width: 230px; }
 .slide-5 .featureProduct { width: 218px; }
+.slide-2_20141010 .featureProduct, .slide-3_20141010 .featureProduct { width: 170px; }
+.slide-5_20141010 .featureProduct { width: 150px; }
 .featureProduct-title { width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 15px; line-height: 14px; color: #fff; text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-.slide-2 .featureProduct-title { color: #000; }
+.slide-2 .featureProduct-title, .slide-1_20141010 .featureProduct-title { color: #000; }
 .featureProduct-starting { float: right; font-family: 'PlutoSansRegular', sans-serif; font-style: italic; font-size: 12px; line-height: 14px; color: #fff; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 .featureProduct-price { float: right; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 34px; line-height: 28px; color: #fff; letter-spacing: -2px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 .slide-2 .featureProduct-price { font-family: 'PlutoSansRegular', sans-serif; color: #93182b; }
@@ -167,6 +175,7 @@ html[xmlns] .slides { display: block; }
 .flexslider .slide-3 { left: 0px; }
 .flexslider .slide-4 { left: -220px; }
 .flexslider .slide-5 { left: -160px; }
+.flexslider .slide-1_20141010 { left: -230px; }
 /* Direction Nav (Arrows) */
 .flex-direction-nav .flex-next { float: right; background-position: 100% 100%; right: 10px; }
 .flex-direction-nav .flex-prev { left: 10px; }
@@ -234,6 +243,11 @@ html[xmlns] .slides { display: block; }
 .flexslider .slide-3 { left: -455px; top: -100px; }
 .flexslider .slide-4 { left: -95px; top: -80px; }
 .flexslider .slide-5 { left: -45px; top: -125px; }
+.flexslider .slide-1_20141010 { left: -105px; top: -120px; }
+.flexslider .slide-2_20141010 { left: -360px; top: -125px; }
+.flexslider .slide-3_20141010 { left: -375px; top: -80px; }
+.flexslider .slide-4_20141010 { left: -395px; top: -165px; }
+.flexslider .slide-5_20141010 { left: -385px; top: -105px; }
 /* Direction Nav (Arrows) */
 .flex-direction-nav a { display: none; }
 /* Control Nav (Slide ID) */
@@ -245,8 +259,13 @@ html[xmlns] .slides { display: block; }
 .slide-3 .slide-contentContainer { margin: -200px 0px 0px 475px; }
 .slide-4 .slide-contentContainer { margin: -220px 0px 0px 115px; }
 .slide-5 .slide-contentContainer { margin: -175px 0px 0px 65px; }
+.slide-1_20141010 .slide-contentContainer { margin: -180px 0px 0px 125px; }
+.slide-2_20141010 .slide-contentContainer { margin: -175px 0px 0px 380px; }
+.slide-3_20141010 .slide-contentContainer { margin: -220px 0px 0px 395px; }
+.slide-4_20141010 .slide-contentContainer { margin: -135px 0px 0px 415px; }
+.slide-5_20141010 .slide-contentContainer { margin: -195px 0px 0px 405px; }
 .slide-content { width: 380px; float: left; margin: 0px 0px 0px 0px; padding: 10px 20px 20px 20px; border-top: 1px solid #fff; border-bottom: 1px solid #fff; background-image: url(../images/bg_captionMobile.png); background-repeat: repeat-y; background-position: center top; background-size: 100% 1px; -webkit-background-size: 100% 1px; -moz-background-size: 100% 1px; }
-.slide-2 .slide-content, .slide-4 .slide-content { border-top: 1px solid #fff; border-bottom: 1px solid #fff; }
+.slide-2 .slide-content, .slide-4 .slide-content, .slide-1_20141010 .slide-content { border-top: 1px solid #fff; border-bottom: 1px solid #fff; }
 .featureProduct { float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 .slide-1 .featureProduct { width: 208px; margin: 0px 0px 0px 85px; }
 .slide-2 .featureProduct { width: 200px; margin: 0px 0px 0px 95px; }
@@ -254,10 +273,10 @@ html[xmlns] .slides { display: block; }
 .slide-4 .featureProduct { width: 200px; margin: 0px 0px 0px 95px; }
 .slide-5 .featureProduct { width: 218px; margin: 0px 0px 0px 80px; }
 .featureProduct-title { width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 15px; line-height: 14px; color: #fff; text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-.slide-2 .featureProduct-title { color: #fff; }
+.slide-2 .featureProduct-title, .slide-1_20141010 .featureProduct-title { color: #fff; }
 .featureProduct-starting { float: right; font-family: 'PlutoSansRegular', sans-serif; font-style: italic; font-size: 12px; line-height: 14px; color: #fff; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 .featureProduct-price { float: right; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 34px; line-height: 28px; color: #fff; letter-spacing: -2px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-.slide-2 .featureProduct-price { font-family: 'PlutoSansLight', sans-serif; color: #fff; }
+.slide-2 .featureProduct-price, .slide-1_20141010 .featureProduct-price { font-family: 'PlutoSansLight', sans-serif; color: #fff; }
 .slide .generalBtn-orange { float: right; margin: -11px 20px 0px 0px; }
 
 /* PROMOS */
@@ -327,6 +346,11 @@ html[xmlns] .slides { display: block; }
 .flexslider .slide-3 { left: -525px; top: -100px; }
 .flexslider .slide-4 { left: -245px; top: -70px; }
 .flexslider .slide-5 { left: -30px; top: -120px; }
+.flexslider .slide-1_20141010 { left: -105px; top: -100px; }
+.flexslider .slide-2_20141010 { left: -360px; top: -105px; }
+.flexslider .slide-3_20141010 { left: -375px; top: -60px; }
+.flexslider .slide-4_20141010 { left: -395px; top: -155px; }
+.flexslider .slide-5_20141010 { left: -385px; top: -85px; }
 /* Direction Nav (Arrows) */
 .flex-direction-nav a { display: none; }
 /* Control Nav (Slide ID) */
@@ -338,20 +362,27 @@ html[xmlns] .slides { display: block; }
 .slide-3 .slide-contentContainer { margin: -180px 0px 0px 545px; }
 .slide-4 .slide-contentContainer { margin: -210px 0px 0px 265px; }
 .slide-5 .slide-contentContainer { margin: -160px 0px 0px 50px; }
+.slide-1_20141010 .slide-contentContainer { margin: -180px 0px 0px 125px; }
+.slide-2_20141010 .slide-contentContainer { margin: -175px 0px 0px 380px; }
+.slide-3_20141010 .slide-contentContainer { margin: -220px 0px 0px 395px; }
+.slide-4_20141010 .slide-contentContainer { margin: -125px 0px 0px 415px; }
+.slide-5_20141010 .slide-contentContainer { margin: -195px 0px 0px 405px; }
 .slide-content { width: 240px; float: left; margin: 0px 0px 0px 0px; padding: 10px 10px 20px 10px; border-top: 1px solid #fff; border-bottom: 1px solid #fff; background-image: url(../images/bg_captionMobile.png); background-repeat: repeat-y; background-position: center top; background-size: 100% 1px; -webkit-background-size: 100% 1px; -moz-background-size: 100% 1px; }
-.slide-2 .slide-content, .slide-4 .slide-content { border-top: 1px solid #fff; border-bottom: 1px solid #fff; }
+.slide-2 .slide-content, .slide-4 .slide-content, .slide-1_20141010 .slide-content { border-top: 1px solid #fff; border-bottom: 1px solid #fff; }
 .featureProduct { float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
 .slide-1 .featureProduct { width: 168px; margin: 0px 0px 0px 0px; }
 .slide-2 .featureProduct { width: 166px; margin: 0px 0px 0px 0px; }
 .slide-3 .featureProduct { width: 183px; margin: 0px 0px 0px 0px; }
 .slide-4 .featureProduct { width: 166px; margin: 0px 0px 0px 0px; }
 .slide-5 .featureProduct { width: 172px; margin: 0px 0px 0px 0px; }
+.slide-3_20141010 .featureProduct { width: 150px; }
+
 .featureProduct-title { width: 100%; float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 12px; line-height: 14px; color: #fff; text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-.slide-2 .featureProduct-title { color: #fff; }
+.slide-2 .featureProduct-title, .slide-1_20141010 .featureProduct-title { color: #fff; }
 .slide-3 .featureProduct-title, .slide-5 .featureProduct-title { word-spacing: -1px; }
 .featureProduct-starting { float: right; font-family: 'PlutoSansRegular', sans-serif; font-style: italic; font-size: 11px; line-height: 10px; color: #fff; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 .featureProduct-price { float: right; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 30px; line-height: 26px; color: #fff; letter-spacing: -2px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-.slide-2 .featureProduct-price { font-family: 'PlutoSansLight', sans-serif; color: #fff; }
+.slide-2 .featureProduct-price, .slide-1_20141010 .featureProduct-price { font-family: 'PlutoSansLight', sans-serif; color: #fff; }
 .slide .generalBtn-orange { float: right; margin: -11px 15px 0px 0px; }
 
 /* PROMOS */
