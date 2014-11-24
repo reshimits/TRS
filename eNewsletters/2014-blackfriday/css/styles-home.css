@@ -1,0 +1,309 @@
+
+/* #Base Size:Tablet (Portrait)
+==================================================
+==================================================
+================================================== */
+
+
+
+/* Note:Design for a width of 768px */
+html, body { background-color: #fff; margin: 0; padding: 0; }
+.container { width: 702px; position: relative; margin: 0 auto; padding: 0; }
+.container .column, .container .columns
+.column.alpha, .columns.alpha { margin-left: 0; margin-right: 0; }
+.column.omega, .columns.omega { margin-right: 0; margin-left: 0; }
+.container .sixteen.columns { width: 702px; }
+.container .one-third.column { width: 236px; }
+.container .two-thirds.column { width: 492px; }
+.container .one-half.column { width: 330px; }
+.section { width: 702px; float: left; }
+
+/* Global Resets */
+html, body, div, dl, dt, dd, ul, h1, h2, h3, pre, form, label, fieldset, input, p, blockquote, th, td { margin: 0; padding: 0 }
+table { border-collapse: collapse; border-spacing: 0 }
+fieldset, img { border: 0 }
+ul { list-style: none }
+a { text-decoration: none; }
+@-webkit-keyframes safariSelectorFix {
+	0% { zoom: 1; }
+	100% { zoom: 1; }
+}
+
+/* Global Hide */
+#global-hide { display: none; }
+#mobile-only { display: none; }
+.remove-top { margin-top: 0 !important; padding-top: 0 !important; }
+
+/* Specific Styles for this Screen ====================================================================================================================================================== */
+
+/* STANDARD STYLES */
+.topBackground { height: 20px; background-color: #fff; }
+.ensureNote { float: right; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 10px; line-height: 20px; color: #bbb; margin: 0; padding: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.whiteSpan { color: #fff; }
+.whiteSpan2 { color: #fff; line-height: 36px; }
+.orangeSpan { color: #ea5f03; }
+.orangeSpanLight { color: #ff7e00; }
+.redSpan { color: #ff0000; line-height: 36px; }
+.boldSpan { font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-weight: normal; }
+.generalBtn-outer { position: relative; left: 50%; float: left; margin: 0 0 0 -130px; border-radius: 6px; background-color: #3b3b3b; padding: 4px; }
+.generalBtn-orange { float: left; margin: 0; border-radius: 4px; overflow: hidden; background-image: url(../images/btn_bg-orange.png); background-repeat: repeat-x; background-position: left center; background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; }
+.generalBtn-orange:hover { background-image: url(../images/btn_bg-orangeDark.png); }
+.generalBtn-title { float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; color: #fff; font-size: 10px; line-height: 14px; text-transform: uppercase; padding: 4px 7px 3px 6px; margin: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+.contentBackground { background-color: #191919; }
+.headerContainer { width: 702px; float: left; margin: 20px 0 20px 0; }
+.logo { float: left; width: 340px; padding: 0; }
+.logo img { float: left; width: 50px; height: auto; }
+.logotype { float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; color: #fff; font-size: 22px; line-height: 22px; text-transform: uppercase; padding: 13px 0 0 10px; margin: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.logotagline { float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: italic; color: #ea5f03; font-size: 11px; line-height: 10px; padding: 0 0 0 12px; margin: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+/*.addThis { float: right; margin: 0 0 0 150px; }*/
+.shop { float: right; margin: 5px -5px 0 0; }
+.shopText { float: left; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 18px; line-height: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; margin: 0; padding: 13px 0 0 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.shop img { float: right; width: 42px; height: auto; }
+
+/* BODY STYLES */
+.feature { width: 100%; float: left; background: url(../images/feat1.jpg); background-repeat: no-repeat; background-position: left top; background-size: 100% auto; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; margin: 0 0 40px 0; }
+.feature h1 { float: left; width: 100%; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 48px; line-height: 36px; color: #fff; text-transform: uppercase; text-align: center; margin: 0; padding: 306px 0 0 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.feature h2 { float: left; width: 100%; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-weight: normal; font-size: 24px; line-height: 20px; color: #fff; text-transform: uppercase; text-align: center; letter-spacing: 4px; margin: 0; padding: 10px 0 0 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.feature-subHeadline { float: left; width: 100%; font-family: 'franklin-gothic-ext-comp-urw', sans-serif; font-style: normal; font-weight: 400; font-size: 48px; line-height: 36px; color: #d14001; text-align: center; text-transform: uppercase; letter-spacing: -1px; padding: 15px 0; margin: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+.note { float: left; width: 280px; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 11px; line-height: 12px; color: #252525; margin: 0; padding: 40px 0 0 12px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.gridDiscounts { float: left; margin: 0; padding: 0; }
+.discount { width: 160px; float: left; margin: 0 20px 0 0; padding: 0; }
+.gridDiscounts .last-child { margin: 0; }
+.discountTitle { float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 72px; line-height: 62px; color: #fff; text-transform: uppercase; margin: 0; padding: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.discountCopy { float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 13px; line-height: 14px; color: #777; text-transform: uppercase; margin: 0; padding: 0 0 10px 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.discountCode { float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 22px; line-height: 14px; color: #ea5f03; text-transform: uppercase; margin: 0; padding: 0 0 10px 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.gradientHeadline { width: 702px; float: left; text-align: center; border-top: 1px solid #555555; border-bottom: 1px solid #555555; margin: 10px 0 0 0; padding: 15px 0 12px 0; background-image: url(../images/bg-h1.png); background-repeat: repeat-y; background-position: center top; }
+.stars { float: left; margin: 5px 0 0 0; padding: 0; }
+.stars-right { float: right; }
+.stars img { float: left; width: 84px; height: auto; }
+.gradientHeadlineTitle { width: 530px; float: left; margin: 0; padding: 0; text-align: center; }
+.gradientHeadlineTitle-top { font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 24px; line-height: 20px; color: #fff; text-transform: uppercase; margin: 0; padding: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.gradientHeadlineTitle-bottom { font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 14px; line-height: 12px; color: #fff; text-transform: uppercase; margin: 0; padding: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+.promos { width: 702px; float: left; margin: 30px 0 0 0; }
+.promo { width: 340px; height: 310px; float: left; box-shadow: 0 0 10px #000; }
+#promo1 { background: url(../images/promo1.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0 20px 20px 0; }
+#promo2 { background: url(../images/promo2.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0 0 20px 0; }
+#promo3 { height: 370px; background: url(../images/promo3.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0 20px 20px 0; }
+#promo4 { height: 370px; background: url(../images/promo4.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0 0 20px 0; }
+.featTitle { float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-weight: normal; font-size: 26px; line-height: 27px; color: #fff; text-transform: uppercase; margin: 170px 0 0 0; padding: 0 0 0 20px; }
+.featCopy { float: left; width: 300px; font-family: 'PlutoSansRegular', sans-serif; font-weight: normal; font-style: normal; font-size: 12px; line-height: 15px; color: #b7b7b7; margin: 5px 0 10px 0; padding: 0 20px 0 20px; }
+#promo4 .featTitle { margin: 30px 0 0 0; }
+#promo4 .featCopy { margin: 15px 0 0 0; }
+
+.cta { float: right; margin: 355px 20px 0 0; }
+.cta img { width: 147px; height: auto; }
+.subContent { width: 702px; float: left; text-align: center; margin: 30px 0 0 0; }
+.subContent-note { font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 13px; line-height: 20px; color: #777; text-transform: uppercase; margin: 0; padding: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+/* FOOTER STYLES */
+.footerContainer { width: 702px; height: 205px; float: left; margin: 40px 0 10px 0; text-align: center; background-image: url(../images/bg-footer2x.png); background-repeat: no-repeat; background-position: center top; background-size: 702px auto; -webkit-background-size: 702px auto; -moz-background-size: 702px auto; }
+.footerContainer img { width: 77px; height: auto; float: left; margin: -25px 0 0 312px; }
+.footerCopy1 { width: 380px; float: left; text-align: center; border-bottom: 1px solid #555555; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px; color: #fff; text-transform: uppercase; margin: 0 0 0 160px; padding: 15px 0 10px 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy2 { float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 20px; color: #898989; text-transform: uppercase; margin: 0 0 0 145px; padding: 10px 0 0 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy2 a { color: #ea5f03; }
+.footerCopy3 { float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 20px; color: #898989; text-transform: uppercase; margin: 0 0 0 310px; padding: 10px 0 0 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy3 a { color: #898989; }
+
+/* @license
+* MyFonts Webfont Build ID 2331401, 2012-07-26T21:05:17-0400
+* The fonts listed in this notice are subject to the End User License
+* Agreement(s) entered into by the website owner. All other parties are
+* explicitly restricted from using the Licensed Webfonts(s).
+* You may obtain a valid license at the URLs below.
+* Webfont:Pluto Sans Regular by HVD Fonts
+* URL:http://www.myfonts.com/fonts/hvdfonts/pluto-sans/regular/
+* Licensed pageviews:10, 000
+* License:http://www.myfonts.com/viewlicense?type=web&buildid=2331401
+* Webfonts copyright:Copyright (c) 2012 by Hannes von Doehren. All rights reserved.
+* © 2012 Bitstream Inc */
+@font-face { font-family: 'PlutoSansRegular'; src: url('../../../fonts/239309_0_0.eot'); src: url('../../../fonts/239309_0_0.eot?#iefix') format('embedded-opentype'), url('../../../fonts/239309_0_0.woff') format('woff'), url('../../../fonts/239309_0_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansBold'; src: url('../../../fonts/239309_1_0.eot'); src: url('../../../fonts/239309_1_0.eot?#iefix') format('embedded-opentype'), url('../../../fonts/239309_1_0.woff') format('woff'), url('../../../fonts/239309_1_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansBlack'; src: url('../../../fonts/239309_2_0.eot'); src: url('../../../fonts/239309_2_0.eot?#iefix') format('embedded-opentype'), url('../../../fonts/239309_2_0.woff') format('woff'), url('../../../fonts/239309_2_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansExtraLight'; src: url('../../../fonts/239309_B_0.eot'); src: url('../../../fonts/239309_B_0.eot?#iefix') format('embedded-opentype'), url('../../../fonts/239309_B_0.woff') format('woff'), url('../../../fonts/239309_B_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansHeavy'; src: url('../../../fonts/239309_C_0.eot'); src: url('../../../fonts/239309_C_0.eot?#iefix') format('embedded-opentype'), url('../../../fonts/239309_C_0.woff') format('woff'), url('../../../fonts/239309_C_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansLight'; src: url('../../../fonts/239309_D_0.eot'); src: url('../../../fonts/239309_D_0.eot?#iefix') format('embedded-opentype'), url('../../../fonts/239309_D_0.woff') format('woff'), url('../../../fonts/239309_D_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansMedium'; src: url('../../../fonts/239309_E_0.eot'); src: url('../../../fonts/239309_E_0.eot?#iefix') format('embedded-opentype'), url('../../../fonts/239309_E_0.woff') format('woff'), url('../../../fonts/239309_E_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansThin'; src: url('../../../fonts/239309_F_0.eot'); src: url('../../../fonts/239309_F_0.eot?#iefix') format('embedded-opentype'), url('../../../fonts/239309_F_0.woff') format('woff'), url('../../../fonts/239309_F_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansCondBlack'; src: url('../../../fonts/239309_3_0.eot'); src: url('../../../fonts/239309_3_0.eot?#iefix') format('embedded-opentype'), url('../../../fonts/239309_3_0.woff') format('woff'), url('../../../fonts/239309_3_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansCondBold'; src: url('../../../fonts/239309_4_0.eot'); src: url('../../../fonts/239309_4_0.eot?#iefix') format('embedded-opentype'), url('../../../fonts/239309_4_0.woff') format('woff'), url('../../../fonts/239309_4_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansCondExLight'; src: url('../../../fonts/239309_5_0.eot'); src: url('../../../fonts/239309_5_0.eot?#iefix') format('embedded-opentype'), url('../../../fonts/239309_5_0.woff') format('woff'), url('../../../fonts/239309_5_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansCondHeavy'; src: url('../../../fonts/239309_6_0.eot'); src: url('../../../fonts/239309_6_0.eot?#iefix') format('embedded-opentype'), url('../../../fonts/239309_6_0.woff') format('woff'), url('../../../fonts/239309_6_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansCondLight'; src: url('../../../fonts/239309_7_0.eot'); src: url('../../../fonts/239309_7_0.eot?#iefix') format('embedded-opentype'), url('../../../fonts/239309_7_0.woff') format('woff'), url('../../../fonts/239309_7_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansCondMedium'; src: url('../../../fonts/239309_8_0.eot'); src: url('../../../fonts/239309_8_0.eot?#iefix') format('embedded-opentype'), url('../../../fonts/239309_8_0.woff') format('woff'), url('../../../fonts/239309_8_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansCondRegular'; src: url('../../../fonts/239309_9_0.eot'); src: url('../../../fonts/239309_9_0.eot?#iefix') format('embedded-opentype'), url('../../../fonts/239309_9_0.woff') format('woff'), url('../../../fonts/239309_9_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansCondThin'; src: url('../../../fonts/239309_A_0.eot'); src: url('../../../fonts/239309_A_0.eot?#iefix') format('embedded-opentype'), url('../../../fonts/239309_A_0.woff') format('woff'), url('../../../fonts/239309_A_0.ttf') format('truetype'); }
+
+
+
+/* #Mobile (Landscape)
+==================================================
+==================================================
+================================================== */
+
+/* Note:Design for a width of 480px */
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+body { -webkit-text-size-adjust: none; }
+.container { width: 460px; }
+.columns, .column { margin: 0; }
+.container .sixteen.columns, .container .one-third.column, .container .two-thirds.column { width: 460px; }
+.container .one-half.column { width: 460px; }
+.section { width: 460px; float: left; }
+
+/* Global Hide */
+#mobile-only { display: block; }
+#global-hide { display: none; }
+#global-hide480 { display: none; }
+
+/* Specific Styles for this Screen ====================================================================================================================================================== */
+
+/* STANDARD STYLES */
+.topBackground { height: 30px; }
+.ensureNote { width: 260px; font-size: 9px; line-height: 10px; padding: 5px 0 0 0; }
+.whiteSpan { color: #fff; }
+.whiteSpan2 { color: #fff; line-height: 36px; }
+.redSpan { color: #ff0000; line-height: 36px; }
+.orangeSpan { color: #ea5f03; }
+.boldSpan { font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-weight: normal; }
+
+.headerContainer { width: 460px; float: left; margin: 10px 0 20px 0; }
+.logo { width: 290px; }
+.logotype { font-size: 18px; line-height: 22px; padding: 13px 0 0 10px; margin: 0; }
+
+/*.addThis { float: right; margin: 0; }*/
+
+/* BODY STYLES */
+.feature h1 { font-size: 30px; line-height: 24px; padding: 200px 0 0 0; }
+.feature h2 { font-size: 15px; line-height: 15px; letter-spacing: 3px; padding: 10px 0 0 0; }
+.feature-subHeadline { font-size: 30px; line-height: 24px; letter-spacing: 0px; padding: 15px 0; }
+
+.note { float: left; width: 280px; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 11px; line-height: 12px; color: #252525; margin: 0; padding: 40px 0 0 12px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.gridDiscounts { float: left; margin: 0; padding: 0; }
+.discount { width: 100px; float: left; margin: 0 20px 0 0; padding: 0; }
+.gridDiscounts .last-child { margin: 0; }
+.discountTitle { float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 44px; line-height: 42px; color: #fff; text-transform: uppercase; margin: 0; padding: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.discountCopy { float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 10px; line-height: 12px; color: #777; text-transform: uppercase; margin: 0; padding: 0 0 5px 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.discountCode { float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 14px; line-height: 14px; color: #ea5f03; text-transform: uppercase; margin: 0; padding: 0 0 10px 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.gradientHeadline { width: 460px; float: left; text-align: center; border-top: 1px solid #555555; border-bottom: 1px solid #555555; margin: 10px 0 0 0; padding: 15px 0 12px 0; background-image: url(../images/bg-h1.png); background-repeat: repeat-y; background-position: center top; }
+.stars { float: left; margin: 15px 0 0 10px; padding: 0; width: 25px; overflow: hidden; }
+.stars-right { float: right; margin: 15px 10px 0 0; }
+.stars img { float: left; width: 84px; height: auto; }
+.gradientHeadlineTitle { width: 388px; float: left; margin: 0; padding: 0; text-align: center; }
+.gradientHeadlineTitle-top { font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 24px; line-height: 20px; color: #fff; text-transform: uppercase; margin: 0; padding: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.gradientHeadlineTitle-bottom { font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 14px; line-height: 12px; color: #fff; text-transform: uppercase; margin: 0; padding: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+.promos { width: 460px; float: left; margin: 20px 0 0 0; }
+.promo { width: 220px; height: 310px; float: left; box-shadow: 0 0 10px #000; }
+.featTitle { font-size: 17px; line-height: 20px; margin: 185px 0 0 0; padding: 0 0 0 10px; }
+.featCopy { width: 200px; font-size: 9px; line-height: 15px; word-spacing: -1px; margin: 5px 0 10px 0; padding: 0 10px 0 10px; }
+
+.cta { float: right; margin: 355px 20px 0 0; }
+.cta img { width: 147px; height: auto; }
+.subContent { width: 460px; float: left; text-align: center; margin: 10px 0 0 0; }
+.subContent-note { font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 11px; line-height: 18px; color: #777; margin: 0; padding: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerContainer { width: 460px; height: 205px; float: left; margin: 40px 0 10px 0; text-align: center; background-image: url(../images/bg-footer2x.png); background-repeat: no-repeat; background-position: center top; background-size: 702px auto; -webkit-background-size: 702px auto; -moz-background-size: 702px auto; }
+.footerContainer img { width: 77px; height: auto; float: left; margin: -25px 0 0 193px; }
+.footerCopy1 { width: 380px; float: left; text-align: center; border-bottom: 1px solid #555555; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px; color: #fff; text-transform: uppercase; margin: 0 0 0 40px; padding: 15px 0 10px 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy2 { float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 20px; color: #898989; text-transform: uppercase; margin: 0 0 0 25px; padding: 10px 0 0 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy2 a { color: #ea5f03; }
+.footerCopy3 { float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 20px; color: #898989; text-transform: uppercase; margin: 0 0 0 190px; padding: 10px 0 0 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy3 a { color: #898989; }
+
+}
+
+/* #Mobile (Portrait)
+==================================================
+==================================================
+================================================== */
+
+/* Note:Design for a width of 320px */
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+.container { width: 300px; }
+.columns, .column { margin: 0; }
+.container .sixteen.columns, .container .one-third.column, .container .two-thirds.column { width: 300px; }
+.container .one-half.column { width: 300px; }
+.section { width: 300px; float: left; }
+
+/* Global Hide */
+#mobile-only { display: block; }
+#global-hide { display: none; }
+#global-hide480 { display: none; }
+#global-hide320 { display: none; }
+
+/* Specific Styles for this Screen ====================================================================================================================================================== */
+
+/* STANDARD STYLES */
+.topBackground { height: 30px; }
+.ensureNote { width: 260px; font-size: 9px; line-height: 10px; padding: 5px 0 0 0; }
+.whiteSpan { color: #fff; }
+.whiteSpan2 { color: #fff; line-height: 36px; font-size: 10px; }
+.redSpan { color: #ff0000; line-height: 26px; }
+.orangeSpan { color: #ea5f03; }
+.boldSpan { font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-weight: normal; }
+.sizeSpan { font-size: 100px; line-height: 80px; }
+
+.headerContainer { width: 300px; }
+.logo { width: 290px; }
+.logotype { font-size: 18px; line-height: 22px; padding: 13px 0 0 10px; margin: 0; }
+/*.addThis { float: right; margin: -100px 0 0 0; }*/
+
+/* BODY STYLES */
+.feature h1 { font-size: 18px; line-height: 16px; padding: 130px 0 0 0; }
+.feature h2 { font-size: 12px; line-height: 14px; letter-spacing: 3px; padding: 10px 0 0 0; }
+.feature-subHeadline { font-size: 21px; line-height: 16px; letter-spacing: 0px; padding: 15px 0; }
+
+.note { float: left; width: 280px; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 11px; line-height: 12px; color: #252525; margin: 0; padding: 30px 0 0 12px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.gridDiscounts { float: left; margin: 0; padding: 0; }
+.discount { width: 140px; float: left; margin: 0 20px 0 0; padding: 0; }
+.gridDiscounts .second-child { margin: 0; }
+.gridDiscounts .last-child { margin: 0; }
+.discountTitle { float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 60px; line-height: 48px; color: #fff; text-transform: uppercase; margin: 0; padding: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.discountCopy { float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 11px; line-height: 12px; color: #777; text-transform: uppercase; margin: 0; padding: 0 0 5px 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.discountCode { float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-size: 18px; line-height: 16px; color: #ea5f03; text-transform: uppercase; margin: 0; padding: 0 0 10px 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.gradientHeadline { width: 300px; float: left; text-align: center; border-top: 1px solid #555555; border-bottom: 1px solid #555555; margin: 10px 0 0 0; padding: 15px 0 12px 0; background-image: url(../images/bg-h1.png); background-repeat: repeat-y; background-position: center top; }
+.stars { float: left; margin: 15px 0 0 10px; padding: 0; width: 25px; overflow: hidden; }
+.stars-right { float: right; margin: 15px 10px 0 0; }
+.stars img { float: left; width: 84px; height: auto; }
+.gradientHeadlineTitle { width: 228px; float: left; margin: 0; padding: 0; text-align: center; }
+.gradientHeadlineTitle-top { font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 16px; line-height: 16px; color: #fff; text-transform: uppercase; margin: 0; padding: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.gradientHeadlineTitle-bottom { font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 11px; line-height: 10px; color: #fff; text-transform: uppercase; margin: 0; padding: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+
+.promos { width: 300px; float: left; margin: 10px 0 0 0; }
+.promo { width: 300px; height: 310px; float: left; box-shadow: 0 0 10px #000; }
+.featTitle { font-size: 23px; line-height: 24px; margin: 180px 0 0 0; padding: 0 0 0 15px; }
+.featCopy { width: 270px; font-size: 11px; line-height: 15px; margin: 5px 0 10px 0; padding: 0 15px 0 15px; }
+
+
+.cta { float: right; margin: 355px 20px 0 0; }
+.cta img { width: 147px; height: auto; }
+.subContent { width: 300px; float: left; text-align: center; margin: 10px 0 0 0; }
+.subContent-note { font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 11px; line-height: 18px; color: #777; margin: 0; padding: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerContainer { width: 300px; height: 205px; float: left; margin: 40px 0 10px 0; text-align: center; background-image: url(../images/bg-footer2x.png); background-repeat: no-repeat; background-position: center top; background-size: 702px auto; -webkit-background-size: 702px auto; -moz-background-size: 702px auto; }
+.footerContainer img { width: 77px; height: auto; float: left; margin: -25px 0 0 112px; }
+.footerCopy1 { width: 280px; float: left; text-align: center; border-bottom: 1px solid #555555; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 13px; line-height: 13px; color: #fff; text-transform: uppercase; margin: 0 0 0 10px; padding: 15px 0 10px 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy2 { width: 240px; float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 20px; color: #898989; text-transform: uppercase; margin: 0 0 0 20px; padding: 10px 10px 0 10px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy2 a { color: #ea5f03; }
+.footerCopy3 { float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 10px; line-height: 20px; color: #898989; text-transform: uppercase; margin: 0 0 0 114px; padding: 10px 0 0 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy3 a { color: #898989; }
+}
+
+/* #Clearing
+==================================================
+==================================================
+================================================== */
+
+/* Self Clearing Goodness */
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* Use clearfix class on parent to clear nested columns, or wrap each row of columns in a <div class="row"> */
+.clearfix:before, .clearfix:after, .row:before, .row:after { content: '\0020'; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+.row:after, .clearfix:after { clear: both; }
+.row, .clearfix { zoom: 1; }
+
+/* You can also use a <br class="clear" /> to clear columns */
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
