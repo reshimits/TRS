@@ -1,383 +1,226 @@
-
-
-/* #Base Size: Tablet (Portrait)
+/* #Base Size:Tablet (Portrait)
 ==================================================
 ==================================================
 ================================================== */
 
-   
-/* Note: Design for a width of 768px */
-		html, body 									{ background-color: #fff; margin: 0px; padding: 0px; }
-        .container                                  { width: 702px; position: relative; margin: 0 auto; padding: 0; }
-        .container .column,
-        .container .columns                         
-        .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 0px; }
-        .column.omega, .columns.omega               { margin-right: 0; margin-left: 0px; }
 
-        .container .sixteen.columns                 { width: 702px; }
-        .container .one-third.column                { width: 236px; }
-        .container .two-thirds.column               { width: 492px; }
-		.container .one-half.column                 { width: 330px; }
-  
-  		.section									{ width: 702px; float: left; }
-		
-		/* Global Resets */
-		html, body, div, dl, dt, dd, ul,  h1, h2, h3,  pre, form, label, fieldset, input, p, blockquote, th, td { margin:0; padding:0 }  
-		table { border-collapse:collapse; border-spacing:0 }  
-		fieldset, img { border:0 }  
-		ul { list-style:none }
-		a { text-decoration: none; }
-		@-webkit-keyframes safariSelectorFix 		{ 0% {zoom:1;} 100% {zoom:1;} }
-		
-  		/* Global Hide */
-	 	#global-hide								{ display: none; }
-  		#mobile-only								{ display: none; }
-		
+/* Note:Design for a width of 768px */
+html, body { background-color: #fff; margin: 0px; padding: 0px; }
+.container { width: 702px; position: relative; margin: 0 auto; padding: 0; }
+.container .column, .container .columns
+.column.alpha, .columns.alpha { margin-left: 0; margin-right: 0px; }
+.column.omega, .columns.omega { margin-right: 0; margin-left: 0px; }
+.container .sixteen.columns { width: 702px; }
+.container .one-third.column { width: 236px; }
+.container .two-thirds.column { width: 492px; }
+.container .one-half.column { width: 330px; }
+.section { width: 702px; float: left; }
+/* Global Resets */
+html, body, div, dl, dt, dd, ul, h1, h2, h3, pre, form, label, fieldset, input, p, blockquote, th, td { margin: 0; padding: 0 }
+table { border-collapse: collapse; border-spacing: 0 }
+fieldset, img { border: 0 }
+ul { list-style: none }
+a { text-decoration: none; }
+@-webkit-keyframes safariSelectorFix {
+0% { zoom: 1; }
+100% { zoom: 1; }
+}
+/* Global Hide */
+#global-hide { display: none; }
+#mobile-only { display: none; }
 /* Specific Styles for this Screen ====================================================================================================================================================== */
-	 
-	    .topBackground								{ height: 20px; background-image: url(../images/bg-top.png); background-repeat: repeat-x; background-position: left top; }
-	    .ensureNote	 								{ float: right; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 10px; line-height: 20px; color: #bbb; 
-												      margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.whiteSpan									{ color: #fff; }
-		.whiteSpan2									{ color: #fff; line-height: 36px; }
-		.orangeSpan									{ color: #ff7e00; }
-		.boldSpan									{ font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-weight: normal; }
-		
-		.contentBackground							{ background-image: url(../images/trs-bg-texture.jpg); background-repeat: repeat; background-position: left top;
-													  background-size: 400px auto; -webkit-background-size: 400px auto; -moz-background-size: 400px auto; }
-		.headerContainer							{ width: 702px; float: left; margin: 10px 0px 30px 0px; }
-		.logo										{ float: left; margin: 14px 0px 0px 0px; }
-		.logo img									{ float: left; width: 71px; height: auto; }
-		.logo h1								    { font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-weight: normal; font-size: 24px; line-height: 24px; color: #fff; text-shadow: 0px 0px 5px #000; text-transform: uppercase; letter-spacing: 1px; 
-												      margin: 0px 0px 0px 84px; padding: 20px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.logo h2									{ font-family: 'PlutoSansLight', sans-serif; font-style: italic; font-size: 11px; font-weight: 300; color: #ff7e00; letter-spacing: 1px; 
-												      margin: 0px 0px 0px 86px; padding: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.addThis									{ float: right; margin: 0px 0px 0px 150px; }
-		.shop										{ float: right; margin: 5px -5px 0px 0px; }
-		.shopText									{ float: left; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 18px; line-height: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px;
-												      margin: 0px 0px 0px 0px; padding: 13px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.shop img									{ float: right; width: 42px; height: auto; }
-
-		.subHeadline								{ width: 702px; float: left; background-color: #ff7e00; text-align: center; }
-		.subHeadline h2								{ font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 23px; line-height: 20px; color: #fff; text-transform: uppercase;
-												      margin: 0px 0px 0px 0px; padding: 11px 0px 8px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.mainHeadline								{ width: 702px; float: left; text-align: center; border-top: 1px solid #555555; border-bottom: 1px solid #555555; margin: 10px 0px 0px 0px;
-													  background-image: url(../images/bg-h1.png); background-repeat: repeat-y; background-position: center top; }
-		.mainHeadline h1							{ font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-weight: normal; font-size: 101px; line-height: 82px; color: #fff; text-transform: uppercase;
-												      margin: 0px 0px 0px 0px; padding: 12px 0px 2px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }			
-		.subSubHeadline								{ width: 702px; float: left; text-align: center; margin: 10px 0px 0px 0px; }
-		.subSubHeadline h3							{ font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px; color: #898989; text-transform: uppercase;
-												      margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		
-		.promos										{ width: 702px; float: left; margin: 30px 0px 0px 0px; } 
-		.feature 									{ width: 340px; height: 310px; float: left; box-shadow: 0px 0px 10px #000; }
-		#feature1 									{ background: url(../images/feat1.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 20px 20px 0px; }
-		#feature2 									{ background: url(../images/feat2.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 0px 20px 0px; }
-		#feature3 									{ background: url(../images/feat3.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 20px 20px 0px; }
-		#feature4 									{ background: url(../images/feat4.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 0px 20px 0px; }
-		.featTitle 									{ float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-weight: normal; font-size: 26px; line-height: 27px; color: #fff; text-transform: uppercase;
-													  margin: 160px 0px 0px 0px; padding: 0px 0px 0px 20px; }
-		.featCopy 									{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-weight: normal; font-style: normal; font-size: 13px; line-height: 15px; color: #b7b7b7;
-													  margin: 5px 0px 10px 0px; padding: 0px 20px 0px 20px; }
-		
-		.footerContainer							{ width: 702px; height: 205px; float: left; margin: 40px 0px 10px 0px; text-align: center;
-													  background-image: url(../images/bg-footer2x.png); background-repeat: no-repeat; background-position: center top;
-													  background-size: 702px auto; -webkit-background-size: 702px auto; -moz-background-size: 702px auto; }
-		.footerContainer img						{ width: 77px; height: auto; float: left;  margin: -25px 0px 0px 312px; }
-		.footerCopy1								{ width: 380px; float: left; text-align: center; border-bottom: 1px solid #555555; 
-													  font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px; color: #fff; text-transform: uppercase;
-												      margin: 0px 0px 0px 160px; padding: 15px 0px 10px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.footerCopy2								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 20px; color: #898989; text-transform: uppercase;
-												      margin: 0px 0px 0px 145px; padding: 10px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.footerCopy2 a								{ color: #ff7e00; }
-		.footerCopy3								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 20px; color: #898989; text-transform: uppercase;
-												      margin: 0px 0px 0px 310px; padding: 10px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.footerCopy3 a								{ color: #898989; }
-
-
+.topBackground { height: 20px; background-image: url(../images/bg-top.png); background-repeat: repeat-x; background-position: left top; }
+.ensureNote { float: right; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 10px; line-height: 20px; color: #bbb; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.whiteSpan { color: #fff; }
+.whiteSpan2 { color: #fff; line-height: 36px; }
+.orangeSpan { color: #ff7e00; }
+.boldSpan { font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-weight: normal; }
+.contentBackground { background-image: url(../images/trs-bg-texture.jpg); background-repeat: repeat; background-position: left top; background-size: 400px auto; -webkit-background-size: 400px auto; -moz-background-size: 400px auto; }
+.headerContainer { width: 702px; float: left; margin: 10px 0px 30px 0px; }
+.logo { float: left; margin: 14px 0px 0px 0px; }
+.logo img { float: left; width: 71px; height: auto; }
+.logo h1 { font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-weight: normal; font-size: 24px; line-height: 24px; color: #fff; text-shadow: 0px 0px 5px #000; text-transform: uppercase; letter-spacing: 1px; margin: 0px 0px 0px 84px; padding: 20px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.logo h2 { font-family: 'PlutoSansLight', sans-serif; font-style: italic; font-size: 11px; font-weight: 300; color: #ff7e00; letter-spacing: 1px; margin: 0px 0px 0px 86px; padding: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.addThis { float: right; margin: 0px 0px 0px 150px; }
+.shop { float: right; margin: 5px -5px 0px 0px; }
+.shopText { float: left; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 18px; line-height: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; margin: 0px 0px 0px 0px; padding: 13px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.shop img { float: right; width: 42px; height: auto; }
+.subHeadline { width: 702px; float: left; background-color: #ff7e00; text-align: center; }
+.subHeadline h2 { font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 23px; line-height: 20px; color: #fff; text-transform: uppercase; margin: 0px 0px 0px 0px; padding: 11px 0px 8px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.mainHeadline { width: 702px; float: left; text-align: center; border-top: 1px solid #555555; border-bottom: 1px solid #555555; margin: 10px 0px 0px 0px; background-image: url(../images/bg-h1.png); background-repeat: repeat-y; background-position: center top; }
+.mainHeadline h1 { font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-weight: normal; font-size: 101px; line-height: 82px; color: #fff; text-transform: uppercase; margin: 0px 0px 0px 0px; padding: 12px 0px 2px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.subSubHeadline { width: 702px; float: left; text-align: center; margin: 10px 0px 0px 0px; }
+.subSubHeadline h3 { font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px; color: #898989; text-transform: uppercase; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.promos { width: 702px; float: left; margin: 30px 0px 0px 0px; }
+.feature { width: 340px; height: 310px; float: left; box-shadow: 0px 0px 10px #000; }
+#feature1 { background: url(../images/feat1.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 20px 20px 0px; }
+#feature2 { background: url(../images/feat2.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 0px 20px 0px; }
+#feature3 { background: url(../images/feat3.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 20px 20px 0px; }
+#feature4 { background: url(../images/feat4.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 0px 20px 0px; }
+.featTitle { float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-weight: normal; font-size: 26px; line-height: 27px; color: #fff; text-transform: uppercase; margin: 160px 0px 0px 0px; padding: 0px 0px 0px 20px; }
+.featCopy { float: left; font-family: 'PlutoSansRegular', sans-serif; font-weight: normal; font-style: normal; font-size: 13px; line-height: 15px; color: #b7b7b7; margin: 5px 0px 10px 0px; padding: 0px 20px 0px 20px; }
+.footerContainer { width: 702px; height: 205px; float: left; margin: 40px 0px 10px 0px; text-align: center; background-image: url(../images/bg-footer2x.png); background-repeat: no-repeat; background-position: center top; background-size: 702px auto; -webkit-background-size: 702px auto; -moz-background-size: 702px auto; }
+.footerContainer img { width: 77px; height: auto; float: left; margin: -25px 0px 0px 312px; }
+.footerCopy1 { width: 380px; float: left; text-align: center; border-bottom: 1px solid #555555; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px; color: #fff; text-transform: uppercase; margin: 0px 0px 0px 160px; padding: 15px 0px 10px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy2 { float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 20px; color: #898989; text-transform: uppercase; margin: 0px 0px 0px 145px; padding: 10px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy2 a { color: #ff7e00; }
+.footerCopy3 { float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 20px; color: #898989; text-transform: uppercase; margin: 0px 0px 0px 310px; padding: 10px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy3 a { color: #898989; }
 /* @license
- * MyFonts Webfont Build ID 2331401, 2012-07-26T21:05:17-0400
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
- * 
- * You may obtain a valid license at the URLs below.
- * 
- * Webfont: Pluto Sans Regular by HVD Fonts
- * URL: http://www.myfonts.com/fonts/hvdfonts/pluto-sans/regular/
- * Licensed pageviews: 10,000
- * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=2331401
- * Webfonts copyright: Copyright (c) 2012 by Hannes von Doehren. All rights reserved.
- * 
- * © 2012 Bitstream Inc
-*/
-
-  
- @font-face {font-family: 'PlutoSansRegular';src: url('../fonts/239309_0_0.eot');src: url('../fonts/239309_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/239309_0_0.woff') format('woff'),url('../fonts/239309_0_0.ttf') format('truetype');}
- 
-  
- @font-face {font-family: 'PlutoSansBold';src: url('../fonts/239309_1_0.eot');src: url('../fonts/239309_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/239309_1_0.woff') format('woff'),url('../fonts/239309_1_0.ttf') format('truetype');}
- 
-  
- @font-face {font-family: 'PlutoSansBlack';src: url('../fonts/239309_2_0.eot');src: url('../fonts/239309_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/239309_2_0.woff') format('woff'),url('../fonts/239309_2_0.ttf') format('truetype');}
- 
-  
- @font-face {font-family: 'PlutoSansExtraLight';src: url('../fonts/239309_B_0.eot');src: url('../fonts/239309_B_0.eot?#iefix') format('embedded-opentype'),url('../fonts/239309_B_0.woff') format('woff'),url('../fonts/239309_B_0.ttf') format('truetype');}
- 
-  
- @font-face {font-family: 'PlutoSansHeavy';src: url('../fonts/239309_C_0.eot');src: url('../fonts/239309_C_0.eot?#iefix') format('embedded-opentype'),url('../fonts/239309_C_0.woff') format('woff'),url('../fonts/239309_C_0.ttf') format('truetype');}
- 
-  
- @font-face {font-family: 'PlutoSansLight';src: url('../fonts/239309_D_0.eot');src: url('../fonts/239309_D_0.eot?#iefix') format('embedded-opentype'),url('../fonts/239309_D_0.woff') format('woff'),url('../fonts/239309_D_0.ttf') format('truetype');}
- 
-  
- @font-face {font-family: 'PlutoSansMedium';src: url('../fonts/239309_E_0.eot');src: url('../fonts/239309_E_0.eot?#iefix') format('embedded-opentype'),url('../fonts/239309_E_0.woff') format('woff'),url('../fonts/239309_E_0.ttf') format('truetype');}
- 
-  
- @font-face {font-family: 'PlutoSansThin';src: url('../fonts/239309_F_0.eot');src: url('../fonts/239309_F_0.eot?#iefix') format('embedded-opentype'),url('../fonts/239309_F_0.woff') format('woff'),url('../fonts/239309_F_0.ttf') format('truetype');}
- 
- 
- @font-face {font-family: 'PlutoSansCondBlack';src: url('../fonts/239309_3_0.eot');src: url('../fonts/239309_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/239309_3_0.woff') format('woff'),url('../fonts/239309_3_0.ttf') format('truetype');}
- 
-  
- @font-face {font-family: 'PlutoSansCondBold';src: url('../fonts/239309_4_0.eot');src: url('../fonts/239309_4_0.eot?#iefix') format('embedded-opentype'),url('../fonts/239309_4_0.woff') format('woff'),url('../fonts/239309_4_0.ttf') format('truetype');}
- 
-  
- @font-face {font-family: 'PlutoSansCondExLight';src: url('../fonts/239309_5_0.eot');src: url('../fonts/239309_5_0.eot?#iefix') format('embedded-opentype'),url('../fonts/239309_5_0.woff') format('woff'),url('../fonts/239309_5_0.ttf') format('truetype');}
- 
-  
- @font-face {font-family: 'PlutoSansCondHeavy';src: url('../fonts/239309_6_0.eot');src: url('../fonts/239309_6_0.eot?#iefix') format('embedded-opentype'),url('../fonts/239309_6_0.woff') format('woff'),url('../fonts/239309_6_0.ttf') format('truetype');}
- 
-  
- @font-face {font-family: 'PlutoSansCondLight';src: url('../fonts/239309_7_0.eot');src: url('../fonts/239309_7_0.eot?#iefix') format('embedded-opentype'),url('../fonts/239309_7_0.woff') format('woff'),url('../fonts/239309_7_0.ttf') format('truetype');}
- 
-  
- @font-face {font-family: 'PlutoSansCondMedium';src: url('../fonts/239309_8_0.eot');src: url('../fonts/239309_8_0.eot?#iefix') format('embedded-opentype'),url('../fonts/239309_8_0.woff') format('woff'),url('../fonts/239309_8_0.ttf') format('truetype');}
- 
-  
- @font-face {font-family: 'PlutoSansCondRegular';src: url('../fonts/239309_9_0.eot');src: url('../fonts/239309_9_0.eot?#iefix') format('embedded-opentype'),url('../fonts/239309_9_0.woff') format('woff'),url('../fonts/239309_9_0.ttf') format('truetype');}
- 
-  
- @font-face {font-family: 'PlutoSansCondThin';src: url('../fonts/239309_A_0.eot');src: url('../fonts/239309_A_0.eot?#iefix') format('embedded-opentype'),url('../fonts/239309_A_0.woff') format('woff'),url('../fonts/239309_A_0.ttf') format('truetype');}
-	 
-
+* MyFonts Webfont Build ID 2331401, 2012-07-26T21:05:17-0400
+*
+* The fonts listed in this notice are subject to the End User License
+* Agreement(s) entered into by the website owner. All other parties are
+* explicitly restricted from using the Licensed Webfonts(s).
+*
+* You may obtain a valid license at the URLs below.
+*
+* Webfont:Pluto Sans Regular by HVD Fonts
+* URL:http://www.myfonts.com/fonts/hvdfonts/pluto-sans/regular/
+* Licensed pageviews:10, 000
+*
+* License:http://www.myfonts.com/viewlicense?type=web&buildid=2331401
+* Webfonts copyright:Copyright (c) 2012 by Hannes von Doehren. All rights reserved.
+*
+* © 2012 Bitstream Inc */
+@font-face { font-family: 'PlutoSansRegular'; src: url('../fonts/239309_0_0.eot'); src: url('../fonts/239309_0_0.eot?#iefix') format('embedded-opentype'), url('../fonts/239309_0_0.woff') format('woff'), url('../fonts/239309_0_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansBold'; src: url('../fonts/239309_1_0.eot'); src: url('../fonts/239309_1_0.eot?#iefix') format('embedded-opentype'), url('../fonts/239309_1_0.woff') format('woff'), url('../fonts/239309_1_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansBlack'; src: url('../fonts/239309_2_0.eot'); src: url('../fonts/239309_2_0.eot?#iefix') format('embedded-opentype'), url('../fonts/239309_2_0.woff') format('woff'), url('../fonts/239309_2_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansExtraLight'; src: url('../fonts/239309_B_0.eot'); src: url('../fonts/239309_B_0.eot?#iefix') format('embedded-opentype'), url('../fonts/239309_B_0.woff') format('woff'), url('../fonts/239309_B_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansHeavy'; src: url('../fonts/239309_C_0.eot'); src: url('../fonts/239309_C_0.eot?#iefix') format('embedded-opentype'), url('../fonts/239309_C_0.woff') format('woff'), url('../fonts/239309_C_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansLight'; src: url('../fonts/239309_D_0.eot'); src: url('../fonts/239309_D_0.eot?#iefix') format('embedded-opentype'), url('../fonts/239309_D_0.woff') format('woff'), url('../fonts/239309_D_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansMedium'; src: url('../fonts/239309_E_0.eot'); src: url('../fonts/239309_E_0.eot?#iefix') format('embedded-opentype'), url('../fonts/239309_E_0.woff') format('woff'), url('../fonts/239309_E_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansThin'; src: url('../fonts/239309_F_0.eot'); src: url('../fonts/239309_F_0.eot?#iefix') format('embedded-opentype'), url('../fonts/239309_F_0.woff') format('woff'), url('../fonts/239309_F_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansCondBlack'; src: url('../fonts/239309_3_0.eot'); src: url('../fonts/239309_3_0.eot?#iefix') format('embedded-opentype'), url('../fonts/239309_3_0.woff') format('woff'), url('../fonts/239309_3_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansCondBold'; src: url('../fonts/239309_4_0.eot'); src: url('../fonts/239309_4_0.eot?#iefix') format('embedded-opentype'), url('../fonts/239309_4_0.woff') format('woff'), url('../fonts/239309_4_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansCondExLight'; src: url('../fonts/239309_5_0.eot'); src: url('../fonts/239309_5_0.eot?#iefix') format('embedded-opentype'), url('../fonts/239309_5_0.woff') format('woff'), url('../fonts/239309_5_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansCondHeavy'; src: url('../fonts/239309_6_0.eot'); src: url('../fonts/239309_6_0.eot?#iefix') format('embedded-opentype'), url('../fonts/239309_6_0.woff') format('woff'), url('../fonts/239309_6_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansCondLight'; src: url('../fonts/239309_7_0.eot'); src: url('../fonts/239309_7_0.eot?#iefix') format('embedded-opentype'), url('../fonts/239309_7_0.woff') format('woff'), url('../fonts/239309_7_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansCondMedium'; src: url('../fonts/239309_8_0.eot'); src: url('../fonts/239309_8_0.eot?#iefix') format('embedded-opentype'), url('../fonts/239309_8_0.woff') format('woff'), url('../fonts/239309_8_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansCondRegular'; src: url('../fonts/239309_9_0.eot'); src: url('../fonts/239309_9_0.eot?#iefix') format('embedded-opentype'), url('../fonts/239309_9_0.woff') format('woff'), url('../fonts/239309_9_0.ttf') format('truetype'); }
+@font-face { font-family: 'PlutoSansCondThin'; src: url('../fonts/239309_A_0.eot'); src: url('../fonts/239309_A_0.eot?#iefix') format('embedded-opentype'), url('../fonts/239309_A_0.woff') format('woff'), url('../fonts/239309_A_0.ttf') format('truetype'); }
 /* #Mobile (Landscape)
 ==================================================
 ==================================================
 ================================================== */
+/* Note:Design for a width of 480px */
 
-   
-   
-/* Note: Design for a width of 480px */
-
-    @media only screen and (min-width: 480px) and (max-width: 767px) {
-         body {-webkit-text-size-adjust:none;}
-		.container { width: 460px; }
-        .columns, .column { margin: 0; }
-
-        .container .sixteen.columns,
-        .container .one-third.column,
-        .container .two-thirds.column { width: 460px; }
-		.container .one-half.column   { width: 460px; }
-	
-		.section					  { width: 460px; float: left; }
-		
-		/* Global Hide */
-	 	#mobile-only				  { display: block; }
-		#global-hide				  { display: none; }
-		#global-hide480				  { display: none; }
-		
-		
+@media only screen and (min-width:480px) and (max-width:767px) {
+body { -webkit-text-size-adjust: none; }
+.container { width: 460px; }
+.columns, .column { margin: 0; }
+.container .sixteen.columns, .container .one-third.column, .container .two-thirds.column { width: 460px; }
+.container .one-half.column { width: 460px; }
+.section { width: 460px; float: left; }
+/* Global Hide */
+#mobile-only { display: block; }
+#global-hide { display: none; }
+#global-hide480 { display: none; }
 /* Specific Styles for this Screen ====================================================================================================================================================== */
-
-		.topBackground								{ height: 30px; background-color: #53514d; background-image: url(../images/bg-top.png); background-repeat: repeat-x; background-position: left bottom; }
-	    .ensureNote	 								{ float: right; width: 390px; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 9px; line-height: 10px; color: #bbb; text-align: right;
-												      margin: 0px 0px 0px 0px; padding: 5px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.whiteSpan									{ color: #fff; }
-		.whiteSpan2									{ color: #fff; line-height: 36px; }
-		.orangeSpan									{ color: #ff7e00; }
-		.boldSpan									{ font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-weight: normal; }
-		
-		.contentBackground							{ background-image: url(../images/trs-bg-texture.jpg); background-repeat: repeat; background-position: left top;
-													  background-size: 400px auto; -webkit-background-size: 400px auto; -moz-background-size: 400px auto; }
-		.headerContainer							{ width: 460px; float: left; margin: 10px 0px 20px 0px; }
-		.logo										{ float: left; margin: 14px 0px 0px 0px; }
-		.logo img									{ float: left; width: 71px; height: auto; }
-		.logo h1								    { font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-weight: normal; font-size: 20px; line-height: 20px; color: #fff; text-shadow: 0px 0px 5px #000; text-transform: uppercase; letter-spacing: 1px; 
-												      margin: 0px 0px 0px 84px; padding: 24px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.logo h2									{ font-family: 'PlutoSansLight', sans-serif; font-style: italic; font-size: 11px; font-weight: 300; color: #ff7e00; letter-spacing: 1px; 
-												      margin: 0px 0px 0px 86px; padding: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.addThis									{ float: right; margin: 0px 0px 0px 0px; }
-		.shop										{ float: right; margin: 5px -5px 0px 0px; }
-		.shopText									{ float: left; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 18px; line-height: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px;
-												      margin: 0px 0px 0px 0px; padding: 13px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.shop img									{ float: right; width: 42px; height: auto; }
-
-		.subHeadline								{ width: 460px; float: left; background-color: #ff7e00; text-align: center; }
-		.subHeadline h2								{ font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 15px; line-height: 20px; color: #fff; text-transform: uppercase;
-												      margin: 0px 0px 0px 0px; padding: 8px 0px 6px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.mainHeadline								{ width: 460px; float: left; text-align: center; border-top: 1px solid #555555; border-bottom: 1px solid #555555; margin: 10px 0px 0px 0px;
-													  background-image: url(../images/bg-h1.png); background-repeat: repeat-y; background-position: center top;
-													  background-size: 460px 1px; -webkit-background-size: 460px 1px; -moz-background-size: 460px 1px; }
-		.mainHeadline h1							{ font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-weight: normal; font-size: 66px; line-height: 55px; color: #fff; text-transform: uppercase;
-												      margin: 0px 0px 0px 0px; padding: 12px 0px 2px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }			
-		.subSubHeadline								{ width: 460px; float: left; text-align: center; margin: 10px 0px 0px 0px; }
-		.subSubHeadline h3							{ font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 13px; line-height: 20px; color: #898989; text-transform: uppercase;
-												      margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		
-		.promos										{ width: 460px; float: left; margin: 20px 0px 0px 0px; } 
-		.feature 									{ width: 220px; height: 310px; float: left; box-shadow: 0px 0px 10px #000; }
-		#feature1 									{ background: url(../images/feat1.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 20px 20px 0px; }
-		#feature2 									{ background: url(../images/feat2.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 0px 20px 0px; }
-		#feature3 									{ background: url(../images/feat3.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 20px 20px 0px; }
-		#feature4 									{ background: url(../images/feat4.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 0px 20px 0px; }
-		.featTitle 									{ float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-weight: normal; font-size: 17px; line-height: 20px; color: #fff; text-transform: uppercase;
-													  margin: 175px 0px 0px 0px; padding: 0px 0px 0px 10px; }
-		.featCopy 									{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-weight: normal; font-style: normal; font-size: 11px; line-height: 15px; color: #b7b7b7;
-													  margin: 5px 0px 10px 0px; padding: 0px 20px 0px 10px; }
-		
-		.footerContainer							{ width: 460px; height: 205px; float: left; margin: 30px 0px 10px 0px; text-align: center;
-													  background-image: url(../images/bg-footer2x.png); background-repeat: no-repeat; background-position: center top;
-													  background-size: 702px auto; -webkit-background-size: 702px auto; -moz-background-size: 702px auto; }
-		.footerContainer img						{ width: 77px; height: auto; float: left;  margin: -25px 0px 0px 193px; }
-		.footerCopy1								{ width: 380px; float: left; text-align: center; border-bottom: 1px solid #555555; 
-													  font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px; color: #fff; text-transform: uppercase;
-												      margin: 0px 0px 0px 40px; padding: 15px 0px 10px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.footerCopy2								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 20px; color: #898989; text-transform: uppercase;
-												      margin: 0px 0px 0px 25px; padding: 10px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.footerCopy2 a								{ color: #ff7e00; }
-		.footerCopy3								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 20px; color: #898989; text-transform: uppercase;
-												      margin: 0px 0px 0px 190px; padding: 10px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.footerCopy3 a								{ color: #898989; }
-		 
-	}
-	
-	/*  #Mobile (Portrait)
+.topBackground { height: 30px; background-color: #53514d; background-image: url(../images/bg-top.png); background-repeat: repeat-x; background-position: left bottom; }
+.ensureNote { float: right; width: 390px; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 9px; line-height: 10px; color: #bbb; text-align: right; margin: 0px 0px 0px 0px; padding: 5px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.whiteSpan { color: #fff; }
+.whiteSpan2 { color: #fff; line-height: 36px; }
+.orangeSpan { color: #ff7e00; }
+.boldSpan { font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-weight: normal; }
+.contentBackground { background-image: url(../images/trs-bg-texture.jpg); background-repeat: repeat; background-position: left top; background-size: 400px auto; -webkit-background-size: 400px auto; -moz-background-size: 400px auto; }
+.headerContainer { width: 460px; float: left; margin: 10px 0px 20px 0px; }
+.logo { float: left; margin: 14px 0px 0px 0px; }
+.logo img { float: left; width: 71px; height: auto; }
+.logo h1 { font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-weight: normal; font-size: 20px; line-height: 20px; color: #fff; text-shadow: 0px 0px 5px #000; text-transform: uppercase; letter-spacing: 1px; margin: 0px 0px 0px 84px; padding: 24px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.logo h2 { font-family: 'PlutoSansLight', sans-serif; font-style: italic; font-size: 11px; font-weight: 300; color: #ff7e00; letter-spacing: 1px; margin: 0px 0px 0px 86px; padding: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.addThis { float: right; margin: 0px 0px 0px 0px; }
+.shop { float: right; margin: 5px -5px 0px 0px; }
+.shopText { float: left; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 18px; line-height: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; margin: 0px 0px 0px 0px; padding: 13px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.shop img { float: right; width: 42px; height: auto; }
+.subHeadline { width: 460px; float: left; background-color: #ff7e00; text-align: center; }
+.subHeadline h2 { font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 15px; line-height: 20px; color: #fff; text-transform: uppercase; margin: 0px 0px 0px 0px; padding: 8px 0px 6px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.mainHeadline { width: 460px; float: left; text-align: center; border-top: 1px solid #555555; border-bottom: 1px solid #555555; margin: 10px 0px 0px 0px; background-image: url(../images/bg-h1.png); background-repeat: repeat-y; background-position: center top; background-size: 460px 1px; -webkit-background-size: 460px 1px; -moz-background-size: 460px 1px; }
+.mainHeadline h1 { font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-weight: normal; font-size: 66px; line-height: 55px; color: #fff; text-transform: uppercase; margin: 0px 0px 0px 0px; padding: 12px 0px 2px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.subSubHeadline { width: 460px; float: left; text-align: center; margin: 10px 0px 0px 0px; }
+.subSubHeadline h3 { font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 13px; line-height: 20px; color: #898989; text-transform: uppercase; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.promos { width: 460px; float: left; margin: 20px 0px 0px 0px; }
+.feature { width: 220px; height: 310px; float: left; box-shadow: 0px 0px 10px #000; }
+#feature1 { background: url(../images/feat1.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 20px 20px 0px; }
+#feature2 { background: url(../images/feat2.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 0px 20px 0px; }
+#feature3 { background: url(../images/feat3.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 20px 20px 0px; }
+#feature4 { background: url(../images/feat4.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 0px 20px 0px; }
+.featTitle { float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-weight: normal; font-size: 17px; line-height: 20px; color: #fff; text-transform: uppercase; margin: 175px 0px 0px 0px; padding: 0px 0px 0px 10px; }
+.featCopy { float: left; font-family: 'PlutoSansRegular', sans-serif; font-weight: normal; font-style: normal; font-size: 11px; line-height: 15px; color: #b7b7b7; margin: 5px 0px 10px 0px; padding: 0px 20px 0px 10px; }
+.footerContainer { width: 460px; height: 205px; float: left; margin: 30px 0px 10px 0px; text-align: center; background-image: url(../images/bg-footer2x.png); background-repeat: no-repeat; background-position: center top; background-size: 702px auto; -webkit-background-size: 702px auto; -moz-background-size: 702px auto; }
+.footerContainer img { width: 77px; height: auto; float: left; margin: -25px 0px 0px 193px; }
+.footerCopy1 { width: 380px; float: left; text-align: center; border-bottom: 1px solid #555555; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px; color: #fff; text-transform: uppercase; margin: 0px 0px 0px 40px; padding: 15px 0px 10px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy2 { float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 20px; color: #898989; text-transform: uppercase; margin: 0px 0px 0px 25px; padding: 10px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy2 a { color: #ff7e00; }
+.footerCopy3 { float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 20px; color: #898989; text-transform: uppercase; margin: 0px 0px 0px 190px; padding: 10px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy3 a { color: #898989; }
+}
+/* #Mobile (Portrait)
 ==================================================
 ==================================================
 ================================================== */
+/* Note:Design for a width of 320px */
 
-    
-	
-/* Note: Design for a width of 320px */
-
-    @media only screen and (min-width: 320px) and (max-width: 479px) {
-        .container { width: 300px; }
-        .columns, .column { margin: 0; }
-
-        .container .sixteen.columns,
-        .container .one-third.column,
-        .container .two-thirds.column  { width: 300px; }
-		.container .one-half.column    { width: 300px; }
-	
-		.section					  { width: 300px; float: left; }
-		
-		/* Global Hide */
-	 	#mobile-only				   { display: block; }
-		#global-hide				   { display: none; }
-		#global-hide480				   { display: none; }
-		#global-hide320				   { display: none; }
-		
+@media only screen and (min-width:320px) and (max-width:479px) {
+.container { width: 300px; }
+.columns, .column { margin: 0; }
+.container .sixteen.columns, .container .one-third.column, .container .two-thirds.column { width: 300px; }
+.container .one-half.column { width: 300px; }
+.section { width: 300px; float: left; }
+/* Global Hide */
+#mobile-only { display: block; }
+#global-hide { display: none; }
+#global-hide480 { display: none; }
+#global-hide320 { display: none; }
 /* Specific Styles for this Screen ====================================================================================================================================================== */
-
-	    .topBackground								{ height: 30px; background-color: #53514d; background-image: url(../images/bg-top.png); background-repeat: repeat-x; background-position: left bottom; }
-	    .ensureNote	 								{ float: right; width: 300px; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 9px; line-height: 10px; color: #bbb; text-align: right;
-												      margin: 0px 0px 0px 0px; padding: 5px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.whiteSpan									{ color: #fff; }
-		.whiteSpan2									{ color: #fff; line-height: 36px; font-size: 10px; }
-		.orangeSpan									{ color: #ff7e00; }
-		.boldSpan									{ font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-weight: normal; }
-		.sizeSpan									{ font-size: 100px; line-height: 80px; }
-		
-		.contentBackground							{ background-image: url(../images/trs-bg-texture.jpg); background-repeat: repeat; background-position: left top;
-													  background-size: 400px auto; -webkit-background-size: 400px auto; -moz-background-size: 400px auto; }
-		.headerContainer							{ width: 300px; float: left; margin: 10px 0px 20px 0px; }
-		.logo										{ float: left; margin: 20px 0px 0px 0px; }
-		.logo img									{ float: left; width: 71px; height: auto; }
-		.logo h1								    { font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 18px; color: #fff; text-shadow: 0px 0px 5px #000; text-transform: uppercase; letter-spacing: 1px; 
-												      margin: 0px 0px 0px 80px; padding: 24px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.logo h2									{ font-family: 'PlutoSansRegular', sans-serif; font-style: italic; font-size: 10px; font-weight: 300; color: #ff7e00; letter-spacing: 1px; 
-												      margin: 0px 0px 0px 82px; padding: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.addThis									{ float: right; margin: -100px 0px 0px 0px; }
-		.shop										{ float: right; margin: 5px -5px 0px 0px; }
-		.shopText									{ float: left; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 18px; line-height: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px;
-												      margin: 0px 0px 0px 0px; padding: 13px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.shop img									{ float: right; width: 42px; height: auto; }
-
-		.subHeadline								{ width: 300px; float: left; background-color: #ff7e00; text-align: center; }
-		.subHeadline h2								{ font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase;
-												      margin: 0px 0px 0px 0px; padding: 6px 0px 4px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.mainHeadline								{ width: 300px; float: left; text-align: center; border-top: 1px solid #555555; border-bottom: 1px solid #555555; margin: 10px 0px 0px 0px;
-													  background-image: url(../images/bg-h1.png); background-repeat: repeat-y; background-position: center top;
-													  background-size: 300px 1px; -webkit-background-size: 300px 1px; -moz-background-size: 300px 1px; }
-		.mainHeadline h1							{ font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-weight: normal; font-size: 80px; line-height: 67px; color: #fff; text-transform: uppercase;
-												      margin: 0px 0px 0px 0px; padding: 12px 0px 5px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }			
-		.subSubHeadline								{ width: 300px; float: left; text-align: center; margin: 10px 0px 0px 0px; }
-		.subSubHeadline h3							{ font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 17px; color: #898989; text-transform: uppercase;
-												      margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		
-		.promos										{ width: 300px; float: left; margin: 10px 0px 0px 0px; } 
-		.feature 									{ width: 300px; height: 310px; float: left; box-shadow: 0px 0px 10px #000; }
-		#feature1 									{ background: url(../images/feat1.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 0px 20px 0px; }
-		#feature2 									{ background: url(../images/feat2.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 0px 20px 0px; }
-		#feature3 									{ background: url(../images/feat3.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 0px 20px 0px; }
-		#feature4 									{ background: url(../images/feat4.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 0px 20px 0px; }
-		.featTitle 									{ float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-weight: normal; font-size: 23px; line-height: 24px; color: #fff; text-transform: uppercase;
-													  margin: 170px 0px 0px 0px; padding: 0px 0px 0px 15px; }
-		.featCopy 									{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-weight: normal; font-style: normal; font-size: 13px; line-height: 15px; color: #b7b7b7;
-													  margin: 5px 0px 10px 0px; padding: 0px 15px 0px 15px; }
-		
-		.footerContainer							{ width: 300px; height: 205px; float: left; margin: 20px 0px 10px 0px; text-align: center;
-													  background-image: url(../images/bg-footer2x.png); background-repeat: no-repeat; background-position: center top;
-													  background-size: 702px auto; -webkit-background-size: 702px auto; -moz-background-size: 702px auto; }
-		.footerContainer img						{ width: 77px; height: auto; float: left;  margin: -25px 0px 0px 112px; }
-		.footerCopy1								{ width: 280px; float: left; text-align: center; border-bottom: 1px solid #555555; 
-													  font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 13px; line-height: 13px; color: #fff; text-transform: uppercase;
-												      margin: 0px 0px 0px 10px; padding: 15px 0px 10px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.footerCopy2								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 20px; color: #898989; text-transform: uppercase;
-												      margin: 0px 0px 0px 0px; padding: 10px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.footerCopy2 a								{ color: #ff7e00; }
-		.footerCopy3								{ float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 10px; line-height: 20px; color: #898989; text-transform: uppercase;
-												      margin: 0px 0px 0px 114px; padding: 10px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
-		.footerCopy3 a								{ color: #898989; }
-		
-	}
-
+.topBackground { height: 30px; background-color: #53514d; background-image: url(../images/bg-top.png); background-repeat: repeat-x; background-position: left bottom; }
+.ensureNote { float: right; width: 300px; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-size: 9px; line-height: 10px; color: #bbb; text-align: right; margin: 0px 0px 0px 0px; padding: 5px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.whiteSpan { color: #fff; }
+.whiteSpan2 { color: #fff; line-height: 36px; font-size: 10px; }
+.orangeSpan { color: #ff7e00; }
+.boldSpan { font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-weight: normal; }
+.sizeSpan { font-size: 100px; line-height: 80px; }
+.contentBackground { background-image: url(../images/trs-bg-texture.jpg); background-repeat: repeat; background-position: left top; background-size: 400px auto; -webkit-background-size: 400px auto; -moz-background-size: 400px auto; }
+.headerContainer { width: 300px; float: left; margin: 10px 0px 20px 0px; }
+.logo { float: left; margin: 20px 0px 0px 0px; }
+.logo img { float: left; width: 71px; height: auto; }
+.logo h1 { font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 18px; color: #fff; text-shadow: 0px 0px 5px #000; text-transform: uppercase; letter-spacing: 1px; margin: 0px 0px 0px 80px; padding: 24px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.logo h2 { font-family: 'PlutoSansRegular', sans-serif; font-style: italic; font-size: 10px; font-weight: 300; color: #ff7e00; letter-spacing: 1px; margin: 0px 0px 0px 82px; padding: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.addThis { float: right; margin: -100px 0px 0px 0px; }
+.shop { float: right; margin: 5px -5px 0px 0px; }
+.shopText { float: left; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 18px; line-height: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; margin: 0px 0px 0px 0px; padding: 13px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.shop img { float: right; width: 42px; height: auto; }
+.subHeadline { width: 300px; float: left; background-color: #ff7e00; text-align: center; }
+.subHeadline h2 { font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase; margin: 0px 0px 0px 0px; padding: 6px 0px 4px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.mainHeadline { width: 300px; float: left; text-align: center; border-top: 1px solid #555555; border-bottom: 1px solid #555555; margin: 10px 0px 0px 0px; background-image: url(../images/bg-h1.png); background-repeat: repeat-y; background-position: center top; background-size: 300px 1px; -webkit-background-size: 300px 1px; -moz-background-size: 300px 1px; }
+.mainHeadline h1 { font-family: 'PlutoSansHeavy', sans-serif; font-style: normal; font-weight: normal; font-size: 80px; line-height: 67px; color: #fff; text-transform: uppercase; margin: 0px 0px 0px 0px; padding: 12px 0px 5px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.subSubHeadline { width: 300px; float: left; text-align: center; margin: 10px 0px 0px 0px; }
+.subSubHeadline h3 { font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 17px; color: #898989; text-transform: uppercase; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.promos { width: 300px; float: left; margin: 10px 0px 0px 0px; }
+.feature { width: 300px; height: 310px; float: left; box-shadow: 0px 0px 10px #000; }
+#feature1 { background: url(../images/feat1.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 0px 20px 0px; }
+#feature2 { background: url(../images/feat2.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 0px 20px 0px; }
+#feature3 { background: url(../images/feat3.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 0px 20px 0px; }
+#feature4 { background: url(../images/feat4.jpg); background-repeat: no-repeat; background-position: left top; overflow: hidden; margin: 0px 0px 20px 0px; }
+.featTitle { float: left; font-family: 'PlutoSansMedium', sans-serif; font-style: normal; font-weight: normal; font-size: 23px; line-height: 24px; color: #fff; text-transform: uppercase; margin: 170px 0px 0px 0px; padding: 0px 0px 0px 15px; }
+.featCopy { float: left; font-family: 'PlutoSansRegular', sans-serif; font-weight: normal; font-style: normal; font-size: 13px; line-height: 15px; color: #b7b7b7; margin: 5px 0px 10px 0px; padding: 0px 15px 0px 15px; }
+.footerContainer { width: 300px; height: 205px; float: left; margin: 20px 0px 10px 0px; text-align: center; background-image: url(../images/bg-footer2x.png); background-repeat: no-repeat; background-position: center top; background-size: 702px auto; -webkit-background-size: 702px auto; -moz-background-size: 702px auto; }
+.footerContainer img { width: 77px; height: auto; float: left; margin: -25px 0px 0px 112px; }
+.footerCopy1 { width: 280px; float: left; text-align: center; border-bottom: 1px solid #555555; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 13px; line-height: 13px; color: #fff; text-transform: uppercase; margin: 0px 0px 0px 10px; padding: 15px 0px 10px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy2 { float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 20px; color: #898989; text-transform: uppercase; margin: 0px 0px 0px 0px; padding: 10px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy2 a { color: #ff7e00; }
+.footerCopy3 { float: left; font-family: 'PlutoSansRegular', sans-serif; font-style: normal; font-weight: normal; font-size: 10px; line-height: 20px; color: #898989; text-transform: uppercase; margin: 0px 0px 0px 114px; padding: 10px 0px 0px 0px; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footerCopy3 a { color: #898989; }
+}
 /* #Clearing
 ==================================================
 ==================================================
 ================================================== */
-
-    /* Self Clearing Goodness */
-    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
-
-    /* Use clearfix class on parent to clear nested columns,
-    or wrap each row of columns in a <div class="row"> */
-    .clearfix:before,
-    .clearfix:after,
-    .row:before,
-    .row:after {
-      content: '\0020';
-      display: block;
-      overflow: hidden;
-      visibility: hidden;
-      width: 0;
-      height: 0; }
-    .row:after,
-    .clearfix:after {
-      clear: both; }
-    .row,
-    .clearfix {
-      zoom: 1; }
-
-    /* You can also use a <br class="clear" /> to clear columns */
-    .clear {
-      clear: both;
-      display: block;
-      overflow: hidden;
-      visibility: hidden;
-      width: 0;
-      height: 0;
-    }
+/* Self Clearing Goodness */
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+/* Use clearfix class on parent to clear nested columns, or wrap each row of columns in a <div class="row"> */
+.clearfix:before, .clearfix:after, .row:before, .row:after { content: '\0020'; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+.row:after, .clearfix:after { clear: both; }
+.row, .clearfix { zoom: 1; }
+/* You can also use a <br class="clear" /> to clear columns */
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }

@@ -73,7 +73,7 @@
 		/* #Global Styles
 		================================================== */
 			html, body { margin: 0px; padding: 0px; }	
-			body { background: #fff; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */ }
+			body { background: #fff; /*-webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;*/ /* Fix for webkit rendering */ }
 			@-webkit-keyframes safariSelectorFix { 0% {zoom:1;} 100% {zoom:1;} }
 			
 			.section									{ width: 940px; float: left; }
