@@ -82,7 +82,7 @@
 
                 <div class="breadCrumb-utilityContainer mobile-hide">            		
                 	<ul class="breadCrumb">
-                		<li><a href="/client/trs/index.php">Home</a></li>
+                		<li><a href="/client/TRS/index.php">Home</a></li>
                 		<li> > </li>
                 		<li><a href="#">Login</a></li>
                 	</ul>
@@ -108,7 +108,7 @@
                         <h2>Returning Customer</h2>
                         <div class="utility-sectionContent">
                             <div class="utility-form">
-                            <form id="loginForm" action="/client/trs/utility/my-account.php" method="get">
+                            <form id="loginForm" action="/client/TRS/utility/my-account.php" method="get">
                             	<span class="formError only940">-- This space is where Error Alerts will appear --</span>
                             	<div class="formFieldContainer">
                                 	<input class="general general-required" type="text" value="Email:" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />
@@ -121,7 +121,7 @@
                             	</div>
                             </form>
                             </div>
-                            <span class="formLink"><a href="/client/trs/utility/forgotpassword.php">Forgot Password</a></span>
+                            <span class="formLink"><a href="/client/TRS/utility/forgotpassword.php">Forgot Password</a></span>
                         </div>
                     </div>
                     
@@ -129,7 +129,7 @@
                         <h2>New Customer Registration</h2>
                         <div class="utility-sectionContent">
                             <div class="utility-form">
-                            <form id="registrationForm" action="/client/trs/#.php" method="get">
+                            <form id="registrationForm" action="/client/TRS/#.php" method="get">
                             	<h4>Your Account Information</h4>
                             	<div class="formFieldContainer">
                                 	<input class="general general-required" type="text" value="Email:" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />

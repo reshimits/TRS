@@ -81,11 +81,11 @@
             
             	<div class="utility-sideColContainer1">
                 	<ul class="sidebarNav">
-                		<li><a href="/client/trs/utility/our-story.php">Our Story</a></li>
-                		<li><a href="/client/trs/utility/press.php"><span class="hide460">In The </span>Press</a></li>
-                        <li><a href="/client/trs/utility/testimonials.php">Testimonials</a></li>
-                        <li class="sidebarNav-active"><a href="/client/trs/utility/store-policies.php"><span class="hide460">Store </span>Policies</a></li>
-                        <li class="sidebarNav-lastChild"><a href="/client/trs/utility/faq.php">HID FAQ</a></li>
+                		<li><a href="/client/TRS/utility/our-story.php">Our Story</a></li>
+                		<li><a href="/client/TRS/utility/press.php"><span class="hide460">In The </span>Press</a></li>
+                        <li><a href="/client/TRS/utility/testimonials.php">Testimonials</a></li>
+                        <li class="sidebarNav-active"><a href="/client/TRS/utility/store-policies.php"><span class="hide460">Store </span>Policies</a></li>
+                        <li class="sidebarNav-lastChild"><a href="/client/TRS/utility/faq.php">HID FAQ</a></li>
                 	</ul>
                 </div>    
                 
@@ -96,7 +96,7 @@
                     </div>
                     <div class="allAboutTRS-section">            		
                         <h2>Returns &amp; Exchanges</h2>
-                        <div class="generalBtn-orange"><a href="/client/trs/documents/TRS_Form-ReturnsExchanges.pdf" target="_blank"><span class="generalBtn-title">Returns/Exchanges Form</span></a></div> 
+                        <div class="generalBtn-orange"><a href="/client/TRS/documents/TRS_Form-ReturnsExchanges.pdf" target="_blank"><span class="generalBtn-title">Returns/Exchanges Form</span></a></div> 
                         	<h4>What is our return policy?</h4>
                             <p>Due to the nature of our products, TRS does not accept returns on open-box HID bulbs. Other parts may be returned if they are in like-new condition with their original unopened packaging. All returns must be made within 45 days and will be subject to a 20% restocking fee without exception. If the kit you ordered will not fit your application, we will gladly accept it back in exchange for full credit towards any other item from our store. Due to the high volume of incoming and outgoing packages each day, If no return form is included: we cannot guarantee that your return will be processed until contact is made and proof of delivery (ie tracking information) is furnished.</p>
                             

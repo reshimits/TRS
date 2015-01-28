@@ -83,7 +83,7 @@
 
                 <div class="breadCrumb-utilityContainer mobile-hide">            		
                 	<ul class="breadCrumb">
-                		<li><a href="/client/trs/index.php">Home</a></li>
+                		<li><a href="/client/TRS/index.php">Home</a></li>
                 		<li> > </li>
                 		<li><a href="#">Retrofit of the Month Project Gallery</a></li>
                 	</ul>
@@ -94,8 +94,8 @@
                 <div class="utility-tabNavContainer">
                 	<ul class="tabNav">
                 		<li class="tabNav-firstChild tabNav-active"><a href="#"><h1><span class="hide460">Retrofit of the Month</span><span class="mobile-only">ROTM</span></h1></a></li>
-                		<li class="tabNav-midChild"><a href="/client/trs/gallery/customer-projects-gallery.php"><span class="hide460">Customer </span>Projects</a></li>
-                        <li class="tabNav-lastChild"><a href="/client/trs/gallery/case-studies-gallery.php"><span class="hide460">Retrofit </span>Case Studies</a></li>
+                		<li class="tabNav-midChild"><a href="/client/TRS/gallery/customer-projects-gallery.php"><span class="hide460">Customer </span>Projects</a></li>
+                        <li class="tabNav-lastChild"><a href="/client/TRS/gallery/case-studies-gallery.php"><span class="hide460">Retrofit </span>Case Studies</a></li>
                 	</ul>
                 </div>
                 
@@ -111,11 +111,11 @@
                         <div class="rotmPreview-sectionContent">
                             <div class="rotmPreview-info"><h2>1987 Porsche 944 S2</h2></div>
                             <div class="rotmPreview-info"><h3>Ned Yuckenheimer, Atlanta GA</h3></div>
-                            <div class="generalBtn-orange"><a href="/client/trs/gallery/retrofit-of-the-month-detail.php"><span class="generalBtn-title">See the Details</span></a></div>
+                            <div class="generalBtn-orange"><a href="/client/TRS/gallery/retrofit-of-the-month-detail.php"><span class="generalBtn-title">See the Details</span></a></div>
                         </div>
                     </div>
                     <div class="rotmPreview-sectionImage">
-                        <a href="/client/trs/gallery/retrofit-of-the-month-detail.php"><img src="/client/trs/images/gallery/porsche944TEMP.jpg" alt="Retrofit of the Month: 1987 Porsche 944 S2" border="0" /></a>
+                        <a href="/client/TRS/gallery/retrofit-of-the-month-detail.php"><img src="/client/TRS/images/gallery/porsche944TEMP.jpg" alt="Retrofit of the Month: 1987 Porsche 944 S2" border="0" /></a>
                     </div>
                 </div>
                 
@@ -125,7 +125,7 @@
                     	
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/e4a7780f-cbf4-4301-aac3-3b2c93063c97-1.jpg" alt="Past ROTM: 2003 Dodge Ram Diesel" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/TRS/images/gallery/rotm/e4a7780f-cbf4-4301-aac3-3b2c93063c97-1.jpg" alt="Past ROTM: 2003 Dodge Ram Diesel" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
                                         <span class="nonProductGrid-wide-title">October 2013</span>
                                         <div class="nonProductGrid-wide-specs">
@@ -138,7 +138,7 @@
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/f35ef804-4026-47e7-bd87-bcced236c87f-1.jpg" alt="Past ROTM: 2009 Scion TC" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/TRS/images/gallery/rotm/f35ef804-4026-47e7-bd87-bcced236c87f-1.jpg" alt="Past ROTM: 2009 Scion TC" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
                                         <span class="nonProductGrid-wide-title">January 2013</span>
                                         <div class="nonProductGrid-wide-specs">
@@ -151,7 +151,7 @@
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/85b62865-9558-466b-b792-26de1b3d1519-1.jpg" alt="Past ROTM: 2013 Subaru Impreza WRX" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/TRS/images/gallery/rotm/85b62865-9558-466b-b792-26de1b3d1519-1.jpg" alt="Past ROTM: 2013 Subaru Impreza WRX" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
                                         <span class="nonProductGrid-wide-title">December 2012</span>
                                         <div class="nonProductGrid-wide-specs">
@@ -164,7 +164,7 @@
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/ae9f58b3-d445-46d1-a1df-7d6bbfd2b430-1.jpg" alt="Past ROTM: 2004 Acura RSX" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/TRS/images/gallery/rotm/ae9f58b3-d445-46d1-a1df-7d6bbfd2b430-1.jpg" alt="Past ROTM: 2004 Acura RSX" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
                                         <span class="nonProductGrid-wide-title">November 2012</span>
                                         <div class="nonProductGrid-wide-specs">
@@ -177,7 +177,7 @@
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/b1be6b75-4a6f-4cd6-9b77-9e4c25eab09a-1.jpg" alt="Past ROTM: 2012 Kia Forte Koup" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/TRS/images/gallery/rotm/b1be6b75-4a6f-4cd6-9b77-9e4c25eab09a-1.jpg" alt="Past ROTM: 2012 Kia Forte Koup" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
                                         <span class="nonProductGrid-wide-title">October 2012</span>
                                         <div class="nonProductGrid-wide-specs">
@@ -190,7 +190,7 @@
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/9d709dc9-300e-40e0-96c6-f0d79b3abedb-1.jpg" alt="Past ROTM: 2012 Kia Sorento" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/TRS/images/gallery/rotm/9d709dc9-300e-40e0-96c6-f0d79b3abedb-1.jpg" alt="Past ROTM: 2012 Kia Sorento" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
                                         <span class="nonProductGrid-wide-title">September 2012</span>
                                         <div class="nonProductGrid-wide-specs">
@@ -203,7 +203,7 @@
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/705d0d32-6dab-4ce5-9147-531aa0949e3a-1.jpg" alt="Past ROTM: 2003 Honda Accord" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/TRS/images/gallery/rotm/705d0d32-6dab-4ce5-9147-531aa0949e3a-1.jpg" alt="Past ROTM: 2003 Honda Accord" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
                                         <span class="nonProductGrid-wide-title">August 2012</span>
                                         <div class="nonProductGrid-wide-specs">
@@ -216,7 +216,7 @@
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/f16f659b-07b6-4689-8d28-bf2cf6977ffe-1.jpg" alt="Past ROTM: 2002 Subaru WRX" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/TRS/images/gallery/rotm/f16f659b-07b6-4689-8d28-bf2cf6977ffe-1.jpg" alt="Past ROTM: 2002 Subaru WRX" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
                                         <span class="nonProductGrid-wide-title">July 2012</span>
                                         <div class="nonProductGrid-wide-specs">
@@ -229,7 +229,7 @@
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/ae9f58b3-d445-46d1-a1df-7d6bbfd2b430-1.jpg" alt="Past ROTM: 2004 Acura RSX" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/TRS/images/gallery/rotm/ae9f58b3-d445-46d1-a1df-7d6bbfd2b430-1.jpg" alt="Past ROTM: 2004 Acura RSX" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
                                         <span class="nonProductGrid-wide-title">June 2012</span>
                                         <div class="nonProductGrid-wide-specs">
@@ -242,7 +242,7 @@
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/f35ef804-4026-47e7-bd87-bcced236c87f-1.jpg" alt="Past ROTM: 2009 Scion TC" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/TRS/images/gallery/rotm/f35ef804-4026-47e7-bd87-bcced236c87f-1.jpg" alt="Past ROTM: 2009 Scion TC" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
                                         <span class="nonProductGrid-wide-title">May 2012</span>
                                         <div class="nonProductGrid-wide-specs">
@@ -255,7 +255,7 @@
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/b1be6b75-4a6f-4cd6-9b77-9e4c25eab09a-1.jpg" alt="Past ROTM: 2012 Kia Forte Koup" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/TRS/images/gallery/rotm/b1be6b75-4a6f-4cd6-9b77-9e4c25eab09a-1.jpg" alt="Past ROTM: 2012 Kia Forte Koup" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
                                         <span class="nonProductGrid-wide-title">April 2012</span>
                                         <div class="nonProductGrid-wide-specs">
@@ -268,7 +268,7 @@
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <div class="nonProductGrid-wide-image"><img src="/client/trs/images/gallery/rotm/85b62865-9558-466b-b792-26de1b3d1519-1.jpg" alt="Past ROTM: 2013 Subaru Impreza WRX" border="0" /></div>
+                                    <div class="nonProductGrid-wide-image"><img src="/client/TRS/images/gallery/rotm/85b62865-9558-466b-b792-26de1b3d1519-1.jpg" alt="Past ROTM: 2013 Subaru Impreza WRX" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
                                         <span class="nonProductGrid-wide-title">March 2012</span>
                                         <div class="nonProductGrid-wide-specs">

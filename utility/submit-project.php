@@ -82,7 +82,7 @@
 
                 <div class="breadCrumb-utilityContainer mobile-hide">            		
                 	<ul class="breadCrumb">
-                		<li><a href="/client/trs/index.php">Home</a></li>
+                		<li><a href="/client/TRS/index.php">Home</a></li>
                 		<li> > </li>
                 		<li><a href="#">Login</a></li>
                 		<li> > </li>
@@ -109,10 +109,10 @@
                         <h2>My Project Details</h2>
                         <div class="utility-sectionContent">
                             <div class="utility-form">
-                            <form id="submitProjectForm" action="/client/trs/#.php" method="get">
+                            <form id="submitProjectForm" action="/client/TRS/#.php" method="get">
                             	<span class="formError only940">-- This space is where Error Alerts will appear --</span>
                             	<div class="utility-sectionContentInner">
-                                    <div class="user-avatar"><img src="/client/trs/images/user_mattKossoff-temp.jpg" alt="User Profile Picture TEMP" border="0"></div>
+                                    <div class="user-avatar"><img src="/client/TRS/images/user_mattKossoff-temp.jpg" alt="User Profile Picture TEMP" border="0"></div>
                                     <div class="utility-sideCol-sectionInner utility-sideCol-sectionInner-user">
                                         <span class="user-username">Matt Kossoff</span>
                                         <span class="user-location">Location: <span class="user-locationCityState">Atlanta, GA</span></span>

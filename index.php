@@ -88,7 +88,7 @@
                     <div class="homePromos-content">
                         <span class="homePromos-title"><span class="hide300">The Almighty</span> Inspiration Gallery</span>
                         <span class="homePromos-info">Customer projects in just about every imaginable (legal) application.</span>
-                        <div class="generalBtn-blue"><a href="/client/trs/gallery/retrofit-of-the-month-gallery.php"><span class="generalBtn-title">Be Inspired</span></a></div> 
+                        <div class="generalBtn-blue"><a href="/client/TRS/gallery/retrofit-of-the-month-gallery.php"><span class="generalBtn-title">Be Inspired</span></a></div> 
                 	</div>        
                 </div>
                 <div class="homePromosR"> 
@@ -96,14 +96,14 @@
                         <div class="homePromos-content">
                             <span class="homePromos-title">Recommended Retrofitters</span>
                             <span class="homePromos-info">Find an approved professional to get the job done for you.</span>
-                            <div class="generalBtn-blue"><a href="/client/trs/retrofitters/recommended-retrofitters.php"><span class="generalBtn-title">Find an Installer</span></a></div> 
+                            <div class="generalBtn-blue"><a href="/client/TRS/retrofitters/recommended-retrofitters.php"><span class="generalBtn-title">Find an Installer</span></a></div> 
                         </div>
                     </div>
                     <div class="diyInstallGuides">            		
                         <div class="homePromos-content">
                             <span class="homePromos-title">Do-It-Yourself Install Guides</span>
                             <span class="homePromos-info">Step-by-step video and text instruction. Suhweeet!</span>
-                            <div class="generalBtn-blue"><a href="/client/trs/diy/diy-install-guides.php"><span class="generalBtn-title">Get Busy</span></a></div> 
+                            <div class="generalBtn-blue"><a href="/client/TRS/diy/diy-install-guides.php"><span class="generalBtn-title">Get Busy</span></a></div> 
                         </div>
                     </div>
         		</div>
@@ -161,45 +161,45 @@
                 <!-- <div class="homeFeatureProductsL">
                 	<div class="homeFeatureProduct-wide homeFeatureProduct-1">
                     <a href="#">            		
-                		<div class="homeFeatureProduct-product"><img src="/client/trs/images/products/productTemp1.jpg" alt="temp" border="0" /></div>
+                		<div class="homeFeatureProduct-product"><img src="/client/TRS/images/products/productTemp1.jpg" alt="temp" border="0" /></div>
                         <div class="homeFeatureProduct-content">
                         	<span class="homeFeatureProduct-title">Morimoto D2S Elite HID System</span>
                 			<span class="homeFeatureProduct-price">$160</span>
                         </div> 
-                        <div class="homeFeatureProduct-banner"><img src="/client/trs/images/products/banner_featureProduct-topSeller2x.png" alt="Top Selling Product!" border="0" /></div>
+                        <div class="homeFeatureProduct-banner"><img src="/client/TRS/images/products/banner_featureProduct-topSeller2x.png" alt="Top Selling Product!" border="0" /></div>
                 	</a>
                     </div>
                     <div class="homeFeatureProduct-wide homeFeatureProduct-2">            		
                 	<a href="#">
-                    	<div class="homeFeatureProduct-product"><img src="/client/trs/images/products/productTemp2.jpg" alt="temp" border="0" /></div>
+                    	<div class="homeFeatureProduct-product"><img src="/client/TRS/images/products/productTemp2.jpg" alt="temp" border="0" /></div>
                         <div class="homeFeatureProduct-content">
                         	<span class="homeFeatureProduct-title">Morimoto Mini H1 Stage III Complete Retrofit Kit</span>
                 			<span class="homeFeatureProduct-priceX">$270</span>
                             <span class="homeFeatureProduct-price">$250</span>
                         </div> 
-                        <div class="homeFeatureProduct-banner"><img src="/client/trs/images/products/banner_featureProduct-onSale2x.png" alt="Product On Sale!" border="0" /></div>
+                        <div class="homeFeatureProduct-banner"><img src="/client/TRS/images/products/banner_featureProduct-onSale2x.png" alt="Product On Sale!" border="0" /></div>
                 	</a>
                     </div>
                 </div>
                 <div class="homeFeatureProductsR">
                 	<div class="homeFeatureProduct-tall homeFeatureProduct-3">            		
                 	<a href="#">
-                    	<div class="homeFeatureProduct-product"><img src="/client/trs/images/products/productTemp3.jpg" alt="temp" border="0" /></div>
+                    	<div class="homeFeatureProduct-product"><img src="/client/TRS/images/products/productTemp3.jpg" alt="temp" border="0" /></div>
                         <div class="homeFeatureProduct-content">
                         	<span class="homeFeatureProduct-title">Bi-Xenon Acura TL Projectors</span>
                 			<span class="homeFeatureProduct-price">$205</span>
                         </div> 
-                        <div class="homeFeatureProduct-banner"><img src="/client/trs/images/products/banner_featureProduct-topSeller2x.png" alt="Top Selling Product!" border="0" /></div>
+                        <div class="homeFeatureProduct-banner"><img src="/client/TRS/images/products/banner_featureProduct-topSeller2x.png" alt="Top Selling Product!" border="0" /></div>
                 	</a>
                     </div>
                     <div class="homeFeatureProduct-tall homeFeatureProduct-4">            		
                 	<a href="#">
-                    	<div class="homeFeatureProduct-product"><img src="/client/trs/images/products/productTemp4.jpg" alt="temp" border="0" /></div>
+                    	<div class="homeFeatureProduct-product"><img src="/client/TRS/images/products/productTemp4.jpg" alt="temp" border="0" /></div>
                         <div class="homeFeatureProduct-content">
                         	<span class="homeFeatureProduct-title">Morimoto Xengreen D4S Bulbs</span>
                             <span class="homeFeatureProduct-price">$60</span>
                         </div> 
-                        <div class="homeFeatureProduct-banner"><img src="/client/trs/images/products/banner_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
+                        <div class="homeFeatureProduct-banner"><img src="/client/TRS/images/products/banner_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
                 	</a>
                     </div>
                 </div>-->
@@ -210,8 +210,8 @@
                     <ul class="image-grid products">
                         
                         <li class="product" id="projector-1" data-id="id-1" data-type="application functionality size priceRange installationDifficulty">
-                            <a href="/client/trs/productdetail.php">
-                            <div class="product-image"><img src="/client/trs/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
+                            <a href="/client/TRS/productdetail.php">
+                            <div class="product-image"><img src="/client/TRS/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
                             <div class="product-info info-main">
                                 <span class="product-title">FX-R 3.0 Projectors</span>
                                 <div class="product-specs">
@@ -234,12 +234,12 @@
                                      </div>    
                                 </div>   
                             </div>
-                            <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
+                            <div class="product-banner"><img src="/client/TRS/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
                             </a>
                         </li>
                         <li class="product" id="projector-2" data-id="id-2" data-type="application functionality size priceRange installationDifficulty">
                             <a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-image"><img src="/client/TRS/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
                             <div class="product-info info-main">
                                 <span class="product-title">VIP Projectors</span>
                                 <div class="product-specs">
@@ -263,12 +263,12 @@
                                      </div>    
                                 </div>   
                             </div>
-                            <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
+                            <div class="product-banner"><img src="/client/TRS/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
                             </a>
                         </li>
                         <li class="product" id="projector-3" data-id="id-3" data-type="application functionality size priceRange installationDifficulty">
                             <a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-image"><img src="/client/TRS/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
                             <div class="product-info info-main">
                                 <span class="product-title">Bi-xenon Morimoto Mini Stage III Kit (D2S)</span>
                                 <div class="product-specs">
@@ -291,12 +291,12 @@
                                      </div>    
                                 </div>    
                             </div>
-                            <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
+                            <div class="product-banner"><img src="/client/TRS/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
                             </a>
                         </li>
                         <li class="product" id="projector-4" data-id="id-4" data-type="application functionality size priceRange installationDifficulty">
                             <a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-image"><img src="/client/TRS/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
                             <div class="product-info info-main">
                                 <span class="product-title">Morimoto Mini D2S 2.0</span>
                                 <div class="product-specs">
@@ -324,7 +324,7 @@
                         </li>
                         <li class="product" id="projector-5" data-id="id-5" data-type="application functionality size priceRange installationDifficulty">
                             <a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-image"><img src="/client/TRS/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
                             <div class="product-info info-main">
                                 <span class="product-title">FX-R 3.0 Projectors</span>
                                 <div class="product-specs">
@@ -352,7 +352,7 @@
                         </li>
                         <li class="product" id="projector-6" data-id="id-6" data-type="application functionality size priceRange installationDifficulty">
                             <a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-image"><img src="/client/TRS/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
                             <div class="product-info info-main">
                                 <span class="product-title">VIP Projectors</span>
                                 <div class="product-specs">
@@ -375,7 +375,7 @@
                                      </div>    
                                 </div>    
                             </div>
-                            <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
+                            <div class="product-banner"><img src="/client/TRS/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
                             </a>
                         </li>
                     </ul>

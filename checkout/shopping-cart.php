@@ -82,7 +82,7 @@
 
                 <div class="breadCrumb-utilityContainer mobile-hide">            		
                 	<ul class="breadCrumb">
-                		<li><a href="/client/trs/index.php">Home</a></li>
+                		<li><a href="/client/TRS/index.php">Home</a></li>
                 		<li> > </li>
                 		<li><a href="#">Shopping Cart</a></li>
                 	</ul>
@@ -96,7 +96,7 @@
                 <div class="utility-contentContainer">
                 
                     <div class="cartProduct-section">            		
-						<div class="cartProduct-image"><img src="/client/trs/images/products/productDetailTemp/1.jpg" alt="temp" border="0" ></div>   
+						<div class="cartProduct-image"><img src="/client/TRS/images/products/productDetailTemp/1.jpg" alt="temp" border="0" ></div>   
 						<div class="cartProduct-sectionContent">
                         	<div class="cartProduct-title">
                                  <h2>Morimoto Bi-xenon FX-R Stage III Kit</h2>
@@ -117,7 +117,7 @@
                             </div>
                             <div class="cartProduct-qty">
                                 <span class="cartProduct-infoTitle">QTY</span>
-                                <form id="cartQTY" action="/client/trs/#.php" method="get">
+                                <form id="cartQTY" action="/client/TRS/#.php" method="get">
                                     <input class="quantity" type="text" value="2" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />
                                     <div class="cartProduct-qtyCTA"><input class="cartQtySubmit" type="submit" value="Update" /></div>
                                     <div class="cartProduct-qtyCTA"><a href="#">Remove</a></div>
@@ -130,7 +130,7 @@
                         </div>
                     </div>
                     <div class="cartProduct-section">            		
-						<div class="cartProduct-image"><img src="/client/trs/images/products/productDetailTemp/2.jpg" alt="temp" border="0" ></div>   
+						<div class="cartProduct-image"><img src="/client/TRS/images/products/productDetailTemp/2.jpg" alt="temp" border="0" ></div>   
 						<div class="cartProduct-sectionContent">
                         	<div class="cartProduct-title">
                                  <h2>Morimoto Bi-xenon FX-R 3.0</h2>
@@ -145,7 +145,7 @@
                             </div>
                             <div class="cartProduct-qty">
                                 <span class="cartProduct-infoTitle">QTY</span>
-                                <form id="cartQTY" action="/client/trs/#.php" method="get">
+                                <form id="cartQTY" action="/client/TRS/#.php" method="get">
                                     <input class="quantity" type="text" value="4" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />
                                     <div class="cartProduct-qtyCTA"><input class="cartQtySubmit" type="submit" value="Update" /></div>
                                     <div class="cartProduct-qtyCTA"><a href="#">Remove</a></div>
@@ -162,7 +162,7 @@
                         <div class="utility-sectionContent">
                         	<div class="promoCode-container">
                             	<span class="promoCode-infoTitle">Promo<span class="hide300">tion</span> Code</span>
-                                <form id="promoCode" action="/client/trs/#.php" method="get">
+                                <form id="promoCode" action="/client/TRS/#.php" method="get">
                                     <input class="promoCodeEntry" type="text" value="" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />
                                     <div class="promoCodeCTA"><input class="promoCodeSubmit" type="submit" value="Redeem" /></div>
                                 </form>
@@ -194,8 +194,8 @@
                     <div class="summary-sectionCTA">     
                         <div class="summary-CTAs">
                         	<div class="secureCheckoutCTA">
-            					<a href="/client/trs/checkout/checkout.php">
-            					<div class="secureCheckoutCTA-icon"><img src="/client/trs/images/icon_lock2x.png" alt="Secure Checkout" border="0" /></div>
+            					<a href="/client/TRS/checkout/checkout.php">
+            					<div class="secureCheckoutCTA-icon"><img src="/client/TRS/images/icon_lock2x.png" alt="Secure Checkout" border="0" /></div>
                                 <span class="secureCheckoutCTA-title">Secure Checkout</span>
             					</a>
             				</div>

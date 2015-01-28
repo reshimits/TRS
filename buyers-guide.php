@@ -83,7 +83,7 @@
                 <div class="productDetailContainer">
                     <div class="breadCrumb-utilityContainer mobile-hide">            		
                     	<ul class="breadCrumb">
-                    		<li><a href="/client/trs/index.php">Home</a></li>
+                    		<li><a href="/client/TRS/index.php">Home</a></li>
                     		<li> > </li>
                     		<li><a href="#">Buyers Guide</a></li>
                     	</ul>
@@ -105,64 +105,64 @@
 
                     <ul class="image-grid products">
                         <li class="product product-projectors">
-                            <a href="/client/trs/components/projectors.php">
-                            <div class="product-image"><img src="/client/trs/images/nav_projectors.png" alt="HID Projectors" border="0" /></div>
+                            <a href="/client/TRS/components/projectors.php">
+                            <div class="product-image"><img src="/client/TRS/images/nav_projectors.png" alt="HID Projectors" border="0" /></div>
                             <div class="product-info">
                                 <span class="product-title">HID Projectors</span>
                             </div>    
                             </a>
                         </li>
                         <li class="product product-ballasts">
-                            <a href="/client/trs/components/ballasts.php">
-                            <div class="product-image"><img src="/client/trs/images/nav_ballasts.png" alt="HID Ballasts" border="0" /></div>
+                            <a href="/client/TRS/components/ballasts.php">
+                            <div class="product-image"><img src="/client/TRS/images/nav_ballasts.png" alt="HID Ballasts" border="0" /></div>
                             <div class="product-info">
                                 <span class="product-title">HID Ballasts</span>
                             </div>    
                             </a>
                         </li>
                         <li class="product product-bulbs">
-                            <a href="/client/trs/components/bulbs.php">
-                            <div class="product-image"><img src="/client/trs/images/nav_bulbs.png" alt="HID Bulbs" border="0" /></div>
+                            <a href="/client/TRS/components/bulbs.php">
+                            <div class="product-image"><img src="/client/TRS/images/nav_bulbs.png" alt="HID Bulbs" border="0" /></div>
                             <div class="product-info">
                                 <span class="product-title">HID Bulbs</span>
                             </div>    
                             </a>
                         </li>
                         <li class="product product-shrouds">
-                            <a href="/client/trs/components/shrouds.php">
-                            <div class="product-image"><img src="/client/trs/images/nav_shrouds.png" alt="Shrouds" border="0" /></div>
+                            <a href="/client/TRS/components/shrouds.php">
+                            <div class="product-image"><img src="/client/TRS/images/nav_shrouds.png" alt="Shrouds" border="0" /></div>
                             <div class="product-info">
                                 <span class="product-title">Shrouds</span>
                             </div>    
                             </a>
                         </li>
                         <li class="product product-harnesses">
-                            <a href="/client/trs/components/harnesses.php">
-                            <div class="product-image"><img src="/client/trs/images/nav_harnesses.png" alt="Wire Harnesses" border="0" /></div>
+                            <a href="/client/TRS/components/harnesses.php">
+                            <div class="product-image"><img src="/client/TRS/images/nav_harnesses.png" alt="Wire Harnesses" border="0" /></div>
                             <div class="product-info">
                                 <span class="product-title">Wire Harnesses</span>
                             </div>    
                             </a>
                         </li>
                         <li class="product product-lenses">
-                            <a href="/client/trs/components/lenses.php">
-                            <div class="product-image"><img src="/client/trs/images/nav_lenses.png" alt="Clear Lenses" border="0" /></div>
+                            <a href="/client/TRS/components/lenses.php">
+                            <div class="product-image"><img src="/client/TRS/images/nav_lenses.png" alt="Clear Lenses" border="0" /></div>
                             <div class="product-info">
                                 <span class="product-title">Clear Lenses</span>
                             </div>    
                             </a>
                         </li>
                         <li class="product product-ledlighting">
-                            <a href="/client/trs/led-lighting.php">
-                            <div class="product-image"><img src="/client/trs/images/nav_ledlighting.png" alt="LED Lighting" border="0" /></div>
+                            <a href="/client/TRS/led-lighting.php">
+                            <div class="product-image"><img src="/client/TRS/images/nav_ledlighting.png" alt="LED Lighting" border="0" /></div>
                             <div class="product-info">
                                 <span class="product-title">LED Lighting</span>
                             </div>    
                             </a>
                         </li>
                         <li class="product product-housings">
-                            <a href="/client/trs/complete-headlight-fog-light-housings.php">
-                            <div class="product-image"><img src="/client/trs/images/nav_housings.png" alt="Housings" border="0" /></div>
+                            <a href="/client/TRS/complete-headlight-fog-light-housings.php">
+                            <div class="product-image"><img src="/client/TRS/images/nav_housings.png" alt="Housings" border="0" /></div>
                             <div class="product-info">
                                 <span class="product-title">Housings</span>
                             </div>    
@@ -170,16 +170,16 @@
                         </li>
 
                         <li class="product product-completekits">
-                            <a href="/client/trs/complete-retrofit-kits.php">
-                            <div class="product-image"><img src="/client/trs/images/nav_completekits.png" alt="Complete Kits" border="0" /></div>
+                            <a href="/client/TRS/complete-retrofit-kits.php">
+                            <div class="product-image"><img src="/client/TRS/images/nav_completekits.png" alt="Complete Kits" border="0" /></div>
                             <div class="product-info">
                                 <span class="product-title">Complete Kits</span>
                             </div>    
                             </a>
                         </li>
                         <li class="product product-hidsystems">
-                            <a href="/client/trs/hid-systems.php">
-                            <div class="product-image"><img src="/client/trs/images/nav_hidsystems.png" alt="HID Systems" border="0" /></div>
+                            <a href="/client/TRS/hid-systems.php">
+                            <div class="product-image"><img src="/client/TRS/images/nav_hidsystems.png" alt="HID Systems" border="0" /></div>
                             <div class="product-info">
                                 <span class="product-title">HID Systems</span>
                             </div>    

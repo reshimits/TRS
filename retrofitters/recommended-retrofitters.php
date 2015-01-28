@@ -103,10 +103,10 @@
                     		<ul class="nonProductGrid-wide">
                     	
                                 <li>
-                                <a href="/client/trs/retrofitters/contact-blackFlameCustoms.php">
-                                    <div class="nonProductGrid-wide-image retrofitterLogo-blackFlameCustoms"><img src="/client/trs/images/retrofitters/rr_blackFlameCustoms2x.jpg" alt="Black Flame Customs" border="0" /></div>
+                                <a href="/client/TRS/retrofitters/contact-blackFlameCustoms.php">
+                                    <div class="nonProductGrid-wide-image retrofitterLogo-blackFlameCustoms"><img src="/client/TRS/images/retrofitters/rr_blackFlameCustoms2x.jpg" alt="Black Flame Customs" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <div class="premierRetrofitterIcon"><img src="/client/trs/images/icon_mapMarker2x.png" alt="Premier Retrofitter" border="0" /></div>
+                                        <div class="premierRetrofitterIcon"><img src="/client/TRS/images/icon_mapMarker2x.png" alt="Premier Retrofitter" border="0" /></div>
                                         <span class="nonProductGrid-wide-title">Black Flame Customs</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-spec">Long Island, NY</span>
@@ -116,10 +116,10 @@
                                 </a>
                                 </li>
                                 <li>
-                                <a href="/client/trs/retrofitters/contact-hidIllusionz.php">
-                                    <div class="nonProductGrid-wide-image retrofitterLogo-hidIllusionz"><img src="/client/trs/images/retrofitters/rr_hidIllusionz2x.jpg" alt="HID Illusionz" border="0" /></div>
+                                <a href="/client/TRS/retrofitters/contact-hidIllusionz.php">
+                                    <div class="nonProductGrid-wide-image retrofitterLogo-hidIllusionz"><img src="/client/TRS/images/retrofitters/rr_hidIllusionz2x.jpg" alt="HID Illusionz" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <div class="premierRetrofitterIcon"><img src="/client/trs/images/icon_mapMarker2x.png" alt="Premier Retrofitter" border="0" /></div>
+                                        <div class="premierRetrofitterIcon"><img src="/client/TRS/images/icon_mapMarker2x.png" alt="Premier Retrofitter" border="0" /></div>
                                         <span class="nonProductGrid-wide-title">HID Illusionz</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-spec">Brooklyn, NY</span>
@@ -129,10 +129,10 @@
                                 </a>
                                 </li>
                                 <li>
-                                <a href="/client/trs/retrofitters/contact-inlineCarbon.php">
-                                    <div class="nonProductGrid-wide-image retrofitterLogo-inlineCarbon"><img src="/client/trs/images/retrofitters/rr_inlineCarbon2x.jpg" alt="Inline Carbon" border="0" /></div>
+                                <a href="/client/TRS/retrofitters/contact-inlineCarbon.php">
+                                    <div class="nonProductGrid-wide-image retrofitterLogo-inlineCarbon"><img src="/client/TRS/images/retrofitters/rr_inlineCarbon2x.jpg" alt="Inline Carbon" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <div class="premierRetrofitterIcon"><img src="/client/trs/images/icon_mapMarker2x.png" alt="Premier Retrofitter" border="0" /></div>
+                                        <div class="premierRetrofitterIcon"><img src="/client/TRS/images/icon_mapMarker2x.png" alt="Premier Retrofitter" border="0" /></div>
                                         <span class="nonProductGrid-wide-title">Inline Carbon</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-spec">525101 Horn Rd. Unit B<br>Woodstock, ON N4S 7V8</span>
@@ -142,10 +142,10 @@
                                 </a>
                                 </li>
                                 <li>
-                                <a href="/client/trs/retrofitters/contact-lightModz.php">
-                                    <div class="nonProductGrid-wide-image retrofitterLogo-lightModz"><img src="/client/trs/images/retrofitters/rr_lightModz2x.jpg" alt="LightModz" border="0" /></div>
+                                <a href="/client/TRS/retrofitters/contact-lightModz.php">
+                                    <div class="nonProductGrid-wide-image retrofitterLogo-lightModz"><img src="/client/TRS/images/retrofitters/rr_lightModz2x.jpg" alt="LightModz" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <div class="premierRetrofitterIcon"><img src="/client/trs/images/icon_mapMarker2x.png" alt="Premier Retrofitter" border="0" /></div>
+                                        <div class="premierRetrofitterIcon"><img src="/client/TRS/images/icon_mapMarker2x.png" alt="Premier Retrofitter" border="0" /></div>
                                         <span class="nonProductGrid-wide-title">LightModz</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-spec">16 E. Railway Ave.<br>Paterson, NJ 07503</span>
@@ -155,10 +155,10 @@
                                 </a>
                                 </li>
                                 <li>
-                                <a href="/client/trs/retrofitters/contact-lightWerkz.php">
-                                    <div class="nonProductGrid-wide-image retrofitterLogo-lightwerkz"><img src="/client/trs/images/retrofitters/rr_lightwerkz2x.jpg" alt="LightWerkz" border="0" /></div>
+                                <a href="/client/TRS/retrofitters/contact-lightWerkz.php">
+                                    <div class="nonProductGrid-wide-image retrofitterLogo-lightwerkz"><img src="/client/TRS/images/retrofitters/rr_lightwerkz2x.jpg" alt="LightWerkz" border="0" /></div>
                                     <div class="nonProductGrid-wide-info">
-                                        <div class="premierRetrofitterIcon"><img src="/client/trs/images/icon_mapMarker2x.png" alt="Premier Retrofitter" border="0" /></div>
+                                        <div class="premierRetrofitterIcon"><img src="/client/TRS/images/icon_mapMarker2x.png" alt="Premier Retrofitter" border="0" /></div>
                                         <span class="nonProductGrid-wide-title">LightWerkz</span>
                                         <div class="nonProductGrid-wide-specs">
                                             <span class="nonProductGrid-wide-spec">A40 Edison Avenue, Suite C<br>Oakland, NJ 07436</span>
@@ -569,14 +569,14 @@
 	var bounds = new google.maps.LatLngBounds ();
     //var markers = new Array();
 
-	var pin1 = new google.maps.MarkerImage('/client/trs/images/mapMarker_trs2x.png',
+	var pin1 = new google.maps.MarkerImage('/client/TRS/images/mapMarker_trs2x.png',
 	  new google.maps.Size(39,56),
 	  new google.maps.Point(0,0),
 	  new google.maps.Point(30,56), 
 	  new google.maps.Size(39,56)
 	);
 	
-	var pin2 = new google.maps.MarkerImage('/client/trs/images/mapMarker_rr2x.png',
+	var pin2 = new google.maps.MarkerImage('/client/TRS/images/mapMarker_rr2x.png',
 	  new google.maps.Size(26,37),
 	  new google.maps.Point(0,0),
 	  new google.maps.Point(22,37),

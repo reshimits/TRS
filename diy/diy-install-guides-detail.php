@@ -82,9 +82,9 @@
 
                 <div class="breadCrumb-utilityContainer mobile-hide">                   
                     <ul class="breadCrumb">
-                        <li><a href="/client/trs/index.php">Home</a></li>
+                        <li><a href="/client/TRS/index.php">Home</a></li>
                         <li> > </li>
-                        <li><a href="/client/trs/diy/diy-install-guides.php">DIY Installation Guides</a></li>
+                        <li><a href="/client/TRS/diy/diy-install-guides.php">DIY Installation Guides</a></li>
                         <li> > </li>
                         <li><a href="#">Morimoto H7 Motorcycle Harness (Single Output)</a></li>
                     </ul>
@@ -123,14 +123,14 @@
                     <div class="diyDetailContainer">
                         <div class="productInfo-section diyInfo-section">
                             <div class="installationPerformance-section">
-                                <img src="/client/trs/images/icon_productDetail-installTime-6hrs_2x.png" alt="6hrs Install Time" border="0">
+                                <img src="/client/TRS/images/icon_productDetail-installTime-6hrs_2x.png" alt="6hrs Install Time" border="0">
                                 <ul class="installationPerformance">
                                     <li><strong>Time to install:</strong></li>
                                     <li>6 hours (estimate)</li>
                                 </ul> 
                             </div>
                             <div class="installationPerformance-section">
-                                <img src="/client/trs/images/icon_productDetail-cutting-yes_2x.png" alt="Cutting Involved" border="0">
+                                <img src="/client/TRS/images/icon_productDetail-cutting-yes_2x.png" alt="Cutting Involved" border="0">
                                 <ul class="installationPerformance">
                                     <li><strong>Cutting involved:</strong></li>
                                     <li>Yes</li>
@@ -139,7 +139,7 @@
                         </div>    
                         <a href="#">
                             <div class="diyPDFcta">
-                                <div class="diyPDFcta-icon"><img src="/client/trs/images/icon_pdf2x.png" alt="Dowload Guide PDF" border="0" /></div>
+                                <div class="diyPDFcta-icon"><img src="/client/TRS/images/icon_pdf2x.png" alt="Dowload Guide PDF" border="0" /></div>
                                 <span class="diyPDFcta-title">Download Guide</span>
                             </div>
                         </a>
@@ -147,14 +147,14 @@
 
                     <div class="utility-contentContainer">
                         <div class="secondaryHeader">                 
-                            <div class="diyPreview-specIcon diyPreview-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                            <div class="diyPreview-specIcon diyPreview-specIcon-video"><img src="/client/TRS/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
                             <span class="productPromo-title">Instruction<span class="hide300">al</span> Vid<span class="hide300">eo</span>s:</span>
                         </div>
                     </div>
 
                     <div class="utility-contentContainer">
                         <div class="secondaryHeader">                 
-                            <div class="diyPreview-specIcon diyPreview-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                            <div class="diyPreview-specIcon diyPreview-specIcon-forum"><img src="/client/TRS/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
                             <span class="productPromo-title">Q&amp;A Forum:</span>
                         </div>
                     </div>    

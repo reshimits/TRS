@@ -82,9 +82,9 @@
 
                 <div class="breadCrumb-utilityContainer mobile-hide">            		
                 	<ul class="breadCrumb">
-                		<li><a href="/client/trs/index.php">Home</a></li>
+                		<li><a href="/client/TRS/index.php">Home</a></li>
                 		<li> > </li>
-                		<li><a href="/client/trs/gallery/case-studies-gallery.php">Retrofit Case Studies</a></li>
+                		<li><a href="/client/TRS/gallery/case-studies-gallery.php">Retrofit Case Studies</a></li>
                         <li> > </li>
                 		<li><a href="#">Quad Projector Retrofit</a></li>
                 	</ul>
@@ -104,7 +104,7 @@
                     </div>        
                 	<div class="galleryDetailPreview-sectionContent">
                 		<div class="galleryDetail-info galleryDetail-infoUser">
-                        	<div class="user-avatar"><img src="/client/trs/images/user_mattKossoff-temp.jpg" alt="User Profile Picture TEMP" border="0"></div>
+                        	<div class="user-avatar"><img src="/client/TRS/images/user_mattKossoff-temp.jpg" alt="User Profile Picture TEMP" border="0"></div>
                             <div class="utility-sideCol-sectionInner-user">
                             	<h3>
                                 	<span class="nonProductGrid-wide-title">Ned Yuckenheimer</span>
@@ -141,17 +141,17 @@
                 
                 <div class="utility-contentContainer2 utility-sectionFirst">
                 	<div class="galleryImagesContainer">
-                		<div class="galleryImage-main"><img src="/client/trs/images/products/productDetailTemp/5.jpg" alt="temp" border="0" name="productMain" id="productMain"></div>
+                		<div class="galleryImage-main"><img src="/client/TRS/images/products/productDetailTemp/5.jpg" alt="temp" border="0" name="productMain" id="productMain"></div>
                 		<div class="galleryCaption-main">
                 			<p>Saturn Ion Mini H1 Retrofit with blacked out bezel, Morimoto xbaled amber angel eye turn signal/running lights, side emitting Audi style LED strips and OEM color matched E55-R Shrouds</p>
                 		</div>
                 		<div class="galleryImage-thumbsContainer">	
-                                <div class="galleryImage-thumb"><img src="/client/trs/images/products/productDetailTemp/5thumb2x.jpg" alt="temp" id="thumb5" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/5.jpg',1)" border="0" /></div>
-                                <div class="galleryImage-thumb"><img src="/client/trs/images/products/productDetailTemp/1thumb2x.jpg" alt="temp" id="thumb1" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/1.jpg',1)" border="0"/></div>
-                                <div class="galleryImage-thumb"><img src="/client/trs/images/products/productDetailTemp/2thumb2x.jpg" alt="temp" id="thumb2" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/2.jpg',1)" border="0" /></div>
-                                <div class="galleryImage-thumb"><img src="/client/trs/images/products/productDetailTemp/3thumb2x.jpg" alt="temp" id="thumb3" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/3.jpg',1)" border="0" /></div>
-                                <div class="galleryImage-thumb"><img src="/client/trs/images/products/productDetailTemp/4thumb2x.jpg" alt="temp" id="thumb4" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/4.jpg',1)" border="0" /></div>
-                                <div class="galleryImage-thumb"><img src="/client/trs/images/products/productDetailTemp/1thumb2x.jpg" alt="temp" id="thumb1" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/1.jpg',1)" border="0" /></div>
+                                <div class="galleryImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/5thumb2x.jpg" alt="temp" id="thumb5" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/5.jpg',1)" border="0" /></div>
+                                <div class="galleryImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/1thumb2x.jpg" alt="temp" id="thumb1" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/1.jpg',1)" border="0"/></div>
+                                <div class="galleryImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/2thumb2x.jpg" alt="temp" id="thumb2" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/2.jpg',1)" border="0" /></div>
+                                <div class="galleryImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/3thumb2x.jpg" alt="temp" id="thumb3" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/3.jpg',1)" border="0" /></div>
+                                <div class="galleryImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/4thumb2x.jpg" alt="temp" id="thumb4" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/4.jpg',1)" border="0" /></div>
+                                <div class="galleryImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/1thumb2x.jpg" alt="temp" id="thumb1" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/1.jpg',1)" border="0" /></div>
                 		</div>
                 	</div>
                 </div>          

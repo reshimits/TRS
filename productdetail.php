@@ -85,17 +85,17 @@
 
                 <div class="breadCrumb-utilityContainer">            		
                 	<ul class="breadCrumb mobile-hide">
-                		<li><a href="/client/trs/index.php">Home</a></li>
+                		<li><a href="/client/TRS/index.php">Home</a></li>
                 		<li> > </li>
                 		<li><a href="#">HID Projectors</a></li>
                 		<li> > </li>
                         <li><a href="#">Morimoto Bi-xenon FX-R Stage III Kit</a></li>
                 	</ul>
                     <div class="productUtility">
-                    	<div class="print mobile-hide"><a href="javascript:if(window.print)window.print()"><img src="/client/trs/images/icon_print2x.png" alt="Print Page" border="0" /></a></div> 
+                    	<div class="print mobile-hide"><a href="javascript:if(window.print)window.print()"><img src="/client/TRS/images/icon_print2x.png" alt="Print Page" border="0" /></a></div> 
                         <div class="addthis">
                     		<!-- AddThis Button BEGIN -->
-                        	<div class="addthis_button"><a class="addthis_counter addthis_pill_style"><img src="/client/trs/images/icon_addThis2x.png" alt="Print Page" border="0" />Share</a></div>
+                        	<div class="addthis_button"><a class="addthis_counter addthis_pill_style"><img src="/client/TRS/images/icon_addThis2x.png" alt="Print Page" border="0" />Share</a></div>
                         	<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
                         	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5138db4a77343dfd"></script>
                         	<!-- AddThis Button END -->
@@ -113,30 +113,30 @@
                      <div class="productReviews">
                      	<div class="reviewStars">
                         	<a href="#reviews">
-                        	<div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
-                        	<div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
-                        	<div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
-                            <div class="reviewStar-iconContainer reviewStar-halfStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Half Star" border="0"></div>
-                            <div class="reviewStar-iconContainer reviewStar-emptyStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Empty Star" border="0"></div>
+                        	<div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
+                        	<div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
+                        	<div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
+                            <div class="reviewStar-iconContainer reviewStar-halfStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Half Star" border="0"></div>
+                            <div class="reviewStar-iconContainer reviewStar-emptyStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Empty Star" border="0"></div>
                         	</a>
                         </div>
                         <div class="reviewTotal"><a href="#reviews"><span class="reviewTotalUsers">5</span> Reviews</a></div>
-                        <div class="reviewWrite"><a href="/client/trs/utility/write-review.php">Write a Review</a></div>
+                        <div class="reviewWrite"><a href="/client/TRS/utility/write-review.php">Write a Review</a></div>
                      </div>
                 </div>
 
 <!-- =========== Product Images ================================================== -->
                 
                 <div class="productImagesContainer">
-                	<div class="productImage-main"><img src="/client/trs/images/products/productDetailTemp/1.jpg" alt="temp" border="0" name="productMain" id="productMain"></div>
+                	<div class="productImage-main"><img src="/client/TRS/images/products/productDetailTemp/1.jpg" alt="temp" border="0" name="productMain" id="productMain"></div>
                     <div class="productImage-thumbsContainer">	
-                    	<div class="productImage-thumb"><img src="/client/trs/images/products/productDetailTemp/1thumb2x.jpg" alt="temp" id="thumb1" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/1.jpg',1)" border="0"/></div>
-                    	<div class="productImage-thumb"><img src="/client/trs/images/products/productDetailTemp/2thumb2x.jpg" alt="temp" id="thumb2" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/2.jpg',1)" border="0" /></div>
-                    	<div class="productImage-thumb"><img src="/client/trs/images/products/productDetailTemp/3thumb2x.jpg" alt="temp" id="thumb3" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/3.jpg',1)" border="0" /></div>
-                    	<div class="productImage-thumb"><img src="/client/trs/images/products/productDetailTemp/4thumb2x.jpg" alt="temp" id="thumb4" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/4.jpg',1)" border="0" /></div>
-                    	<div class="productImage-thumb"><img src="/client/trs/images/products/productDetailTemp/5thumb2x.jpg" alt="temp" id="thumb5" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/5.jpg',1)" border="0" /></div>
+                    	<div class="productImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/1thumb2x.jpg" alt="temp" id="thumb1" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/1.jpg',1)" border="0"/></div>
+                    	<div class="productImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/2thumb2x.jpg" alt="temp" id="thumb2" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/2.jpg',1)" border="0" /></div>
+                    	<div class="productImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/3thumb2x.jpg" alt="temp" id="thumb3" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/3.jpg',1)" border="0" /></div>
+                    	<div class="productImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/4thumb2x.jpg" alt="temp" id="thumb4" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/4.jpg',1)" border="0" /></div>
+                    	<div class="productImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/5thumb2x.jpg" alt="temp" id="thumb5" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/5.jpg',1)" border="0" /></div>
                     </div>
-                    <div class="productBrand"><img src="/client/trs/images/brands/brand_morimoto2x.png" alt="Morimoto Brand" border="0" /></div>
+                    <div class="productBrand"><img src="/client/TRS/images/brands/brand_morimoto2x.png" alt="Morimoto Brand" border="0" /></div>
                 </div>	
 
 <!-- =========== Product Price, Options & Cart ================================================== -->
@@ -257,13 +257,13 @@
                     <div class="productCartContainer">
                         <div class="productCart-action">
                         	<span class="productCart-action-qtyTitle">QTY:</span>
-                            <form id="addtocart" action="/client/trs/#.php" method="get">
+                            <form id="addtocart" action="/client/TRS/#.php" method="get">
                             	<input class="quantity" type="text" value="1" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />
                                 <div class="cartCTA"><input class="cartSubmit" type="submit" value="Add to Cart" /></div>
                             </form>
                         </div>
                         <span class="productCart-shipping"><strong>FREE STANDARD SHIPPING</strong> to any address in the US. Cannot be combined with any other offer.</span>
-                        <div class="productCart-secure"><img src="/client/trs/images/godaddySeal.gif" alt="Verified & Secured" border="0"></div>
+                        <div class="productCart-secure"><img src="/client/TRS/images/godaddySeal.gif" alt="Verified & Secured" border="0"></div>
                     </div>  
                 </div>
                 
@@ -315,21 +315,21 @@
                     <div class="productInfo-section">
                         <h3>Installation &amp; Performance</h3>
 						<div class="installationPerformance-section">
-							<img src="/client/trs/images/icon_productDetail-installTime-6hrs_2x.png" alt="6hrs Install Time" border="0">
+							<img src="/client/TRS/images/icon_productDetail-installTime-6hrs_2x.png" alt="6hrs Install Time" border="0">
                             <ul class="installationPerformance">
                                 <li><strong>Time to install:</strong></li>
                                 <li>6 hours (estimate)</li>
 							</ul> 
 						</div>
                         <div class="installationPerformance-section">
-							<img src="/client/trs/images/icon_productDetail-cutting-yes_2x.png" alt="Cutting Involved" border="0">
+							<img src="/client/TRS/images/icon_productDetail-cutting-yes_2x.png" alt="Cutting Involved" border="0">
                             <ul class="installationPerformance">
                                 <li><strong>Cutting involved:</strong></li>
                                 <li>Yes</li>
 							</ul> 
 						</div>
                         <div class="installationPerformance-section">
-							<img src="/client/trs/images/icon_productDetail-performance-2brighter_2x.png" alt="Performance Brightness" border="0">
+							<img src="/client/TRS/images/icon_productDetail-performance-2brighter_2x.png" alt="Performance Brightness" border="0">
                             <ul class="installationPerformance">
                                 <li><strong>Performance:</strong></li>
                                 <li>Level 2</li>
@@ -375,8 +375,8 @@
                         <ul class="image-grid products">
                             
                             <li class="product" id="projector-1" data-id="id-1" data-type="application functionality size priceRange installationDifficulty">
-                                <a href="/client/trs/productdetail.php">
-                                <div class="product-image"><img src="/client/trs/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
+                                <a href="/client/TRS/productdetail.php">
+                                <div class="product-image"><img src="/client/TRS/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
                                 <div class="product-info info-main">
                                     <span class="product-title">FX-R 3.0 Projectors</span>
                                     <div class="product-specs">
@@ -399,12 +399,12 @@
                                          </div>    
                                     </div>   
                                 </div>
-                                <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-topSeller2x.png" alt="Top Selling Product!" border="0" /></div>
+                                <div class="product-banner"><img src="/client/TRS/images/products/bannerTop_featureProduct-topSeller2x.png" alt="Top Selling Product!" border="0" /></div>
                                 </a>
                             </li>
                             <li class="product" id="projector-2" data-id="id-2" data-type="application functionality size priceRange installationDifficulty">
                                 <a href="#">
-                                <div class="product-image"><img src="/client/trs/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
+                                <div class="product-image"><img src="/client/TRS/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
                                 <div class="product-info info-main">
                                     <span class="product-title">VIP Projectors</span>
                                     <div class="product-specs">
@@ -433,7 +433,7 @@
                             </li>
                             <li class="product" id="projector-3" data-id="id-3" data-type="application functionality size priceRange installationDifficulty">
                                 <a href="#">
-                                <div class="product-image"><img src="/client/trs/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
+                                <div class="product-image"><img src="/client/TRS/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
                                 <div class="product-info info-main">
                                     <span class="product-title">Bi-xenon Morimoto Mini Stage III Kit (D2S)</span>
                                     <div class="product-specs">
@@ -456,12 +456,12 @@
                                          </div>    
                                     </div>    
                                 </div>
-                                <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-onSale2x.png" alt="Product On Sale!" border="0" /></div>
+                                <div class="product-banner"><img src="/client/TRS/images/products/bannerTop_featureProduct-onSale2x.png" alt="Product On Sale!" border="0" /></div>
                                 </a>
                             </li>
                             <li class="product" id="projector-4" data-id="id-4" data-type="application functionality size priceRange installationDifficulty">
                                 <a href="#">
-                                <div class="product-image"><img src="/client/trs/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
+                                <div class="product-image"><img src="/client/TRS/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
                                 <div class="product-info info-main">
                                     <span class="product-title">Morimoto Mini D2S 2.0</span>
                                     <div class="product-specs">
@@ -489,7 +489,7 @@
                             </li>
                             <li class="product" id="projector-5" data-id="id-5" data-type="application functionality size priceRange installationDifficulty">
                                 <a href="#">
-                                <div class="product-image"><img src="/client/trs/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
+                                <div class="product-image"><img src="/client/TRS/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
                                 <div class="product-info info-main">
                                     <span class="product-title">FX-R 3.0 Projectors</span>
                                     <div class="product-specs">
@@ -517,7 +517,7 @@
                             </li>
                             <li class="product" id="projector-6" data-id="id-6" data-type="application functionality size priceRange installationDifficulty">
                                 <a href="#">
-                                <div class="product-image"><img src="/client/trs/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
+                                <div class="product-image"><img src="/client/TRS/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
                                 <div class="product-info info-main">
                                     <span class="product-title">VIP Projectors</span>
                                     <div class="product-specs">
@@ -540,7 +540,7 @@
                                          </div>    
                                     </div>    
                                 </div>
-                                <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
+                                <div class="product-banner"><img src="/client/TRS/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
                                 </a>
                             </li>
                         </ul>
@@ -558,11 +558,11 @@
                     	<h4><span class="weightBold-styleNormal">Reviews for:</span> Morimoto Bi-xenon FX-R Stage III Kit</h4>
                     	<div class="productReviews">
                             <div class="reviewStars">
-                                <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
-                                <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
-                                <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
-                                <div class="reviewStar-iconContainer reviewStar-halfStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Half Star" border="0"></div>
-                                <div class="reviewStar-iconContainer reviewStar-emptyStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Empty Star" border="0"></div>
+                                <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
+                                <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
+                                <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
+                                <div class="reviewStar-iconContainer reviewStar-halfStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Half Star" border="0"></div>
+                                <div class="reviewStar-iconContainer reviewStar-emptyStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Empty Star" border="0"></div>
                             </div>
                             <span class="reviewScore"><span class="reviewTotalStars">3.5</span> out of 5 stars</a></span>
                             <span class="reviewTotal"><strong>Based on:</strong> <span class="reviewTotalUsers">5</span> user reviews</span>
@@ -572,15 +572,15 @@
                     <div class="userReviewsContainer">
                     	<div class="userReview">
                         	<div class="userReview-info">
-                            	<div class="userReview-avatar"><img src="/client/trs/images/user_mattKossoff-temp.jpg" alt="User Profile Picture TEMP" border="0"></div>
+                            	<div class="userReview-avatar"><img src="/client/TRS/images/user_mattKossoff-temp.jpg" alt="User Profile Picture TEMP" border="0"></div>
                                 <span class="userReview-username">Rob Shimits</span>
                                 <span class="userReview-date"><strong>Reviewed:</strong> <span class="userReview-dateMonthDayYear">05.28.2010</span></span>
                                 <div class="reviewStars">
-                                    <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
-                                    <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
-                                    <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
-                                    <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
-                                    <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
+                                    <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
+                                    <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
+                                    <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
+                                    <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
+                                    <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
                                 </div>
                                 <span class="reviewScore"><span class="reviewTotalStars">5</span> out of 5 stars</a></span>
                             </div>
@@ -591,15 +591,15 @@
                     	</div>
                         <div class="userReview">
                         	<div class="userReview-info">
-                            	<div class="userReview-avatar"><img src="/client/trs/images/user_mattKossoff-temp.jpg" alt="User Profile Picture TEMP" border="0"></div>
+                            	<div class="userReview-avatar"><img src="/client/TRS/images/user_mattKossoff-temp.jpg" alt="User Profile Picture TEMP" border="0"></div>
                                 <span class="userReview-username">Michael Yuckenheimer</span>
                                 <span class="userReview-date"><strong>Reviewed:</strong> <span class="userReview-dateMonthDayYear">12.11.2010</span></span>
                                 <div class="reviewStars">
-                                    <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
-                                    <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
-                                    <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
-                                    <div class="reviewStar-iconContainer reviewStar-halfStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Half Star" border="0"></div>
-                                    <div class="reviewStar-iconContainer reviewStar-emptyStar"><img src="/client/trs/images/icon_reviewStars2x.png" alt="Empty Star" border="0"></div>
+                                    <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
+                                    <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
+                                    <div class="reviewStar-iconContainer reviewStar-fullStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Full Star" border="0"></div>
+                                    <div class="reviewStar-iconContainer reviewStar-halfStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Half Star" border="0"></div>
+                                    <div class="reviewStar-iconContainer reviewStar-emptyStar"><img src="/client/TRS/images/icon_reviewStars2x.png" alt="Empty Star" border="0"></div>
                                 </div>
                                 <span class="reviewScore"><span class="reviewTotalStars">3.5</span> out of 5 stars</a></span>
                             </div>

@@ -81,11 +81,11 @@
             
             	<div class="utility-sideColContainer1">
                 	<ul class="sidebarNav">
-                		<li class="sidebarNav-active"><a href="/client/trs/utility/our-story.php">Our Story</a></li>
-                		<li><a href="/client/trs/utility/press.php"><span class="hide460">In The </span>Press</a></li>
-                        <li><a href="/client/trs/utility/testimonials.php">Testimonials</a></li>
-                        <li><a href="/client/trs/utility/store-policies.php"><span class="hide460">Store </span>Policies</a></li>
-                        <li class="sidebarNav-lastChild"><a href="/client/trs/utility/faq.php">HID FAQ</a></li>
+                		<li class="sidebarNav-active"><a href="/client/TRS/utility/our-story.php">Our Story</a></li>
+                		<li><a href="/client/TRS/utility/press.php"><span class="hide460">In The </span>Press</a></li>
+                        <li><a href="/client/TRS/utility/testimonials.php">Testimonials</a></li>
+                        <li><a href="/client/TRS/utility/store-policies.php"><span class="hide460">Store </span>Policies</a></li>
+                        <li class="sidebarNav-lastChild"><a href="/client/TRS/utility/faq.php">HID FAQ</a></li>
                 	</ul>
                 </div>    
                 
@@ -107,7 +107,7 @@
 							<p>Whether you're just getting started by dealing with our excellent customer service or you're already comfortably cruising on that dark road at night, you'll be glad you dealt with The Retrofit Source.</p> 
 							<p>Huge thanks to all who give us the pleasure of serving you!</p>
 							<p>Yours truly,</p>
-                            <div class="ourStory-signature"><img src="/client/trs/images/mattSignature2x.jpg" alt="Matt Kossoff Signature" border="0"></div>
+                            <div class="ourStory-signature"><img src="/client/TRS/images/mattSignature2x.jpg" alt="Matt Kossoff Signature" border="0"></div>
 							<p>Matt Kossoff<br>El Presidente @ TRS</p> 	
                     	</div>
                     </div>
@@ -118,7 +118,7 @@
 
                         <div class="nonProductGridContainer"> 
                             <div class="nonProductGrid-image">
-                                <img src="/client/trs/images/team.jpg" alt="The Team" border="0" />
+                                <img src="/client/TRS/images/team.jpg" alt="The Team" border="0" />
                                 <div class="nonProductGrid-info">
                                     <span class="nonProductGrid-title">Who are these guys anyways?</span>
                                 </div>  
@@ -161,15 +161,15 @@
                         <p>Located just West of Buckhead in the heart of Atlanta, Georgia; our one central facility houses all of our operations. Up front, we keep all of our current product offerings on display in our inviting, modern showroom. In the same room, our customer service and management team work atop an open-air mezzanine that overlooks the naturally lit indoor garage below. In the adjacent 15,000 square foot warehouse, many rows of industrial racks house an unbeatable selection of headlight happiness in enough volume to feed months of demand at a time.</p>
 
                         <div class="nonProductGridContainer"> 
-                            <div class="nonProductGrid-image"><img src="/client/trs/images/ourShop1.jpg" alt="Our Shop" border="0" /></div>
+                            <div class="nonProductGrid-image"><img src="/client/TRS/images/ourShop1.jpg" alt="Our Shop" border="0" /></div>
                         </div>    
                         <div class="nonProductGridContainer"> 
                             <ul class="nonProductGrid nonProductGrid-crew">
                                 <li>
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/ourShop2.jpg" alt="Our Shop" border="0" /></div>
+                                    <div class="nonProductGrid-image"><img src="/client/TRS/images/ourShop2.jpg" alt="Our Shop" border="0" /></div>
                                 </li> 
                                 <li>
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/ourShop2b.jpg" alt="Our Shop" border="0" /></div>
+                                    <div class="nonProductGrid-image"><img src="/client/TRS/images/ourShop2b.jpg" alt="Our Shop" border="0" /></div>
                                 </li> 
                             </ul>  
                         </div>    
@@ -181,10 +181,10 @@
                         <div class="nonProductGridContainer"> 
                             <ul class="nonProductGrid nonProductGrid-crew">
                                 <li>
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/ourShop3.jpg" alt="Our Shop" border="0" /></div>
+                                    <div class="nonProductGrid-image"><img src="/client/TRS/images/ourShop3.jpg" alt="Our Shop" border="0" /></div>
                                 </li> 
                                 <li>
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/ourShop4.jpg" alt="Our Shop" border="0" /></div>
+                                    <div class="nonProductGrid-image"><img src="/client/TRS/images/ourShop4.jpg" alt="Our Shop" border="0" /></div>
                                 </li> 
                             </ul>  
                         </div> 

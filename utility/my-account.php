@@ -82,7 +82,7 @@
 
                 <div class="breadCrumb-utilityContainer mobile-hide">            		
                 	<ul class="breadCrumb">
-                		<li><a href="/client/trs/index.php">Home</a></li>
+                		<li><a href="/client/TRS/index.php">Home</a></li>
                 		<li> > </li>
                 		<li><a href="#">Login</a></li>
                 		<li> > </li>
@@ -98,7 +98,7 @@
             	<div class="utility-sideColContainer2">
                 	<div class="utility-sideColContent utility-sideColContent-user">
                     	<div class="utility-sideCol-section">
-                        	<div class="user-avatar"><img src="/client/trs/images/user_blank2x.png" alt="User Profile Picture" border="0"></div>
+                        	<div class="user-avatar"><img src="/client/TRS/images/user_blank2x.png" alt="User Profile Picture" border="0"></div>
                             <div class="utility-sideCol-sectionInner utility-sideCol-sectionInner-user">
                             	<span class="user-username">Matt Kossoff</span>
                         		<span class="user-location">Location: <span class="user-locationCityState">Atlanta, GA</span></span>
@@ -110,7 +110,7 @@
                     	<div class="utility-sideCol-section utility-sideCol-section-userRetrofit">
                     		<span class="utility-sideCol-sectionTitle">My Retrofit Project</span>
                     		<div class="utility-sideCol-sectionInner">
-                            	<p><a href="/client/trs/utility/submit-project.php">Submit a Project</a></p>
+                            	<p><a href="/client/TRS/utility/submit-project.php">Submit a Project</a></p>
                         	</div>
                         </div>
                         <div class="utility-sideCol-section utility-sideCol-section-userNewsletter">
@@ -155,7 +155,7 @@
                         <h2>Personal Information</h2>
                         <div class="utility-sectionContent">
                             <div class="utility-form">
-                            <form id="personalInfoForm" action="/client/trs/#.php" method="get">
+                            <form id="personalInfoForm" action="/client/TRS/#.php" method="get">
                             	<h4>*Primary Entry</h4>
                             	<div class="formFieldContainer">
                                     <label for>First Name:</label>

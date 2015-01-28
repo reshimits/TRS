@@ -138,8 +138,8 @@
                     <ul class="image-grid products">
                     	
                         <li class="product" id="projector-1" data-id="id-1" data-type="application functionality size priceRange installationDifficulty">
-                        	<a href="/client/trs/productdetail.php">
-                            <div class="product-image"><img src="/client/trs/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
+                        	<a href="/client/TRS/productdetail.php">
+                            <div class="product-image"><img src="/client/TRS/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
                             <div class="product-info info-main">
                             	<span class="product-title">FX-R 3.0 Projectors</span>
                                 <div class="product-specs">
@@ -162,12 +162,12 @@
                                      </div>    
                                 </div>   
                             </div>
-                            <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-topSeller2x.png" alt="Top Selling Product!" border="0" /></div>
+                            <div class="product-banner"><img src="/client/TRS/images/products/bannerTop_featureProduct-topSeller2x.png" alt="Top Selling Product!" border="0" /></div>
                             </a>
                     	</li>
                         <li class="product" id="projector-2" data-id="id-2" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-image"><img src="/client/TRS/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
                             <div class="product-info info-main">
                             	<span class="product-title">VIP Projectors</span>
                                 <div class="product-specs">
@@ -196,7 +196,7 @@
                     	</li>
                         <li class="product" id="projector-3" data-id="id-3" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-image"><img src="/client/TRS/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
                             <div class="product-info info-main">
                             	<span class="product-title">Bi-xenon Morimoto Mini Stage III Kit (D2S)</span>
                                 <div class="product-specs">
@@ -219,12 +219,12 @@
                                      </div>    
                                 </div>    
                             </div>
-                            <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-onSale2x.png" alt="Product On Sale!" border="0" /></div>
+                            <div class="product-banner"><img src="/client/TRS/images/products/bannerTop_featureProduct-onSale2x.png" alt="Product On Sale!" border="0" /></div>
                             </a>
                     	</li>
                         <li class="product" id="projector-4" data-id="id-4" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-image"><img src="/client/TRS/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
                             <div class="product-info info-main">
                             	<span class="product-title">Morimoto Mini D2S 2.0</span>
                                 <div class="product-specs">
@@ -252,7 +252,7 @@
                     	</li>
                         <li class="product" id="projector-5" data-id="id-5" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-image"><img src="/client/TRS/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
                             <div class="product-info info-main">
                             	<span class="product-title">FX-R 3.0 Projectors</span>
                                 <div class="product-specs">
@@ -280,7 +280,7 @@
                     	</li>
                         <li class="product" id="projector-6" data-id="id-6" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-image"><img src="/client/TRS/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
                             <div class="product-info info-main">
                             	<span class="product-title">VIP Projectors</span>
                                 <div class="product-specs">
@@ -303,12 +303,12 @@
                                      </div>    
                                 </div>    
                             </div>
-                            <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
+                            <div class="product-banner"><img src="/client/TRS/images/products/bannerTop_featureProduct-new2x.png" alt="New Product!" border="0" /></div>
                             </a>
                     	</li>
                         <li class="product" id="projector-7" data-id="id-7" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-image"><img src="/client/TRS/images/products/productTempC.jpg" alt="temp" id="temp" border="0" /></div>
                             <div class="product-info info-main">
                             	<span class="product-title">Lexus RX-AFS Projectors</span>
                                 <div class="product-specs">
@@ -336,7 +336,7 @@
                     	</li>
                         <li class="product" id="projector-8" data-id="id-8" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-image"><img src="/client/TRS/images/products/productTempA.jpg" alt="temp" id="temp" border="0" /></div>
                             <div class="product-info info-main">
                             	<span class="product-title">Morimoto Mini D2S 2.0</span>
                                 <div class="product-specs">
@@ -359,12 +359,12 @@
                                      </div>    
                                 </div>     
                             </div>
-                            <div class="product-banner"><img src="/client/trs/images/products/bannerTop_featureProduct-topSeller2x.png" alt="Top Selling Product!" border="0" /></div>
+                            <div class="product-banner"><img src="/client/TRS/images/products/bannerTop_featureProduct-topSeller2x.png" alt="Top Selling Product!" border="0" /></div>
                             </a>
                     	</li>
                         <li class="product" id="projector-9" data-id="id-9" data-type="application functionality size priceRange installationDifficulty">
                         	<a href="#">
-                            <div class="product-image"><img src="/client/trs/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-image"><img src="/client/TRS/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
                             <div class="product-info info-main">
                             	<span class="product-title">FX-R 3.0 Projectors</span>
                                 <div class="product-specs">

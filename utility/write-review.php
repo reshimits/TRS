@@ -99,7 +99,7 @@
                         </div>
                         <div class="utility-sectionContent">
                             <div class="utility-form">
-                            <form id="reviewForm" action="/client/trs/#.php" method="get">
+                            <form id="reviewForm" action="/client/TRS/#.php" method="get">
                             	<h4>Star Rating</h4>
                             	<div class="formFieldContainer-double">
                                     	

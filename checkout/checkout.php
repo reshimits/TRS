@@ -82,9 +82,9 @@
 
                 <div class="breadCrumb-utilityContainer mobile-hide">            		
                 	<ul class="breadCrumb">
-                		<li><a href="/client/trs/index.php">Home</a></li>
+                		<li><a href="/client/TRS/index.php">Home</a></li>
                 		<li> > </li>
-                		<li><a href="/client/trs/checkout/shopping-cart.php">Shopping Cart</a></li>
+                		<li><a href="/client/TRS/checkout/shopping-cart.php">Shopping Cart</a></li>
                         <li> > </li>
                 		<li><a href="#">Checkout</a></li>
                 	</ul>
@@ -102,7 +102,7 @@
                     
                     <div class="checkoutSectionContent">
                         <div class="utility-sectionContent">
-                            <form id="checkoutLogin" action="/client/trs/#.php" method="get">
+                            <form id="checkoutLogin" action="/client/TRS/#.php" method="get">
                             <div class="utility-form">
                                 <div class="checkoutSection-radioSubHead">
                                     <input name="login" type="radio" class="checkoutStep-radio" value="login1">
@@ -141,7 +141,7 @@
                     
                     <div class="checkoutSectionContent">
                         <div class="utility-sectionContent">
-                            <form id="billingAddress" action="/client/trs/#.php" method="get">
+                            <form id="billingAddress" action="/client/TRS/#.php" method="get">
                             <div class="utility-form">
                                 <div class="checkoutSection-radioSubHead">
                                     <input name="billing" type="radio" class="checkoutStep-radio" value="billing1">
@@ -541,7 +541,7 @@
                     
                     <div class="checkoutSectionContent">
                         <div class="utility-sectionContent">
-                            <form id="shippingAddress" action="/client/trs/#.php" method="get">
+                            <form id="shippingAddress" action="/client/TRS/#.php" method="get">
                             <div class="utility-form">
                                 <div class="checkoutSection-radioSubHead">
                                     <input name="shipping" type="radio" class="checkoutStep-radio" value="shipping1">
@@ -930,7 +930,7 @@
                     
                     <div class="checkoutSectionContent">
                         <div class="utility-sectionContent">
-                            <form id="shippingMethod" action="/client/trs/#.php" method="get">
+                            <form id="shippingMethod" action="/client/TRS/#.php" method="get">
                             <div class="utility-form">
                                 <h4>Select Shipping Service</h4>
                             	<div class="formFieldContainer-double">
@@ -959,7 +959,7 @@
                             </div>
                             </form>
                         </div>
-                        <span class="formNote">*Any questions about your shipment? Check out the <a href="/client/trs/utility/store-policies.php" target="_blank">Store Policies</a> for answers to many common shipping questions.</span>
+                        <span class="formNote">*Any questions about your shipment? Check out the <a href="/client/TRS/utility/store-policies.php" target="_blank">Store Policies</a> for answers to many common shipping questions.</span>
                     </div>
                     <div class="checkoutSectionContent-results">
                         <div class="utility-sectionContent">
@@ -979,7 +979,7 @@
                     
                     <div class="checkoutSectionContent">
                         <div class="utility-sectionContent">
-                            <form id="paymentMethod" action="/client/trs/#.php" method="get">
+                            <form id="paymentMethod" action="/client/TRS/#.php" method="get">
                             <div class="utility-form">
                                 <div class="checkoutSection-radioSubHead">
                                     <input name="payment" type="radio" class="checkoutStep-radio" value="payment1">
@@ -1052,14 +1052,14 @@
                                     <h4>PayPal</h4>
                                 </div>
                                 <div class="utility-sectionContent">
-                                	<div class="payment3rdParty"><img src="/client/trs/images/payment_paypal.png" alt="Checkout with PayPal" border="0" ></div>
+                                	<div class="payment3rdParty"><img src="/client/TRS/images/payment_paypal.png" alt="Checkout with PayPal" border="0" ></div>
                                 </div>
                                 <div class="checkoutSection-radioSubHead">
                                     <input name="shipping" type="radio" class="checkoutStep-radio" value="Shipping3">
                                     <h4>Google Wallet</h4>
                                 </div>
                                 <div class="utility-sectionContent">
-                                	<div class="payment3rdParty"><img src="/client/trs/images/payment_google.png" alt="Checkout with Google Wallet" border="0" ></div>
+                                	<div class="payment3rdParty"><img src="/client/TRS/images/payment_google.png" alt="Checkout with Google Wallet" border="0" ></div>
                                 </div>
                             </div>
                             <div class="formCTAContainer">
@@ -1089,7 +1089,7 @@
                     <div class="checkoutSectionContent">
                     	<div class="utility-sectionContent">
                         	<span class="summary-info">The Retrofit Source offers a complimentary audit of your order to ensure compatibility. If we see any issues we will notify you prior to shipping.</span>
-                    		<form id="trsVehicleAudit" action="/client/trs/#.php" method="get">
+                    		<form id="trsVehicleAudit" action="/client/TRS/#.php" method="get">
                             <div class="utility-form">
                                 <div class="checkoutSection-radioSubHead">
                                     <input name="vehicleAudit" type="radio" class="checkoutStep-radio" value="audit1">
@@ -1134,7 +1134,7 @@
                     
                     <div class="checkoutSectionContent">
                         <div class="cartProduct-section">            		
-                            <div class="cartProduct-image"><img src="/client/trs/images/products/productDetailTemp/1.jpg" alt="temp" border="0" ></div>   
+                            <div class="cartProduct-image"><img src="/client/TRS/images/products/productDetailTemp/1.jpg" alt="temp" border="0" ></div>   
                             <div class="cartProduct-sectionContent">
                                 <div class="cartProduct-title">
                                      <h2>Morimoto Bi-xenon FX-R Stage III Kit</h2>
@@ -1164,7 +1164,7 @@
                             </div>
                         </div>
                         <div class="cartProduct-section">            		
-                            <div class="cartProduct-image"><img src="/client/trs/images/products/productDetailTemp/2.jpg" alt="temp" border="0" ></div>   
+                            <div class="cartProduct-image"><img src="/client/TRS/images/products/productDetailTemp/2.jpg" alt="temp" border="0" ></div>   
                             <div class="cartProduct-sectionContent">
                                 <div class="cartProduct-title">
                                      <h2>Morimoto Bi-xenon FX-R 3.0</h2>
@@ -1219,7 +1219,7 @@
                         <div class="summary-sectionCTA">     
                             <div class="summary-CTAs">
                                 <div class="secureCheckoutCTA">
-                                    <form id="confirmCheckout" action="/client/trs/#.php" method="get">
+                                    <form id="confirmCheckout" action="/client/TRS/#.php" method="get">
                                         <div class="confirmCheckoutCTA"><input class="orderSubmit" type="submit" value="Confirm Order" /></div>
                                     </form>
                                 </div>

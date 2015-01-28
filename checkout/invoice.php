@@ -82,12 +82,12 @@
 
                 <div class="breadCrumb-utilityContainer mobile-hide">            		
                 	<ul class="breadCrumb">
-                		<li><a href="/client/trs/index.php">Home</a></li>
+                		<li><a href="/client/TRS/index.php">Home</a></li>
                 		<li> > </li>
                 		<li><a href="#">Continue Shopping</a></li>
                 	</ul>
                     <div class="productUtility">
-                    	<div class="print mobile-hide"><a href="javascript:if(window.print)window.print()"><img src="/client/trs/images/icon_print2x.png" alt="Print Page" border="0" /></a></div> 
+                    	<div class="print mobile-hide"><a href="javascript:if(window.print)window.print()"><img src="/client/TRS/images/icon_print2x.png" alt="Print Page" border="0" /></a></div> 
                 	</div>
                 </div>
                 
@@ -189,7 +189,7 @@
                     
                     <div class="checkoutSectionContent-results">
                         <div class="cartProduct-section">            		
-                            <div class="cartProduct-image"><img src="/client/trs/images/products/productDetailTemp/1.jpg" alt="temp" border="0" ></div>   
+                            <div class="cartProduct-image"><img src="/client/TRS/images/products/productDetailTemp/1.jpg" alt="temp" border="0" ></div>   
                             <div class="cartProduct-sectionContent">
                                 <div class="cartProduct-title">
                                      <h2>Morimoto Bi-xenon FX-R Stage III Kit</h2>
@@ -219,7 +219,7 @@
                             </div>
                         </div>
                         <div class="cartProduct-section">            		
-                            <div class="cartProduct-image"><img src="/client/trs/images/products/productDetailTemp/2.jpg" alt="temp" border="0" ></div>   
+                            <div class="cartProduct-image"><img src="/client/TRS/images/products/productDetailTemp/2.jpg" alt="temp" border="0" ></div>   
                             <div class="cartProduct-sectionContent">
                                 <div class="cartProduct-title">
                                      <h2>Morimoto Bi-xenon FX-R 3.0</h2>

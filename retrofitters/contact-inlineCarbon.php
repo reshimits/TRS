@@ -82,9 +82,9 @@
 
                 <div class="breadCrumb-utilityContainer mobile-hide">            		
                 	<ul class="breadCrumb">
-                		<li><a href="/client/trs/index.php">Home</a></li>
+                		<li><a href="/client/TRS/index.php">Home</a></li>
                 		<li> > </li>
-                		<li><a href="/client/trs/retrofitters/recommended-retrofitters.php">Recommended Retrofitters</a></li>
+                		<li><a href="/client/TRS/retrofitters/recommended-retrofitters.php">Recommended Retrofitters</a></li>
                         <li> > </li>
                 		<li><a href="#">Contact Inline Carbon</a></li>
                 	</ul>
@@ -94,7 +94,7 @@
         	
             <div class="bodyContainer utilityBodyContainer">                
                 <div class="utility-sideColContainer2">
-                	<div class="rrContact-logo"><img src="/client/trs/images/retrofitters/rr_inlineCarbon2x.jpg" alt="Inline Carbon Recommended Retrofitter" border="0"></div>
+                	<div class="rrContact-logo"><img src="/client/TRS/images/retrofitters/rr_inlineCarbon2x.jpg" alt="Inline Carbon Recommended Retrofitter" border="0"></div>
                     <div class="utility-intro">
                         <h3>Inline Carbon was established in 2004 and is currently located in Woodstock Ontario just off highway 401 working out of a 3000+sq/ft facility with lots of customer parking. We are one of the most reputable HID/Retrofitting install companies in Ontario, Canada. No matter what style you are after, whether it be full blown custom headlights/projectors/bezels, to custom painting, to basic retrofitting, we can make it happen!</h3> 
                         <div class="rrContact-storyShort">
@@ -123,7 +123,7 @@
                     
                     <div class="utility-sideColContent">
                     	<div class="utility-sideCol-section">
-                        	<div class="contactIcon"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Business Hours" border="0" /></div>
+                        	<div class="contactIcon"><img src="/client/TRS/images/icon_contactpageSprite2x.png" alt="Business Hours" border="0" /></div>
                             <div class="utility-sideCol-sectionInner">
                             	<span class="utility-sideCol-sectionTitle">Business Hours</span>
                         		<p>M–F: 10am – 5pm EST</p>
@@ -131,21 +131,21 @@
                             </div>
                         </div>
                         <div class="utility-sideCol-section">
-                        	<div class="contactIcon contactIcon-phone"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Phone" border="0" /></div>
+                        	<div class="contactIcon contactIcon-phone"><img src="/client/TRS/images/icon_contactpageSprite2x.png" alt="Phone" border="0" /></div>
                             <div class="utility-sideCol-sectionInner">
                             	<span class="utility-sideCol-sectionTitle">Phone</span>
                         		<p><a href="tel:800-803-1062" class="tel">800.803.1062</a></p>
                             </div>
                         </div>
                         <div class="utility-sideCol-section">
-                        	<div class="contactIcon contactIcon-address"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Address" border="0" /></div>
+                        	<div class="contactIcon contactIcon-address"><img src="/client/TRS/images/icon_contactpageSprite2x.png" alt="Address" border="0" /></div>
                             <div class="utility-sideCol-sectionInner">
                             	<span class="utility-sideCol-sectionTitle">Address</span>
                         		<p>525101 Horn Rd. Unit B<br>Woodstock, ON N4S 7V8</p>  
                             </div>
                         </div>
                         <div class="utility-sideCol-section">
-                        	<div class="contactIcon contactIcon-web"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Web" border="0" /></div>
+                        	<div class="contactIcon contactIcon-web"><img src="/client/TRS/images/icon_contactpageSprite2x.png" alt="Web" border="0" /></div>
                             <div class="utility-sideCol-sectionInner">
                             	<span class="utility-sideCol-sectionTitle">Web</span>
                         		<p><a href="http://www.inlinecarbon.com" target="_blank">www.inlinecarbon.com</a></p>
@@ -158,12 +158,12 @@
                 <div class="utility-contentContainer2">
                     <div class="utility-section utility-sectionFirst">            		
                         <div class="utility-sectionTitle-iconIntro">
-                        	<img src="/client/trs/images/icon_messageplane2x.png" alt="Send A Message" border="0" />
+                        	<img src="/client/TRS/images/icon_messageplane2x.png" alt="Send A Message" border="0" />
                         	<h2>Send A Message</h2>
                         </div>
                         <div class="utility-sectionContent">
                             <div class="utility-form">
-                            <form id="contactForm" action="/client/trs/#.php" method="get">
+                            <form id="contactForm" action="/client/TRS/#.php" method="get">
                             	<span class="formError only940">-- This space is where Error Alerts will appear --</span>
                             	<h4>Personal Information</h4>
                             	<div class="formFieldContainer">
@@ -229,17 +229,17 @@
                         	<h2>Preview Gallery</h2>
                         </div>
                         <div class="rrImagesContainer">
-                            <div class="rrImage-main"><img src="/client/trs/images/products/productDetailTemp/1.jpg" alt="temp" border="0" name="productMain" id="productMain"></div>
+                            <div class="rrImage-main"><img src="/client/TRS/images/products/productDetailTemp/1.jpg" alt="temp" border="0" name="productMain" id="productMain"></div>
                             <div class="rrCaption-main">
                             	<p>Saturn Ion Mini H1 Retrofit with blacked out bezel, Morimoto xbaled amber angel eye turn signal/running lights, side emitting Audi style LED strips and OEM color matched E55-R Shrouds</p>
                             </div>
                             <div class="rrImage-thumbsContainer">	
-                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/1thumb2x.jpg" alt="temp" id="thumb1" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/1.jpg',1)" border="0"/></div>
-                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/2thumb2x.jpg" alt="temp" id="thumb2" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/2.jpg',1)" border="0" /></div>
-                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/3thumb2x.jpg" alt="temp" id="thumb3" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/3.jpg',1)" border="0" /></div>
-                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/4thumb2x.jpg" alt="temp" id="thumb4" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/4.jpg',1)" border="0" /></div>
-                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/5thumb2x.jpg" alt="temp" id="thumb5" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/5.jpg',1)" border="0" /></div>
-                                <div class="rrImage-thumb"><img src="/client/trs/images/products/productDetailTemp/1thumb2x.jpg" alt="temp" id="thumb1" onClick="MM_swapImage('productMain','','/client/trs/images/products/productDetailTemp/1.jpg',1)" border="0" /></div>
+                                <div class="rrImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/1thumb2x.jpg" alt="temp" id="thumb1" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/1.jpg',1)" border="0"/></div>
+                                <div class="rrImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/2thumb2x.jpg" alt="temp" id="thumb2" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/2.jpg',1)" border="0" /></div>
+                                <div class="rrImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/3thumb2x.jpg" alt="temp" id="thumb3" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/3.jpg',1)" border="0" /></div>
+                                <div class="rrImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/4thumb2x.jpg" alt="temp" id="thumb4" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/4.jpg',1)" border="0" /></div>
+                                <div class="rrImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/5thumb2x.jpg" alt="temp" id="thumb5" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/5.jpg',1)" border="0" /></div>
+                                <div class="rrImage-thumb"><img src="/client/TRS/images/products/productDetailTemp/1thumb2x.jpg" alt="temp" id="thumb1" onClick="MM_swapImage('productMain','','/client/TRS/images/products/productDetailTemp/1.jpg',1)" border="0" /></div>
                             </div>
                         </div>
             		</div>

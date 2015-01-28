@@ -103,7 +103,7 @@
 					</div>	
                     <div class="utility-sideColContent">
                     	<div class="utility-sideCol-section">
-                        	<div class="contactIcon"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Business Hours" border="0" /></div>
+                        	<div class="contactIcon"><img src="/client/TRS/images/icon_contactpageSprite2x.png" alt="Business Hours" border="0" /></div>
                             <div class="utility-sideCol-sectionInner">
                             	<span class="utility-sideCol-sectionTitle">Business Hours</span>
                         		<p>M–TH: 8:30am – 6pm EST</p>
@@ -111,14 +111,14 @@
                             </div>
                         </div>
                         <div class="utility-sideCol-section">
-                        	<div class="contactIcon contactIcon-phone"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Phone" border="0" /></div>
+                        	<div class="contactIcon contactIcon-phone"><img src="/client/TRS/images/icon_contactpageSprite2x.png" alt="Phone" border="0" /></div>
                             <div class="utility-sideCol-sectionInner">
                             	<span class="utility-sideCol-sectionTitle">Phone</span>
                         		<p><a href="tel:404-220-7940" class="tel">404.220.7940</a></p>
                             </div>
                         </div>
                         <div class="utility-sideCol-section">
-                        	<div class="contactIcon contactIcon-address"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Address" border="0" /></div>
+                        	<div class="contactIcon contactIcon-address"><img src="/client/TRS/images/icon_contactpageSprite2x.png" alt="Address" border="0" /></div>
                             <div class="utility-sideCol-sectionInner">
                             	<span class="utility-sideCol-sectionTitle">Address</span>
                         		<p>2135 Defoor Hills Rd. Suite H<br>Atlanta, GA 30318</p>  
@@ -126,7 +126,7 @@
                             </div>
                         </div>
                         <div class="utility-sideCol-section">
-                        	<div class="contactIcon contactIcon-chat"><img src="/client/trs/images/icon_contactpageSprite2x.png" alt="Chat" border="0" /></div>
+                        	<div class="contactIcon contactIcon-chat"><img src="/client/TRS/images/icon_contactpageSprite2x.png" alt="Chat" border="0" /></div>
                             <div class="utility-sideCol-sectionInner">
                             	<span class="utility-sideCol-sectionTitle">Chat</span>
                         		<p>Status: <span class="weightRegular-styleItalic">Offline</span></p>
@@ -139,12 +139,12 @@
                 <div class="utility-contentContainer2 hide940">
                     <div class="utility-section utility-sectionFirst">            		
                         <div class="utility-sectionTitle-iconIntro">
-                        	<img src="/client/trs/images/icon_messageplane2x.png" alt="Send A Message" border="0" />
+                        	<img src="/client/TRS/images/icon_messageplane2x.png" alt="Send A Message" border="0" />
                         	<h2>Send A Message</h2>
                         </div>
                         <div class="utility-sectionContent">
                             <div class="utility-form">
-                            <form id="contactForm" action="/client/trs/#.php" method="get">
+                            <form id="contactForm" action="/client/TRS/#.php" method="get">
                             	<h4>Personal Information</h4>
                             	<div class="formFieldContainer">
                                 	<input class="general general-required" type="text" value="Name:" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" />
@@ -205,7 +205,7 @@
                 <div class="utility-contentContainer2">                            
                 	<div class="utility-section utility-sectionFirst">            		
                         <div class="utility-sectionTitle-iconIntro">
-                        	<img src="/client/trs/images/icon_messageplane2x.png" alt="Send A Message" border="0" />
+                        	<img src="/client/TRS/images/icon_messageplane2x.png" alt="Send A Message" border="0" />
                         	<h2>Thank You!</h2>
                         </div>
                         <div class="utility-sectionContent">
@@ -268,7 +268,7 @@
                                 mapOptions);
 
    var myLatLng = new google.maps.LatLng(33.813497, -84.431918);
-   var mapMarker = new google.maps.MarkerImage("/client/trs/images/mapMarker_trs2x.png", null, null, new google.maps.Point(32, 56), new google.maps.Size(39,56));
+   var mapMarker = new google.maps.MarkerImage("/client/TRS/images/mapMarker_trs2x.png", null, null, new google.maps.Point(32, 56), new google.maps.Size(39,56));
 	  	var marker = new google.maps.Marker({ 
 			position: myLatLng, 
 			map: map, 

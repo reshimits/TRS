@@ -81,11 +81,11 @@
             
             	<div class="utility-sideColContainer1">
                 	<ul class="sidebarNav">
-                		<li><a href="/client/trs/utility/our-story.php">Our Story</a></li>
-                		<li class="sidebarNav-active"><a href="/client/trs/utility/press.php"><span class="hide460">In The </span>Press</a></li>
-                        <li><a href="/client/trs/utility/testimonials.php">Testimonials</a></li>
-                        <li><a href="/client/trs/utility/store-policies.php"><span class="hide460">Store </span>Policies</a></li>
-                        <li class="sidebarNav-lastChild"><a href="/client/trs/utility/faq.php">HID FAQ</a></li>
+                		<li><a href="/client/TRS/utility/our-story.php">Our Story</a></li>
+                		<li class="sidebarNav-active"><a href="/client/TRS/utility/press.php"><span class="hide460">In The </span>Press</a></li>
+                        <li><a href="/client/TRS/utility/testimonials.php">Testimonials</a></li>
+                        <li><a href="/client/TRS/utility/store-policies.php"><span class="hide460">Store </span>Policies</a></li>
+                        <li class="sidebarNav-lastChild"><a href="/client/TRS/utility/faq.php">HID FAQ</a></li>
                 	</ul>
                 </div>    
                 
@@ -101,7 +101,7 @@
                     	
                                 <li>
                                 <a href="http://www.hondatuningmagazine.com/tech/0705_ht_hid_conversion/" target="_blank">
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/press/press_hondaTuning.jpg" alt="Honda Tuning" border="0" /></div>
+                                    <div class="nonProductGrid-image"><img src="/client/TRS/images/press/press_hondaTuning.jpg" alt="Honda Tuning" border="0" /></div>
                                     <div class="nonProductGrid-info">
                                         <span class="nonProductGrid-title">Honda Tuning</span>
                                         <div class="nonProductGrid-specs">
@@ -112,7 +112,7 @@
                                 </li>
                                 <li>
                                 <a href="http://www.eurotuner.com/techarticles/160_0701_et_volkswagen_jetta_gli_hid_headlight_installation/" target="_blank">
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/press/press_euroTuner.jpg" alt="Euro Tuner" border="0" /></div>
+                                    <div class="nonProductGrid-image"><img src="/client/TRS/images/press/press_euroTuner.jpg" alt="Euro Tuner" border="0" /></div>
                                     <div class="nonProductGrid-info">
                                         <span class="nonProductGrid-title">Euro Tuner</span>
                                         <div class="nonProductGrid-specs">
@@ -122,8 +122,8 @@
                                 </a>
                                 </li>
                                 <li>
-                                <a href="/client/trs/images/press/JapanesePerformance.pdf" target="_blank">
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/press/press_japanesePerformance.jpg" alt="Japanese Performance" border="0" /></div>
+                                <a href="/client/TRS/images/press/JapanesePerformance.pdf" target="_blank">
+                                    <div class="nonProductGrid-image"><img src="/client/TRS/images/press/press_japanesePerformance.jpg" alt="Japanese Performance" border="0" /></div>
                                     <div class="nonProductGrid-info">
                                         <span class="nonProductGrid-title">Japanese Performance</span>
                                         <div class="nonProductGrid-specs">
@@ -133,8 +133,8 @@
                                 </a>
                                 </li>
                                 <li>
-                                <a href="/client/trs/images/press/Totalimpreza.pdf" target="_blank">
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/press/press_totalImpreza.jpg" alt="Total Impreza" border="0" /></div>
+                                <a href="/client/TRS/images/press/Totalimpreza.pdf" target="_blank">
+                                    <div class="nonProductGrid-image"><img src="/client/TRS/images/press/press_totalImpreza.jpg" alt="Total Impreza" border="0" /></div>
                                     <div class="nonProductGrid-info">
                                         <span class="nonProductGrid-title">Total Impreza</span>
                                         <div class="nonProductGrid-specs">
@@ -145,7 +145,7 @@
                                 </li>
                                 <li>
                                 <a href="http://www.nsnews.com/living/got-organs-1.363025" target="_blank">
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/press/press_northShoreNews.jpg" alt="North Shore News" border="0" /></div>
+                                    <div class="nonProductGrid-image"><img src="/client/TRS/images/press/press_northShoreNews.jpg" alt="North Shore News" border="0" /></div>
                                     <div class="nonProductGrid-info">
                                         <span class="nonProductGrid-title">North Shore News</span>
                                         <div class="nonProductGrid-specs">
@@ -156,7 +156,7 @@
                                 </li>
                                 <li>
                                 <a href="http://www.modified.com/tech/modp-1104-2008-subaru-impreza-wrx/" target="_blank">
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/press/press_modifiedMag.jpg" alt="Modified" border="0" /></div>
+                                    <div class="nonProductGrid-image"><img src="/client/TRS/images/press/press_modifiedMag.jpg" alt="Modified" border="0" /></div>
                                     <div class="nonProductGrid-info">
                                         <span class="nonProductGrid-title">Modified</span>
                                         <div class="nonProductGrid-specs">
@@ -167,7 +167,7 @@
                                 </li>
                                 <li>
                                 <a href="http://www.truckinweb.com/toc/archive/1213tr_toc/" target="_blank">
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/press/press_truckinMag.jpg" alt="Truckin'" border="0" /></div>
+                                    <div class="nonProductGrid-image"><img src="/client/TRS/images/press/press_truckinMag.jpg" alt="Truckin'" border="0" /></div>
                                     <div class="nonProductGrid-info">
                                         <span class="nonProductGrid-title">Truckin'</span>
                                         <div class="nonProductGrid-specs">
@@ -177,8 +177,8 @@
                                 </a>
                                 </li>
                                 <li>
-                                <a href="/client/trs/images/press/PasMagAd.pdf" target="_blank">
-                                    <div class="nonProductGrid-image"><img src="/client/trs/images/press/press_performanceAutoSound.jpg" alt="Performance Auto &amp; Sound" border="0" /></div>
+                                <a href="/client/TRS/images/press/PasMagAd.pdf" target="_blank">
+                                    <div class="nonProductGrid-image"><img src="/client/TRS/images/press/press_performanceAutoSound.jpg" alt="Performance Auto &amp; Sound" border="0" /></div>
                                     <div class="nonProductGrid-info">
                                         <span class="nonProductGrid-title">Performance Auto &amp; Sound</span>
                                         <div class="nonProductGrid-specs">

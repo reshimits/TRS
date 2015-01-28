@@ -82,9 +82,9 @@
 
                 <div class="breadCrumb-utilityContainer mobile-hide">                   
                     <ul class="breadCrumb">
-                        <li><a href="/client/trs/index.php">Home</a></li>
+                        <li><a href="/client/TRS/index.php">Home</a></li>
                         <li> > </li>
-                        <li><a href="/client/trs/diy/diy-install-guides.php">DIY Installation Guides</a></li>
+                        <li><a href="/client/TRS/diy/diy-install-guides.php">DIY Installation Guides</a></li>
                         <li> > </li>
                         <li><a href="#">Morimoto H7 Motorcycle Harness (Single Output)</a></li>
                     </ul>
@@ -123,21 +123,21 @@
                     <div class="diyDetailContainer">
                         <div class="productInfo-section diyInfo-section">
                             <div class="installationPerformance-section">
-                                <img src="/client/trs/images/icon_productDetail-installTime-6hrs_2x.png" alt="6hrs Install Time" border="0">
+                                <img src="/client/TRS/images/icon_productDetail-installTime-6hrs_2x.png" alt="6hrs Install Time" border="0">
                                 <ul class="installationPerformance">
                                     <li><strong>Time to install:</strong></li>
                                     <li>6 hours (estimate)</li>
                                 </ul> 
                             </div>
                             <div class="installationPerformance-section">
-                                <img src="/client/trs/images/icon_productDetail-cutting-yes_2x.png" alt="Cutting Involved" border="0">
+                                <img src="/client/TRS/images/icon_productDetail-cutting-yes_2x.png" alt="Cutting Involved" border="0">
                                 <ul class="installationPerformance">
                                     <li><strong>Cutting involved:</strong></li>
                                     <li>Yes</li>
                                 </ul> 
                             </div>
                             <div class="installationPerformance-section">
-                                <img src="/client/trs/images/icon_diy-tools_2x.png" alt="Tools Required" border="0">
+                                <img src="/client/TRS/images/icon_diy-tools_2x.png" alt="Tools Required" border="0">
                                 <ul class="installationPerformance">
                                     <li><strong>Tools Required:</strong></li>
                                     <li>– Dremel w/ Rotozip</li>
@@ -146,7 +146,7 @@
                                 </ul> 
                             </div>
                             <div class="installationPerformance-section">
-                                <img src="/client/trs/images/icon_diy-materials_2x.png" alt="Materials Required" border="0">
+                                <img src="/client/TRS/images/icon_diy-materials_2x.png" alt="Materials Required" border="0">
                                 <ul class="installationPerformance">
                                     <li><strong>Materials Required:</strong></li>
                                     <li>– JB SteelStik Putty Epoxy
@@ -186,7 +186,7 @@
                                     <p>Re-Install the open stock headlight back on the car. Then, turn on the halogen bulb, and align a cutoff to determine center of the beam and relative cutoff line of the blurry halogen output. You will use the painters tape to mark the cutoff on the wall. Once you have done so, you can remove the headlights from the car and the reflector from the headlight assembly. </p>
                                 </div>
                             </div>
-                            <div class="guideStepImage"><img src="/client/trs/images/Atemp-guideStep.jpg" alt="DIY GUide Step Image" border="0"></div>
+                            <div class="guideStepImage"><img src="/client/TRS/images/Atemp-guideStep.jpg" alt="DIY GUide Step Image" border="0"></div>
                         </div>
                         <div class="guideInfo-section">
                             <div class="guideStepDescription">
@@ -196,7 +196,7 @@
                                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
                             </div>
-                            <div class="guideStepImage"><img src="/client/trs/images/Atemp-guideStep.jpg" alt="DIY GUide Step Image" border="0"></div>
+                            <div class="guideStepImage"><img src="/client/TRS/images/Atemp-guideStep.jpg" alt="DIY GUide Step Image" border="0"></div>
                         </div>
                         <div class="guideInfo-section">
                             <div class="guideStepDescription">
@@ -206,7 +206,7 @@
                                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
                             </div>
-                            <div class="guideStepImage"><img src="/client/trs/images/Atemp-guideStep.jpg" alt="DIY GUide Step Image" border="0"></div>
+                            <div class="guideStepImage"><img src="/client/TRS/images/Atemp-guideStep.jpg" alt="DIY GUide Step Image" border="0"></div>
                         </div>
                         <div class="guideInfo-section">
                             <div class="guideStepDescription">
@@ -216,7 +216,7 @@
                                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
                             </div>
-                            <div class="guideStepImage"><img src="/client/trs/images/Atemp-guideStep.jpg" alt="DIY GUide Step Image" border="0"></div>
+                            <div class="guideStepImage"><img src="/client/TRS/images/Atemp-guideStep.jpg" alt="DIY GUide Step Image" border="0"></div>
                         </div>
                         <div class="guideInfo-section">
                             <div class="guideStepDescription">
@@ -226,7 +226,7 @@
                                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
                             </div>
-                            <div class="guideStepImage"><img src="/client/trs/images/Atemp-guideStep.jpg" alt="DIY GUide Step Image" border="0"></div>
+                            <div class="guideStepImage"><img src="/client/TRS/images/Atemp-guideStep.jpg" alt="DIY GUide Step Image" border="0"></div>
                         </div>
                     </div>
                     
@@ -237,7 +237,7 @@
                     <a name="vids"></a>
                     <div class="utility-contentContainer">
                         <div class="secondaryHeader">                 
-                            <div class="diyPreview-specIcon diyPreview-specIcon-video"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
+                            <div class="diyPreview-specIcon diyPreview-specIcon-video"><img src="/client/TRS/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Instructional Video" border="0" /></div>
                             <span class="productPromo-title">Instruction<span class="hide300">al</span> Vid<span class="hide300">eo</span>s:</span>
                         </div>
                     </div>
@@ -245,7 +245,7 @@
                     <a name="forum"></a>
                     <div class="utility-contentContainer">
                         <div class="secondaryHeader">                 
-                            <div class="diyPreview-specIcon diyPreview-specIcon-forum"><img src="/client/trs/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
+                            <div class="diyPreview-specIcon diyPreview-specIcon-forum"><img src="/client/TRS/images/icon_diyguidesSprite2x.png" alt="DIY Installation Guides Q&amp;A Forum" border="0" /></div>
                             <span class="productPromo-title">Q&amp;A Forum:</span>
                         </div>
                     </div>    
