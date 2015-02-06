@@ -407,7 +407,7 @@
 
               
     
-	<?php require('include/footer.html');?>
+	<?php require('../include/footer.html');?>
         
     
     
