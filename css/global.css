@@ -91,7 +91,9 @@ ul.nav-products ul li.dropVert:hover a.subLevel { color: #ea5f03; }
 ul.nav-products ul li.dropVert:hover ul { visibility: visible; }
 ul.nav-products ul li.dropVert ul { height: 274px; width: 765px; float: right; visibility: hidden; position: absolute; top: 1px; left: 175px; z-index: 1001; background-image: url(../images/bg_navGradient.png); background-repeat: repeat-x; background-position: left top; background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; border-top: none; }
 .productDrop { height: 274px; width: 100%; float: left; }
-.productDrop-completekits { background-image: url(../images/nav_completekits.png); background-repeat: no-repeat; background-position: right bottom; }
+.productDrop-completekits { background-image: url(../images/nav_completekits.png); background-repeat: no-repeat; background-position: 340px bottom; }
+.productDrop-appspecifickits { background-image: url(../images/nav_appspecifickits.png); background-repeat: no-repeat; background-position: right bottom; }
+.productDrop-motorcyclekits { background-image: url(../images/nav_motorcyclekits.png); background-repeat: no-repeat; background-position: right bottom; }
 .productDrop-hidsystems { background-image: url(../images/nav_hidsystems.png); background-repeat: no-repeat; background-position: right bottom; }
 .productDrop-projectors { width: 765px; background-image: url(../images/nav_projectors.png); background-repeat: no-repeat; background-position: right bottom; }
 .productDrop-ballasts { width: 765px; background-image: url(../images/nav_ballasts.png); background-repeat: no-repeat; background-position: right bottom; }
@@ -100,11 +102,16 @@ ul.nav-products ul li.dropVert ul { height: 274px; width: 765px; float: right; v
 .productDrop-shrouds { width: 765px; background-image: url(../images/nav_shrouds.png); background-repeat: no-repeat; background-position: right bottom; }
 .productDrop-harnesses { width: 765px; background-image: url(../images/nav_harnesses.png); background-repeat: no-repeat; background-position: right bottom; }
 .productDrop-lenses { width: 765px; background-image: url(../images/nav_lenses.png); background-repeat: no-repeat; background-position: right bottom; }
-.productDrop-ledlighting { background-image: url(../images/nav_ledlighting.png); background-repeat: no-repeat; background-position: right bottom; }
+.productDrop-ledlighting { background-image: url(../images/nav_ledbulbs.png); background-repeat: no-repeat; background-position: right bottom; }
+.productDrop-ledhalos { background-image: url(../images/nav_ledhalos.png); background-repeat: no-repeat; background-position: right bottom; }
+.productDrop-leddaytime { background-image: url(../images/nav_leddaytime.png); background-repeat: no-repeat; background-position: right bottom; }
 .productDrop-offroad { background-image: url(../images/nav_offroad.png); background-repeat: no-repeat; background-position: right bottom; }
 .productDrop-accessories { background-image: url(../images/nav_accessories.png); background-repeat: no-repeat; background-position: right bottom; }
+.productDrop-housings { background-image: url(../images/nav_housings.png); background-repeat: no-repeat; background-position: 520px bottom; }
 .productDrop-content { width: 420px; float: left; padding: 0; margin: 30px 0 0 30px; }
-.productDrop-completekits .productDrop-content { width: 337px; }
+.productDrop-completekits .productDrop-content { width: 335px; }
+.productDrop-appspecifickits .productDrop-content { width: 320px; }
+.productDrop-motorcyclekits .productDrop-content { width: 290px; }
 .productDrop-hidsystems .productDrop-content { width: 370px; }
 .productDrop-projectors .productDrop-content { width: 290px; }
 .productDrop-ballasts .productDrop-content { width: 320px; }
@@ -115,6 +122,8 @@ ul.nav-products ul li.dropVert ul { height: 274px; width: 765px; float: right; v
 .productDrop-harnesses .productDrop-content { width: 310px; }
 .productDrop-lenses .productDrop-content { width: 410px; }
 .productDrop-ledlighting .productDrop-content { width: 400px; }
+.productDrop-ledhalos .productDrop-content { width: 310px; }
+.productDrop-leddaytime .productDrop-content { width: 400px; }
 .productDrop-offroad .productDrop-content { width: 420px; }
 .productDrop-accessories .productDrop-content { width: 400px; }
 .productDrop-headline { float: left; font-family: 'PlutoSansLight', sans-serif; font-style: normal; font-size: 30px; line-height: 34px; color: #fff; text-transform: none; padding: 0; margin: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
@@ -229,19 +238,26 @@ ul.nav-products ul li.dropVert:hover ul { visibility: visible; }
 ul.nav-products ul li.dropVert ul { height: 274px; width: 525px; float: right; visibility: hidden; position: absolute; top: 1px; left: 175px; z-index: 1001; background-image: url(../images/bg_navGradient.png); background-repeat: repeat-x; background-position: left top; background-size: 1px 100%; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; border-top: none; }
 .productDrop { height: 274px; width: 100%; float: left; }
 .productDrop-completekits { background-image: url(../images/nav_completekits.png); background-repeat: no-repeat; background-position: 270px bottom; }
+.productDrop-appspecifickits { background-image: url(../images/nav_appspecifickits.png); background-repeat: no-repeat; background-position: 170px bottom; }
+.productDrop-motorcyclekits { background-image: url(../images/nav_motorcyclekits.png); background-repeat: no-repeat; background-position: 190px bottom; }
 .productDrop-hidsystems { background-image: url(../images/nav_hidsystems.png); background-repeat: no-repeat; background-position: 300px bottom; }
 .productDrop-projectors { width: 525px; background-image: url(../images/nav_projectors.png); background-repeat: no-repeat; background-position: 230px bottom; }
 .productDrop-ballasts { width: 525px; background-image: url(../images/nav_ballasts.png); background-repeat: no-repeat; background-position: 180px bottom; }
 .productDrop-bulbs { width: 525px; background-image: url(../images/nav_bulbs.png); background-repeat: no-repeat; background-position: 260px bottom; }
 .productDrop-halogenBulbs { width: 525px; background-image: url(../images/nav_halogenBulbs.png); background-repeat: no-repeat; background-position: 190px bottom; }
 .productDrop-shrouds { width: 525px; background-image: url(../images/nav_shrouds.png); background-repeat: no-repeat; background-position: 230px bottom; }
-.productDrop-harnesses { width: 525px; background-image: url(../images/nav_harnesses.png); background-repeat: no-repeat; background-position: 270px bottom; }
+.productDrop-harnesses { width: 525px; background-image: url(../images/nav_harnesses.png); background-repeat: no-repeat; background-position: 210px bottom; }
 .productDrop-lenses { width: 525px; background-image: url(../images/nav_lenses.png); background-repeat: no-repeat; background-position: 280px bottom; }
-.productDrop-ledlighting { background-image: url(../images/nav_ledlighting.png); background-repeat: no-repeat; background-position: 330px bottom; }
+.productDrop-ledlighting { background-image: url(../images/nav_ledlighting.png); background-repeat: no-repeat; background-position: 245px bottom; }
+.productDrop-ledhalos { background-image: url(../images/nav_ledhalos.png); background-repeat: no-repeat; background-position: 215px bottom; }
+.productDrop-leddaytime { background-image: url(../images/nav_leddaytime.png); background-repeat: no-repeat; background-position: 110px bottom; }
 .productDrop-offroad { background-image: url(../images/nav_offroad.png); background-repeat: no-repeat; background-position: 310px bottom; }
 .productDrop-accessories { background-image: url(../images/nav_accessories.png); background-repeat: no-repeat; background-position: 287px bottom; }
+.productDrop-housings { background-image: url(../images/nav_housings.png); background-repeat: no-repeat; background-position: 420px bottom; }
 .productDrop-content { width: 420px; float: left; padding: 0; margin: 30px 0 0 30px; }
 .productDrop-completekits .productDrop-content { width: 260px; }
+.productDrop-appspecifickits .productDrop-content { width: 210px; }
+.productDrop-motorcyclekits .productDrop-content { width: 230px; }
 .productDrop-hidsystems .productDrop-content { width: 280px; }
 .productDrop-projectors .productDrop-content { width: 230px; }
 .productDrop-ballasts .productDrop-content { width: 260px; }
@@ -252,7 +268,9 @@ ul.nav-products ul li.dropVert ul { height: 274px; width: 525px; float: right; v
 .productDrop-shrouds .productDrop-content { width: 220px; }
 .productDrop-harnesses .productDrop-content { width: 260px; }
 .productDrop-lenses .productDrop-content { width: 260px; }
-.productDrop-ledlighting .productDrop-content { width: 320px; }
+.productDrop-ledlighting .productDrop-content { width: 250px; }
+.productDrop-ledhalos .productDrop-content { width: 260px; }
+.productDrop-leddaytime .productDrop-content { width: 270px; }
 .productDrop-offroad .productDrop-content { width: 320px; }
 .productDrop-accessories .productDrop-content { width: 280px; }
 .productDrop-headline { font-size: 24px; line-height: 28px; }
