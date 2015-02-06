@@ -134,7 +134,7 @@
                 </div>
 
                 <!-- Apply id="productGrid-productsWholesale" to "productGrid-products" if user is logged in as Wholesaler -->
-                <div class="productGrid-products"> 
+                <div class="productGrid-products" id="productGrid-productsWholesale"> 
                     <ul class="image-grid products">
                     	
                         <li class="product" id="projector-1" data-id="id-1" data-type="application functionality size priceRange installationDifficulty">
@@ -390,6 +390,34 @@
                             <div class="product-banner"></div>
                             </a>
                     	</li>
+                        <li class="product" id="projector-9" data-id="id-9" data-type="application functionality size priceRange installationDifficulty">
+                            <a href="#">
+                            <div class="product-image"><img src="/client/TRS/images/products/productTempB.jpg" alt="temp" id="temp" border="0" /></div>
+                            <div class="product-info info-main">
+                                <span class="product-title">FX-R 3.0 Projectors</span>
+                                <div class="product-specs">
+                                    <span class="product-spec">By far our most popular full size bi-xenon projector ever. The 3.0 is a retrofitters delight with its high precision castings, advanced optics, available 2.5 and 3 inch clear lens. It all adds up to put our FX-R near the top of the totem poll.</span>
+                                </div>
+                            </div>    
+                            <div class="product-info">    
+                                <div class="productPriceContainer">
+                                     <div class="productPrice productPrice-retail">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">Retail</span>
+                                     </div>
+                                     <div class="productPrice productPrice-wholesale">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">Wholesale</span>
+                                     </div>
+                                     <div class="productPrice productPrice-20orMore">
+                                        <span class="product-price">$140</span>
+                                        <span class="productPrice-type">20 or More</span>
+                                     </div>    
+                                </div>     
+                            </div>
+                            <div class="product-banner"></div>
+                            </a>
+                        </li>
                         
                     </ul>
         		</div>
