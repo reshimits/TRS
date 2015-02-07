@@ -70,7 +70,8 @@
 .buyersGuide.shrouds .buyersGuide-questionWrap.toggle-q2 .buyersGuide-questions, .buyersGuide.completekits .buyersGuide-questionWrap.toggle-q4 .buyersGuide-questions { height: 450px; }
 .buyersGuide.hidsystems .buyersGuide-questionWrap .buyersGuide-questions.q1, .buyersGuide.completekits .buyersGuide-questionWrap.toggle-q5 .buyersGuide-questions { height: 370px; } /* Same as Ballasts q1 */
 
-.buyersGuide.hidsystems .buyersGuide-questionWrap.toggle-q2 .buyersGuide-questions { height: 440px; }
+/*CSS FOR KELVIN SLIDE SPECIFIC TO CATEGORY PAGE IT APPEARS ON AND WHAT SLIDE NUMBER IT IS: */
+.buyersGuide.hidsystems .buyersGuide-questionWrap.toggle-q2 .buyersGuide-questions, .buyersGuide.completekits .buyersGuide-questionWrap.toggle-q6 .buyersGuide-questions { height: 440px; }
 
 .buyersGuide.projectors .buyersGuide-questionWrap.toggle-q4 .buyersGuide-questions, .buyersGuide.ballasts .buyersGuide-questionWrap.toggle-q3 .buyersGuide-questions, 
 	.buyersGuide.shrouds .buyersGuide-questionWrap.toggle-q3 .buyersGuide-questions, .buyersGuide.hidsystems .buyersGuide-questionWrap.toggle-q3 .buyersGuide-questions,
@@ -99,20 +100,20 @@
 .buyersGuide-selectWrap .selectWrap-ext-fade { position: absolute; z-index: 2000; right: 20px; width: 60px; height: 295px; }
 .buyersGuide-selectWrap .selectWrap-ext-fade img { width: 100%; height: 100%; }
 .buyersGuide.ballasts .buyersGuide-selectWrap .selectWrap-ext { width: 4650px; }
-.buyersGuide.shrouds .buyersGuide-questions.q1 .buyersGuide-selectWrap .selectWrap-ext, .buyersGuide.hidsystems .buyersGuide-questions.q2 .buyersGuide-selectWrap .selectWrap-ext { width: 1590px; }
+.buyersGuide.shrouds .buyersGuide-questions.q1 .buyersGuide-selectWrap .selectWrap-ext, .buyersGuide-questions.kelvin .buyersGuide-selectWrap .selectWrap-ext { width: 1590px; }
 .buyersGuide.shrouds .buyersGuide-questions.q2 .buyersGuide-selectWrap .selectWrap-ext, .buyersGuide.completekits .buyersGuide-questions.q4 .buyersGuide-selectWrap .selectWrap-ext { width: 1320px; }
 .buyersGuide-selectWrap .tile { width: 840px; float: left; position: relative; border-radius: 6px; background-color: #262626; padding: 10px; margin: 0 0 10px 0; }
 .buyersGuide-selectWrap .tile.disabled { filter: alpha(opacity=50); opacity: .5; }
 .buyersGuide-selectWrap .selectWrap-full.tile { padding-bottom: 20px; }
 .buyersGuide-selectWrap .selectWrap-column .tile, .buyersGuide-selectWrap .selectWrap-column.tile { width: 400px; }
 .buyersGuide-selectWrap .selectWrap-ext .selectWrap-column.tile { width: 225px; margin-right: 10px; }
-.buyersGuide.hidsystems .buyersGuide-selectWrap .selectWrap-ext .selectWrap-column.tile { width: 350px; }
+.buyersGuide-questions.kelvin .buyersGuide-selectWrap .selectWrap-ext .selectWrap-column.tile { width: 350px; }
 /*.buyersGuide.shrouds .buyersGuide-selectWrap .selectWrap-ext .selectWrap-column.tile.other { height: 247px; }*/
 .buyersGuide-selectWrap .tile .tile30 { width: 30%; float: left; } 
 .buyersGuide-selectWrap .tile .tile50 { width: 50%; float: left; } 
 .buyersGuide-selectWrap .tile .tile60 { width: 60%; float: left; } 
 .buyersGuide-selectWrap .tile .tile80 { width: 80%; float: left; } 
-.buyersGuide.hidsystems .buyersGuide-questionWrap .buyersGuide-questions.q2 .buyersGuide-selectWrap .tile .tile80 { height: 80px; } 
+.buyersGuide-questionWrap .buyersGuide-questions.kelvin .buyersGuide-selectWrap .tile .tile80 { height: 80px; } 
 .buyersGuide-selectWrap .tile h3, .lightboxHeadline h3 { width: 80%; float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase; letter-spacing: -1px; padding: 10px; margin: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 /*.buyersGuide-selectWrap .selectWrap-ext .selectWrap-column.tile h3 { width: auto; font-size: 56px; line-height: 46px; margin: 40px; }*/
 .buyersGuide-selectWrap .tile .product-spec { padding: 2px 0 0 10px; }
@@ -560,7 +561,7 @@
 .buyersGuide-questionWrap.toggle-q6 { margin-left: -2100px; }
 .buyersGuide-questions { width: 420px; }
 
-.buyersGuide.hidsystems .buyersGuide-questions.q2 .buyersGuide-selectWrap .selectWrap-ext { width: 1100px; }
+.buyersGuide-questions.kelvin .buyersGuide-selectWrap .selectWrap-ext { width: 1100px; }
 
 .buyersGuide.projectors .buyersGuide-questionWrap .buyersGuide-questions.q1, .buyersGuide.completekits .buyersGuide-questionWrap .buyersGuide-questions.q1 { height: 710px; }
 .buyersGuide.projectors .buyersGuide-questionWrap.toggle-q2 .buyersGuide-questions, .buyersGuide.completekits .buyersGuide-questionWrap.toggle-q2 .buyersGuide-questions { height: 680px; }
@@ -588,8 +589,8 @@
 .buyersGuide-selectWrap .selectWrap-column.last { margin-left: 0; margin-top: 20px; }
 .buyersGuide-selectWrap .tile { width: 360px;  }
 .buyersGuide-selectWrap .selectWrap-column .tile, .buyersGuide-selectWrap .selectWrap-column.tile { width: 360px; margin-top: 0; }
-.buyersGuide.hidsystems .buyersGuide-selectWrap .selectWrap-ext .selectWrap-column.tile { width: 225px; }
-.buyersGuide.hidsystems .buyersGuide-questionWrap .buyersGuide-questions.q2 .buyersGuide-selectWrap .tile .tile80 { height: 110px; }
+.buyersGuide-questions.kelvin .buyersGuide-selectWrap .selectWrap-ext .selectWrap-column.tile { width: 225px; }
+.buyersGuide-questionWrap .buyersGuide-questions.kelvin .buyersGuide-selectWrap .tile .tile80 { height: 110px; }
 .buyersGuide-selectWrap .selectWrap-full.tile .tile30 { width: 100%; float: left; margin-bottom: 10px; } 
 .buyersGuide-selectWrap .selectWrap-full.tile .tile60 { width: 100%; float: left; }
 .buyersGuide.ballasts .buyersGuide-selectWrap .tile .tile80, .buyersGuide.hidsystems .buyersGuide-selectWrap .tile .tile80, .buyersGuide.completekits .buyersGuide-questions.q5 .buyersGuide-selectWrap .tile .tile80 { width: 90%; }
@@ -766,9 +767,9 @@
 .buyersGuide.ballasts .buyersGuide-selectWrap .selectWrap-ext { width: 3820px; }
 .buyersGuide.shrouds .buyersGuide-questions.q1 .buyersGuide-selectWrap .selectWrap-ext { width: 1300px; }
 .buyersGuide.shrouds .buyersGuide-questions.q2 .buyersGuide-selectWrap .selectWrap-ext, .buyersGuide.completekits .buyersGuide-questions.q4 .buyersGuide-selectWrap .selectWrap-ext { width: 1100px; }
-.buyersGuide.hidsystems .buyersGuide-questions.q2 .buyersGuide-selectWrap .selectWrap-ext { width: 900px; }
-.buyersGuide-selectWrap .selectWrap-ext .selectWrap-column.tile, .buyersGuide.hidsystems .buyersGuide-selectWrap .selectWrap-ext .selectWrap-column.tile { width: 180px; }
-.buyersGuide.hidsystems .buyersGuide-questionWrap .buyersGuide-questions.q2 .buyersGuide-selectWrap .tile .tile80 { height: 120px; }
+.buyersGuide-questions.kelvin .buyersGuide-selectWrap .selectWrap-ext { width: 900px; }
+.buyersGuide-selectWrap .selectWrap-ext .selectWrap-column.tile, .buyersGuide-questions.kelvin .buyersGuide-selectWrap .selectWrap-ext .selectWrap-column.tile { width: 180px; }
+.buyersGuide-questionWrap .buyersGuide-questions.kelvin .buyersGuide-selectWrap .tile .tile80 { height: 120px; }
 .buyersGuide.shrouds .buyersGuide-selectWrap .selectWrap-ext .selectWrap-column.tile.other { height: 195px; }
 .buyersGuide-selectWrap .selectWrap-full.tile .tile30 { width: 100%; float: left; margin-bottom: 10px; } 
 .buyersGuide-selectWrap .selectWrap-full.tile .tile60 { width: 100%; float: left; }
