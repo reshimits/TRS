@@ -114,7 +114,11 @@
 .buyersGuide-selectWrap .tile .tile60 { width: 60%; float: left; } 
 .buyersGuide-selectWrap .tile .tile80 { width: 80%; float: left; } 
 .buyersGuide-questionWrap .buyersGuide-questions.kelvin .buyersGuide-selectWrap .tile .tile80 { height: 80px; } 
-.buyersGuide-selectWrap .tile h3, .lightboxHeadline h3 { width: 80%; float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase; letter-spacing: -1px; padding: 10px; margin: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.buyersGuide-selectWrap .tile h3, .lightboxHeadline h3, .buyersGuide-intro h3 { width: 80%; float: left; font-family: 'PlutoSansBold', sans-serif; font-style: normal; font-size: 20px; line-height: 20px; color: #fff; text-transform: uppercase; letter-spacing: -1px; padding: 10px; margin: 0; -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.buyersGuide-intro { width: 100%; float: left; margin: 8px 0;}
+.buyersGuide-intro h3 { padding-top: 3px; padding-left: 0; color: #fff; }
+.buyersGuide-intro .animatedAlert-icon { float: left; width: 36px; margin-right: 8px; margin-top: -6px }
+.buyersGuide-intro .animatedAlert-icon img { width: 100%; height: auto; }
 /*.buyersGuide-selectWrap .selectWrap-ext .selectWrap-column.tile h3 { width: auto; font-size: 56px; line-height: 46px; margin: 40px; }*/
 .buyersGuide-selectWrap .tile .product-spec { padding: 2px 0 0 10px; }
 .buyersGuide-selectWrap .tile .tile-info { width: 22px; height: 60px; float: left; margin: 12px 10px 0 0; border-right: 1px solid #454545; } 
