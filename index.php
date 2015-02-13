@@ -86,24 +86,24 @@
             <div class="homePromosContainer">
                 <div class="homePromosL">            		
                     <div class="homePromos-content">
-                        <span class="homePromos-title"><span class="hide300">The Almighty</span> Inspiration Gallery</span>
-                        <span class="homePromos-info">Customer projects in just about every imaginable (legal) application.</span>
-                        <div class="generalBtn-blue"><a href="/client/TRS/gallery/retrofit-of-the-month-gallery.php"><span class="generalBtn-title">Be Inspired</span></a></div> 
+                        <span class="homePromos-title"><span class="orange"><em>*New</em></span>&nbsp; 2015 <span class="mobile-hide">Automotive Lighting</span> Buyers Guide</span>
+                        <span class="homePromos-info">We’ll ask the right questions, you just sit back and answer them.</span>
+                        <div class="generalBtn-blue"><a href="/client/TRS/buyers-guide.php"><span class="generalBtn-title">Guide Me</span></a></div> 
                 	</div>        
                 </div>
                 <div class="homePromosR"> 
                     <div class="rRetrofitters">            		
                         <div class="homePromos-content">
-                            <span class="homePromos-title">Recommended Retrofitters</span>
-                            <span class="homePromos-info">Find an approved professional to get the job done for you.</span>
-                            <div class="generalBtn-blue"><a href="/client/TRS/retrofitters/recommended-retrofitters.php"><span class="generalBtn-title">Find an Installer</span></a></div> 
+                            <span class="homePromos-title">Testify! What's the Buzz?</span>
+                            <span class="homePromos-info"> Read 'em! Leave 'em! We love to hear from our customers.</span>
+                            <div class="generalBtn-blue"><a href="/client/TRS/utility/testimonials.php"><span class="generalBtn-title">Testimonials</span></a></div> 
                         </div>
                     </div>
                     <div class="diyInstallGuides">            		
                         <div class="homePromos-content">
-                            <span class="homePromos-title">Do-It-Yourself Install Guides</span>
-                            <span class="homePromos-info">Step-by-step video and text instruction. Suhweeet!</span>
-                            <div class="generalBtn-blue"><a href="/client/TRS/diy/diy-install-guides.php"><span class="generalBtn-title">Get Busy</span></a></div> 
+                            <span class="homePromos-title">#Hashtag TRS Social Media</span>
+                            <span class="homePromos-info">#TheRetrofitSource #Morimoto #TRSNewProducts</span>
+                            <div class="generalBtn-blue"><a href="/client/TRS/#"><span class="generalBtn-title">See Updates</span></a></div> 
                         </div>
                     </div>
         		</div>
